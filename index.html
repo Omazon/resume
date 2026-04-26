@@ -1,465 +1,852 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
   <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Omar Boza - Software Engineer</title>
 
-  <title>Omar Boza - Resume</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!-- Boxicons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+          },
+          colors: {
+            primary: '#3b82f6', // blue-500
+            secondary: '#8b5cf6', // violet-500
+            dark: '#0f172a', // slate-900
+            card: '#1e293b' // slate-800
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      background-color: #0f172a;
+      color: #94a3b8;
+      /* slate-400 */
+    }
 
+    .glass {
+      background: rgba(15, 23, 42, 0.8);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .card-glass {
+      background: rgba(30, 41, 59, 0.5);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .text-gradient {
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-image: linear-gradient(to right, #3b82f6, #8b5cf6);
+    }
+
+    .bg-gradient-primary {
+      background: linear-gradient(to right, #3b82f6, #8b5cf6);
+    }
+
+    .hover-lift {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .hover-lift:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Timeline Styles */
+    .timeline-container {
+      position: relative;
+      padding-left: 2rem;
+    }
+
+    .timeline-container::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    .timeline-item {
+      position: relative;
+      padding-bottom: 2rem;
+    }
+
+    .timeline-dot {
+      position: absolute;
+      left: -2.35rem;
+      top: 0.25rem;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background-color: #3b82f6;
+      border: 3px solid #0f172a;
+      box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+      transition: background-color 0.3s ease;
+    }
+
+    @keyframes wave-pulse {
+      0% {
+        box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.6);
+      }
+      70% {
+        box-shadow: 0 0 0 10px rgba(59, 130, 246, 0);
+      }
+      100% {
+        box-shadow: 0 0 0 0 rgba(59, 130, 246, 0);
+      }
+    }
+
+    .timeline-item:hover .timeline-dot {
+      animation: wave-pulse 1.5s infinite;
+      background-color: #60a5fa;
+    }
+
+    /* Scroll Reveal Animation */
+    .reveal {
+      opacity: 0;
+      transform: translateY(40px);
+      transition: all 0.8s cubic-bezier(0.5, 0, 0, 1);
+    }
+    .reveal.active {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #0f172a;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #334155;
+      border-radius: 4px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: #475569;
+    }
+  </style>
 </head>
 
-<body>
+<body class="antialiased selection:bg-primary selection:text-white">
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
-    <div class="container-fluid d-flex justify-content-between align-items-center">
+  <!-- Navbar -->
+  <header class="fixed top-0 w-full z-50 glass transition-all duration-300" id="navbar">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="#" class="text-2xl font-bold text-white tracking-tight">Omar<span class="text-primary">.</span></a>
 
-      <h1 class="logo me-auto me-lg-0"><a href="index.html">Omar</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      <!-- Desktop Menu -->
+      <nav class="hidden md:flex space-x-8">
+        <a href="#hero" class="text-slate-300 hover:text-white transition-colors text-sm font-medium">Home</a>
+        <a href="#about" class="text-slate-300 hover:text-white transition-colors text-sm font-medium">About</a>
+        <a href="#skills" class="text-slate-300 hover:text-white transition-colors text-sm font-medium">Skills</a>
+        <a href="#resume" class="text-slate-300 hover:text-white transition-colors text-sm font-medium">Resume</a>
+        <a href="#portfolio" class="text-slate-300 hover:text-white transition-colors text-sm font-medium">Portfolio</a>
+        <a href="#contact" class="text-slate-300 hover:text-white transition-colors text-sm font-medium">Contact</a>
+      </nav>
 
-      <div class="header-social-links">
-        <a href="https://www.facebook.com/oaboza" target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="https://www.instagram.com/ing.omarboza/" target="_blank" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/omar-boza/" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+      <!-- Socials -->
+      <div class="hidden md:flex space-x-4">
+        <a href="https://www.linkedin.com/in/omar-boza/" target="_blank"
+          class="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center text-slate-300 hover:bg-primary hover:text-white transition-colors">
+          <i class='bx bxl-linkedin text-lg'></i>
+        </a>
+        <a href="https://www.instagram.com/ing.omarboza/" target="_blank"
+          class="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center text-slate-300 hover:bg-pink-500 hover:text-white transition-colors">
+          <i class='bx bxl-instagram text-lg'></i>
+        </a>
       </div>
 
+      <!-- Mobile Menu Button -->
+      <button id="mobile-menu-btn" class="md:hidden text-slate-300 hover:text-white focus:outline-none">
+        <i class='bx bx-menu text-3xl'></i>
+      </button>
     </div>
 
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
-    <div class="overlay"></div>
-    <div class="container d-flex flex-column align-items-center" data-aos="zoom-in" data-aos-delay="100">
-      <h1 class="text-white">Omar Boza</h1>
-      <h2 class="text-white">I'm a Software Engineer from Nicaragua for the world</h2>
-      <a href="#about" class="btn-about">About Me</a>
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="md:hidden absolute top-full left-0 w-full bg-slate-900/95 backdrop-blur-md border-t border-slate-800 shadow-xl overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0 pointer-events-none">
+      <nav class="flex flex-col px-6 py-4 space-y-4">
+        <a href="#hero" class="mobile-link text-slate-300 hover:text-white transition-colors text-base font-medium">Home</a>
+        <a href="#about" class="mobile-link text-slate-300 hover:text-white transition-colors text-base font-medium">About</a>
+        <a href="#skills" class="mobile-link text-slate-300 hover:text-white transition-colors text-base font-medium">Skills</a>
+        <a href="#resume" class="mobile-link text-slate-300 hover:text-white transition-colors text-base font-medium">Resume</a>
+        <a href="#portfolio" class="mobile-link text-slate-300 hover:text-white transition-colors text-base font-medium">Portfolio</a>
+        <a href="#contact" class="mobile-link text-slate-300 hover:text-white transition-colors text-base font-medium">Contact</a>
+      </nav>
     </div>
-  </section><!-- End Hero -->
+  </header>
 
-  <section id="about" class="about">
-    <div class="container" data-aos="fade-up">
+  <!-- Hero Section -->
+  <section id="hero" class="min-h-screen flex items-center pt-20 relative overflow-hidden">
+    <!-- Abstract background blobs -->
+    <div
+      class="absolute top-20 left-10 w-72 h-72 bg-primary/20 rounded-full mix-blend-screen filter blur-3xl opacity-30">
+    </div>
+    <div
+      class="absolute top-40 right-10 w-72 h-72 bg-secondary/20 rounded-full mix-blend-screen filter blur-3xl opacity-30">
+    </div>
 
-      <div class="section-title">
-        <h2>About</h2>
-        <p>Proactive, meticulous, and mindful of project perception, I thrive on ensuring clients witness my dedication and attention to detail. My commitment to excellence not only satisfies current projects but also fosters client loyalty, driving them to seek my expertise for future endeavors.</p>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-4">
-          <img src="assets/img/about.jpeg" class="img-fluid" alt="">
+    <div class="container mx-auto px-6 relative z-10">
+      <div class="flex flex-col md:flex-row items-center gap-12">
+        <div class="w-full md:w-1/2">
+          <span
+            class="inline-block py-1 px-3 rounded-full bg-slate-800 text-primary text-sm font-medium mb-6 border border-slate-700">Available
+            for Freelance</span>
+          <h1 class="text-5xl md:text-7xl font-extrabold text-white leading-tight mb-6 tracking-tight">
+            Hello, I'm <br />
+            <span class="text-gradient">Omar Boza</span>
+          </h1>
+          <h2 class="text-xl md:text-2xl text-slate-400 mb-8 font-light leading-relaxed max-w-2xl">
+            I'm a <strong class="text-slate-200 font-semibold">Software Engineer</strong> from Nicaragua for the world.
+            Building digital products, brands, and experiences.
+          </h2>
+          <div class="flex flex-wrap gap-4">
+            <a href="#portfolio"
+              class="px-8 py-3 rounded-lg bg-white text-dark font-semibold hover:bg-slate-200 transition-colors shadow-[0_0_20px_rgba(255,255,255,0.2)]">
+              View My Work
+            </a>
+            <a href="#contact"
+              class="px-8 py-3 rounded-lg border border-slate-700 text-white font-semibold hover:bg-slate-800 transition-colors">
+              Contact Me
+            </a>
+          </div>
         </div>
-        <div class="col-lg-8 pt-4 pt-lg-0 content">
-          <h3>Software Engineer / FullStack Developer</h3>
-          <p class="fst-italic">
-            As a Software Engineer since 2016, I've honed my skills in web development with PHP, JavaScript, React, and Vue. Leading teams and delivering projects globally, primarily in the US, my extensive experience has exposed me to a diverse array of projects.
+        <div class="w-full md:w-1/2 flex justify-center items-center">
+          <iframe src="https://lottie.host/embed/ddd2a031-df33-4383-967b-b9adef4cc95e/Ne7Al7UEC8.lottie"
+            class="w-full max-w-[500px] h-[400px] md:h-[500px] border-none" style="border: none;"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-24 bg-slate-900 border-t border-slate-800/50">
+    <div class="container mx-auto px-6">
+      <div class="reveal flex flex-col md:flex-row gap-16 items-center">
+        <!-- Image -->
+        <div class="w-full md:w-5/12">
+          <div class="relative">
+            <div class="absolute -inset-4 bg-gradient-to-r from-primary to-secondary rounded-2xl blur-lg opacity-30">
+            </div>
+            <img src="assets/img/about.jpeg" alt="Omar Boza"
+              class="relative rounded-2xl w-full object-cover shadow-2xl border border-slate-700/50 grayscale hover:grayscale-0 transition-all duration-500">
+          </div>
+        </div>
+
+        <!-- Content -->
+        <div class="w-full md:w-7/12">
+          <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">About Me</h2>
+          <h3 class="text-xl text-primary font-medium mb-6">Software Engineer / FullStack Developer</h3>
+
+          <p class="text-slate-400 mb-6 leading-relaxed">
+            As a Software Engineer since 2016, I've honed my skills in web development with PHP, JavaScript, React, and
+            Vue. Leading teams and delivering projects globally, primarily in the US, my extensive experience has
+            exposed me to a diverse array of projects.
           </p>
-          <div class="row">
-            <div class="col-lg-6">
-              <ul>
-                <li><i class="bi bi-rounded-right"></i> <strong>Birthday:</strong> 11 June 1992</li>
-                <li><i class="bi bi-rounded-right"></i> <strong>Phone:</strong> +505 83992586</li>
-                <li><i class="bi bi-rounded-right"></i> <strong>City:</strong> City : Managua, Nicaragua</li>
+          <p class="text-slate-400 mb-8 leading-relaxed">
+            Proactive, meticulous, and mindful of project perception, I thrive on ensuring clients witness my dedication
+            and attention to detail. As a mentor, I elevate my team to my standard, emphasizing meticulousness in
+            details and optimizations.
+          </p>
+
+          <!-- Personal Info Grid -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-8">
+            <div class="flex items-center gap-3">
+              <i class='bx bx-calendar text-primary text-xl'></i>
+              <span class="text-slate-300"><strong class="text-white font-medium">Birthday:</strong> 11 June 1992</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <i class='bx bx-user text-primary text-xl'></i>
+              <span class="text-slate-300"><strong class="text-white font-medium">Age:</strong> 33</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <i class='bx bx-phone text-primary text-xl'></i>
+              <span class="text-slate-300"><strong class="text-white font-medium">Phone:</strong> +505 83992586</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <i class='bx bx-envelope text-primary text-xl'></i>
+              <span class="text-slate-300"><strong class="text-white font-medium">Email:</strong>
+                omarboza@gmail.com</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <i class='bx bx-map text-primary text-xl'></i>
+              <span class="text-slate-300"><strong class="text-white font-medium">City:</strong> Managua,
+                Nicaragua</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <i class='bx bx-check-shield text-primary text-xl'></i>
+              <span class="text-slate-300"><strong class="text-white font-medium">Freelance:</strong> Available</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-24 bg-[#0a101d]">
+    <div class="container mx-auto px-6">
+      <div class="text-center mb-16 max-w-3xl mx-auto">
+        <h2 class="reveal text-3xl md:text-4xl font-bold text-white mb-4">My Skills</h2>
+        <p class="reveal text-slate-400" style="transition-delay: 100ms;">With a vast repertoire of technological prowess, I've navigated diverse projects.
+          While specializing in frontend frameworks like Vue and Angular, backend complexities hold no intimidation for
+          me.</p>
+      </div>
+
+      <div class="reveal flex flex-wrap justify-center gap-4 max-w-5xl mx-auto" style="transition-delay: 200ms;">
+        <span
+          class="px-6 py-3 rounded-full card-glass text-white font-medium text-lg transition-all duration-300 ease-out hover:-translate-y-1 border border-slate-700/50">HTML</span>
+        <span
+          class="px-6 py-3 rounded-full card-glass text-white font-medium text-lg transition-all duration-300 ease-out hover:-translate-y-1 border border-slate-700/50">CSS</span>
+        <span
+          class="px-6 py-3 rounded-full card-glass text-white font-medium text-lg transition-all duration-300 ease-out hover:-translate-y-1 border border-slate-700/50">JavaScript</span>
+        <span
+          class="px-6 py-3 rounded-full card-glass text-white font-medium text-lg transition-all duration-300 ease-out hover:-translate-y-1 border border-slate-700/50">WordPress</span>
+        <span
+          class="px-6 py-3 rounded-full card-glass text-white font-medium text-lg transition-all duration-300 ease-out hover:-translate-y-1 border border-slate-700/50">WebFlow</span>
+        <span
+          class="px-6 py-3 rounded-full card-glass text-white font-medium text-lg transition-all duration-300 ease-out hover:-translate-y-1 border border-slate-700/50">PHP</span>
+        <span
+          class="px-6 py-3 rounded-full card-glass text-white font-medium text-lg transition-all duration-300 ease-out hover:-translate-y-1 border border-slate-700/50">Next</span>
+        <span
+          class="px-6 py-3 rounded-full card-glass text-white font-medium text-lg transition-all duration-300 ease-out hover:-translate-y-1 border border-slate-700/50">Vue</span>
+        <span
+          class="px-6 py-3 rounded-full card-glass text-white font-medium text-lg transition-all duration-300 ease-out hover:-translate-y-1 border border-slate-700/50">React</span>
+        <span
+          class="px-6 py-3 rounded-full card-glass text-white font-medium text-lg transition-all duration-300 ease-out hover:-translate-y-1 border border-slate-700/50">Nest</span>
+        <span
+          class="px-6 py-3 rounded-full card-glass text-white font-medium text-lg transition-all duration-300 ease-out hover:-translate-y-1 border border-slate-700/50">N8N,
+          GPT</span>
+        <span
+          class="px-6 py-3 rounded-full card-glass text-white font-medium text-lg transition-all duration-300 ease-out hover:-translate-y-1 border border-slate-700/50">Responsive
+          Design</span>
+        <span
+          class="px-6 py-3 rounded-full card-glass text-white font-medium text-lg transition-all duration-300 ease-out hover:-translate-y-1 border border-slate-700/50">Teacher</span>
+        <span
+          class="px-6 py-3 rounded-full card-glass text-white font-medium text-lg transition-all duration-300 ease-out hover:-translate-y-1 border border-slate-700/50">Figma</span>
+        <span
+          class="px-6 py-3 rounded-full card-glass text-white font-medium text-lg transition-all duration-300 ease-out hover:-translate-y-1 border border-slate-700/50">DNS
+          Management</span>
+        <span
+          class="px-6 py-3 rounded-full card-glass text-white font-medium text-lg transition-all duration-300 ease-out hover:-translate-y-1 border border-slate-700/50">Elementor</span>
+        <span
+          class="px-6 py-3 rounded-full card-glass text-white font-medium text-lg transition-all duration-300 ease-out hover:-translate-y-1 border border-slate-700/50">DIVI</span>
+        <span
+          class="px-6 py-3 rounded-full card-glass text-white font-medium text-lg transition-all duration-300 ease-out hover:-translate-y-1 border border-slate-700/50">Bricks</span>
+        <span
+          class="px-6 py-3 rounded-full card-glass text-white font-medium text-lg transition-all duration-300 ease-out hover:-translate-y-1 border border-slate-700/50">Workflow
+          with AI</span>
+        <span
+          class="px-6 py-3 rounded-full card-glass text-white font-medium text-lg transition-all duration-300 ease-out hover:-translate-y-1 border border-slate-700/50">SEO</span>
+        <span
+          class="px-6 py-3 rounded-full card-glass text-white font-medium text-lg transition-all duration-300 ease-out hover:-translate-y-1 border border-slate-700/50">Optimization</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume" class="py-24 bg-slate-900 border-t border-slate-800/50">
+    <div class="container mx-auto px-6">
+      <div class="text-center mb-16">
+        <h2 class="reveal text-3xl md:text-4xl font-bold text-white mb-4">Resume</h2>
+      </div>
+
+      <div class="reveal grid grid-cols-1 md:grid-cols-2 gap-12" style="transition-delay: 100ms;">
+        <!-- Education -->
+        <div>
+          <h3 class="text-2xl font-semibold text-white mb-8 flex items-center gap-3">
+            <i class='bx bx-book-open text-primary'></i> Education
+          </h3>
+          <div class="timeline-container">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <h4 class="text-xl font-bold text-white mb-1">Self-learning</h4>
+              <span class="inline-block py-1 px-3 rounded bg-slate-800 text-primary text-sm font-medium mb-3">2015 -
+                Present</span>
+              <p class="text-slate-300 font-medium mb-2">Innumerable courses on platforms like Udemy and Platzi</p>
+              <p class="text-slate-400 text-sm leading-relaxed">Udemy and Platzi are my go-to platforms for
+                self-learning. With an immense array of courses, I'd need multiple lifetimes to complete them all. These
+                courses are the cornerstone of my skill set.</p>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <h4 class="text-xl font-bold text-white mb-1">Computer Engineering</h4>
+              <span class="inline-block py-1 px-3 rounded bg-slate-800 text-primary text-sm font-medium mb-3">2010 -
+                2015</span>
+              <p class="text-slate-300 font-medium mb-2">National Engineering University</p>
+              <p class="text-slate-400 text-sm leading-relaxed">My alma mater, where I delved into simple concepts like
+                algebra and differential equations, to more complex subjects like basic programming, provided me with
+                the foundational knowledge to pave my own path.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience -->
+        <div>
+          <h3 class="text-2xl font-semibold text-white mb-8 flex items-center gap-3">
+            <i class='bx bx-briefcase text-primary'></i> Professional Experience
+          </h3>
+          <div class="timeline-container">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <h4 class="text-xl font-bold text-white mb-1">Web Developer</h4>
+              <span class="inline-block py-1 px-3 rounded bg-slate-800 text-primary text-sm font-medium mb-3">2024 -
+                Current</span>
+              <p class="text-slate-300 font-medium mb-3">Your Digital Resource, Florida</p>
+              <ul class="text-slate-400 text-sm leading-relaxed list-disc list-inside space-y-1">
+                <li>Lead in the design, development, and implementation of communication materials.</li>
+                <li>Use of design tools such as Gimp, Capcut, and AI-powered web tools.</li>
+                <li>Integrating IA solutions through No Code tools such as WebFlow, N8N and Bot Assistants.</li>
               </ul>
             </div>
-            <div class="col-lg-6">
-              <ul>
-                <li><i class="bi bi-rounded-right"></i> <strong>Age:</strong> 33</li>
-                <li><i class="bi bi-rounded-right"></i> <strong>Degree:</strong> University</li>
-                <li><i class="bi bi-rounded-right"></i> <strong>Email:</strong> omarboza@gmail.com</li>
-                <li><i class="bi bi-rounded-right"></i> <strong>Freelance:</strong> Available</li>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <h4 class="text-xl font-bold text-white mb-1">Software Engineer</h4>
+              <span class="inline-block py-1 px-3 rounded bg-slate-800 text-primary text-sm font-medium mb-3">2022 -
+                2024</span>
+              <p class="text-slate-300 font-medium mb-3">Nicasource, Managua, Nicaragua</p>
+              <ul class="text-slate-400 text-sm leading-relaxed list-disc list-inside space-y-1">
+                <li>Creating web development solutions using technologies like React, Vue, and Wordpress.</li>
+              </ul>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <h4 class="text-xl font-bold text-white mb-1">SEO Specialist</h4>
+              <span class="inline-block py-1 px-3 rounded bg-slate-800 text-primary text-sm font-medium mb-3">2020 -
+                2022</span>
+              <p class="text-slate-300 font-medium mb-3">Top Floor Marketing, Managua</p>
+              <ul class="text-slate-400 text-sm leading-relaxed list-disc list-inside space-y-1">
+                <li>Building custom WordPress websites tailored to clients' needs.</li>
+                <li>Optimizing loading times and handling changes efficiently.</li>
+              </ul>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <h4 class="text-xl font-bold text-white mb-1">Project Manager and Tech Lead</h4>
+              <span class="inline-block py-1 px-3 rounded bg-slate-800 text-primary text-sm font-medium mb-3">2019 -
+                2020</span>
+              <p class="text-slate-300 font-medium mb-3">AIM Services, Managua</p>
+              <ul class="text-slate-400 text-sm leading-relaxed list-disc list-inside space-y-1">
+                <li>Building custom web application tailored to clients' needs using Ionic.</li>
+                <li>Tech Lead for all projects of this company.</li>
               </ul>
             </div>
           </div>
-          <p>
-            As a mentor, I elevate my team to my standard, emphasizing meticulousness in details and optimizations. If a task warrants repetitive manual execution, it's a sign of inefficiency, prompting me to reassess and refine. Understanding that team success hinges on individual support, I take responsibility for resolving any hurdles, ensuring collective progress.          </p>
         </div>
       </div>
-
     </div>
-  </section><!-- End About Section -->
+  </section>
 
-  <!-- ======= Skills Section ======= -->
-  <section id="skills" class="skills">
-    <div class="container" data-aos="fade-up">
-
-      <div class="section-title">
-        <h2>Skills</h2>
-        <p>With a vast repertoire of technological prowess, I've navigated diverse projects, tackling myriad challenges inherent in my trade. Rejecting the notion of "that's not my area," I endeavor to grasp a breadth of knowledge. While specializing in frontend frameworks like Vue and Angular, backend complexities hold no intimidation for me.</p>
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="py-24 bg-[#0a101d]">
+    <div class="container mx-auto px-6">
+      <div class="text-center mb-16 max-w-3xl mx-auto">
+        <h2 class="reveal text-3xl md:text-4xl font-bold text-white mb-4">Portfolio</h2>
+        <p class="reveal text-slate-400" style="transition-delay: 100ms;">Some projects I've worked on; it's impossible to mention them all, but I highlight the
+          most significant ones. If I remember them, it's because they were crucial.</p>
       </div>
 
-      <div class="row skills-content">
+      <!-- Portfolio Grid -->
+      <div class="reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" style="transition-delay: 200ms;">
 
-        <div class="col-lg-4">
-
-          <div class="progress">
-            <span class="skill">Javascript <i class="val">90%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
+        <!-- Project BYD El Salvador -->
+        <div
+          class="group relative rounded-2xl overflow-hidden card-glass hover-lift border border-slate-700/50 flex flex-col">
+          <div class="aspect-video overflow-hidden bg-slate-800 p-4">
+            <img src="assets/img/portfolio/byd.png" alt="BYD El Salvador"
+              class="w-full h-full object-contain transition-transform duration-700 group-hover:scale-110">
           </div>
-
-          <div class="progress">
-            <span class="skill">Vue <i class="val">100%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          <div class="p-6 flex-grow flex flex-col">
+            <span class="text-xs font-semibold tracking-wider text-primary uppercase mb-2 block">Car Brand</span>
+            <h3 class="text-xl font-bold text-white mb-2">BYD El Salvador</h3>
+            <p class="text-slate-400 text-sm mb-4 line-clamp-2">Wordpress from Scratch using Elementor.</p>
+            <div class="flex items-center gap-2 mb-4 flex-wrap mt-auto">
+              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">Wordpress</span>
+              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">Elementor</span>
             </div>
-          </div>
-
-          <div class="progress">
-            <span class="skill">React <i class="val">80%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="progress">
-            <span class="skill">Webflow <i class="val">90%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="col-lg-4">
-
-          <div class="progress">
-            <span class="skill">PHP <i class="val">90%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          <div class="progress">
-            <span class="skill">WordPress/CMS <i class="val">100%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          <div class="progress">
-            <span class="skill">Nuxt <i class="val">80%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="progress">
-            <span class="skill">IA (N8N, GPT, automatizations) <i class="val">95%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-        </div>
-        <div class="col-lg-4">
-          <div class="progress">
-            <span class="skill">Next <i class="val">80%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="progress">
-            <span class="skill">Angular <i class="val">70%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="progress">
-            <span class="skill">Nest <i class="val">80%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
+            <a href="https://bydelsalvador.com/" target="_blank"
+              class="inline-flex items-center gap-2 text-white font-medium hover:text-primary transition-colors">
+              Visit Site <i class='bx bx-right-arrow-alt text-xl'></i>
+            </a>
           </div>
         </div>
 
-      </div>
-
-    </div>
-  </section><!-- End Skills Section -->
-  <section id="resume" class="resume">
-    <div class="container" data-aos="fade-up">
-
-      <div class="section-title">
-        <h2>Resume</h2>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-6">
-          <h3 class="resume-title">Education</h3>
-          <div class="resume-item">
-            <h4>Self-learning</h4>
-            <h5>2015 - Present</h5>
-            <p><em>Innumerable courses on platforms like Udemy and Platzi</em></p>
-            <p>Udemy and Platzi are my go-to platforms for self-learning. With an immense array of courses, I'd need multiple lifetimes to complete them all. These courses are the cornerstone of my skill set.</p>
+        <!-- Project Somos Iberoamerica -->
+        <div
+          class="group relative rounded-2xl overflow-hidden card-glass hover-lift border border-slate-700/50 flex flex-col">
+          <div class="aspect-video overflow-hidden bg-white p-4">
+            <img src="assets/img/portfolio/somos.png" alt="Somos Iberoamérica"
+              class="w-full h-full object-contain transition-transform duration-700 group-hover:scale-110">
           </div>
-          <div class="resume-item">
-            <h4>Computer Engineering</h4>
-            <h5>2010 - 2015</h5>
-            <p><em>National Engineering University</em></p>
-            <p>My alma mater, where I delved into simple concepts like algebra and differential equations, to more complex subjects like basic programming, provided me with the foundational knowledge to pave my own path.</p>
+          <div class="p-6 flex-grow flex flex-col">
+            <span class="text-xs font-semibold tracking-wider text-primary uppercase mb-2 block">Organization</span>
+            <h3 class="text-xl font-bold text-white mb-2">Somos Iberoamérica</h3>
+            <p class="text-slate-400 text-sm mb-4 line-clamp-2">Pure PHP code to Editable Gutenberg.</p>
+            <div class="flex items-center gap-2 mb-4 flex-wrap mt-auto">
+              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">Gutenberg</span>
+              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">Organization</span>
+            </div>
+            <a href="https://somosiberoamerica.org/" target="_blank"
+              class="inline-flex items-center gap-2 text-white font-medium hover:text-primary transition-colors">
+              Visit Site <i class='bx bx-right-arrow-alt text-xl'></i>
+            </a>
           </div>
         </div>
-        <div class="col-lg-6">
-          <h3 class="resume-title">Professional Experience</h3>
-          <div class="resume-item">
-            <h4>Web Developer</h4>
-            <h5>2024 - Current</h5>
-            <p><em>Your Digital Resource, Florida </em></p>
-            <p>
-            <ul>
-              <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-              <li>Use of design tools such as Gimp, Capcut, and countless online web tools powered by AI.</li>
-              <li>Integrating IA solutions through No Code tools such as WebFlow, N8N and Bot Assistants.</li>
-            </ul>
+
+        <!-- Project 1 -->
+        <div
+          class="group relative rounded-2xl overflow-hidden card-glass hover-lift border border-slate-700/50 flex flex-col">
+          <div class="aspect-video overflow-hidden">
+            <img src="assets/img/portfolio/mm.png" alt="M&M Studios"
+              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+          </div>
+          <div class="p-6 flex-grow flex flex-col">
+            <span class="text-xs font-semibold tracking-wider text-primary uppercase mb-2 block">Web Site</span>
+            <h3 class="text-xl font-bold text-white mb-2">M&M Studios</h3>
+            <p class="text-slate-400 text-sm mb-4 line-clamp-2">A modern website built to showcase their creative studio
+              and services.</p>
+            <div class="flex items-center gap-2 mb-4 flex-wrap mt-auto">
+              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">Web</span>
+              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">Design</span>
+            </div>
+            <a href="https://www.mandmstudios.com/" target="_blank"
+              class="inline-flex items-center gap-2 text-white font-medium hover:text-primary transition-colors">
+              Visit Site <i class='bx bx-right-arrow-alt text-xl'></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div
+          class="group relative rounded-2xl overflow-hidden card-glass hover-lift border border-slate-700/50 flex flex-col">
+          <div class="aspect-video overflow-hidden">
+            <img src="assets/img/portfolio/central.webp" alt="Park Central Dental"
+              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+          </div>
+          <div class="p-6 flex-grow flex flex-col">
+            <span class="text-xs font-semibold tracking-wider text-primary uppercase mb-2 block">Web Site</span>
+            <h3 class="text-xl font-bold text-white mb-2">Park Central Dental</h3>
+            <p class="text-slate-400 text-sm mb-4 line-clamp-2">A professional medical/dental practice website focusing
+              on user experience.</p>
+            <div class="flex items-center gap-2 mb-4 flex-wrap mt-auto">
+              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">CMS</span>
+              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">SEO</span>
+            </div>
+            <a href="https://www.parkcentraldentaltx.com/" target="_blank"
+              class="inline-flex items-center gap-2 text-white font-medium hover:text-primary transition-colors">
+              Visit Site <i class='bx bx-right-arrow-alt text-xl'></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div
+          class="group relative rounded-2xl overflow-hidden card-glass hover-lift border border-slate-700/50 flex flex-col">
+          <div class="aspect-video overflow-hidden">
+            <img src="assets/img/portfolio/wesmark.png" alt="Wesmark Family Dentistry"
+              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+          </div>
+          <div class="p-6 flex-grow flex flex-col">
+            <span class="text-xs font-semibold tracking-wider text-primary uppercase mb-2 block">Web Site</span>
+            <h3 class="text-xl font-bold text-white mb-2">Wesmark Dentistry</h3>
+            <p class="text-slate-400 text-sm mb-4 line-clamp-2">Corporate website designed for patient conversion and
+              easy navigation.</p>
+            <div class="flex items-center gap-2 mb-4 flex-wrap mt-auto">
+              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">Web</span>
+            </div>
+            <a href="https://www.wesmarkfamilydentistry.com/" target="_blank"
+              class="inline-flex items-center gap-2 text-white font-medium hover:text-primary transition-colors">
+              Visit Site <i class='bx bx-right-arrow-alt text-xl'></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div
+          class="group relative rounded-2xl overflow-hidden card-glass hover-lift border border-slate-700/50 flex flex-col">
+          <div class="aspect-video overflow-hidden">
+            <img src="assets/img/portfolio/scalar.png" alt="Scalar"
+              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+          </div>
+          <div class="p-6 flex-grow flex flex-col">
+            <span class="text-xs font-semibold tracking-wider text-secondary uppercase mb-2 block">Component</span>
+            <h3 class="text-xl font-bold text-white mb-2">Scalar</h3>
+            <p class="text-slate-400 text-sm mb-4 line-clamp-2">Custom product component implementation for the Scalar
+              platform.</p>
+            <div class="flex items-center gap-2 mb-4 flex-wrap mt-auto">
+              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">Frontend</span>
+              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">JS</span>
+            </div>
+            <a href="https://scalar.io/product" target="_blank"
+              class="inline-flex items-center gap-2 text-white font-medium hover:text-secondary transition-colors">
+              Visit Site <i class='bx bx-right-arrow-alt text-xl'></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div
+          class="group relative rounded-2xl overflow-hidden card-glass hover-lift border border-slate-700/50 flex flex-col">
+          <div class="aspect-video overflow-hidden">
+            <img src="assets/img/portfolio/sucuri.png" alt="Sucuri"
+              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+          </div>
+          <div class="p-6 flex-grow flex flex-col">
+            <span class="text-xs font-semibold tracking-wider text-emerald-400 uppercase mb-2 block">Blog</span>
+            <h3 class="text-xl font-bold text-white mb-2">Sucuri</h3>
+            <p class="text-slate-400 text-sm mb-4 line-clamp-2">High-traffic cybersecurity blog focusing on performance
+              and reliability.</p>
+            <div class="flex items-center gap-2 mb-4 flex-wrap mt-auto">
+              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">Blog</span>
+              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">Security</span>
+            </div>
+            <a href="https://blog.sucuri.net/" target="_blank"
+              class="inline-flex items-center gap-2 text-white font-medium hover:text-emerald-400 transition-colors">
+              Visit Site <i class='bx bx-right-arrow-alt text-xl'></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 6 -->
+        <div
+          class="group relative rounded-2xl overflow-hidden card-glass hover-lift border border-slate-700/50 flex flex-col">
+          <div class="aspect-video overflow-hidden">
+            <img src="assets/img/portfolio/hopeofamerica.png" alt="Hope of America"
+              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+          </div>
+          <div class="p-6 flex-grow flex flex-col">
+            <span class="text-xs font-semibold tracking-wider text-primary uppercase mb-2 block">Website</span>
+            <h3 class="text-xl font-bold text-white mb-2">Hope of America</h3>
+            <p class="text-slate-400 text-sm mb-4 line-clamp-2">Organizational website to handle events and community
+              outreach.</p>
+            <div class="flex items-center gap-2 mb-4 flex-wrap mt-auto">
+              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">Organization</span>
+            </div>
+            <a href="https://hopeofamerica.org/" target="_blank"
+              class="inline-flex items-center gap-2 text-white font-medium hover:text-primary transition-colors">
+              Visit Site <i class='bx bx-right-arrow-alt text-xl'></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 7 -->
+        <div
+          class="group relative rounded-2xl overflow-hidden card-glass hover-lift border border-slate-700/50 flex flex-col">
+          <div class="aspect-video overflow-hidden">
+            <img src="assets/img/portfolio/davila.png" alt="Davila Floors and Tiles"
+              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+          </div>
+          <div class="p-6 flex-grow flex flex-col">
+            <span class="text-xs font-semibold tracking-wider text-primary uppercase mb-2 block">Website</span>
+            <h3 class="text-xl font-bold text-white mb-2">Davila Floors</h3>
+            <p class="text-slate-400 text-sm mb-4 line-clamp-2">Commercial website for a flooring and tiles business.
             </p>
-          </div>
-          <div class="resume-item">
-            <h4>Software Engineer</h4>
-            <h5>2022 - 2024</h5>
-            <p><em>Nicasource, Managua, Nicaragua </em></p>
-            <p>
-            <ul>
-              <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-              <li>Creating web development solutions using technologies like React, Vue, and Wordpress.</li>
-            </ul>
-            </p>
-          </div>
-          <div class="resume-item">
-            <h4>SEO Specialist</h4>
-            <h5>2020-2022</h5>
-            <p><em>Top Floor Marketing, Managua, Nicaragua</em></p>
-            <p>
-            <ul>
-              <li>Building custom WordPress websites tailored to clients' needs.</li>
-              <li>Managing existing or company-owned websites, optimizing loading times, and handling changes efficiently.</li>
-              <li>Uploading content</li>
-            </ul>
-            </p>
-          </div>
-          <div class="resume-item">
-            <h4>Project Manager and Tech Lead</h4>
-            <h5>2019-2020</h5>
-            <p><em>AIM Services, Managua, Nicaragua</em></p>
-            <p>
-            <ul>
-              <li>Building custom web application tailored to clients' needs using Ionic.</li>
-              <li>Project Manager and Teach Lead for all projects of this company</li>
-            </ul>
-            </p>
-          </div>
-          <div class="resume-item">
-            <h4>WordPress Developer</h4>
-            <h5>2017-2019</h5>
-            <p><em>Target Ogilvy, Managua, Nicaragua</em></p>
-            <p>
-            <ul>
-              <li>Building custom WordPress websites tailored to clients' needs.</li>
-            </ul>
-            </p>
+            <div class="flex items-center gap-2 mb-4 flex-wrap mt-auto">
+              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">Business</span>
+            </div>
+            <a href="https://davilafloors.com/" target="_blank"
+              class="inline-flex items-center gap-2 text-white font-medium hover:text-primary transition-colors">
+              Visit Site <i class='bx bx-right-arrow-alt text-xl'></i>
+            </a>
           </div>
         </div>
-      </div>
 
-    </div>
-  </section><!-- End Resume Section -->
-  <section id="portfolio" class="portfolio">
-    <div class="container" data-aos="fade-up">
+        <!-- Project 8 -->
+        <div
+          class="group relative rounded-2xl overflow-hidden card-glass hover-lift border border-slate-700/50 flex flex-col">
+          <div class="aspect-video overflow-hidden">
+            <img src="assets/img/portfolio/tiniciti.png" alt="Tiniciti"
+              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+          </div>
+          <div class="p-6 flex-grow flex flex-col">
+            <span class="text-xs font-semibold tracking-wider text-primary uppercase mb-2 block">Website</span>
+            <h3 class="text-xl font-bold text-white mb-2">Tiniciti</h3>
+            <p class="text-slate-400 text-sm mb-4 line-clamp-2">Modern and playful website design for Tiniciti
+              preschools.</p>
+            <div class="flex items-center gap-2 mb-4 flex-wrap mt-auto">
+              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">Education</span>
+            </div>
+            <a href="https://www.tiniciti.com/#/" target="_blank"
+              class="inline-flex items-center gap-2 text-white font-medium hover:text-primary transition-colors">
+              Visit Site <i class='bx bx-right-arrow-alt text-xl'></i>
+            </a>
+          </div>
+        </div>
 
-      <div class="section-title">
-        <h2>Portfolio</h2>
-        <p>Some projects I've worked on; it's impossible to mention them all, but I highlight the most significant ones. If I remember them, it's because they were crucial.</p>
-      </div>
-      <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/mm.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>M&M Studios</h4>
-              <p>Web Site</p>
-              <div class="portfolio-links">
-                <a target="_blank" href="https://www.mandmstudios.com/" title="Component"><i class="bx bx-plus"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/central.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Park Central Dental</h4>
-              <p>Web Site</p>
-              <div class="portfolio-links">
-                <a target="_blank" href="https://www.parkcentraldentaltx.com/" title="Component"><i class="bx bx-plus"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/wesmark.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Wesmark Family Dentistry</h4>
-              <p>Web Site</p>
-              <div class="portfolio-links">
-                <a target="_blank" href="https://www.wesmarkfamilydentistry.com/" title="Component"><i class="bx bx-plus"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/scalar.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Scalar</h4>
-              <p>Component</p>
-              <div class="portfolio-links">
-                <a target="_blank" href="https://scalar.io/product" title="Component"><i class="bx bx-plus"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/sucuri.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Sucuri</h4>
-              <p>Blog</p>
-              <div class="portfolio-links">
-                <a target="_blank" href=https://blog.sucuri.net/" title="Sucuri"><i class="bx bx-plus"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/hopeofamerica.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Hope of America</h4>
-              <p>Website</p>
-              <div class="portfolio-links">
-                <a target="_blank" href="https://hopeofamerica.org/" title="Hope of America"><i class="bx bx-plus"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/davila.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Davila Floors and Tiles</h4>
-              <p>Website</p>
-              <div class="portfolio-links">
-                <a target="_blank" href="https://davilafloors.com/" title="Davila"><i class="bx bx-plus"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/tiniciti.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Davila Floors and Tiles</h4>
-              <p>Website</p>
-              <div class="portfolio-links">
-                <a target="_blank" href="https://www.tiniciti.com/#/" title="Davila"><i class="bx bx-plus"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section><!-- End Portfolio Section -->
-  <section id="contact" class="contact">
-    <div class="container" data-aos="fade-up">
-
-      <div class="section-title">
-        <h2>Contact</h2>
-        <p>If you have an offer, a project, want to discuss an idea, practice your English, or send me money because you're a kind person, you can contact me through this form.</p>
-      </div>
-
-      <div class="row mt-5">
-
-        <div class="col-lg-4">
-          <div class="info">
-            <div class="address">
-              <i class="bi bi-geo-alt"></i>
-              <h4>Location:</h4>
-              <p>Anywhere or Managua, Nicaragua</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="info">
-            <div class="email">
-              <i class="bi bi-envelope"></i>
-              <h4>Email:</h4>
-              <p>omarboza@gmail.com</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="info">
-            <div class="phone">
-              <i class="bi bi-phone"></i>
-              <h4>Call:</h4>
-              <p>+505 83992586</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <script type="text/javascript" src="https://form.jotform.com/jsform/241174521941856"></script>
-
-    </div>
-  </section><!-- End Contact Section -->
-
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>Omar</span></strong>. All Rights Reserved
       </div>
     </div>
-  </footer><!-- End  Footer -->
+  </section>
 
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <!-- Contact Section -->
+  <section id="contact" class="py-24 bg-slate-900 border-t border-slate-800/50">
+    <div class="container mx-auto px-6">
+      <div class="text-center mb-16 max-w-3xl mx-auto">
+        <h2 class="reveal text-3xl md:text-4xl font-bold text-white mb-4">Contact Me</h2>
+        <p class="reveal text-slate-400" style="transition-delay: 100ms;">If you have an offer, a project, want to discuss an idea, practice your English, or
+          send me money because you're a kind person, you can contact me through this form.</p>
+      </div>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+      <div class="reveal max-w-3xl mx-auto space-y-8" style="transition-delay: 200ms;">
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+        <!-- Featured Call Action -->
+        <div
+          class="card-glass p-8 rounded-2xl border border-primary/30 relative overflow-hidden group hover-lift text-center sm:text-left">
+          <div
+            class="absolute inset-0 bg-gradient-to-r from-primary/10 to-secondary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+          </div>
+          <div class="relative z-10 flex flex-col sm:flex-row items-center justify-center gap-6">
+            <div
+              class="w-20 h-20 rounded-full bg-gradient-primary flex items-center justify-center shrink-0 shadow-[0_0_20px_rgba(59,130,246,0.5)]">
+              <i class='bx bx-phone-call text-4xl text-white'></i>
+            </div>
+            <div>
+              <h4 class="text-white font-bold text-2xl mb-2">Let's Talk!</h4>
+              <p class="text-slate-400 mb-4">The fastest way to reach me is by phone.</p>
+              <a href="tel:+50583992586"
+                class="inline-block text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-primary tracking-wide hover:opacity-80 transition-opacity">
+                +505 83992586
+              </a>
+            </div>
+          </div>
+        </div>
 
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div class="card-glass p-6 rounded-xl flex items-center gap-4 justify-center sm:justify-start">
+            <div class="w-12 h-12 rounded-full bg-slate-800 flex items-center justify-center shrink-0">
+              <i class='bx bx-envelope text-xl text-slate-300'></i>
+            </div>
+            <div class="text-center sm:text-left">
+              <h4 class="text-white font-bold mb-1 text-sm">Email</h4>
+              <a href="mailto:omarboza@gmail.com"
+                class="text-slate-400 text-sm hover:text-primary transition-colors break-all">omarboza@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="card-glass p-6 rounded-xl flex items-center gap-4 justify-center sm:justify-start">
+            <div class="w-12 h-12 rounded-full bg-slate-800 flex items-center justify-center shrink-0">
+              <i class='bx bx-map text-xl text-slate-300'></i>
+            </div>
+            <div class="text-center sm:text-left">
+              <h4 class="text-white font-bold mb-1 text-sm">Location</h4>
+              <p class="text-slate-400 text-sm">Managua, Nicaragua</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-[#0a101d] py-8 border-t border-slate-800">
+    <div class="container mx-auto px-6 text-center">
+      <div class="flex justify-center space-x-4 mb-4">
+        <a href="https://www.linkedin.com/in/omar-boza/" target="_blank"
+          class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-400 hover:bg-primary hover:text-white transition-colors">
+          <i class='bx bxl-linkedin text-xl'></i>
+        </a>
+        <a href="https://www.instagram.com/ing.omarboza/" target="_blank"
+          class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-400 hover:bg-pink-500 hover:text-white transition-colors">
+          <i class='bx bxl-instagram text-xl'></i>
+        </a>
+      </div>
+      <p class="text-slate-500 text-sm">
+        &copy; Copyright 2026 <strong class="text-white">Omar Boza</strong>. All Rights Reserved.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script>
+    // Mobile Menu Toggle
+    const mobileBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const mobileLinks = document.querySelectorAll('.mobile-link');
+
+    const toggleMenu = () => {
+      mobileMenu.classList.toggle('max-h-0');
+      mobileMenu.classList.toggle('opacity-0');
+      mobileMenu.classList.toggle('pointer-events-none');
+      mobileMenu.classList.toggle('max-h-[400px]');
+      mobileMenu.classList.toggle('opacity-100');
+      mobileMenu.classList.toggle('pointer-events-auto');
+    };
+
+    mobileBtn.addEventListener('click', toggleMenu);
+
+    mobileLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        if (!mobileMenu.classList.contains('max-h-0')) {
+          toggleMenu();
+        }
+      });
+    });
+
+    // Simple Navbar Scroll Script
+    window.addEventListener('scroll', () => {
+      const nav = document.getElementById('navbar');
+      if (window.scrollY > 50) {
+        nav.classList.add('shadow-lg');
+        nav.style.background = 'rgba(15, 23, 42, 0.95)';
+      } else {
+        nav.classList.remove('shadow-lg');
+        nav.style.background = 'rgba(15, 23, 42, 0.8)';
+      }
+    });
+
+    // Scroll Reveal Animation
+    const revealOptions = {
+      threshold: 0.1,
+      rootMargin: "0px 0px -50px 0px"
+    };
+
+    const revealOnScroll = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('active');
+        observer.unobserve(entry.target);
+      });
+    }, revealOptions);
+
+    document.querySelectorAll('.reveal').forEach(reveal => {
+      revealOnScroll.observe(reveal);
+    });
+  </script>
 </body>
 
 </html>
