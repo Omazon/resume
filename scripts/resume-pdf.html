@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Omar Boza - Resume</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    color: #1e293b;
+    font-size: 10.5pt;
+    line-height: 1.45;
+    background: white;
+  }
+
+  .page { max-width: 100%; }
+
+  /* Header */
+  header { margin-bottom: 14px; }
+
+  h1 {
+    font-size: 22pt;
+    font-weight: 800;
+    color: #0f172a;
+    letter-spacing: -0.02em;
+  }
+
+  .headline {
+    font-size: 11.5pt;
+    font-weight: 600;
+    color: #2563eb;
+    margin: 2px 0 8px;
+  }
+
+  .contact-line {
+    font-size: 9.5pt;
+    color: #475569;
+  }
+
+  .contact-line a { color: #2563eb; text-decoration: none; }
+  .contact-line span + span::before { content: "  ·  "; color: #94a3b8; }
+
+  /* Sections */
+  section { margin-bottom: 13px; }
+
+  h2 {
+    font-size: 11pt;
+    font-weight: 700;
+    color: #0f172a;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    border-bottom: 1.5px solid #cbd5e1;
+    padding-bottom: 3px;
+    margin-bottom: 8px;
+  }
+
+  .summary { color: #334155; }
+
+  /* Skills */
+  .skills-table { width: 100%; border-collapse: collapse; }
+  .skills-table td { padding: 2px 0; vertical-align: top; }
+  .skills-table td:first-child {
+    font-weight: 700;
+    color: #0f172a;
+    width: 130px;
+    padding-right: 10px;
+  }
+
+  /* Experience */
+  .job { margin-bottom: 10px; }
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .job-title { font-size: 10.5pt; font-weight: 700; color: #0f172a; }
+  .job-company { font-weight: 600; color: #2563eb; }
+  .job-dates {
+    font-size: 9pt;
+    color: #64748b;
+    white-space: nowrap;
+    font-weight: 600;
+  }
+  .job ul { margin: 3px 0 0 16px; }
+  .job li { margin-bottom: 1.5px; color: #334155; }
+
+  /* Education */
+  .edu { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px; }
+  .edu-degree { font-weight: 700; color: #0f172a; }
+  .edu-school { color: #334155; }
+
+  /* Projects */
+  .project { margin-bottom: 4px; color: #334155; }
+  .project strong { color: #0f172a; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header>
+    <h1>Omar Boza</h1>
+    <p class="headline">Software Engineer · AI-Augmented Development · Automation</p>
+    <p class="contact-line">
+      <span>Managua, Nicaragua</span><span>+505 8399 2586</span><span><a href="mailto:omarboza@gmail.com">omarboza@gmail.com</a></span><span><a href="https://www.linkedin.com/in/omar-boza/">linkedin.com/in/omar-boza</a></span><span><a href="https://github.com/Omazon">github.com/Omazon</a></span>
+    </p>
+  </header>
+
+  <section>
+    <h2>Summary</h2>
+    <p class="summary">Full-stack developer with 10 years of experience building web products for US and international clients. I ship faster with AI-native workflows — Cursor, Claude Code, n8n, MCP — while maintaining production quality. Experienced tech lead and mentor, specializing in React, Vue, Webflow, WordPress, and AI-driven automation for business operations.</p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <table class="skills-table">
+      <tr>
+        <td>AI &amp; Automation</td>
+        <td>Cursor, Claude Code, Opencode, MCP, n8n, Prompt Engineering, AI Agents, GPT Integrations, RAG</td>
+      </tr>
+      <tr>
+        <td>Frontend</td>
+        <td>HTML, CSS, JavaScript, React, Vue, Next.js, Webflow, Tailwind CSS, Bootstrap CSS, Responsive Design</td>
+      </tr>
+      <tr>
+        <td>Backend &amp; CMS</td>
+        <td>PHP, NestJS, WordPress, REST APIs, Supabase, Insforge, Elementor, DIVI, Bricks, Gutenberg</td>
+      </tr>
+      <tr>
+        <td>Build &amp; DevOps</td>
+        <td>Webpack, Vite, Nginx, Apache, Vercel, Proxmox</td>
+      </tr>
+      <tr>
+        <td>Tools</td>
+        <td>SEO, DNS Management, Performance Optimization (Core Web Vitals, GTmetrix), Figma</td>
+      </tr>
+      <tr>
+        <td>Image Editing</td>
+        <td>Photoshop, GIMP, Affinity</td>
+      </tr>
+      <tr>
+        <td>Video Editing</td>
+        <td>CapCut</td>
+      </tr>
+      <tr>
+        <td>Leadership</td>
+        <td>Tech Lead, Project Management, Mentoring, Teaching</td>
+      </tr>
+      <tr>
+        <td>Languages</td>
+        <td>English, Spanish (native)</td>
+      </tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>Professional Experience</h2>
+
+    <div class="job">
+      <div class="job-header">
+        <p class="job-title">Web Developer — <span class="job-company">Your Digital Resource</span>, Florida, US</p>
+        <p class="job-dates">2024 – 2026</p>
+      </div>
+      <ul>
+        <li>Lead design, development, and implementation of client communication materials across web and digital channels.</li>
+        <li>Build n8n automations connecting Webflow CMS to GPT assistants and bot workflows for faster content operations.</li>
+        <li>Integrate AI solutions through no-code tools: Webflow, n8n, and custom bot assistants for client workflows.</li>
+        <li>Use Cursor, Claude Code, and AI-native dev workflows to accelerate delivery without sacrificing quality.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <p class="job-title">Software Engineer — <span class="job-company">Nicasource</span>, Florida, US</p>
+        <p class="job-dates">2022 – 2024</p>
+      </div>
+      <ul>
+        <li>Delivered web development solutions using React, Vue, and WordPress for diverse client requirements.</li>
+        <li>Contributed to frontend architecture, reusable component design, and performance optimization.</li>
+        <li>Maintained code quality and best practices across multiple concurrent international projects.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <p class="job-title">SEO Specialist — <span class="job-company">Top Floor Marketing</span>, Managua, Nicaragua</p>
+        <p class="job-dates">2020 – 2022</p>
+      </div>
+      <ul>
+        <li>Built custom WordPress websites tailored to client needs and SEO goals.</li>
+        <li>Optimized loading times, Core Web Vitals, and on-page SEO for improved rankings.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <p class="job-title">Project Manager and Tech Lead — <span class="job-company">AIM Services</span>, Managua, Nicaragua</p>
+        <p class="job-dates">2019 – 2020</p>
+      </div>
+      <ul>
+        <li>Built custom web applications tailored to clients' needs using Ionic.</li>
+        <li>Served as Tech Lead for all company projects, guiding architecture and delivery.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <p class="job-title">Web Developer — <span class="job-company">Target Ogilvy</span>, Managua, Nicaragua</p>
+        <p class="job-dates">2017 – 2019</p>
+      </div>
+      <ul>
+        <li>Built websites from scratch or using WordPress templates for agency clients.</li>
+        <li>Developed real-time PHP systems for special events and live campaigns.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Selected Projects</h2>
+    <p class="project"><strong>AIDA</strong> — Production SaaS for dental clinics (patients, odontograms, appointments, records, payments). Next.js, Tailwind, Insforge, PostgreSQL; Vercel + self-managed Proxmox.</p>
+    <p class="project"><strong>AI Workflow Automations</strong> — n8n pipelines connecting Webflow CMS to GPT assistants and bot workflows, streamlining client content operations.</p>
+    <p class="project"><strong>AI-Ready Resume Site</strong> — Portfolio optimized for AI/ATS parsing with JSON-LD, resume.json, and llms.txt (github.com/Omazon/resume).</p>
+    <p class="project"><strong>BYD El Salvador</strong> — WordPress site built from scratch with Elementor for automotive brand (bydelsalvador.com).</p>
+    <p class="project"><strong>Sucuri Blog</strong> — High-traffic cybersecurity blog with performance and reliability optimization (blog.sucuri.net).</p>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <div class="edu">
+      <p><span class="edu-degree">Computer Engineering</span> — <span class="edu-school">National Engineering University, Nicaragua</span></p>
+      <p class="job-dates">2010 – 2015</p>
+    </div>
+    <div class="edu">
+      <p><span class="edu-degree">Continuous Learning</span> — <span class="edu-school">Udemy, Platzi: web development, AI &amp; automation</span></p>
+      <p class="job-dates">2015 – Present</p>
+    </div>
+  </section>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,89 @@
+# Omar Boza - Software Engineer
+
+> AI-augmented full-stack developer from Nicaragua with 10+ years of experience building web products for US and international clients.
+
+## Contact
+
+- Email: omarboza@gmail.com
+- Phone: +505 83992586
+- Location: Managua, Nicaragua
+- LinkedIn: https://www.linkedin.com/in/omar-boza/
+- GitHub: https://github.com/Omazon
+- Website: https://omazon.github.io/resume/
+
+## Summary
+
+Full-stack developer who ships faster with AI-native workflows — Cursor, Claude Code, n8n, MCP — while maintaining production quality. Specializes in React, Vue, Webflow, WordPress, and AI automation for workplace productivity.
+
+## Skills
+
+### AI & Automation
+Cursor, Claude Code, Opencode, MCP, n8n, Prompt Engineering, AI Agents, GPT Integrations, RAG
+
+### Frontend
+HTML, CSS, JavaScript, React, Vue, Next.js, Webflow, Tailwind CSS, Bootstrap CSS, Responsive Design
+
+### Backend & CMS
+PHP, NestJS, WordPress, REST APIs, Supabase, Insforge, Elementor, DIVI, Bricks, Gutenberg
+
+### Build & DevOps
+Webpack, Vite, Nginx, Apache, Vercel, Proxmox
+
+### Tools
+SEO, DNS Management, Performance Optimization (Core Web Vitals, GTmetrix), Figma
+
+### Image Editing
+Photoshop, GIMP, Affinity
+
+### Video Editing
+CapCut
+
+### Leadership
+Tech Lead, Project Management, Mentoring, Teaching
+
+### Languages
+English, Spanish (native)
+
+## Experience
+
+### Web Developer — Your Digital Resource (Florida, US)
+2024 – 2026
+- Lead design, development, and implementation of client communication materials
+- Build n8n automations connecting Webflow CMS to GPT assistants and bot workflows
+- Integrate AI solutions through Webflow, n8n, and custom bot assistants
+- Use Cursor, Claude Code, and AI-native dev workflows to accelerate delivery
+
+### Software Engineer — Nicasource (Florida, US)
+2022 – 2024
+- Delivered web solutions using React, Vue, and WordPress
+- Frontend architecture, component design, and performance optimization
+
+### SEO Specialist — Top Floor Marketing (Managua, Nicaragua)
+2020 – 2022
+- Custom WordPress websites with SEO and performance optimization
+
+### Project Manager & Tech Lead — AIM Services (Managua, Nicaragua)
+2019 – 2020
+- Custom Ionic web applications; Tech Lead for all company projects
+
+### Web Developer — Target Ogilvy (Managua, Nicaragua)
+2017 – 2019
+- WordPress and custom PHP systems for agency clients and events
+
+## Education
+
+- Self-learning (Udemy, Platzi): 2015 – Present
+- Computer Engineering, National Engineering University: 2010 – 2015
+
+## Notable Projects
+
+- AIDA — Production dental clinic SaaS (patients, odontograms, appointments, records, payments). Next.js, Tailwind, Insforge, PostgreSQL; Vercel + Proxmox
+- AI Workflow Automations — n8n + Webflow + GPT pipelines
+- AI-Ready Resume Site — JSON-LD, resume.json, llms.txt (https://github.com/Omazon/resume)
+- BYD El Salvador — https://bydelsalvador.com/
+- Park Central Dental — https://www.parkcentraldentaltx.com/
+- Sucuri Blog — https://blog.sucuri.net/
+
+## Full Structured Data
+
+/resume.json
