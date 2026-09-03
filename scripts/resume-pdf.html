@@ -9,89 +9,83 @@
   body {
     font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
     color: #1e293b;
-    font-size: 10.5pt;
-    line-height: 1.45;
+    font-size: 10pt;
+    line-height: 1.4;
     background: white;
   }
 
   .page { max-width: 100%; }
 
-  /* Header */
-  header { margin-bottom: 14px; }
+  header { margin-bottom: 12px; }
 
   h1 {
-    font-size: 22pt;
+    font-size: 20pt;
     font-weight: 800;
     color: #0f172a;
     letter-spacing: -0.02em;
   }
 
   .headline {
-    font-size: 11.5pt;
+    font-size: 11pt;
     font-weight: 600;
     color: #2563eb;
-    margin: 2px 0 8px;
+    margin: 2px 0 6px;
   }
 
   .contact-line {
-    font-size: 9.5pt;
+    font-size: 9pt;
     color: #475569;
   }
 
   .contact-line a { color: #2563eb; text-decoration: none; }
   .contact-line span + span::before { content: "  ·  "; color: #94a3b8; }
 
-  /* Sections */
-  section { margin-bottom: 13px; }
+  section { margin-bottom: 11px; }
 
   h2 {
-    font-size: 11pt;
+    font-size: 10.5pt;
     font-weight: 700;
     color: #0f172a;
     text-transform: uppercase;
     letter-spacing: 0.06em;
     border-bottom: 1.5px solid #cbd5e1;
-    padding-bottom: 3px;
-    margin-bottom: 8px;
+    padding-bottom: 2px;
+    margin-bottom: 6px;
   }
 
   .summary { color: #334155; }
 
-  /* Skills */
   .skills-table { width: 100%; border-collapse: collapse; }
-  .skills-table td { padding: 2px 0; vertical-align: top; }
+  .skills-table td { padding: 1.5px 0; vertical-align: top; }
   .skills-table td:first-child {
     font-weight: 700;
     color: #0f172a;
-    width: 130px;
+    width: 120px;
     padding-right: 10px;
   }
 
-  /* Experience */
-  .job { margin-bottom: 10px; }
+  .job { margin-bottom: 8px; }
   .job-header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
   }
-  .job-title { font-size: 10.5pt; font-weight: 700; color: #0f172a; }
+  .job-title { font-size: 10pt; font-weight: 700; color: #0f172a; }
   .job-company { font-weight: 600; color: #2563eb; }
   .job-dates {
-    font-size: 9pt;
+    font-size: 8.5pt;
     color: #64748b;
     white-space: nowrap;
     font-weight: 600;
   }
-  .job ul { margin: 3px 0 0 16px; }
-  .job li { margin-bottom: 1.5px; color: #334155; }
+  .job ul { margin: 2px 0 0 16px; }
+  .job li { margin-bottom: 1px; color: #334155; }
 
-  /* Education */
-  .edu { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px; }
+  .edu { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 3px; }
   .edu-degree { font-weight: 700; color: #0f172a; }
   .edu-school { color: #334155; }
 
-  /* Projects */
-  .project { margin-bottom: 4px; color: #334155; }
+  .project { margin-bottom: 3px; color: #334155; }
   .project strong { color: #0f172a; }
 </style>
 </head>
@@ -108,7 +102,7 @@
 
   <section>
     <h2>Summary</h2>
-    <p class="summary">Full-stack developer with 10 years of experience building web products for US and international clients. I ship faster with AI-native workflows — Cursor, Claude Code, n8n, MCP — while maintaining production quality. Experienced tech lead and mentor, specializing in React, Vue, Webflow, WordPress, and AI-driven automation for business operations.</p>
+    <p class="summary">Full-stack developer with 10 years of experience building web products for US and international clients. Stack includes TypeScript, Node.js, Express, SQL/MongoDB, and AWS S3. Ships faster with agentic AI workflows — Cursor, Claude Code, custom harnesses, prompt debugging, n8n, MCP — while maintaining production quality. Experienced tech lead and mentor across React, Vue, Webflow, WordPress, and AI-driven automation. Fluent in English and Spanish; experienced in remote, distributed teams.</p>
   </section>
 
   <section>
@@ -116,31 +110,23 @@
     <table class="skills-table">
       <tr>
         <td>AI &amp; Automation</td>
-        <td>Cursor, Claude Code, Opencode, MCP, n8n, Prompt Engineering, AI Agents, GPT Integrations, RAG</td>
+        <td>Cursor, Claude Code, Opencode, MCP, n8n, Prompt Engineering, Prompt Debugging, Custom AI Harnesses, Agentic Coding Workflows, AI Agents, GPT Integrations, RAG</td>
       </tr>
       <tr>
         <td>Frontend</td>
-        <td>HTML, CSS, JavaScript, React, Vue, Next.js, Webflow, Tailwind CSS, Bootstrap CSS, Responsive Design</td>
+        <td>HTML, CSS, JavaScript, TypeScript, React, Vue, Next.js, Webflow, Tailwind CSS, Bootstrap CSS, Responsive Design</td>
       </tr>
       <tr>
-        <td>Backend &amp; CMS</td>
-        <td>PHP, NestJS, WordPress, REST APIs, Supabase, Insforge, Elementor, DIVI, Bricks, Gutenberg</td>
+        <td>Backend &amp; Data</td>
+        <td>Node.js, Express, NestJS, MongoDB, SQL, PostgreSQL, PHP, WordPress, REST APIs, Supabase, Insforge</td>
       </tr>
       <tr>
-        <td>Build &amp; DevOps</td>
-        <td>Webpack, Vite, Nginx, Apache, Vercel, Proxmox</td>
+        <td>Cloud &amp; DevOps</td>
+        <td>AWS S3, Vercel, Webpack, Vite, Nginx, Apache, Proxmox</td>
       </tr>
       <tr>
-        <td>Tools</td>
-        <td>SEO, DNS Management, Performance Optimization (Core Web Vitals, GTmetrix), Figma</td>
-      </tr>
-      <tr>
-        <td>Image Editing</td>
-        <td>Photoshop, GIMP, Affinity</td>
-      </tr>
-      <tr>
-        <td>Video Editing</td>
-        <td>CapCut</td>
+        <td>CMS &amp; Tools</td>
+        <td>Elementor, DIVI, Bricks, Gutenberg, SEO, DNS, Core Web Vitals, Figma</td>
       </tr>
       <tr>
         <td>Leadership</td>
@@ -158,20 +144,20 @@
 
     <div class="job">
       <div class="job-header">
-        <p class="job-title">Web Developer — <span class="job-company">Your Digital Resource</span>, Florida, US</p>
+        <p class="job-title">Web Developer — <span class="job-company">Your Digital Resource</span>, Florida, US (Remote)</p>
         <p class="job-dates">2024 – 2026</p>
       </div>
       <ul>
         <li>Lead design, development, and implementation of client communication materials across web and digital channels.</li>
         <li>Build n8n automations connecting Webflow CMS to GPT assistants and bot workflows for faster content operations.</li>
         <li>Integrate AI solutions through no-code tools: Webflow, n8n, and custom bot assistants for client workflows.</li>
-        <li>Use Cursor, Claude Code, and AI-native dev workflows to accelerate delivery without sacrificing quality.</li>
+        <li>Use Cursor, Claude Code, custom AI harnesses, prompt debugging, and agentic coding workflows to accelerate delivery without sacrificing quality.</li>
       </ul>
     </div>
 
     <div class="job">
       <div class="job-header">
-        <p class="job-title">Software Engineer — <span class="job-company">Nicasource</span>, Florida, US</p>
+        <p class="job-title">Software Engineer — <span class="job-company">Nicasource</span>, Florida, US (Remote)</p>
         <p class="job-dates">2022 – 2024</p>
       </div>
       <ul>
@@ -217,8 +203,8 @@
 
   <section>
     <h2>Selected Projects</h2>
-    <p class="project"><strong>AIDA</strong> — Production SaaS for dental clinics (patients, odontograms, appointments, records, payments). Next.js, Tailwind, Insforge, PostgreSQL; Vercel + self-managed Proxmox.</p>
-    <p class="project"><strong>AI Workflow Automations</strong> — n8n pipelines connecting Webflow CMS to GPT assistants and bot workflows, streamlining client content operations.</p>
+    <p class="project"><strong>AIDA</strong> — Production SaaS for dental clinics (patients, odontograms, appointments, records, payments). HIPAA-conscious role-based access so clinical data is restricted to authorized users. Next.js, TypeScript, Node, Tailwind, Insforge, PostgreSQL/SQL; Vercel + Proxmox.</p>
+    <p class="project"><strong>AI Workflow Automations</strong> — n8n pipelines connecting Webflow CMS to GPT assistants and bot workflows, with prompt debugging and custom AI harnesses for client content operations.</p>
     <p class="project"><strong>AI-Ready Resume Site</strong> — Portfolio optimized for AI/ATS parsing with JSON-LD, resume.json, and llms.txt (github.com/Omazon/resume).</p>
     <p class="project"><strong>BYD El Salvador</strong> — WordPress site built from scratch with Elementor for automotive brand (bydelsalvador.com).</p>
     <p class="project"><strong>Sucuri Blog</strong> — High-traffic cybersecurity blog with performance and reliability optimization (blog.sucuri.net).</p>

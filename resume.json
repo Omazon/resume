@@ -6,7 +6,7 @@
     "email": "omarboza@gmail.com",
     "phone": "+505 83992586",
     "url": "https://omazon.github.io/resume/",
-    "summary": "Full-stack developer who ships faster with AI-native workflows — Cursor, Claude Code, n8n, MCP — while maintaining production quality for US clients since 2016. Based in Managua, Nicaragua.",
+    "summary": "Full-stack developer with TypeScript, Node, SQL/Mongo, and AWS S3 experience who ships faster with agentic AI workflows — Cursor, Claude Code, custom harnesses, prompt debugging, n8n, MCP — while maintaining production quality for US clients since 2016. Based in Managua, Nicaragua.",
     "location": {
       "city": "Managua",
       "countryCode": "NI",
@@ -42,7 +42,7 @@
         "Lead design, development, and implementation of client communication materials across web and digital channels.",
         "Build n8n automations connecting Webflow CMS, GPT assistants, and bot workflows to streamline content updates.",
         "Integrate AI solutions through no-code and low-code tools: Webflow, n8n, and custom bot assistants.",
-        "Use Cursor, Claude Code, and AI-native dev workflows to accelerate delivery without sacrificing quality."
+        "Use Cursor, Claude Code, custom AI harnesses, prompt debugging, and agentic coding workflows to accelerate delivery without sacrificing quality."
       ]
     },
     {
@@ -113,22 +113,22 @@
     {
       "name": "AI & Automation",
       "level": "Advanced",
-      "keywords": ["Cursor", "Claude Code", "Opencode", "MCP", "n8n", "Prompt Engineering", "AI Agents", "GPT Integrations", "RAG"]
+      "keywords": ["Cursor", "Claude Code", "Opencode", "MCP", "n8n", "Prompt Engineering", "Prompt Debugging", "Custom AI Harnesses", "Agentic Coding Workflows", "AI Agents", "GPT Integrations", "RAG"]
     },
     {
       "name": "Frontend",
       "level": "Advanced",
-      "keywords": ["HTML", "CSS", "JavaScript", "React", "Vue", "Next.js", "Webflow", "Tailwind CSS", "Bootstrap CSS", "Responsive Design"]
+      "keywords": ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Vue", "Next.js", "Webflow", "Tailwind CSS", "Bootstrap CSS", "Responsive Design"]
     },
     {
       "name": "Backend & CMS",
       "level": "Advanced",
-      "keywords": ["PHP", "NestJS", "WordPress", "REST APIs", "Supabase", "Insforge", "Elementor", "DIVI", "Bricks", "Gutenberg"]
+      "keywords": ["Node.js", "Express", "NestJS", "MongoDB", "SQL", "PostgreSQL", "PHP", "WordPress", "REST APIs", "Supabase", "Insforge", "Elementor", "DIVI", "Bricks", "Gutenberg"]
     },
     {
       "name": "Build & DevOps",
       "level": "Intermediate",
-      "keywords": ["Webpack", "Vite", "Nginx", "Apache", "Vercel", "Proxmox"]
+      "keywords": ["Webpack", "Vite", "Nginx", "Apache", "Vercel", "AWS S3", "Proxmox"]
     },
     {
       "name": "Tools",
@@ -159,9 +159,9 @@
   "projects": [
     {
       "name": "AIDA",
-      "description": "Production SaaS for dental clinics built end-to-end: patients, odontograms, appointments, records, and payments. Next.js, Tailwind, Insforge, PostgreSQL; hosted on Vercel and a self-managed Proxmox server.",
-      "highlights": ["Next.js", "Tailwind CSS", "Insforge", "PostgreSQL", "Vercel", "Proxmox"],
-      "keywords": ["SaaS", "Healthcare", "Full-stack", "Next.js"]
+      "description": "Production SaaS for dental clinics built end-to-end: patients, odontograms, appointments, records, and payments. Designed with HIPAA-conscious practices — role-based access so clinical data is restricted to authorized users. Next.js, TypeScript, Tailwind, Insforge, PostgreSQL/SQL; hosted on Vercel and a self-managed Proxmox server.",
+      "highlights": ["Next.js", "TypeScript", "Tailwind CSS", "Insforge", "PostgreSQL", "HIPAA-conscious access control", "Vercel", "Proxmox"],
+      "keywords": ["SaaS", "Healthcare", "HIPAA", "Full-stack", "Next.js"]
     },
     {
       "name": "AI Workflow Automations",
@@ -193,7 +193,7 @@
   ],
   "meta": {
     "canonical": "https://omazon.github.io/resume/",
-    "lastUpdated": "2026-08-25",
+    "lastUpdated": "2026-09-03",
     "languages": ["English", "Spanish"],
     "freelance": true
   }

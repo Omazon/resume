@@ -13,21 +13,21 @@
 
 ## Summary
 
-Full-stack developer who ships faster with AI-native workflows — Cursor, Claude Code, n8n, MCP — while maintaining production quality. Specializes in React, Vue, Webflow, WordPress, and AI automation for workplace productivity.
+Full-stack developer with TypeScript, Node, SQL/Mongo, and AWS S3 experience who ships faster with agentic AI workflows — Cursor, Claude Code, custom harnesses, prompt debugging, n8n, MCP — while maintaining production quality. Specializes in React, Vue, Webflow, WordPress, and AI automation for workplace productivity.
 
 ## Skills
 
 ### AI & Automation
-Cursor, Claude Code, Opencode, MCP, n8n, Prompt Engineering, AI Agents, GPT Integrations, RAG
+Cursor, Claude Code, Opencode, MCP, n8n, Prompt Engineering, Prompt Debugging, Custom AI Harnesses, Agentic Coding Workflows, AI Agents, GPT Integrations, RAG
 
 ### Frontend
-HTML, CSS, JavaScript, React, Vue, Next.js, Webflow, Tailwind CSS, Bootstrap CSS, Responsive Design
+HTML, CSS, JavaScript, TypeScript, React, Vue, Next.js, Webflow, Tailwind CSS, Bootstrap CSS, Responsive Design
 
 ### Backend & CMS
-PHP, NestJS, WordPress, REST APIs, Supabase, Insforge, Elementor, DIVI, Bricks, Gutenberg
+Node.js, Express, NestJS, MongoDB, SQL, PostgreSQL, PHP, WordPress, REST APIs, Supabase, Insforge, Elementor, DIVI, Bricks, Gutenberg
 
 ### Build & DevOps
-Webpack, Vite, Nginx, Apache, Vercel, Proxmox
+Webpack, Vite, Nginx, Apache, Vercel, AWS S3, Proxmox
 
 ### Tools
 SEO, DNS Management, Performance Optimization (Core Web Vitals, GTmetrix), Figma
@@ -51,7 +51,7 @@ English, Spanish (native)
 - Lead design, development, and implementation of client communication materials
 - Build n8n automations connecting Webflow CMS to GPT assistants and bot workflows
 - Integrate AI solutions through Webflow, n8n, and custom bot assistants
-- Use Cursor, Claude Code, and AI-native dev workflows to accelerate delivery
+- Use Cursor, Claude Code, custom AI harnesses, prompt debugging, and agentic coding workflows to accelerate delivery
 
 ### Software Engineer — Nicasource (Florida, US)
 2022 – 2024
@@ -77,7 +77,7 @@ English, Spanish (native)
 
 ## Notable Projects
 
-- AIDA — Production dental clinic SaaS (patients, odontograms, appointments, records, payments). Next.js, Tailwind, Insforge, PostgreSQL; Vercel + Proxmox
+- AIDA — Production dental clinic SaaS (patients, odontograms, appointments, records, payments). HIPAA-conscious role-based access to clinical data. Next.js, TypeScript, Insforge, PostgreSQL/SQL; Vercel + Proxmox
 - AI Workflow Automations — n8n + Webflow + GPT pipelines
 - AI-Ready Resume Site — JSON-LD, resume.json, llms.txt (https://github.com/Omazon/resume)
 - BYD El Salvador — https://bydelsalvador.com/
