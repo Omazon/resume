@@ -40,6 +40,7 @@
       "summary": "Lead design, development, and AI-powered automation for client communication and web projects.",
       "highlights": [
         "Lead design, development, and implementation of client communication materials across web and digital channels.",
+        "Created Client-First Skill for AI Agents — an open-source Agent Skill encoding Finsweet Client-First Webflow conventions for Cursor, Claude Code, and other AI coding tools.",
         "Build n8n automations connecting Webflow CMS, GPT assistants, and bot workflows to streamline content updates.",
         "Integrate AI solutions through no-code and low-code tools: Webflow, n8n, and custom bot assistants.",
         "Use Cursor, Claude Code, custom AI harnesses, prompt debugging, and agentic coding workflows to accelerate delivery without sacrificing quality."
@@ -162,6 +163,13 @@
       "description": "Production SaaS for dental clinics built end-to-end: patients, odontograms, appointments, records, and payments. Designed with HIPAA-conscious practices — role-based access so clinical data is restricted to authorized users. Next.js, TypeScript, Tailwind, Insforge, PostgreSQL/SQL; hosted on Vercel and a self-managed Proxmox server.",
       "highlights": ["Next.js", "TypeScript", "Tailwind CSS", "Insforge", "PostgreSQL", "HIPAA-conscious access control", "Vercel", "Proxmox"],
       "keywords": ["SaaS", "Healthcare", "HIPAA", "Full-stack", "Next.js"]
+    },
+    {
+      "name": "Client-First Skill for AI Agents",
+      "description": "Created an open-source Agent Skill that encodes Finsweet Client-First Webflow conventions for AI coding tools (Cursor, Claude Code, Windsurf). Hybrid architecture: self-contained SKILL.md for common cases plus 17 deep-dive reference docs on GitHub. Installable via npx skills add.",
+      "url": "https://github.com/Omazon/First-Client-Webflow",
+      "highlights": ["Client-First", "Webflow", "AI Agents", "Cursor Skills", "Finsweet", "Open Source"],
+      "keywords": ["Webflow", "Client-First", "AI Agents", "Open Source", "Agent Skills"]
     },
     {
       "name": "AI Workflow Automations",

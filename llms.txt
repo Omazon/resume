@@ -49,6 +49,7 @@ English, Spanish (native)
 ### Web Developer — Your Digital Resource (Florida, US)
 2024 – 2026
 - Lead design, development, and implementation of client communication materials
+- Created Client-First Skill for AI Agents — open-source Agent Skill encoding Finsweet Client-First Webflow conventions for Cursor, Claude Code, and other AI coding tools
 - Build n8n automations connecting Webflow CMS to GPT assistants and bot workflows
 - Integrate AI solutions through Webflow, n8n, and custom bot assistants
 - Use Cursor, Claude Code, custom AI harnesses, prompt debugging, and agentic coding workflows to accelerate delivery
@@ -78,6 +79,7 @@ English, Spanish (native)
 ## Notable Projects
 
 - AIDA — Production dental clinic SaaS (patients, odontograms, appointments, records, payments). HIPAA-conscious role-based access to clinical data. Next.js, TypeScript, Insforge, PostgreSQL/SQL; Vercel + Proxmox
+- Client-First Skill for AI Agents — Created open-source Agent Skill encoding Finsweet Client-First Webflow conventions for Cursor, Claude Code, and other AI coding tools (https://github.com/Omazon/First-Client-Webflow)
 - AI Workflow Automations — n8n + Webflow + GPT pipelines
 - AI-Ready Resume Site — JSON-LD, resume.json, llms.txt (https://github.com/Omazon/resume)
 - BYD El Salvador — https://bydelsalvador.com/
