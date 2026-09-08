@@ -27,7 +27,7 @@ jobs:
 
       - run: npm ci
       - run: npm run build
-      - run: npm run build:pdf
+      - run: npm run check
       - run: rm -rf node_modules
 
       - uses: actions/upload-pages-artifact@v3

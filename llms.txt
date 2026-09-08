@@ -1,6 +1,6 @@
-# Omar Boza - Software Engineer
+# Omar Boza - Webflow & WordPress Developer
 
-> AI-augmented full-stack developer from Nicaragua with 10+ years of experience building web products for US and international clients.
+> Webflow & WordPress Developer | PHP, JavaScript, CSS | AI Automation
 
 ## Contact
 
@@ -13,24 +13,24 @@
 
 ## Summary
 
-Full-stack developer with TypeScript, Node, SQL/Mongo, and AWS S3 experience who ships faster with agentic AI workflows — Cursor, Claude Code, custom harnesses, prompt debugging, n8n, MCP — while maintaining production quality. Specializes in React, Vue, Webflow, WordPress, and AI automation for workplace productivity.
+Webflow and WordPress developer with strong PHP, CSS, and JavaScript who ships faster with agentic AI (Cursor, Claude Code, n8n, MCP) for US clients. Pioneered AI workflows that cut landing-page edits from days to hours and performance optimization from 90 to 20 minutes (GTmetrix Grade F to A). Built an open-source Client-First Agent Skill for Webflow. Fluent in English (EF SET C2) and Spanish; remote-ready.
 
 ## Skills
 
 ### AI & Automation
 Cursor, Claude Code, Opencode, MCP, n8n, Prompt Engineering, Prompt Debugging, Custom AI Harnesses, Agentic Coding Workflows, AI Agents, GPT Integrations, RAG
 
-### Frontend
-HTML, CSS, JavaScript, TypeScript, React, Vue, Next.js, Webflow, Tailwind CSS, Bootstrap CSS, Responsive Design
+### CMS
+Webflow, WordPress, Client-First, Elementor, DIVI, Bricks, Gutenberg
 
-### Backend & CMS
-Node.js, Express, NestJS, MongoDB, SQL, PostgreSQL, PHP, WordPress, REST APIs, Supabase, Insforge, Elementor, DIVI, Bricks, Gutenberg
+### PHP & Backend
+PHP, Laravel, WordPress theming/plugins, Node.js, Express, NestJS, REST APIs, SQL, PostgreSQL, MongoDB, Supabase, Insforge
 
-### Build & DevOps
-Webpack, Vite, Nginx, Apache, Vercel, AWS S3, Proxmox
+### CSS & JavaScript
+CSS, JavaScript, Responsive Design, Tailwind CSS, Bootstrap CSS, TypeScript, React, Vue, Next.js, HTML
 
-### Tools
-SEO, DNS Management, Performance Optimization (Core Web Vitals, GTmetrix), Figma
+### Cloud & Tools
+Webpack, Vite, Nginx, Apache, Vercel, AWS S3, Proxmox, SEO, DNS Management, Performance Optimization (Core Web Vitals, GTmetrix), Figma
 
 ### Image Editing
 Photoshop, GIMP, Affinity
@@ -42,34 +42,42 @@ CapCut
 Tech Lead, Project Management, Mentoring, Teaching
 
 ### Languages
-English, Spanish (native)
+English (EF SET C2), Spanish (native)
 
 ## Experience
 
 ### Web Developer — Your Digital Resource (Florida, US)
-2024 – 2026
-- Lead design, development, and implementation of client communication materials
-- Created Client-First Skill for AI Agents — open-source Agent Skill encoding Finsweet Client-First Webflow conventions for Cursor, Claude Code, and other AI coding tools
-- Build n8n automations connecting Webflow CMS to GPT assistants and bot workflows
-- Integrate AI solutions through Webflow, n8n, and custom bot assistants
-- Use Cursor, Claude Code, custom AI harnesses, prompt debugging, and agentic coding workflows to accelerate delivery
+Jan 2024 – Aug 2026
+- Pioneered AI-assisted Webflow/WordPress workflows across dozens of landing pages, cutting repetitive editing work from days to a couple of hours
+- Built AI-driven performance optimization that moved client sites from GTmetrix Grade F to A and reduced the optimization process from 90 to 20 minutes
+- Created an open-source Client-First Agent Skill so AI tools can generate Webflow components automatically instead of by hand
+- Led design, development, and delivery of client communication materials across web and digital channels
 
 ### Software Engineer — Nicasource (Florida, US)
 2022 – 2024
-- Delivered web solutions using React, Vue, and WordPress
-- Frontend architecture, component design, and performance optimization
+- Owned web development delivery using React, Vue, and WordPress for international clients
+- Frontend architecture, reusable component design, and performance optimization across concurrent projects
+- Upheld code quality and best practices across multiple concurrent international projects
 
 ### SEO Specialist — Top Floor Marketing (Managua, Nicaragua)
 2020 – 2022
-- Custom WordPress websites with SEO and performance optimization
+- Built content automation combined with bot workflows, increasing lead volume across client portfolio sites by 30%
+- Built custom WordPress sites and optimized Core Web Vitals and on-page SEO for rankings
 
 ### Project Manager & Tech Lead — AIM Services (Managua, Nicaragua)
 2019 – 2020
-- Custom Ionic web applications; Tech Lead for all company projects
+- Recovered a year-delayed web + mobile application and shipped it to production in 3 months
+- Owned architecture and delivery for company projects, including a dual web/mobile application built with Ionic
 
 ### Web Developer — Target Ogilvy (Managua, Nicaragua)
 2017 – 2019
-- WordPress and custom PHP systems for agency clients and events
+- Introduced Laravel into projects previously built in plain PHP, expanding features deliverable to clients
+- Developed real-time PHP systems for special events and live campaigns
+
+## Certifications
+
+- EF SET English Certificate — C2 Proficient — Aug 29, 2026
+- Credential: https://cert.efset.org/B6TnCM
 
 ## Education
 
@@ -78,13 +86,20 @@ English, Spanish (native)
 
 ## Notable Projects
 
-- AIDA — Production dental clinic SaaS (patients, odontograms, appointments, records, payments). HIPAA-conscious role-based access to clinical data. Next.js, TypeScript, Insforge, PostgreSQL/SQL; Vercel + Proxmox
-- Client-First Skill for AI Agents — Created open-source Agent Skill encoding Finsweet Client-First Webflow conventions for Cursor, Claude Code, and other AI coding tools (https://github.com/Omazon/First-Client-Webflow)
-- AI Workflow Automations — n8n + Webflow + GPT pipelines
-- AI-Ready Resume Site — JSON-LD, resume.json, llms.txt (https://github.com/Omazon/resume)
+- AIDA — Production dental clinic SaaS (patients, odontograms, appointments, records, payments). HIPAA-conscious RBAC. Next.js, TypeScript, Insforge, PostgreSQL; Vercel + Proxmox
+- Client-First Skill for AI Agents — https://github.com/Omazon/First-Client-Webflow
+- AI Workflow Automations — n8n + Webflow + GPT pipelines (internal case study)
+- AI-Ready Resume Site — https://omazon.github.io/resume/ · https://github.com/Omazon/resume
 - BYD El Salvador — https://bydelsalvador.com/
+- Somos Iberoamérica — https://somosiberoamerica.org/
+- M&M Studios — https://www.mandmstudios.com/
 - Park Central Dental — https://www.parkcentraldentaltx.com/
+- Wesmark Dentistry — https://www.wesmarkfamilydentistry.com/
+- Scalar — https://scalar.io/product
 - Sucuri Blog — https://blog.sucuri.net/
+- Hope of America — https://hopeofamerica.org/
+- Davila Floors — https://davilafloors.com/
+- Tiniciti — https://www.tiniciti.com/
 
 ## Full Structured Data
 

@@ -7,7 +7,7 @@
   * { margin: 0; padding: 0; box-sizing: border-box; }
 
   body {
-    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: #1e293b;
     font-size: 10pt;
     line-height: 1.4;
@@ -38,7 +38,6 @@
   }
 
   .contact-line a { color: #2563eb; text-decoration: none; }
-  .contact-line span + span::before { content: "  ·  "; color: #94a3b8; }
 
   section { margin-bottom: 11px; }
 
@@ -46,7 +45,6 @@
     font-size: 10.5pt;
     font-weight: 700;
     color: #0f172a;
-    text-transform: uppercase;
     letter-spacing: 0.06em;
     border-bottom: 1.5px solid #cbd5e1;
     padding-bottom: 2px;
@@ -55,16 +53,21 @@
 
   .summary { color: #334155; }
 
-  .skills-table { width: 100%; border-collapse: collapse; }
-  .skills-table td { padding: 1.5px 0; vertical-align: top; }
-  .skills-table td:first-child {
-    font-weight: 700;
-    color: #0f172a;
-    width: 120px;
-    padding-right: 10px;
+  .skill-line {
+    margin-bottom: 2px;
+    color: #334155;
   }
 
-  .job { margin-bottom: 8px; }
+  .skill-line strong {
+    color: #0f172a;
+    font-weight: 700;
+  }
+
+  .job {
+    margin-bottom: 8px;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
   .job-header {
     display: flex;
     justify-content: space-between;
@@ -81,12 +84,25 @@
   .job ul { margin: 2px 0 0 16px; }
   .job li { margin-bottom: 1px; color: #334155; }
 
-  .edu { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 3px; }
-  .edu-degree { font-weight: 700; color: #0f172a; }
-  .edu-school { color: #334155; }
+  .edu, .cert {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 3px;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  .edu-degree, .cert-name { font-weight: 700; color: #0f172a; }
+  .edu-school, .cert-detail { color: #334155; }
 
-  .project { margin-bottom: 3px; color: #334155; }
+  .project {
+    margin-bottom: 2px;
+    color: #334155;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
   .project strong { color: #0f172a; }
+  .project a { color: #2563eb; text-decoration: none; }
 </style>
 </head>
 <body>
@@ -94,65 +110,41 @@
 
   <header>
     <h1>Omar Boza</h1>
-    <p class="headline">Software Engineer · AI-Augmented Development · Automation</p>
+    <p class="headline">Webflow &amp; WordPress Developer | PHP, JavaScript, CSS | AI Automation</p>
     <p class="contact-line">
-      <span>Managua, Nicaragua</span><span>+505 8399 2586</span><span><a href="mailto:omarboza@gmail.com">omarboza@gmail.com</a></span><span><a href="https://www.linkedin.com/in/omar-boza/">linkedin.com/in/omar-boza</a></span><span><a href="https://github.com/Omazon">github.com/Omazon</a></span>
+      Managua, Nicaragua · +505 8399 2586 · <a href="mailto:omarboza@gmail.com">omarboza@gmail.com</a> · <a href="https://www.linkedin.com/in/omar-boza/">linkedin.com/in/omar-boza</a> · <a href="https://github.com/Omazon">github.com/Omazon</a> · <a href="https://omazon.github.io/resume/">omazon.github.io/resume</a>
     </p>
   </header>
 
   <section>
-    <h2>Summary</h2>
-    <p class="summary">Full-stack developer with 10 years of experience building web products for US and international clients. Stack includes TypeScript, Node.js, Express, SQL/MongoDB, and AWS S3. Ships faster with agentic AI workflows — Cursor, Claude Code, custom harnesses, prompt debugging, n8n, MCP — while maintaining production quality. Experienced tech lead and mentor across React, Vue, Webflow, WordPress, and AI-driven automation. Fluent in English and Spanish; experienced in remote, distributed teams.</p>
+    <h2>PROFESSIONAL SUMMARY</h2>
+    <p class="summary">Webflow and WordPress developer with strong PHP, CSS, and JavaScript who ships faster with agentic AI (Cursor, Claude Code, n8n, MCP) for US clients. Pioneered AI workflows that cut landing-page edits from days to hours and performance optimization from 90 to 20 minutes (GTmetrix Grade F to A). Built an open-source Client-First Agent Skill for Webflow. Fluent in English (EF SET C2) and Spanish; remote-ready.</p>
   </section>
 
   <section>
-    <h2>Skills</h2>
-    <table class="skills-table">
-      <tr>
-        <td>AI &amp; Automation</td>
-        <td>Cursor, Claude Code, Opencode, MCP, n8n, Prompt Engineering, Prompt Debugging, Custom AI Harnesses, Agentic Coding Workflows, AI Agents, GPT Integrations, RAG</td>
-      </tr>
-      <tr>
-        <td>Frontend</td>
-        <td>HTML, CSS, JavaScript, TypeScript, React, Vue, Next.js, Webflow, Tailwind CSS, Bootstrap CSS, Responsive Design</td>
-      </tr>
-      <tr>
-        <td>Backend &amp; Data</td>
-        <td>Node.js, Express, NestJS, MongoDB, SQL, PostgreSQL, PHP, WordPress, REST APIs, Supabase, Insforge</td>
-      </tr>
-      <tr>
-        <td>Cloud &amp; DevOps</td>
-        <td>AWS S3, Vercel, Webpack, Vite, Nginx, Apache, Proxmox</td>
-      </tr>
-      <tr>
-        <td>CMS &amp; Tools</td>
-        <td>Elementor, DIVI, Bricks, Gutenberg, SEO, DNS, Core Web Vitals, Figma</td>
-      </tr>
-      <tr>
-        <td>Leadership</td>
-        <td>Tech Lead, Project Management, Mentoring, Teaching</td>
-      </tr>
-      <tr>
-        <td>Languages</td>
-        <td>English, Spanish (native)</td>
-      </tr>
-    </table>
+    <h2>TECHNICAL SKILLS</h2>
+    <p class="skill-line"><strong>AI &amp; Automation:</strong> Cursor, Claude Code, Opencode, MCP, n8n, Prompt Engineering, Prompt Debugging, Custom AI Harnesses, Agentic Coding Workflows, AI Agents, GPT Integrations, RAG</p>
+    <p class="skill-line"><strong>CMS:</strong> Webflow, WordPress, Client-First, Elementor, DIVI, Bricks, Gutenberg</p>
+    <p class="skill-line"><strong>PHP &amp; Backend:</strong> PHP, Laravel, WordPress theming/plugins, Node.js, Express, NestJS, REST APIs, SQL, PostgreSQL, MongoDB, Supabase, Insforge</p>
+    <p class="skill-line"><strong>CSS &amp; JavaScript:</strong> CSS, JavaScript, Responsive Design, Tailwind CSS, Bootstrap CSS, TypeScript, React, Vue, Next.js, HTML</p>
+    <p class="skill-line"><strong>Cloud &amp; Tools:</strong> AWS S3, Vercel, Webpack, Vite, Nginx, Apache, Proxmox, SEO, DNS, Core Web Vitals, GTmetrix, Figma</p>
+    <p class="skill-line"><strong>Leadership:</strong> Tech Lead, Project Management, Mentoring, Teaching</p>
+    <p class="skill-line"><strong>Languages:</strong> English (EF SET C2), Spanish (native)</p>
   </section>
 
   <section>
-    <h2>Professional Experience</h2>
+    <h2>PROFESSIONAL EXPERIENCE</h2>
 
     <div class="job">
       <div class="job-header">
         <p class="job-title">Web Developer — <span class="job-company">Your Digital Resource</span>, Florida, US (Remote)</p>
-        <p class="job-dates">2024 – 2026</p>
+        <p class="job-dates">Jan 2024 – Aug 2026</p>
       </div>
       <ul>
-        <li>Lead design, development, and implementation of client communication materials across web and digital channels.</li>
-        <li>Created Client-First Skill for AI Agents — an open-source Agent Skill encoding Finsweet Client-First Webflow conventions for Cursor, Claude Code, and other AI coding tools.</li>
-        <li>Build n8n automations connecting Webflow CMS to GPT assistants and bot workflows for faster content operations.</li>
-        <li>Integrate AI solutions through no-code tools: Webflow, n8n, and custom bot assistants for client workflows.</li>
-        <li>Use Cursor, Claude Code, custom AI harnesses, prompt debugging, and agentic coding workflows to accelerate delivery without sacrificing quality.</li>
+        <li>Pioneered AI-assisted Webflow/WordPress workflows across dozens of landing pages, cutting repetitive editing work from days to a couple of hours.</li>
+        <li>Built AI-driven performance optimization that moved client sites from GTmetrix Grade F to A and reduced the optimization process from 90 to 20 minutes.</li>
+        <li>Created an open-source Client-First Agent Skill that encodes Finsweet Client-First conventions so AI tools can generate Webflow components automatically instead of by hand.</li>
+        <li>Led design, development, and delivery of client communication materials across web and digital channels.</li>
       </ul>
     </div>
 
@@ -162,9 +154,9 @@
         <p class="job-dates">2022 – 2024</p>
       </div>
       <ul>
-        <li>Delivered web development solutions using React, Vue, and WordPress for diverse client requirements.</li>
-        <li>Contributed to frontend architecture, reusable component design, and performance optimization.</li>
-        <li>Maintained code quality and best practices across multiple concurrent international projects.</li>
+        <li>Owned web development delivery using React, Vue, and WordPress for international client requirements.</li>
+        <li>Contributed to frontend architecture, reusable component design, and performance optimization across concurrent projects.</li>
+        <li>Upheld code quality and best practices across multiple concurrent international projects.</li>
       </ul>
     </div>
 
@@ -174,8 +166,8 @@
         <p class="job-dates">2020 – 2022</p>
       </div>
       <ul>
-        <li>Built custom WordPress websites tailored to client needs and SEO goals.</li>
-        <li>Optimized loading times, Core Web Vitals, and on-page SEO for improved rankings.</li>
+        <li>Built content automation combined with bot workflows, increasing lead volume across client portfolio sites by 30%.</li>
+        <li>Built custom WordPress sites and optimized Core Web Vitals and on-page SEO for rankings.</li>
       </ul>
     </div>
 
@@ -185,8 +177,8 @@
         <p class="job-dates">2019 – 2020</p>
       </div>
       <ul>
-        <li>Built custom web applications tailored to clients' needs using Ionic.</li>
-        <li>Served as Tech Lead for all company projects, guiding architecture and delivery.</li>
+        <li>As Project Manager and Tech Lead, recovered a year-delayed web + mobile application and shipped it to production in 3 months.</li>
+        <li>Owned architecture and delivery for company projects, including a dual web/mobile application built with Ionic.</li>
       </ul>
     </div>
 
@@ -196,24 +188,39 @@
         <p class="job-dates">2017 – 2019</p>
       </div>
       <ul>
-        <li>Built websites from scratch or using WordPress templates for agency clients.</li>
+        <li>Introduced Laravel into projects previously built in plain PHP, expanding the feature set the agency could deliver to clients.</li>
         <li>Developed real-time PHP systems for special events and live campaigns.</li>
       </ul>
     </div>
   </section>
 
   <section>
-    <h2>Selected Projects</h2>
-    <p class="project"><strong>AIDA</strong> — Production SaaS for dental clinics (patients, odontograms, appointments, records, payments). HIPAA-conscious role-based access so clinical data is restricted to authorized users. Next.js, TypeScript, Node, Tailwind, Insforge, PostgreSQL/SQL; Vercel + Proxmox.</p>
-    <p class="project"><strong>Client-First Skill for AI Agents</strong> — Created open-source Agent Skill encoding Finsweet Client-First Webflow conventions for AI coding tools; self-contained SKILL.md plus 17 deep-dive references (github.com/Omazon/First-Client-Webflow).</p>
-    <p class="project"><strong>AI Workflow Automations</strong> — n8n pipelines connecting Webflow CMS to GPT assistants and bot workflows, with prompt debugging and custom AI harnesses for client content operations.</p>
-    <p class="project"><strong>AI-Ready Resume Site</strong> — Portfolio optimized for AI/ATS parsing with JSON-LD, resume.json, and llms.txt (github.com/Omazon/resume).</p>
-    <p class="project"><strong>BYD El Salvador</strong> — WordPress site built from scratch with Elementor for automotive brand (bydelsalvador.com).</p>
-    <p class="project"><strong>Sucuri Blog</strong> — High-traffic cybersecurity blog with performance and reliability optimization (blog.sucuri.net).</p>
+    <h2>SELECTED PROJECTS</h2>
+    <p class="project"><strong>AIDA</strong> — Production dental clinic SaaS (patients, odontograms, appointments, payments); Next.js, TypeScript, PostgreSQL; HIPAA-conscious RBAC. · In production</p>
+    <p class="project"><strong>Client-First Skill for AI Agents</strong> — Open-source Agent Skill for Finsweet Client-First Webflow conventions. · <a href="https://github.com/Omazon/First-Client-Webflow">github.com/Omazon/First-Client-Webflow</a></p>
+    <p class="project"><strong>AI Workflow Automations</strong> — n8n pipelines connecting Webflow CMS to GPT assistants and bot workflows for client content operations.</p>
+    <p class="project"><strong>AI-Ready Resume Site</strong> — Portfolio optimized for AI/ATS parsing with JSON-LD, resume.json, and llms.txt. · <a href="https://omazon.github.io/resume/">omazon.github.io/resume</a> · <a href="https://github.com/Omazon/resume">github.com/Omazon/resume</a></p>
+    <p class="project"><strong>BYD El Salvador</strong> — WordPress site built from scratch with Elementor for automotive brand. · <a href="https://bydelsalvador.com/">bydelsalvador.com</a></p>
+    <p class="project"><strong>Somos Iberoamérica</strong> — Migrated custom PHP site to editable WordPress Gutenberg. · <a href="https://somosiberoamerica.org/">somosiberoamerica.org</a></p>
+    <p class="project"><strong>M&amp;M Studios</strong> — Webflow site for a creative studio and services. · <a href="https://www.mandmstudios.com/">mandmstudios.com</a></p>
+    <p class="project"><strong>Park Central Dental</strong> — Webflow dental practice site with CMS and SEO focus. · <a href="https://www.parkcentraldentaltx.com/">parkcentraldentaltx.com</a></p>
+    <p class="project"><strong>Wesmark Dentistry</strong> — Webflow corporate site designed for patient conversion. · <a href="https://www.wesmarkfamilydentistry.com/">wesmarkfamilydentistry.com</a></p>
+    <p class="project"><strong>Scalar</strong> — Custom frontend product component implementation. · <a href="https://scalar.io/product">scalar.io/product</a></p>
+    <p class="project"><strong>Sucuri Blog</strong> — High-traffic cybersecurity blog with performance and reliability focus. · <a href="https://blog.sucuri.net/">blog.sucuri.net</a></p>
+    <p class="project"><strong>Hope of America</strong> — WordPress organizational site for events and community outreach. · <a href="https://hopeofamerica.org/">hopeofamerica.org</a></p>
+    <p class="project"><strong>Davila Floors</strong> — WordPress commercial site for a flooring and tiles business. · <a href="https://davilafloors.com/">davilafloors.com</a></p>
+    <p class="project"><strong>Tiniciti</strong> — WordPress preschool website with modern, playful design. · <a href="https://www.tiniciti.com/">tiniciti.com</a></p>
   </section>
 
   <section>
-    <h2>Education</h2>
+    <h2>CERTIFICATIONS</h2>
+    <div class="cert">
+      <p><span class="cert-name">EF SET English Certificate</span> — <span class="cert-detail">C2 Proficient · Aug 29, 2026 · <a href="https://cert.efset.org/B6TnCM">cert.efset.org/B6TnCM</a></span></p>
+    </div>
+  </section>
+
+  <section>
+    <h2>EDUCATION</h2>
     <div class="edu">
       <p><span class="edu-degree">Computer Engineering</span> — <span class="edu-school">National Engineering University, Nicaragua</span></p>
       <p class="job-dates">2010 – 2015</p>

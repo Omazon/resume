@@ -1,13 +1,16 @@
 {
   "name": "resume",
   "version": "1.0.0",
-  "description": "Omar Boza — AI-augmented developer resume and portfolio",
+  "description": "Omar Boza — Webflow & WordPress developer resume and portfolio",
   "main": "index.html",
   "scripts": {
     "build:css": "npx @tailwindcss/cli -i ./src/input.css -o ./assets/css/output.css",
     "watch:css": "npx @tailwindcss/cli -i ./src/input.css -o ./assets/css/output.css --watch",
     "build": "npm run build:css",
-    "build:pdf": "node scripts/build-pdf.js"
+    "build:pdf": "node scripts/build-pdf.js",
+    "validate": "node scripts/validate-resume.js",
+    "check:pdf": "node scripts/check-pdf.js",
+    "check": "npm run validate && npm run check:pdf"
   },
   "repository": {
     "type": "git",
@@ -23,6 +26,7 @@
   "homepage": "https://github.com/Omazon/resume#readme",
   "devDependencies": {
     "@tailwindcss/cli": "^4.2.4",
+    "pdf-parse": "^1.1.1",
     "puppeteer": "^24.16.0",
     "tailwindcss": "^4.2.4"
   }

@@ -2,11 +2,11 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Omar Boza",
-    "label": "Software Engineer · AI-Augmented Development · Automation",
+    "label": "Webflow & WordPress Developer | PHP, JavaScript, CSS | AI Automation",
     "email": "omarboza@gmail.com",
     "phone": "+505 83992586",
     "url": "https://omazon.github.io/resume/",
-    "summary": "Full-stack developer with TypeScript, Node, SQL/Mongo, and AWS S3 experience who ships faster with agentic AI workflows — Cursor, Claude Code, custom harnesses, prompt debugging, n8n, MCP — while maintaining production quality for US clients since 2016. Based in Managua, Nicaragua.",
+    "summary": "Webflow and WordPress developer with strong PHP, CSS, and JavaScript who ships faster with agentic AI (Cursor, Claude Code, n8n, MCP) for US clients. Pioneered AI workflows that cut landing-page edits from days to hours and performance optimization from 90 to 20 minutes (GTmetrix Grade F to A). Built an open-source Client-First Agent Skill for Webflow. Fluent in English (EF SET C2) and Spanish. Based in Managua, Nicaragua.",
     "location": {
       "city": "Managua",
       "countryCode": "NI",
@@ -36,60 +36,59 @@
       "position": "Web Developer",
       "location": "Florida, US",
       "startDate": "2024-01",
-      "endDate": "2026-12",
-      "summary": "Lead design, development, and AI-powered automation for client communication and web projects.",
+      "endDate": "2026-08",
+      "summary": "AI-powered Webflow/WordPress delivery, performance optimization, and Client-First automation for client communication projects.",
       "highlights": [
-        "Lead design, development, and implementation of client communication materials across web and digital channels.",
-        "Created Client-First Skill for AI Agents — an open-source Agent Skill encoding Finsweet Client-First Webflow conventions for Cursor, Claude Code, and other AI coding tools.",
-        "Build n8n automations connecting Webflow CMS, GPT assistants, and bot workflows to streamline content updates.",
-        "Integrate AI solutions through no-code and low-code tools: Webflow, n8n, and custom bot assistants.",
-        "Use Cursor, Claude Code, custom AI harnesses, prompt debugging, and agentic coding workflows to accelerate delivery without sacrificing quality."
+        "Pioneered AI-assisted Webflow/WordPress workflows across dozens of landing pages, cutting repetitive editing work from days to a couple of hours.",
+        "Built AI-driven performance optimization that moved client sites from GTmetrix Grade F to A and reduced the optimization process from 90 to 20 minutes.",
+        "Created an open-source Client-First Agent Skill that encodes Finsweet Client-First conventions so AI tools can generate Webflow components automatically instead of by hand.",
+        "Led design, development, and delivery of client communication materials across web and digital channels."
       ]
     },
     {
       "name": "Nicasource",
       "position": "Software Engineer",
       "location": "Florida, US",
-      "startDate": "2022-01",
-      "endDate": "2024-12",
+      "startDate": "2022",
+      "endDate": "2024",
       "summary": "Full-stack web development for international clients using modern JavaScript frameworks.",
       "highlights": [
-        "Delivered web development solutions using React, Vue, and WordPress for diverse client requirements.",
-        "Collaborated on frontend architecture, component design, and performance optimization.",
-        "Maintained code quality and best practices across multiple concurrent projects."
+        "Owned web development delivery using React, Vue, and WordPress for international client requirements.",
+        "Contributed to frontend architecture, reusable component design, and performance optimization across concurrent projects.",
+        "Upheld code quality and best practices across multiple concurrent international projects."
       ]
     },
     {
       "name": "Top Floor Marketing",
       "position": "SEO Specialist",
       "location": "Managua, Nicaragua",
-      "startDate": "2020-01",
-      "endDate": "2022-12",
+      "startDate": "2020",
+      "endDate": "2022",
       "highlights": [
-        "Built custom WordPress websites tailored to client needs and SEO goals.",
-        "Optimized loading times, Core Web Vitals, and on-page SEO for improved rankings."
+        "Built content automation combined with bot workflows, increasing lead volume across client portfolio sites by 30%.",
+        "Built custom WordPress sites and optimized Core Web Vitals and on-page SEO for rankings."
       ]
     },
     {
       "name": "AIM Services",
       "position": "Project Manager and Tech Lead",
       "location": "Managua, Nicaragua",
-      "startDate": "2019-01",
-      "endDate": "2020-12",
+      "startDate": "2019",
+      "endDate": "2020",
       "highlights": [
-        "Built custom web applications using Ionic for mobile-first client solutions.",
-        "Served as Tech Lead for all company projects, guiding architecture and delivery."
+        "As Project Manager and Tech Lead, recovered a year-delayed web + mobile application and shipped it to production in 3 months.",
+        "Owned architecture and delivery for company projects, including a dual web/mobile application built with Ionic."
       ]
     },
     {
       "name": "Target Ogilvy",
       "position": "Web Developer",
       "location": "Managua, Nicaragua",
-      "startDate": "2017-01",
-      "endDate": "2019-12",
+      "startDate": "2017",
+      "endDate": "2019",
       "highlights": [
-        "Built websites from scratch and with WordPress templates for agency clients.",
-        "Developed real-time PHP systems for special events and campaigns."
+        "Introduced Laravel into projects previously built in plain PHP, expanding the feature set the agency could deliver to clients.",
+        "Developed real-time PHP systems for special events and live campaigns."
       ]
     }
   ],
@@ -110,6 +109,14 @@
       "endDate": "2015-12"
     }
   ],
+  "certificates": [
+    {
+      "name": "EF SET English Certificate — C2 Proficient",
+      "date": "2026-08-29",
+      "issuer": "EF SET",
+      "url": "https://cert.efset.org/B6TnCM"
+    }
+  ],
   "skills": [
     {
       "name": "AI & Automation",
@@ -117,24 +124,24 @@
       "keywords": ["Cursor", "Claude Code", "Opencode", "MCP", "n8n", "Prompt Engineering", "Prompt Debugging", "Custom AI Harnesses", "Agentic Coding Workflows", "AI Agents", "GPT Integrations", "RAG"]
     },
     {
-      "name": "Frontend",
+      "name": "CMS",
       "level": "Advanced",
-      "keywords": ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Vue", "Next.js", "Webflow", "Tailwind CSS", "Bootstrap CSS", "Responsive Design"]
+      "keywords": ["Webflow", "WordPress", "Client-First", "Elementor", "DIVI", "Bricks", "Gutenberg"]
     },
     {
-      "name": "Backend & CMS",
+      "name": "PHP & Backend",
       "level": "Advanced",
-      "keywords": ["Node.js", "Express", "NestJS", "MongoDB", "SQL", "PostgreSQL", "PHP", "WordPress", "REST APIs", "Supabase", "Insforge", "Elementor", "DIVI", "Bricks", "Gutenberg"]
+      "keywords": ["PHP", "Laravel", "WordPress theming/plugins", "Node.js", "Express", "NestJS", "REST APIs", "SQL", "PostgreSQL", "MongoDB", "Supabase", "Insforge"]
     },
     {
-      "name": "Build & DevOps",
-      "level": "Intermediate",
-      "keywords": ["Webpack", "Vite", "Nginx", "Apache", "Vercel", "AWS S3", "Proxmox"]
+      "name": "CSS & JavaScript",
+      "level": "Advanced",
+      "keywords": ["CSS", "JavaScript", "Responsive Design", "Tailwind CSS", "Bootstrap CSS", "TypeScript", "React", "Vue", "Next.js", "HTML"]
     },
     {
-      "name": "Tools",
+      "name": "Cloud & Tools",
       "level": "Intermediate",
-      "keywords": ["SEO", "DNS Management", "Performance Optimization", "Core Web Vitals", "GTmetrix", "Figma"]
+      "keywords": ["Webpack", "Vite", "Nginx", "Apache", "Vercel", "AWS S3", "Proxmox", "SEO", "DNS Management", "Performance Optimization", "Core Web Vitals", "GTmetrix", "Figma"]
     },
     {
       "name": "Image Editing",
@@ -154,7 +161,7 @@
     {
       "name": "Languages",
       "level": "Native",
-      "keywords": ["English", "Spanish"]
+      "keywords": ["English (EF SET C2)", "Spanish"]
     }
   ],
   "projects": [
@@ -166,10 +173,10 @@
     },
     {
       "name": "Client-First Skill for AI Agents",
-      "description": "Created an open-source Agent Skill that encodes Finsweet Client-First Webflow conventions for AI coding tools (Cursor, Claude Code, Windsurf). Hybrid architecture: self-contained SKILL.md for common cases plus 17 deep-dive reference docs on GitHub. Installable via npx skills add.",
+      "description": "Created an open-source Agent Skill that encodes Finsweet Client-First Webflow conventions for AI coding tools (Cursor, Claude Code, Windsurf).",
       "url": "https://github.com/Omazon/First-Client-Webflow",
-      "highlights": ["Client-First", "Webflow", "AI Agents", "Cursor Skills", "Finsweet", "Open Source"],
-      "keywords": ["Webflow", "Client-First", "AI Agents", "Open Source", "Agent Skills"]
+      "highlights": ["Client-First", "Webflow", "AI Agents", "Open Source"],
+      "keywords": ["Webflow", "Client-First", "AI Agents", "Open Source"]
     },
     {
       "name": "AI Workflow Automations",
@@ -179,9 +186,9 @@
     },
     {
       "name": "AI-Ready Resume Site",
-      "description": "This portfolio site with structured data for AI/ATS parsing: JSON-LD, resume.json, and llms.txt.",
-      "url": "https://github.com/Omazon/resume",
-      "keywords": ["JSON-LD", "llms.txt", "ATS", "Tailwind CSS"]
+      "description": "Portfolio optimized for AI/ATS parsing with JSON-LD, resume.json, and llms.txt.",
+      "url": "https://omazon.github.io/resume/",
+      "keywords": ["JSON-LD", "llms.txt", "ATS"]
     },
     {
       "name": "BYD El Salvador",
@@ -189,19 +196,54 @@
       "url": "https://bydelsalvador.com/"
     },
     {
+      "name": "Somos Iberoamérica",
+      "description": "Migrated custom PHP site to editable WordPress Gutenberg.",
+      "url": "https://somosiberoamerica.org/"
+    },
+    {
+      "name": "M&M Studios",
+      "description": "Webflow site for a creative studio and services.",
+      "url": "https://www.mandmstudios.com/"
+    },
+    {
       "name": "Park Central Dental",
       "description": "Professional dental practice website on Webflow with CMS and SEO focus.",
       "url": "https://www.parkcentraldentaltx.com/"
     },
     {
+      "name": "Wesmark Dentistry",
+      "description": "Webflow corporate site designed for patient conversion and easy navigation.",
+      "url": "https://www.wesmarkfamilydentistry.com/"
+    },
+    {
+      "name": "Scalar",
+      "description": "Custom frontend product component implementation for the Scalar platform.",
+      "url": "https://scalar.io/product"
+    },
+    {
       "name": "Sucuri Blog",
       "description": "High-traffic cybersecurity blog with performance and reliability optimization.",
       "url": "https://blog.sucuri.net/"
+    },
+    {
+      "name": "Hope of America",
+      "description": "WordPress organizational website for events and community outreach.",
+      "url": "https://hopeofamerica.org/"
+    },
+    {
+      "name": "Davila Floors",
+      "description": "WordPress commercial website for a flooring and tiles business.",
+      "url": "https://davilafloors.com/"
+    },
+    {
+      "name": "Tiniciti",
+      "description": "WordPress preschool website with modern, playful design.",
+      "url": "https://www.tiniciti.com/"
     }
   ],
   "meta": {
     "canonical": "https://omazon.github.io/resume/",
-    "lastUpdated": "2026-09-03",
+    "lastUpdated": "2026-09-07",
     "languages": ["English", "Spanish"],
     "freelance": true
   }
