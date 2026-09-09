@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Omar Boza - Frontend Resume</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1e293b;
+    font-size: 10pt;
+    line-height: 1.4;
+    background: white;
+  }
+
+  .page { max-width: 100%; }
+
+  header { margin-bottom: 12px; }
+
+  h1 {
+    font-size: 20pt;
+    font-weight: 800;
+    color: #0f172a;
+    letter-spacing: -0.02em;
+  }
+
+  .headline {
+    font-size: 11pt;
+    font-weight: 600;
+    color: #2563eb;
+    margin: 2px 0 6px;
+  }
+
+  .contact-line {
+    font-size: 9pt;
+    color: #475569;
+  }
+
+  .contact-line a { color: #2563eb; text-decoration: none; }
+
+  section { margin-bottom: 11px; }
+
+  h2 {
+    font-size: 10.5pt;
+    font-weight: 700;
+    color: #0f172a;
+    letter-spacing: 0.06em;
+    border-bottom: 1.5px solid #cbd5e1;
+    padding-bottom: 2px;
+    margin-bottom: 6px;
+  }
+
+  .summary { color: #334155; }
+
+  .skill-line {
+    margin-bottom: 2px;
+    color: #334155;
+  }
+
+  .skill-line strong {
+    color: #0f172a;
+    font-weight: 700;
+  }
+
+  .job {
+    margin-bottom: 8px;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .job-title { font-size: 10pt; font-weight: 700; color: #0f172a; }
+  .job-company { font-weight: 600; color: #2563eb; }
+  .job-dates {
+    font-size: 8.5pt;
+    color: #64748b;
+    white-space: nowrap;
+    font-weight: 600;
+  }
+  .job ul { margin: 2px 0 0 16px; }
+  .job li { margin-bottom: 1px; color: #334155; }
+
+  .edu, .cert {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 3px;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  .edu-degree, .cert-name { font-weight: 700; color: #0f172a; }
+  .edu-school, .cert-detail { color: #334155; }
+
+  .project {
+    margin-bottom: 4px;
+    color: #334155;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  .project strong { color: #0f172a; }
+  .project a { color: #2563eb; text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header>
+    <h1>Omar Boza</h1>
+    <p class="headline">Frontend / Full-Stack Developer | React, Next.js, TypeScript, Tailwind, PostgreSQL</p>
+    <p class="contact-line">
+      Managua, Nicaragua · +505 8399 2586 · <a href="mailto:omarboza@gmail.com">omarboza@gmail.com</a> · <a href="https://www.linkedin.com/in/omar-boza/">linkedin.com/in/omar-boza</a> · <a href="https://github.com/Omazon">github.com/Omazon</a> · <a href="https://omazon.github.io/resume/">omazon.github.io/resume</a>
+    </p>
+  </header>
+
+  <section>
+    <h2>PROFESSIONAL SUMMARY</h2>
+    <p class="summary">Frontend-focused full-stack developer with professional experience shipping production web apps in modern JavaScript/TypeScript. Strong hands-on React, Next.js, TypeScript, and Tailwind CSS; solid PostgreSQL/SQL and REST APIs; deploys and maintains apps on Vercel. Built AIDA, a production dental clinic SaaS requested by a practicing dentist—patients, odontograms, appointments, records, and payments—with role-based access so clinical data is limited to authorized physicians. Ships faster with responsible AI-assisted development (Cursor, Claude Code). Fluent in English (EF SET C2) and Spanish; remote-ready.</p>
+  </section>
+
+  <section>
+    <h2>TECHNICAL SKILLS</h2>
+    <p class="skill-line"><strong>Frontend:</strong> React, Next.js, TypeScript, JavaScript, Tailwind CSS, HTML, CSS, Vue, Responsive Design, Vite, Webpack</p>
+    <p class="skill-line"><strong>Backend &amp; Data:</strong> PostgreSQL, SQL, relational schema design, REST APIs, Node.js, Express, NestJS, Insforge, Supabase, MongoDB, serverless API routes</p>
+    <p class="skill-line"><strong>Cloud, Git &amp; Ops:</strong> Vercel, Git, GitHub, CI/CD familiarity, Playwright, Proxmox, Nginx, AWS S3, application optimization, Core Web Vitals</p>
+    <p class="skill-line"><strong>Security &amp; Privacy:</strong> Role-based access control (RBAC), least privilege, secure authentication/session awareness, authorization, data access controls, healthcare data privacy awareness</p>
+    <p class="skill-line"><strong>AI-assisted development:</strong> Cursor, Claude Code, MCP, n8n; Playwright CLI testing with AI; responsible use when working with sensitive data</p>
+    <p class="skill-line"><strong>Also experienced:</strong> WordPress, Webflow, PHP, Laravel</p>
+    <p class="skill-line"><strong>Languages:</strong> English (EF SET C2), Spanish (native)</p>
+  </section>
+
+  <section>
+    <h2>SELECTED PROJECT</h2>
+    <p class="project"><strong>AIDA</strong> — Production HealthTech SaaS for dental clinics, requested by a practicing dentist. Built end-to-end: patients, odontograms, appointments, clinical records, and payments. Stack: Next.js, React, TypeScript, Tailwind CSS, PostgreSQL/SQL, REST APIs. Deployed on Vercel with a self-managed Insforge (PostgreSQL) backend. Implemented role-based access control so clinical data is visible only to authorized physicians; designed around least-privilege and healthcare data privacy (HIPAA-conscious practices). · In production</p>
+    <p class="project"><strong>Scalar</strong> — Custom frontend product component implementation. · <a href="https://scalar.io/product">scalar.io/product</a></p>
+  </section>
+
+  <section>
+    <h2>PROFESSIONAL EXPERIENCE</h2>
+
+    <div class="job">
+      <div class="job-header">
+        <p class="job-title">Web Developer — <span class="job-company">Your Digital Resource</span>, Florida, US (Remote)</p>
+        <p class="job-dates">Jan 2024 – Aug 2026</p>
+      </div>
+      <ul>
+        <li>Shipped and maintained production client websites with modern HTML/CSS/JavaScript, focusing on performance, maintainability, and fast iteration.</li>
+        <li>Built AI-assisted workflows (Cursor, Claude Code, n8n) that cut repetitive UI/content edits from days to hours and performance optimization from 90 to 20 minutes (GTmetrix Grade F to A).</li>
+        <li>Debugged and optimized Core Web Vitals and page-load issues across multiple concurrent client projects in a fast-moving remote team.</li>
+        <li>Used Playwright from the command line, with AI-assisted workflows, to run and iterate automated UI checks.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <p class="job-title">Software Engineer — <span class="job-company">Nicasource</span>, Florida, US (Remote)</p>
+        <p class="job-dates">2022 – 2024</p>
+      </div>
+      <ul>
+        <li>Owned delivery of client web applications using React and Vue, including reusable UI components and responsive layouts.</li>
+        <li>Contributed to frontend architecture, component design, and application performance across concurrent international projects.</li>
+        <li>Collaborated via Git-based workflows; upheld code quality, debugging, and maintainability standards with distributed teams.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <p class="job-title">SEO Specialist / Web Developer — <span class="job-company">Top Floor Marketing</span>, Managua, Nicaragua</p>
+        <p class="job-dates">2020 – 2022</p>
+      </div>
+      <ul>
+        <li>Built automation workflows that increased lead volume across client portfolio sites by 30%.</li>
+        <li>Optimized Core Web Vitals and on-page performance for production marketing sites.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <p class="job-title">Project Manager and Tech Lead — <span class="job-company">AIM Services</span>, Managua, Nicaragua</p>
+        <p class="job-dates">2019 – 2020</p>
+      </div>
+      <ul>
+        <li>As Tech Lead, recovered a year-delayed web + mobile application and shipped it to production in 3 months.</li>
+        <li>Owned architecture and delivery for a dual web/mobile application built with Ionic and modern JavaScript.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <p class="job-title">Web Developer — <span class="job-company">Target Ogilvy</span>, Managua, Nicaragua</p>
+        <p class="job-dates">2017 – 2019</p>
+      </div>
+      <ul>
+        <li>Introduced Laravel into plain-PHP projects, expanding maintainable backend/API capabilities for agency clients.</li>
+        <li>Developed real-time web systems for live events and campaigns.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>CERTIFICATIONS</h2>
+    <div class="cert">
+      <p><span class="cert-name">EF SET English Certificate</span> — <span class="cert-detail">C2 Proficient · Aug 29, 2026 · <a href="https://cert.efset.org/B6TnCM">cert.efset.org/B6TnCM</a></span></p>
+    </div>
+  </section>
+
+  <section>
+    <h2>EDUCATION</h2>
+    <div class="edu">
+      <p><span class="edu-degree">Computer Engineering</span> — <span class="edu-school">National Engineering University, Nicaragua</span></p>
+      <p class="job-dates">2010 – 2015</p>
+    </div>
+    <div class="edu">
+      <p><span class="edu-degree">Continuous Learning</span> — <span class="edu-school">Udemy, Platzi: React, Next.js, TypeScript, PostgreSQL, AI-assisted development</span></p>
+      <p class="job-dates">2015 – Present</p>
+    </div>
+  </section>
+
+</div>
+</body>
+</html>

@@ -8,6 +8,7 @@
     "watch:css": "npx @tailwindcss/cli -i ./src/input.css -o ./assets/css/output.css --watch",
     "build": "npm run build:css",
     "build:pdf": "node scripts/build-pdf.js",
+    "build:pdf:frontend": "node scripts/build-pdf.js assets/Omar-Boza-Resume-Frontend.pdf scripts/resume-pdf-frontend.html",
     "validate": "node scripts/validate-resume.js",
     "check:pdf": "node scripts/check-pdf.js",
     "check": "npm run validate && npm run check:pdf"

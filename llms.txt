@@ -1,6 +1,6 @@
-# Omar Boza - Webflow & WordPress Developer
+# Omar Boza - Webflow & WordPress Developer | React & Next.js Full-Stack
 
-> Webflow & WordPress Developer | PHP, JavaScript, CSS | AI Automation
+> Webflow & WordPress Developer | also React, Next.js, TypeScript, Tailwind, PostgreSQL | PHP, JavaScript, CSS | AI Automation
 
 ## Contact
 
@@ -101,6 +101,12 @@ Jan 2024 – Aug 2026
 - Davila Floors — https://davilafloors.com/
 - Tiniciti — https://www.tiniciti.com/
 
+## PDF Resumes
+
+- Webflow / WordPress focus: /assets/Omar-Boza-Resume.pdf
+- Full-Stack / React focus: /assets/Omar-Boza-Resume-Frontend.pdf
+
 ## Full Structured Data
 
 /resume.json
+/resume-frontend.json

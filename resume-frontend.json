@@ -1,0 +1,191 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Omar Boza",
+    "label": "Frontend / Full-Stack Developer | React, Next.js, TypeScript, Tailwind, PostgreSQL",
+    "email": "omarboza@gmail.com",
+    "phone": "+505 83992586",
+    "url": "https://omazon.github.io/resume/",
+    "summary": "Frontend-focused full-stack developer with professional experience shipping production web apps in modern JavaScript/TypeScript. Strong hands-on React, Next.js, TypeScript, and Tailwind CSS; solid PostgreSQL/SQL and REST APIs; deploys and maintains apps on Vercel. Built AIDA, a production dental clinic SaaS requested by a practicing dentist—patients, odontograms, appointments, records, and payments—with role-based access so clinical data is limited to authorized physicians. Ships faster with responsible AI-assisted development (Cursor, Claude Code). Fluent in English (EF SET C2) and Spanish. Based in Managua, Nicaragua; remote-ready.",
+    "location": {
+      "city": "Managua",
+      "countryCode": "NI",
+      "region": "Nicaragua"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "omar-boza",
+        "url": "https://www.linkedin.com/in/omar-boza/"
+      },
+      {
+        "network": "GitHub",
+        "username": "Omazon",
+        "url": "https://github.com/Omazon"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Your Digital Resource",
+      "position": "Web Developer",
+      "location": "Florida, US",
+      "startDate": "2024-01",
+      "endDate": "2026-08",
+      "summary": "Production web delivery, performance optimization, and AI-assisted development workflows for US clients.",
+      "highlights": [
+        "Shipped and maintained production client websites with modern HTML/CSS/JavaScript, focusing on performance, maintainability, and fast iteration.",
+        "Built AI-assisted workflows (Cursor, Claude Code, n8n) that cut repetitive UI/content edits from days to hours and performance optimization from 90 to 20 minutes (GTmetrix Grade F to A).",
+        "Debugged and optimized Core Web Vitals and page-load issues across multiple concurrent client projects in a fast-moving remote team.",
+        "Used Playwright from the command line, with AI-assisted workflows, to run and iterate automated UI checks."
+      ]
+    },
+    {
+      "name": "Nicasource",
+      "position": "Software Engineer",
+      "location": "Florida, US",
+      "startDate": "2022",
+      "endDate": "2024",
+      "summary": "Full-stack web development for international clients using React, Vue, and modern JavaScript.",
+      "highlights": [
+        "Owned delivery of client web applications using React and Vue, including reusable UI components and responsive layouts.",
+        "Contributed to frontend architecture, component design, and application performance across concurrent international projects.",
+        "Collaborated via Git-based workflows; upheld code quality, debugging, and maintainability standards with distributed teams."
+      ]
+    },
+    {
+      "name": "Top Floor Marketing",
+      "position": "SEO Specialist / Web Developer",
+      "location": "Managua, Nicaragua",
+      "startDate": "2020",
+      "endDate": "2022",
+      "highlights": [
+        "Built automation workflows that increased lead volume across client portfolio sites by 30%.",
+        "Optimized Core Web Vitals and on-page performance for production marketing sites."
+      ]
+    },
+    {
+      "name": "AIM Services",
+      "position": "Project Manager and Tech Lead",
+      "location": "Managua, Nicaragua",
+      "startDate": "2019",
+      "endDate": "2020",
+      "highlights": [
+        "As Tech Lead, recovered a year-delayed web + mobile application and shipped it to production in 3 months.",
+        "Owned architecture and delivery for a dual web/mobile application built with Ionic and modern JavaScript."
+      ]
+    },
+    {
+      "name": "Target Ogilvy",
+      "position": "Web Developer",
+      "location": "Managua, Nicaragua",
+      "startDate": "2017",
+      "endDate": "2019",
+      "highlights": [
+        "Introduced Laravel into plain-PHP projects, expanding maintainable backend/API capabilities for agency clients.",
+        "Developed real-time web systems for live events and campaigns."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "National Engineering University",
+      "area": "Computer Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2010-01",
+      "endDate": "2015-12"
+    },
+    {
+      "institution": "Udemy, Platzi, and self-directed learning",
+      "area": "Software Development",
+      "studyType": "Continuous Learning",
+      "startDate": "2015-01",
+      "endDate": "",
+      "courses": ["React", "Next.js", "TypeScript", "PostgreSQL", "AI-assisted development"]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "EF SET English Certificate — C2 Proficient",
+      "date": "2026-08-29",
+      "issuer": "EF SET",
+      "url": "https://cert.efset.org/B6TnCM"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frontend",
+      "level": "Advanced",
+      "keywords": ["React", "Next.js", "TypeScript", "JavaScript", "Tailwind CSS", "HTML", "CSS", "Vue", "Responsive Design", "Vite", "Webpack"]
+    },
+    {
+      "name": "Backend & Data",
+      "level": "Advanced",
+      "keywords": ["PostgreSQL", "SQL", "Schema design", "REST APIs", "Node.js", "Express", "NestJS", "Insforge", "Supabase", "MongoDB", "Serverless API routes"]
+    },
+    {
+      "name": "Cloud, Git & Ops",
+      "level": "Intermediate",
+      "keywords": ["Vercel", "Git", "GitHub", "CI/CD familiarity", "Playwright", "Proxmox", "Nginx", "AWS S3", "Application optimization", "Core Web Vitals"]
+    },
+    {
+      "name": "Security & Privacy",
+      "level": "Intermediate",
+      "keywords": ["Role-based access control (RBAC)", "Least privilege", "Secure authentication/session awareness", "Authorization", "Data access controls", "Healthcare data privacy awareness"]
+    },
+    {
+      "name": "AI-assisted development",
+      "level": "Advanced",
+      "keywords": ["Cursor", "Claude Code", "GitHub Copilot familiarity", "MCP", "n8n", "Playwright CLI testing with AI", "Responsible use with sensitive data"]
+    },
+    {
+      "name": "Also experienced",
+      "level": "Advanced",
+      "keywords": ["WordPress", "Webflow", "PHP", "Laravel"]
+    },
+    {
+      "name": "Languages",
+      "level": "Native",
+      "keywords": ["English (EF SET C2)", "Spanish"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "AIDA",
+      "description": "Production HealthTech SaaS for dental clinics, requested by a practicing dentist. Built end-to-end: patients, odontograms, appointments, clinical records, and payments. Next.js, React, TypeScript, Tailwind CSS, PostgreSQL/SQL; REST APIs; deployed on Vercel with a self-managed Insforge (PostgreSQL) backend. Implemented role-based access control so clinical data is visible only to authorized physicians; designed around least-privilege and healthcare data privacy principles (HIPAA-conscious practices—not a formal certification claim).",
+      "highlights": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "PostgreSQL",
+        "REST APIs",
+        "Vercel",
+        "Insforge",
+        "RBAC",
+        "HealthTech"
+      ],
+      "keywords": ["HealthTech", "SaaS", "Next.js", "PostgreSQL", "HIPAA-conscious", "Full-stack"]
+    },
+    {
+      "name": "Scalar",
+      "description": "Custom frontend product component implementation for the Scalar platform.",
+      "url": "https://scalar.io/product",
+      "highlights": ["Frontend", "Product UI"],
+      "keywords": ["Frontend"]
+    },
+    {
+      "name": "AI-Ready Resume Site",
+      "description": "Personal site/portfolio built and maintained with modern web tooling; ATS/AI-friendly structured data.",
+      "url": "https://omazon.github.io/resume/",
+      "keywords": ["Frontend", "ATS"]
+    }
+  ],
+  "meta": {
+    "canonical": "https://omazon.github.io/resume/",
+    "lastUpdated": "2026-09-09",
+    "variant": "frontend",
+    "languages": ["English", "Spanish"],
+    "freelance": true
+  }
+}
