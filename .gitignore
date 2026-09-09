@@ -1,1 +1,23 @@
+# Dependencies
 node_modules/
+
+# Development docs (keep README for the repo)
+*.md
+!README.md
+
+# AI / design tooling
+.impeccable/
+.claude/
+.cursor/
+.agents/
+AGENTS.md
+CLAUDE.md
+PRODUCT.md
+DESIGN.md
+
+# Local / OS
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*

@@ -1,9 +1,16 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-NJNTWPZM');</script>
+  <!-- End Google Tag Manager -->
   <title>Omar Boza - Webflow &amp; WordPress Developer | React, Next.js Full-Stack | AI Automation</title>
   <meta name="description" content="Omar Boza - Webflow and WordPress developer who also builds full-stack products with React, Next.js, TypeScript, Tailwind, and PostgreSQL. Ships faster with agentic AI (Cursor, Claude Code, n8n, MCP) for US clients. EF SET C2 English.">
   <meta name="keywords" content="Webflow developer, WordPress developer, React developer, Next.js, TypeScript, Tailwind CSS, PostgreSQL, full-stack developer, PHP, JavaScript, CSS, AI automation, Client-First, Laravel, n8n, MCP, Cursor, Claude Code, Nicaragua">
@@ -12,14 +19,14 @@
 
   <meta property="og:title" content="Omar Boza - Webflow & WordPress Developer | React & Next.js Full-Stack">
   <meta property="og:description" content="Webflow & WordPress Developer | also React, Next.js, TypeScript, Tailwind, PostgreSQL | AI Automation. Cursor, Claude Code, n8n, MCP. EF SET C2.">
-  <meta property="og:image" content="https://omazon.github.io/resume/assets/img/about.jpeg">
+  <meta property="og:image" content="https://omazon.github.io/resume/assets/img/about.png">
   <meta property="og:url" content="https://omazon.github.io/resume/">
   <meta property="og:type" content="profile">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Omar Boza - Webflow & WordPress Developer | React & Next.js Full-Stack">
   <meta name="twitter:description" content="Webflow & WordPress Developer | also React, Next.js, TypeScript, Tailwind, PostgreSQL | AI Automation. EF SET C2.">
-  <meta name="twitter:image" content="https://omazon.github.io/resume/assets/img/about.jpeg">
+  <meta name="twitter:image" content="https://omazon.github.io/resume/assets/img/about.png">
 
   <link href="assets/img/favicon.png" rel="icon">
 
@@ -29,7 +36,7 @@
     "@graph": [
       {
         "@type": "ProfilePage",
-        "dateModified": "2026-09-07",
+        "dateModified": "2026-09-09",
         "mainEntity": { "@id": "https://omazon.github.io/resume/#person" }
       },
       {
@@ -41,7 +48,7 @@
         "email": "omarboza@gmail.com",
         "telephone": "+50583992586",
         "url": "https://omazon.github.io/resume/",
-        "image": "https://omazon.github.io/resume/assets/img/about.jpeg",
+        "image": "https://omazon.github.io/resume/assets/img/about.png",
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Managua",
@@ -94,198 +101,236 @@
   }
   </script>
 
-  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
-    rel="stylesheet">
-
-  <!-- Boxicons -->
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700&family=Onest:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
-
-  <!-- Tailwind CSS -->
   <link href="assets/css/output.css" rel="stylesheet">
 </head>
 
-<body class="antialiased selection:bg-primary selection:text-white">
+<body class="antialiased">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NJNTWPZM"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
 
   <a href="#main-content" class="skip-link">Skip to content</a>
+  <div class="scroll-progress no-print" aria-hidden="true"><span></span></div>
+  <div class="cursor no-print" aria-hidden="true">
+    <span class="cursor__dot"></span>
+    <span class="cursor__ring"><span class="cursor__label"></span></span>
+  </div>
 
-  <!-- Navbar -->
-  <header class="fixed top-0 w-full z-50 glass transition-all duration-300 no-print" id="navbar">
-    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-      <a href="#" class="text-2xl font-bold text-white tracking-tight">Omar<span class="text-primary">.</span></a>
-
-      <!-- Desktop Menu -->
-      <nav class="hidden md:flex space-x-8">
-        <a href="#hero" class="text-slate-300 hover:text-white transition-colors text-sm font-medium">Home</a>
-        <a href="#about" class="text-slate-300 hover:text-white transition-colors text-sm font-medium">About</a>
-        <a href="#skills" class="text-slate-300 hover:text-white transition-colors text-sm font-medium">Skills</a>
-        <a href="#resume" class="text-slate-300 hover:text-white transition-colors text-sm font-medium">Resume</a>
-        <a href="#portfolio" class="text-slate-300 hover:text-white transition-colors text-sm font-medium">Portfolio</a>
-        <a href="#contact" class="text-slate-300 hover:text-white transition-colors text-sm font-medium">Contact</a>
+  <header id="navbar" class="site-nav fixed top-0 inset-x-0 z-50 no-print">
+    <div class="max-w-[1400px] mx-auto px-6 md:px-10 py-5 flex items-center justify-between">
+      <a href="#hero" class="text-ink text-sm tracking-wide">Omar Boza</a>
+      <nav class="hidden md:flex items-center gap-8" aria-label="Primary">
+        <a href="#work" class="nav-link">Work</a>
+        <a href="#approach" class="nav-link">Approach</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#contact" class="nav-link">Contact</a>
       </nav>
-
-      <!-- Socials -->
-      <div class="hidden md:flex space-x-4">
-        <a href="https://github.com/Omazon" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile"
-          class="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center text-slate-300 hover:bg-slate-700 hover:text-white transition-colors">
-          <i class='bx bxl-github text-lg'></i>
-        </a>
-        <a href="https://www.linkedin.com/in/omar-boza/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile"
-          class="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center text-slate-300 hover:bg-primary hover:text-white transition-colors">
-          <i class='bx bxl-linkedin text-lg'></i>
-        </a>
-        <a href="https://www.instagram.com/ing.omarboza/" target="_blank" rel="noopener noreferrer" aria-label="Instagram profile"
-          class="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center text-slate-300 hover:bg-pink-500 hover:text-white transition-colors">
-          <i class='bx bxl-instagram text-lg'></i>
-        </a>
+      <div class="hidden md:flex items-center gap-5 text-sm">
+        <span class="label inline-flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-primary" aria-hidden="true"></span>Available</span>
+        <a href="assets/Omar-Boza-Resume.pdf" target="_blank" rel="noopener noreferrer" class="nav-link">Resume PDF</a>
       </div>
-
-      <!-- Mobile Menu Button -->
-      <button id="mobile-menu-btn" type="button" class="md:hidden text-slate-300 hover:text-white focus:outline-none"
-        aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-menu">
-        <i class='bx bx-menu text-3xl'></i>
+      <button id="mobile-menu-btn" type="button" class="md:hidden text-ink" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-menu">
+        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+          <path d="M4 8H24M4 14H24M4 20H24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
       </button>
     </div>
-
-    <!-- Mobile Menu -->
-    <div id="mobile-menu" class="md:hidden absolute top-full left-0 w-full bg-slate-900/95 backdrop-blur-md border-t border-slate-800 shadow-xl overflow-hidden transition-all duration-300 ease-in-out max-h-0 opacity-0 pointer-events-none">
-      <nav class="flex flex-col px-6 py-4 space-y-4">
-        <a href="#hero" class="mobile-link text-slate-300 hover:text-white transition-colors text-base font-medium">Home</a>
-        <a href="#about" class="mobile-link text-slate-300 hover:text-white transition-colors text-base font-medium">About</a>
-        <a href="#skills" class="mobile-link text-slate-300 hover:text-white transition-colors text-base font-medium">Skills</a>
-        <a href="#resume" class="mobile-link text-slate-300 hover:text-white transition-colors text-base font-medium">Resume</a>
-        <a href="#portfolio" class="mobile-link text-slate-300 hover:text-white transition-colors text-base font-medium">Portfolio</a>
-        <a href="#contact" class="mobile-link text-slate-300 hover:text-white transition-colors text-base font-medium">Contact</a>
+    <div id="mobile-menu" class="md:hidden absolute top-full inset-x-0 bg-dark/95 backdrop-blur-md border-t border-[color:var(--color-line)] overflow-hidden transition-all duration-300 ease-out" style="max-height:0;opacity:0;pointer-events:none;" aria-hidden="true" inert>
+      <nav class="flex flex-col px-6 py-5 gap-4 text-base" aria-label="Mobile">
+        <a href="#work" class="text-ink">Work</a>
+        <a href="#approach" class="text-ink">Approach</a>
+        <a href="#experience" class="text-ink">Experience</a>
+        <a href="#about" class="text-ink">About</a>
+        <a href="#contact" class="text-ink">Contact</a>
+        <a href="assets/Omar-Boza-Resume.pdf" target="_blank" rel="noopener noreferrer" class="text-primary">Resume PDF</a>
       </nav>
     </div>
   </header>
 
   <main id="main-content">
 
-  <!-- Hero Section -->
-  <section id="hero" class="min-h-screen flex items-center pt-20 relative overflow-hidden">
-    <!-- Abstract background blobs -->
-    <div
-      class="absolute top-20 left-10 w-72 h-72 bg-primary/20 rounded-full mix-blend-screen filter blur-3xl opacity-30">
-    </div>
-    <div
-      class="absolute top-40 right-10 w-72 h-72 bg-secondary/20 rounded-full mix-blend-screen filter blur-3xl opacity-30">
+  <!-- HERO -->
+  <section id="hero" class="hero">
+    <div class="hero-fallback" aria-hidden="true"></div>
+    <canvas id="hero-canvas" class="hero-canvas" aria-hidden="true"></canvas>
+
+    <div class="hero-content relative z-10 w-full max-w-[1400px] mx-auto px-6 md:px-10 text-center">
+      <p class="label mb-8" data-intro>Webflow &amp; WordPress · React &amp; Next.js · AI Automation</p>
+      <h1 class="display-xl mx-auto max-w-[16ch]">
+        <span class="hero-line"><span>Websites and products</span></span>
+        <span class="hero-line"><span>that actually <em class="not-italic text-primary">ship</em>.</span></span>
+      </h1>
+      <p class="mt-8 mx-auto max-w-[52ch] text-base md:text-lg text-muted leading-relaxed" data-intro>
+        Webflow and WordPress developer who also builds full-stack products with React, Next.js, TypeScript, Tailwind, and PostgreSQL — shipping faster with agentic AI for US clients.
+      </p>
+      <div class="mt-10 flex flex-wrap items-center justify-center gap-4" data-intro>
+        <a href="#work" class="btn btn-solid" data-cursor="GO">See the work <i class='bx bx-down-arrow-alt text-lg'></i></a>
+        <a href="assets/Omar-Boza-Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline" data-cursor="OPEN">Resume PDF</a>
+      </div>
     </div>
 
-    <div class="container mx-auto px-6 relative z-10">
-      <div class="flex flex-col md:flex-row items-center gap-12">
-        <div class="w-full md:w-1/2">
-          <span
-            class="inline-block py-1 px-3 rounded-full bg-slate-800 text-primary text-sm font-medium mb-6 border border-slate-700">Webflow &amp; WordPress Developer | React &amp; Next.js Full-Stack | AI Automation</span>
-          <h1 class="text-5xl md:text-7xl font-extrabold text-white leading-tight mb-6 tracking-tight">
-            Hello, I'm <br />
-            <span class="text-gradient">Omar Boza</span>
-          </h1>
-          <p class="text-xl md:text-2xl text-slate-400 mb-8 font-light leading-relaxed max-w-2xl">
-            <strong class="text-slate-200 font-semibold">Webflow and WordPress</strong> developer who also builds full-stack products with <strong class="text-slate-200 font-semibold">React, Next.js, TypeScript, Tailwind, and PostgreSQL</strong> — like AIDA, a production dental clinic SaaS — shipping faster with agentic AI (Cursor, Claude Code, n8n, MCP) for US clients.
-          </p>
-          <div class="flex flex-wrap gap-4">
-            <a href="#portfolio"
-              class="px-8 py-3 rounded-lg bg-white text-dark font-semibold hover:bg-slate-200 transition-colors shadow-[0_0_20px_rgba(255,255,255,0.2)]">
-              View My Work
-            </a>
-            <a href="assets/Omar-Boza-Resume.pdf" target="_blank" rel="noopener noreferrer"
-              class="px-8 py-3 rounded-lg border border-primary/50 text-primary font-semibold hover:bg-primary/10 transition-colors inline-flex items-center gap-2">
-              <i class='bx bxs-file-pdf'></i> Resume — Webflow / WordPress
-            </a>
-            <a href="assets/Omar-Boza-Resume-Frontend.pdf" target="_blank" rel="noopener noreferrer"
-              class="px-8 py-3 rounded-lg border border-secondary/50 text-secondary font-semibold hover:bg-secondary/10 transition-colors inline-flex items-center gap-2">
-              <i class='bx bxs-file-pdf'></i> Resume — Full-Stack / React
-            </a>
-            <a href="#contact"
-              class="px-8 py-3 rounded-lg border border-slate-700 text-white font-semibold hover:bg-slate-800 transition-colors">
-              Contact Me
-            </a>
-          </div>
+    <div class="scroll-cue" aria-hidden="true">
+      <span class="scroll-cue__bar"></span>
+      <span>scroll to explore</span>
+    </div>
+  </section>
+
+  <!-- STATEMENT -->
+  <section class="section statement" aria-labelledby="statement-heading">
+    <div class="max-w-[1400px] mx-auto px-6 md:px-10">
+      <h2 id="statement-heading" class="sr-only">About Omar Boza</h2>
+      <p class="display-lg max-w-[24ch]" data-words data-accent="Webflow|WordPress|PHP|CSS|JavaScript|agentic|AI|90|20|F|A">
+        Since 2017, I've built sites and web products for US and international clients on Webflow and WordPress, with deep PHP, CSS, and JavaScript when custom work is needed. Today I accelerate that stack with agentic AI: landing-page edits that took days and performance optimization from 90 to 20 minutes (GTmetrix Grade F to A).
+      </p>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-wrap py-6 hairline no-print" aria-hidden="true">
+    <div class="marquee">
+      <div class="marquee__track">
+        <span class="marquee__item">Webflow</span><span class="marquee__item">WordPress</span><span class="marquee__item">React</span><span class="marquee__item">Next.js</span><span class="marquee__item">TypeScript</span><span class="marquee__item">PostgreSQL</span><span class="marquee__item">AI Automation</span>
+        <span class="marquee__item">Webflow</span><span class="marquee__item">WordPress</span><span class="marquee__item">React</span><span class="marquee__item">Next.js</span><span class="marquee__item">TypeScript</span><span class="marquee__item">PostgreSQL</span><span class="marquee__item">AI Automation</span>
+      </div>
+    </div>
+    <div class="marquee marquee--reverse marquee--outline mt-2">
+      <div class="marquee__track">
+        <span class="marquee__item">PHP</span><span class="marquee__item">Laravel</span><span class="marquee__item">CSS</span><span class="marquee__item">JavaScript</span><span class="marquee__item">Tailwind</span><span class="marquee__item">Client-First</span><span class="marquee__item">n8n</span><span class="marquee__item">MCP</span>
+        <span class="marquee__item">PHP</span><span class="marquee__item">Laravel</span><span class="marquee__item">CSS</span><span class="marquee__item">JavaScript</span><span class="marquee__item">Tailwind</span><span class="marquee__item">Client-First</span><span class="marquee__item">n8n</span><span class="marquee__item">MCP</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ABOUT / PERSON -->
+  <section id="about" class="section hairline" aria-labelledby="about-heading">
+    <div class="max-w-[1400px] mx-auto px-6 md:px-10 grid gap-12 lg:grid-cols-12 items-start">
+      <div class="lg:col-span-5">
+        <div class="portrait">
+          <img src="assets/img/about.png" alt="Omar Boza" loading="lazy">
         </div>
-        <div class="w-full md:w-1/2 flex justify-center items-center">
-          <iframe src="https://lottie.host/embed/ddd2a031-df33-4383-967b-b9adef4cc95e/Ne7Al7UEC8.lottie"
-            class="w-full max-w-[500px] h-[400px] md:h-[500px] border-none" style="border: none;"></iframe>
-        </div>
+      </div>
+      <div class="lg:col-span-7 lg:pl-8">
+        <h2 id="about-heading" class="display-lg mb-8" data-lines>Meet the person<br>behind the work</h2>
+        <p class="text-muted leading-relaxed mb-6 max-w-[60ch]" data-reveal>
+          I also build full-stack products end-to-end. AIDA — a production dental clinic SaaS requested by a practicing dentist — runs on React, Next.js, TypeScript, Tailwind CSS, and PostgreSQL, deployed on Vercel with role-based access so clinical data stays limited to authorized physicians.
+        </p>
+        <p class="text-muted leading-relaxed mb-12 max-w-[60ch]" data-reveal data-delay="0.05">
+          I also lead delivery when needed — including recovering a year-delayed web + mobile product and shipping it in 3 months — and help teams adopt practical AI workflows without sacrificing production quality. Fluent in English (EF SET C2) and Spanish.
+        </p>
+        <dl class="fact-list" data-reveal data-delay="0.1">
+          <div><dt>Phone</dt><dd>+505 83992586</dd></div>
+          <div><dt>Email</dt><dd>omarboza@gmail.com</dd></div>
+          <div><dt>City</dt><dd>Managua, Nicaragua</dd></div>
+          <div><dt>Freelance</dt><dd>Available</dd></div>
+          <div><dt>GitHub</dt><dd><a href="https://github.com/Omazon" class="hover:text-primary transition-colors">Omazon</a></dd></div>
+          <div><dt>Languages</dt><dd>English (EF SET C2), Spanish</dd></div>
+        </dl>
       </div>
     </div>
   </section>
 
-  <!-- About Section -->
-  <section id="about" class="py-24 bg-slate-900 border-t border-slate-800/50">
-    <div class="container mx-auto px-6">
-      <div class="reveal flex flex-col md:flex-row gap-16 items-center">
-        <!-- Image -->
-        <div class="w-full md:w-5/12">
-          <div class="relative">
-            <div class="absolute -inset-4 bg-gradient-to-r from-primary to-secondary rounded-2xl blur-lg opacity-30">
-            </div>
-            <img src="assets/img/about.jpeg" alt="Omar Boza"
-              class="relative rounded-2xl w-full object-cover shadow-2xl border border-slate-700/50 grayscale hover:grayscale-0 transition-all duration-500">
-          </div>
-        </div>
+  <!-- WORK: three large cases -->
+  <section id="work" class="section" aria-labelledby="work-heading">
+    <div class="max-w-[1400px] mx-auto px-6 md:px-10">
+      <div class="flex items-end justify-between gap-6 mb-16 md:mb-24">
+        <h2 id="work-heading" class="display-lg" data-lines>Selected work</h2>
+        <p class="label hidden md:block">Three things I built end-to-end</p>
+      </div>
 
-        <!-- Content -->
-        <div class="w-full md:w-7/12">
-          <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">About Me</h2>
-          <p class="text-xl text-primary font-medium mb-6">Webflow &amp; WordPress Developer | React &amp; Next.js Full-Stack | AI Automation</p>
+      <div class="grid gap-[clamp(6rem,16vh,11rem)]">
 
-          <p class="text-slate-400 mb-6 leading-relaxed">
-            Since 2017, I've built sites and web products for US and international clients on Webflow and WordPress, with deep PHP, CSS, and JavaScript when custom work is needed. Today I accelerate that stack with agentic AI (Cursor, Claude Code, MCP, n8n): landing-page edits that took days and performance optimization from 90 to 20 minutes (GTmetrix Grade F to A).
-          </p>
-          <p class="text-slate-400 mb-6 leading-relaxed">
-            I also build full-stack products end-to-end. AIDA — a production dental clinic SaaS requested by a practicing dentist — runs on React, Next.js, TypeScript, Tailwind CSS, and PostgreSQL, deployed on Vercel with role-based access so clinical data stays limited to authorized physicians.
-          </p>
-          <p class="text-slate-400 mb-8 leading-relaxed">
-            I also lead delivery when needed — including recovering a year-delayed web + mobile product and shipping it in 3 months — and help teams adopt practical AI workflows without sacrificing production quality. Fluent in English (EF SET C2) and Spanish.
-          </p>
-
-          <!-- Personal Info Grid -->
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-8">
-            <div class="flex items-center gap-3">
-              <i class='bx bx-phone text-primary text-xl'></i>
-              <span class="text-slate-300"><strong class="text-white font-medium">Phone:</strong> +505 83992586</span>
-            </div>
-            <div class="flex items-center gap-3">
-              <i class='bx bx-envelope text-primary text-xl'></i>
-              <span class="text-slate-300"><strong class="text-white font-medium">Email:</strong>
-                omarboza@gmail.com</span>
-            </div>
-            <div class="flex items-center gap-3">
-              <i class='bx bx-map text-primary text-xl'></i>
-              <span class="text-slate-300"><strong class="text-white font-medium">City:</strong> Managua,
-                Nicaragua</span>
-            </div>
-            <div class="flex items-center gap-3">
-              <i class='bx bx-check-shield text-primary text-xl'></i>
-              <span class="text-slate-300"><strong class="text-white font-medium">Freelance:</strong> Available</span>
-            </div>
-            <div class="flex items-center gap-3">
-              <i class='bx bxl-github text-primary text-xl'></i>
-              <span class="text-slate-300"><strong class="text-white font-medium">GitHub:</strong>
-                <a href="https://github.com/Omazon" class="hover:text-primary transition-colors">Omazon</a></span>
-            </div>
-            <div class="flex items-center gap-3">
-              <i class='bx bx-globe text-primary text-xl'></i>
-              <span class="text-slate-300"><strong class="text-white font-medium">Languages:</strong> English (EF SET C2), Spanish</span>
+        <!-- AIDA -->
+        <article class="case">
+          <div class="case__media">
+            <div class="frame">
+              <div class="frame__bar" aria-hidden="true"><span></span><span></span><span></span></div>
+              <div class="frame__media">
+                <img src="assets/img/portfolio/aida.png" alt="AIDA — dental clinic SaaS admin dashboard" loading="lazy">
+              </div>
             </div>
           </div>
-        </div>
+          <div class="case__body" data-reveal>
+            <p class="label mb-4">SaaS product · In production</p>
+            <h3 class="display-md mb-5">AIDA</h3>
+            <p class="text-muted leading-relaxed mb-6 max-w-[48ch]">Production full-stack SaaS for dental clinics, requested by a practicing dentist — patients, odontograms, appointments, records, and payments. HIPAA-conscious role-based access to clinical data. Built end-to-end; deployed on Vercel with a self-managed backend.</p>
+            <div class="meta-list mb-8">
+              <span>React</span><span>Next.js</span><span>TypeScript</span><span>Tailwind CSS</span><span>PostgreSQL</span><span>Vercel</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Client-First skill -->
+        <article class="case case--flip">
+          <div class="case__media">
+            <div class="frame">
+              <div class="frame__bar" aria-hidden="true"><span></span><span></span><span></span></div>
+              <div class="frame__media">
+                <img src="assets/img/portfolio/client-first-repo.png" alt="GitHub repository: First-Client-Webflow, an open-source Client-First skill for AI agents" loading="lazy">
+              </div>
+            </div>
+          </div>
+          <div class="case__body" data-reveal>
+            <p class="label mb-4">Open source · AI tooling</p>
+            <h3 class="display-md mb-5">Client-First Skill for AI Agents</h3>
+            <p class="text-muted leading-relaxed mb-6 max-w-[48ch]">Created an open-source Agent Skill encoding Finsweet Client-First Webflow conventions for Cursor, Claude Code, and other AI tools. Self-contained SKILL.md plus 17 deep-dive references on GitHub.</p>
+            <div class="meta-list mb-8">
+              <span>Client-First</span><span>Webflow</span><span>AI Agents</span><span>Open Source</span>
+            </div>
+            <a href="https://github.com/Omazon/First-Client-Webflow" target="_blank" rel="noopener noreferrer" class="link-arrow">View source <i class='bx bx-right-arrow-alt text-xl'></i></a>
+          </div>
+        </article>
+
+        <!-- Performance -->
+        <article class="case">
+          <div class="case__media">
+            <div class="frame frame--flat">
+              <div class="frame__bar" aria-hidden="true"><span></span><span></span><span></span></div>
+              <div class="frame__media">
+                <div class="data-card">
+                  <div class="data-card__row">
+                    <span class="label">GTmetrix grade</span>
+                    <span class="data-card__value">F <em>→ A</em></span>
+                  </div>
+                  <div class="data-card__row">
+                    <span class="label">Optimization time</span>
+                    <span class="data-card__value">90 <em>→ 20</em> min</span>
+                  </div>
+                  <div class="data-card__row">
+                    <span class="label">Landing pages</span>
+                    <span class="data-card__value">Dozens</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="case__body" data-reveal>
+            <p class="label mb-4">AI-driven performance · Your Digital Resource</p>
+            <h3 class="display-md mb-5">From Grade F to A, in 20 minutes</h3>
+            <p class="text-muted leading-relaxed mb-6 max-w-[48ch]">Built AI-driven performance optimization that moved client sites from GTmetrix Grade F to A and reduced the optimization process from 90 to 20 minutes. Pioneered AI-assisted Webflow/WordPress workflows across dozens of landing pages, cutting repetitive editing work from days to a couple of hours.</p>
+            <div class="meta-list">
+              <span>Webflow</span><span>WordPress</span><span>Core Web Vitals</span><span>Cursor</span><span>Claude Code</span><span>n8n</span>
+            </div>
+          </div>
+        </article>
+
       </div>
     </div>
   </section>
 
-  <!-- Skills Section -->
-  <section id="skills" class="py-24 bg-[#0a101d]">
-    <div class="container mx-auto px-6">
-      <div class="text-center mb-16 max-w-3xl mx-auto">
-        <h2 class="reveal text-3xl md:text-4xl font-bold text-white mb-4">My Skills</h2>
-        <p class="reveal text-slate-400" style="transition-delay: 100ms;">Webflow and WordPress first — plus full-stack product work in React, Next.js, TypeScript, Tailwind, and PostgreSQL, accelerated with agentic AI.</p>
+  <!-- APPROACH: horizontal -->
+  <section id="approach" class="approach section hairline" aria-labelledby="approach-heading">
+    <div class="max-w-[1400px] mx-auto px-6 md:px-10">
+      <div class="flex items-end justify-between gap-6 mb-12">
+        <h2 id="approach-heading" class="display-lg" data-lines>How I work</h2>
+        <p class="label hidden md:block">Scroll →</p>
       </div>
 
-      <!-- Parseable skill list for ATS/LLMs -->
       <ul class="sr-only" aria-label="Complete skills list">
         <li>AI & Automation: Cursor, Claude Code, Opencode, MCP, n8n, Prompt Engineering, Prompt Debugging, Custom AI Harnesses, Agentic Coding Workflows, AI Agents, GPT Integrations, RAG</li>
         <li>CMS: Webflow, WordPress, Client-First, Elementor, DIVI, Bricks, Gutenberg</li>
@@ -299,803 +344,287 @@
         <li>Certifications: EF SET English Certificate — C2 Proficient</li>
       </ul>
 
-      <div class="reveal skills-grid max-w-6xl mx-auto" style="transition-delay: 200ms;">
+      <div class="approach__track" aria-hidden="false">
+        <article class="approach__panel">
+          <span class="approach__num" aria-hidden="true">01</span>
+          <h3 class="display-md">Build</h3>
+          <p class="text-muted text-sm leading-relaxed">Webflow and WordPress first, with real PHP, CSS, and JavaScript when the builder runs out.</p>
+          <ul class="approach__list">
+            <li>Webflow · Client-First</li>
+            <li>WordPress · Elementor · DIVI · Bricks · Gutenberg</li>
+            <li>PHP · Laravel · WordPress theming</li>
+            <li>CSS · JavaScript · HTML · Responsive</li>
+          </ul>
+        </article>
 
-        <!-- AI & Automation — featured -->
-        <div class="skill-card skill-card--featured">
-          <div class="skill-card__header">
-            <span class="skill-card__icon skill-card__icon--primary">
-              <i class='bx bx-bot'></i>
-            </span>
-            <h3 class="skill-card__title">AI & Automation</h3>
-          </div>
-          <div class="skill-card__pills">
-            <span class="skill-pill skill-pill--primary">Cursor</span>
-            <span class="skill-pill skill-pill--primary">Claude Code</span>
-            <span class="skill-pill skill-pill--primary">Opencode</span>
-            <span class="skill-pill skill-pill--primary">MCP</span>
-            <span class="skill-pill skill-pill--primary">n8n</span>
-            <span class="skill-pill skill-pill--primary">Prompt Engineering</span>
-            <span class="skill-pill skill-pill--primary">Prompt Debugging</span>
-            <span class="skill-pill skill-pill--primary">Custom AI Harnesses</span>
-            <span class="skill-pill skill-pill--primary">Agentic Coding</span>
-            <span class="skill-pill skill-pill--primary">AI Agents</span>
-            <span class="skill-pill skill-pill--primary">GPT Integrations</span>
-            <span class="skill-pill skill-pill--primary">RAG</span>
-          </div>
-        </div>
+        <article class="approach__panel">
+          <span class="approach__num" aria-hidden="true">02</span>
+          <h3 class="display-md">Product</h3>
+          <p class="text-muted text-sm leading-relaxed">Full-stack products end-to-end, like AIDA — a dental clinic SaaS in production.</p>
+          <ul class="approach__list">
+            <li>React · Next.js · Vue · TypeScript</li>
+            <li>Tailwind CSS · Bootstrap</li>
+            <li>Node.js · Express · NestJS · REST APIs</li>
+            <li>PostgreSQL · SQL · MongoDB · Supabase · Insforge</li>
+          </ul>
+        </article>
 
-        <div class="skill-card skill-card--featured">
-          <div class="skill-card__header">
-            <span class="skill-card__icon skill-card__icon--primary">
-              <i class='bx bx-layout'></i>
-            </span>
-            <h3 class="skill-card__title">CMS</h3>
-          </div>
-          <div class="skill-card__pills">
-            <span class="skill-pill skill-pill--primary">Webflow</span>
-            <span class="skill-pill skill-pill--primary">WordPress</span>
-            <span class="skill-pill skill-pill--primary">Client-First</span>
-            <span class="skill-pill skill-pill--primary">Elementor</span>
-            <span class="skill-pill skill-pill--primary">DIVI</span>
-            <span class="skill-pill skill-pill--primary">Bricks</span>
-            <span class="skill-pill skill-pill--primary">Gutenberg</span>
-          </div>
-        </div>
+        <article class="approach__panel">
+          <span class="approach__num" aria-hidden="true">03</span>
+          <h3 class="display-md">Accelerate</h3>
+          <p class="text-muted text-sm leading-relaxed">Agentic AI in the loop: days of editing become hours, 90 minutes become 20.</p>
+          <ul class="approach__list">
+            <li>Cursor · Claude Code · Opencode · MCP</li>
+            <li>n8n · AI Agents · GPT Integrations · RAG</li>
+            <li>Prompt Engineering · Prompt Debugging</li>
+            <li>Custom AI Harnesses · Agentic Coding</li>
+          </ul>
+        </article>
 
-        <div class="skill-card">
-          <div class="skill-card__header">
-            <span class="skill-card__icon">
-              <i class='bx bx-code-alt'></i>
-            </span>
-            <h3 class="skill-card__title">CSS & JavaScript</h3>
-          </div>
-          <div class="skill-card__pills">
-            <span class="skill-pill">CSS</span>
-            <span class="skill-pill">JavaScript</span>
-            <span class="skill-pill">HTML</span>
-            <span class="skill-pill">TypeScript</span>
-            <span class="skill-pill">React</span>
-            <span class="skill-pill">Vue</span>
-            <span class="skill-pill">Next.js</span>
-            <span class="skill-pill">Tailwind CSS</span>
-            <span class="skill-pill">Bootstrap CSS</span>
-            <span class="skill-pill">Responsive Design</span>
-          </div>
-        </div>
-
-        <div class="skill-card">
-          <div class="skill-card__header">
-            <span class="skill-card__icon">
-              <i class='bx bx-server'></i>
-            </span>
-            <h3 class="skill-card__title">PHP & Backend</h3>
-          </div>
-          <div class="skill-card__pills">
-            <span class="skill-pill">PHP</span>
-            <span class="skill-pill">Laravel</span>
-            <span class="skill-pill">WordPress theming</span>
-            <span class="skill-pill">Node.js</span>
-            <span class="skill-pill">Express</span>
-            <span class="skill-pill">NestJS</span>
-            <span class="skill-pill">REST APIs</span>
-            <span class="skill-pill">SQL</span>
-            <span class="skill-pill">PostgreSQL</span>
-            <span class="skill-pill">MongoDB</span>
-            <span class="skill-pill">Supabase</span>
-            <span class="skill-pill">Insforge</span>
-          </div>
-        </div>
-
-        <div class="skill-card">
-          <div class="skill-card__header">
-            <span class="skill-card__icon">
-              <i class='bx bx-cloud'></i>
-            </span>
-            <h3 class="skill-card__title">Cloud & Tools</h3>
-          </div>
-          <div class="skill-card__pills">
-            <span class="skill-pill">Webpack</span>
-            <span class="skill-pill">Vite</span>
-            <span class="skill-pill">Nginx</span>
-            <span class="skill-pill">Apache</span>
-            <span class="skill-pill">Vercel</span>
-            <span class="skill-pill">AWS S3</span>
-            <span class="skill-pill">Proxmox</span>
-            <span class="skill-pill">Playwright</span>
-            <span class="skill-pill">SEO</span>
-            <span class="skill-pill">DNS Management</span>
-            <span class="skill-pill">Core Web Vitals</span>
-            <span class="skill-pill">GTmetrix</span>
-            <span class="skill-pill">Figma</span>
-          </div>
-        </div>
-
-        <div class="skill-card">
-          <div class="skill-card__header">
-            <span class="skill-card__icon">
-              <i class='bx bx-image'></i>
-            </span>
-            <h3 class="skill-card__title">Image Editing</h3>
-          </div>
-          <div class="skill-card__pills">
-            <span class="skill-pill">Photoshop</span>
-            <span class="skill-pill">GIMP</span>
-            <span class="skill-pill">Affinity</span>
-          </div>
-        </div>
-
-        <div class="skill-card">
-          <div class="skill-card__header">
-            <span class="skill-card__icon">
-              <i class='bx bx-video-recording'></i>
-            </span>
-            <h3 class="skill-card__title">Video Editing</h3>
-          </div>
-          <div class="skill-card__pills">
-            <span class="skill-pill">CapCut</span>
-          </div>
-        </div>
-
-        <div class="skill-card">
-          <div class="skill-card__header">
-            <span class="skill-card__icon">
-              <i class='bx bx-group'></i>
-            </span>
-            <h3 class="skill-card__title">Leadership</h3>
-          </div>
-          <div class="skill-card__pills">
-            <span class="skill-pill">Tech Lead</span>
-            <span class="skill-pill">Project Management</span>
-            <span class="skill-pill">Mentor</span>
-            <span class="skill-pill">Teacher</span>
-          </div>
-        </div>
-
-        <div class="skill-card">
-          <div class="skill-card__header">
-            <span class="skill-card__icon">
-              <i class='bx bx-globe'></i>
-            </span>
-            <h3 class="skill-card__title">Languages</h3>
-          </div>
-          <div class="skill-card__pills">
-            <span class="skill-pill">English (EF SET C2)</span>
-            <span class="skill-pill">Spanish (native)</span>
-          </div>
-        </div>
-
+        <article class="approach__panel">
+          <span class="approach__num" aria-hidden="true">04</span>
+          <h3 class="display-md">Lead</h3>
+          <p class="text-muted text-sm leading-relaxed">Delivery when it counts — recovered a year-delayed web + mobile product and shipped it in 3 months.</p>
+          <ul class="approach__list">
+            <li>Tech Lead · Project Management</li>
+            <li>Mentoring · Teaching</li>
+            <li>SEO · Core Web Vitals · GTmetrix</li>
+            <li>Vercel · AWS S3 · Nginx · Proxmox · Playwright · Figma</li>
+          </ul>
+        </article>
       </div>
+
+      <div class="approach__progress mt-10 hidden lg:block" aria-hidden="true"><span></span></div>
     </div>
   </section>
 
-  <!-- Resume Section -->
-  <section id="resume" class="py-24 bg-slate-900 border-t border-slate-800/50">
-    <div class="container mx-auto px-6">
-      <div class="text-center mb-16">
-        <h2 class="reveal text-3xl md:text-4xl font-bold text-white mb-4">Resume</h2>
-      </div>
-
-      <div class="reveal grid grid-cols-1 md:grid-cols-2 gap-12" style="transition-delay: 100ms;">
-        <!-- Education -->
-        <div>
-          <h3 class="text-2xl font-semibold text-white mb-8 flex items-center gap-3">
-            <i class='bx bx-book-open text-primary'></i> Education &amp; Certifications
-          </h3>
-          <div class="timeline-container">
-            <article class="timeline-item">
-              <div class="timeline-dot"></div>
-              <h4 class="text-xl font-bold text-white mb-1">EF SET English Certificate</h4>
-              <time datetime="2026-08-29" class="inline-block py-1 px-3 rounded bg-slate-800 text-primary text-sm font-medium mb-3">C2 Proficient · Aug 29, 2026</time>
-              <p class="text-slate-300 font-medium mb-2">EF SET</p>
-              <p class="text-slate-400 text-sm leading-relaxed">Certified C2 Proficient English for professional remote collaboration with US and international clients.</p>
-              <a href="https://cert.efset.org/B6TnCM" target="_blank" rel="noopener noreferrer" class="inline-flex mt-2 text-primary hover:text-white transition-colors">View credential</a>
-            </article>
-
-            <article class="timeline-item">
-              <div class="timeline-dot"></div>
-              <h4 class="text-xl font-bold text-white mb-1">Self-learning</h4>
-              <time datetime="2015" class="inline-block py-1 px-3 rounded bg-slate-800 text-primary text-sm font-medium mb-3">2015 – Present</time>
-              <p class="text-slate-300 font-medium mb-2">Udemy, Platzi, and continuous professional development</p>
-              <p class="text-slate-400 text-sm leading-relaxed">Continuous learning across web development, AI automation, and modern frameworks. These platforms remain the cornerstone of staying current in a fast-moving industry.</p>
-            </article>
-
-            <article class="timeline-item">
-              <div class="timeline-dot"></div>
-              <h4 class="text-xl font-bold text-white mb-1">Computer Engineering</h4>
-              <time datetime="2010/2015" class="inline-block py-1 px-3 rounded bg-slate-800 text-primary text-sm font-medium mb-3">2010 – 2015</time>
-              <p class="text-slate-300 font-medium mb-2">National Engineering University</p>
-              <p class="text-slate-400 text-sm leading-relaxed">Foundational training in mathematics, programming, and engineering principles that paved the way for a self-directed career in software development.</p>
-            </article>
-          </div>
+  <!-- NUMBERS -->
+  <section class="section hairline" aria-labelledby="numbers-heading">
+    <div class="max-w-[1400px] mx-auto px-6 md:px-10">
+      <h2 id="numbers-heading" class="sr-only">Key numbers</h2>
+      <div class="numbers">
+        <div data-reveal>
+          <p class="number__value"><span data-count="2017" data-from="1990">2017</span></p>
+          <p class="label mt-3">Shipping since</p>
         </div>
-
-        <!-- Experience -->
-        <div>
-          <h3 class="text-2xl font-semibold text-white mb-8 flex items-center gap-3">
-            <i class='bx bx-briefcase text-primary'></i> Professional Experience
-          </h3>
-          <div class="timeline-container">
-            <article class="timeline-item">
-              <div class="timeline-dot"></div>
-              <h4 class="text-xl font-bold text-white mb-1">Web Developer</h4>
-              <time datetime="2024-01/2026-08" class="inline-block py-1 px-3 rounded bg-slate-800 text-primary text-sm font-medium mb-3">Jan 2024 – Aug 2026</time>
-              <p class="text-slate-300 font-medium mb-3">Your Digital Resource, Florida</p>
-              <ul class="text-slate-400 text-sm leading-relaxed list-disc list-inside space-y-1">
-                <li>Pioneered AI-assisted Webflow/WordPress workflows across dozens of landing pages, cutting repetitive editing work from days to a couple of hours.</li>
-                <li>Built AI-driven performance optimization that moved client sites from GTmetrix Grade F to A and reduced the optimization process from 90 to 20 minutes.</li>
-                <li>Created an open-source Client-First Agent Skill that encodes Finsweet Client-First conventions so AI tools can generate Webflow components automatically instead of by hand.</li>
-                <li>Led design, development, and delivery of client communication materials across web and digital channels.</li>
-              </ul>
-            </article>
-
-            <article class="timeline-item">
-              <div class="timeline-dot"></div>
-              <h4 class="text-xl font-bold text-white mb-1">Software Engineer</h4>
-              <time datetime="2022/2024" class="inline-block py-1 px-3 rounded bg-slate-800 text-primary text-sm font-medium mb-3">2022 – 2024</time>
-              <p class="text-slate-300 font-medium mb-3">Nicasource, Florida, US</p>
-              <ul class="text-slate-400 text-sm leading-relaxed list-disc list-inside space-y-1">
-                <li>Owned web development delivery using React, Vue, and WordPress for international client requirements.</li>
-                <li>Contributed to frontend architecture, reusable component design, and performance optimization across concurrent projects.</li>
-                <li>Upheld code quality and best practices across multiple concurrent international projects.</li>
-              </ul>
-            </article>
-
-            <article class="timeline-item">
-              <div class="timeline-dot"></div>
-              <h4 class="text-xl font-bold text-white mb-1">SEO Specialist</h4>
-              <time datetime="2020/2022" class="inline-block py-1 px-3 rounded bg-slate-800 text-primary text-sm font-medium mb-3">2020 – 2022</time>
-              <p class="text-slate-300 font-medium mb-3">Top Floor Marketing, Managua</p>
-              <ul class="text-slate-400 text-sm leading-relaxed list-disc list-inside space-y-1">
-                <li>Built content automation combined with bot workflows, increasing lead volume across client portfolio sites by 30%.</li>
-                <li>Built custom WordPress sites and optimized Core Web Vitals and on-page SEO for rankings.</li>
-              </ul>
-            </article>
-
-            <article class="timeline-item">
-              <div class="timeline-dot"></div>
-              <h4 class="text-xl font-bold text-white mb-1">Project Manager and Tech Lead</h4>
-              <time datetime="2019/2020" class="inline-block py-1 px-3 rounded bg-slate-800 text-primary text-sm font-medium mb-3">2019 – 2020</time>
-              <p class="text-slate-300 font-medium mb-3">AIM Services, Managua</p>
-              <ul class="text-slate-400 text-sm leading-relaxed list-disc list-inside space-y-1">
-                <li>As Project Manager and Tech Lead, recovered a year-delayed web + mobile application and shipped it to production in 3 months.</li>
-                <li>Owned architecture and delivery for company projects, including a dual web/mobile application built with Ionic.</li>
-              </ul>
-            </article>
-
-            <article class="timeline-item">
-              <div class="timeline-dot"></div>
-              <h4 class="text-xl font-bold text-white mb-1">Web Developer</h4>
-              <time datetime="2017/2019" class="inline-block py-1 px-3 rounded bg-slate-800 text-primary text-sm font-medium mb-3">2017 – 2019</time>
-              <p class="text-slate-300 font-medium mb-3">Target Ogilvy</p>
-              <ul class="text-slate-400 text-sm leading-relaxed list-disc list-inside space-y-1">
-                <li>Introduced Laravel into projects previously built in plain PHP, expanding the feature set the agency could deliver to clients.</li>
-                <li>Developed real-time PHP systems for special events and live campaigns.</li>
-              </ul>
-            </article>
-          </div>
+        <div data-reveal data-delay="0.05">
+          <p class="number__value">F<em>→A</em></p>
+          <p class="label mt-3">GTmetrix grade</p>
+        </div>
+        <div data-reveal data-delay="0.1">
+          <p class="number__value"><span data-count="90" data-from="40">90</span><em>→<span data-count="20" data-from="60">20</span></em></p>
+          <p class="label mt-3">Minutes to optimize</p>
+        </div>
+        <div data-reveal data-delay="0.15">
+          <p class="number__value"><em>+</em><span data-count="30" data-suffix="%">30%</span></p>
+          <p class="label mt-3">Lead volume increase</p>
+        </div>
+        <div data-reveal data-delay="0.2">
+          <p class="number__value"><span data-count="3">3</span> <em>mo</em></p>
+          <p class="label mt-3">To rescue a year-late product</p>
+        </div>
+        <div data-reveal data-delay="0.25">
+          <p class="number__value">C2</p>
+          <p class="label mt-3">EF SET English</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Portfolio Section -->
-  <section id="portfolio" class="py-24 bg-[#0a101d]">
-    <div class="container mx-auto px-6">
-      <div class="text-center mb-16 max-w-3xl mx-auto">
-        <h2 class="reveal text-3xl md:text-4xl font-bold text-white mb-4">Portfolio</h2>
-        <p class="reveal text-slate-400" style="transition-delay: 100ms;">Some projects I've worked on; it's impossible to mention them all, but I highlight the
-          most significant ones. If I remember them, it's because they were crucial.</p>
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section hairline" aria-labelledby="experience-heading">
+    <div class="max-w-[1400px] mx-auto px-6 md:px-10">
+      <h2 id="experience-heading" class="display-lg mb-16" data-lines>Experience</h2>
+
+      <div class="xp-group">
+        <article class="xp-row">
+          <time datetime="2024-01/2026-08">2024 – 2026</time>
+          <div>
+            <h3>Web Developer <span class="text-muted font-normal">· Your Digital Resource, Florida</span></h3>
+            <ul>
+              <li>Pioneered AI-assisted Webflow/WordPress workflows across dozens of landing pages, cutting repetitive editing work from days to a couple of hours.</li>
+              <li>Built AI-driven performance optimization that moved client sites from GTmetrix Grade F to A and reduced the optimization process from 90 to 20 minutes.</li>
+              <li>Created an open-source Client-First Agent Skill that encodes Finsweet Client-First conventions so AI tools can generate Webflow components automatically instead of by hand.</li>
+              <li>Led design, development, and delivery of client communication materials across web and digital channels.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="xp-row">
+          <time datetime="2022/2024">2022 – 2024</time>
+          <div>
+            <h3>Software Engineer <span class="text-muted font-normal">· Nicasource, Florida, US</span></h3>
+            <ul>
+              <li>Owned web development delivery using React, Vue, and WordPress for international client requirements.</li>
+              <li>Contributed to frontend architecture, reusable component design, and performance optimization across concurrent projects.</li>
+              <li>Upheld code quality and best practices across multiple concurrent international projects.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="xp-row">
+          <time datetime="2020/2022">2020 – 2022</time>
+          <div>
+            <h3>SEO Specialist <span class="text-muted font-normal">· Top Floor Marketing, Managua</span></h3>
+            <ul>
+              <li>Built content automation combined with bot workflows, increasing lead volume across client portfolio sites by 30%.</li>
+              <li>Built custom WordPress sites and optimized Core Web Vitals and on-page SEO for rankings.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="xp-row">
+          <time datetime="2019/2020">2019 – 2020</time>
+          <div>
+            <h3>Project Manager and Tech Lead <span class="text-muted font-normal">· AIM Services, Managua</span></h3>
+            <ul>
+              <li>As Project Manager and Tech Lead, recovered a year-delayed web + mobile application and shipped it to production in 3 months.</li>
+              <li>Owned architecture and delivery for company projects, including a dual web/mobile application built with Ionic.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="xp-row">
+          <time datetime="2017/2019">2017 – 2019</time>
+          <div>
+            <h3>Web Developer <span class="text-muted font-normal">· Target Ogilvy</span></h3>
+            <ul>
+              <li>Introduced Laravel into projects previously built in plain PHP, expanding the feature set the agency could deliver to clients.</li>
+              <li>Developed real-time PHP systems for special events and live campaigns.</li>
+            </ul>
+          </div>
+        </article>
       </div>
 
-      <!-- Portfolio Grid -->
-      <div class="reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" style="transition-delay: 200ms;">
+      <h2 class="display-md mt-24 mb-10" data-lines>Education &amp; certifications</h2>
+      <div class="xp-group">
+        <article class="xp-row">
+          <time datetime="2026-08-29">Aug 2026</time>
+          <div>
+            <h3>EF SET English Certificate <span class="text-muted font-normal">· C2 Proficient</span></h3>
+            <ul>
+              <li>Certified C2 Proficient English for professional remote collaboration with US and international clients. <a href="https://cert.efset.org/B6TnCM" target="_blank" rel="noopener noreferrer" class="text-primary">View credential</a></li>
+            </ul>
+          </div>
+        </article>
+        <article class="xp-row">
+          <time datetime="2015">2015 – now</time>
+          <div>
+            <h3>Self-learning <span class="text-muted font-normal">· Udemy, Platzi, continuous professional development</span></h3>
+            <ul>
+              <li>Continuous learning across web development, AI automation, and modern frameworks. These platforms remain the cornerstone of staying current in a fast-moving industry.</li>
+            </ul>
+          </div>
+        </article>
+        <article class="xp-row">
+          <time datetime="2010/2015">2010 – 2015</time>
+          <div>
+            <h3>Computer Engineering <span class="text-muted font-normal">· National Engineering University</span></h3>
+            <ul>
+              <li>Foundational training in mathematics, programming, and engineering principles that paved the way for a self-directed career in software development.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
 
-        <!-- Project AIDA SaaS -->
-        <div
-          class="group relative rounded-2xl overflow-hidden card-glass hover-lift border border-primary/40 flex flex-col">
-          <div class="aspect-video overflow-hidden bg-slate-800">
-            <img src="assets/img/portfolio/aida.png" alt="AIDA — dental clinic SaaS admin dashboard"
-              class="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105">
-          </div>
-          <div class="p-6 flex-grow flex flex-col">
-            <span class="text-xs font-semibold tracking-wider text-primary uppercase mb-2 block">SaaS Product</span>
-            <h3 class="text-xl font-bold text-white mb-2">AIDA</h3>
-            <p class="text-slate-400 text-sm mb-4 line-clamp-3">Production full-stack SaaS for dental clinics, requested by a practicing dentist — patients, odontograms, appointments, records, and payments. HIPAA-conscious role-based access to clinical data. Built end-to-end; deployed on Vercel with a self-managed backend.</p>
-            <div class="flex items-center gap-2 mb-4 flex-wrap mt-auto">
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">React</span>
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">Next.js</span>
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">TypeScript</span>
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">Tailwind CSS</span>
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">PostgreSQL</span>
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">Vercel</span>
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">HIPAA-conscious</span>
-            </div>
-            <span class="inline-flex items-center gap-2 text-slate-400 text-sm font-medium">
-              In production <i class='bx bx-check-circle'></i>
-            </span>
-          </div>
-        </div>
+  <!-- MORE WORK -->
+  <section id="more-work" class="section hairline" aria-labelledby="more-heading">
+    <div class="max-w-[1400px] mx-auto px-6 md:px-10">
+      <div class="flex items-end justify-between gap-6 mb-14">
+        <h2 id="more-heading" class="display-lg" data-lines>More work</h2>
+        <p class="label hidden md:block max-w-[40ch] text-right">Some projects I've worked on; it's impossible to mention them all, but I highlight the most significant ones.</p>
+      </div>
 
-        <!-- Project Client-First Skill -->
-        <div
-          class="group relative rounded-2xl overflow-hidden card-glass hover-lift border border-secondary/40 flex flex-col">
-          <div class="aspect-video overflow-hidden bg-gradient-to-br from-secondary/20 to-primary/20 flex items-center justify-center">
-            <i class='bx bx-layer text-7xl text-secondary/80'></i>
-          </div>
-          <div class="p-6 flex-grow flex flex-col">
-            <span class="text-xs font-semibold tracking-wider text-secondary uppercase mb-2 block">Open Source</span>
-            <h3 class="text-xl font-bold text-white mb-2">Client-First Skill for AI Agents</h3>
-            <p class="text-slate-400 text-sm mb-4 line-clamp-3">Created an open-source Agent Skill encoding Finsweet Client-First Webflow conventions for Cursor, Claude Code, and other AI tools. Self-contained SKILL.md plus 17 deep-dive references on GitHub.</p>
-            <div class="flex items-center gap-2 mb-4 flex-wrap mt-auto">
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">Client-First</span>
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">Webflow</span>
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">AI Agents</span>
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">Open Source</span>
-            </div>
-            <a href="https://github.com/Omazon/First-Client-Webflow" target="_blank" rel="noopener noreferrer"
-              class="inline-flex items-center gap-2 text-white font-medium hover:text-secondary transition-colors">
-              View Source <i class='bx bx-right-arrow-alt text-xl'></i>
-            </a>
-          </div>
-        </div>
-
-        <!-- Project AI Workflows -->
-        <div
-          class="group relative rounded-2xl overflow-hidden card-glass hover-lift border border-primary/40 flex flex-col">
-          <div class="aspect-video overflow-hidden bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center">
-            <i class='bx bx-bot text-7xl text-primary/80'></i>
-          </div>
-          <div class="p-6 flex-grow flex flex-col">
-            <span class="text-xs font-semibold tracking-wider text-primary uppercase mb-2 block">AI Automation</span>
-            <h3 class="text-xl font-bold text-white mb-2">AI Workflow Automations</h3>
-            <p class="text-slate-400 text-sm mb-4 line-clamp-3">n8n pipelines connecting Webflow CMS to GPT assistants and bot workflows — streamlining client content operations without custom backend code.</p>
-            <div class="flex items-center gap-2 mb-4 flex-wrap mt-auto">
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">n8n</span>
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">Webflow</span>
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">GPT</span>
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">Automation</span>
-            </div>
-            <span class="inline-flex items-center gap-2 text-slate-400 text-sm font-medium">
-              Internal case study <i class='bx bx-lock-alt'></i>
-            </span>
-          </div>
-        </div>
-
-        <!-- Project AI-Ready Resume -->
-        <div
-          class="group relative rounded-2xl overflow-hidden card-glass hover-lift border border-secondary/40 flex flex-col">
-          <div class="aspect-video overflow-hidden bg-gradient-to-br from-secondary/20 to-primary/20 flex items-center justify-center">
-            <i class='bx bx-data text-7xl text-secondary/80'></i>
-          </div>
-          <div class="p-6 flex-grow flex flex-col">
-            <span class="text-xs font-semibold tracking-wider text-secondary uppercase mb-2 block">Meta Project</span>
-            <h3 class="text-xl font-bold text-white mb-2">AI-Ready Resume Site</h3>
-            <p class="text-slate-400 text-sm mb-4 line-clamp-3">This portfolio optimized for AI and ATS parsing: JSON-LD, resume.json, llms.txt, and print-ready PDF export.</p>
-            <div class="flex items-center gap-2 mb-4 flex-wrap mt-auto">
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">JSON-LD</span>
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">llms.txt</span>
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">Tailwind</span>
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">ATS</span>
-            </div>
-            <a href="https://github.com/Omazon/resume" target="_blank" rel="noopener noreferrer"
-              class="inline-flex items-center gap-2 text-white font-medium hover:text-secondary transition-colors">
-              View Source <i class='bx bx-right-arrow-alt text-xl'></i>
-            </a>
-          </div>
-        </div>
-
-        <!-- Project Nicasource -->
-        <div
-          class="group relative rounded-2xl overflow-hidden card-glass hover-lift border border-slate-700/50 flex flex-col">
-          <div class="aspect-video overflow-hidden bg-slate-800 p-4">
-            <img src="assets/img/portfolio/nicasource.png" alt="Nicasource — React and Vue web development projects"
-              class="w-full h-full object-contain transition-transform duration-700 group-hover:scale-110">
-          </div>
-          <div class="p-6 flex-grow flex flex-col">
-            <span class="text-xs font-semibold tracking-wider text-primary uppercase mb-2 block">Agency</span>
-            <h3 class="text-xl font-bold text-white mb-2">Nicasource</h3>
-            <p class="text-slate-400 text-sm mb-4 line-clamp-2">Full-stack web solutions with React, Vue, and WordPress for international clients.</p>
-            <div class="flex items-center gap-2 mb-4 flex-wrap mt-auto">
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">React</span>
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">Vue</span>
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">WordPress</span>
-            </div>
-            <span class="inline-flex items-center gap-2 text-slate-400 text-sm font-medium">
-              2022 – 2024 <i class='bx bx-briefcase'></i>
-            </span>
-          </div>
-        </div>
-
-        <!-- Project BYD El Salvador -->
-        <div
-          class="group relative rounded-2xl overflow-hidden card-glass hover-lift border border-slate-700/50 flex flex-col">
-          <div class="aspect-video overflow-hidden bg-slate-800 p-4">
-            <img src="assets/img/portfolio/byd.png" alt="BYD El Salvador"
-              class="w-full h-full object-contain transition-transform duration-700 group-hover:scale-110">
-          </div>
-          <div class="p-6 flex-grow flex flex-col">
-            <span class="text-xs font-semibold tracking-wider text-primary uppercase mb-2 block">Car Brand</span>
-            <h3 class="text-xl font-bold text-white mb-2">BYD El Salvador</h3>
-            <p class="text-slate-400 text-sm mb-4 line-clamp-2">Wordpress from Scratch using Elementor.</p>
-            <div class="flex items-center gap-2 mb-4 flex-wrap mt-auto">
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">WordPress</span>
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">Elementor</span>
-            </div>
-            <a href="https://bydelsalvador.com/" target="_blank"
-              class="inline-flex items-center gap-2 text-white font-medium hover:text-primary transition-colors">
-              Visit Site <i class='bx bx-right-arrow-alt text-xl'></i>
-            </a>
-          </div>
-        </div>
-
-        <!-- Project Somos Iberoamerica -->
-        <div
-          class="group relative rounded-2xl overflow-hidden card-glass hover-lift border border-slate-700/50 flex flex-col">
-          <div class="aspect-video overflow-hidden bg-white p-4">
-            <img src="assets/img/portfolio/somos.png" alt="Somos Iberoamérica"
-              class="w-full h-full object-contain transition-transform duration-700 group-hover:scale-110">
-          </div>
-          <div class="p-6 flex-grow flex flex-col">
-            <span class="text-xs font-semibold tracking-wider text-primary uppercase mb-2 block">Organization</span>
-            <h3 class="text-xl font-bold text-white mb-2">Somos Iberoamérica</h3>
-            <p class="text-slate-400 text-sm mb-4 line-clamp-2">Pure PHP code to Editable Gutenberg.</p>
-            <div class="flex items-center gap-2 mb-4 flex-wrap mt-auto">
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">WordPress</span>
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">Gutenberg</span>
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">Organization</span>
-            </div>
-            <a href="https://somosiberoamerica.org/" target="_blank"
-              class="inline-flex items-center gap-2 text-white font-medium hover:text-primary transition-colors">
-              Visit Site <i class='bx bx-right-arrow-alt text-xl'></i>
-            </a>
-          </div>
-        </div>
-
-        <!-- Project 1 -->
-        <div
-          class="group relative rounded-2xl overflow-hidden card-glass hover-lift border border-slate-700/50 flex flex-col">
-          <div class="aspect-video overflow-hidden">
-            <img src="assets/img/portfolio/mm.png" alt="M&M Studios"
-              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-          </div>
-          <div class="p-6 flex-grow flex flex-col">
-            <span class="text-xs font-semibold tracking-wider text-primary uppercase mb-2 block">Web Site</span>
-            <h3 class="text-xl font-bold text-white mb-2">M&M Studios</h3>
-            <p class="text-slate-400 text-sm mb-4 line-clamp-2">A modern website built to showcase their creative studio
-              and services.</p>
-            <div class="flex items-center gap-2 mb-4 flex-wrap mt-auto">
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">Webflow</span>
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">Web</span>
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">Design</span>
-            </div>
-            <a href="https://www.mandmstudios.com/" target="_blank"
-              class="inline-flex items-center gap-2 text-white font-medium hover:text-primary transition-colors">
-              Visit Site <i class='bx bx-right-arrow-alt text-xl'></i>
-            </a>
-          </div>
-        </div>
-
-        <!-- Project 2 -->
-        <div
-          class="group relative rounded-2xl overflow-hidden card-glass hover-lift border border-slate-700/50 flex flex-col">
-          <div class="aspect-video overflow-hidden">
-            <img src="assets/img/portfolio/central.webp" alt="Park Central Dental"
-              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-          </div>
-          <div class="p-6 flex-grow flex flex-col">
-            <span class="text-xs font-semibold tracking-wider text-primary uppercase mb-2 block">Web Site</span>
-            <h3 class="text-xl font-bold text-white mb-2">Park Central Dental</h3>
-            <p class="text-slate-400 text-sm mb-4 line-clamp-2">A professional medical/dental practice website focusing
-              on user experience.</p>
-            <div class="flex items-center gap-2 mb-4 flex-wrap mt-auto">
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">Webflow</span>
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">CMS</span>
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">SEO</span>
-            </div>
-            <a href="https://www.parkcentraldentaltx.com/" target="_blank"
-              class="inline-flex items-center gap-2 text-white font-medium hover:text-primary transition-colors">
-              Visit Site <i class='bx bx-right-arrow-alt text-xl'></i>
-            </a>
-          </div>
-        </div>
-
-        <!-- Project 3 -->
-        <div
-          class="group relative rounded-2xl overflow-hidden card-glass hover-lift border border-slate-700/50 flex flex-col">
-          <div class="aspect-video overflow-hidden">
-            <img src="assets/img/portfolio/wesmark.png" alt="Wesmark Family Dentistry"
-              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-          </div>
-          <div class="p-6 flex-grow flex flex-col">
-            <span class="text-xs font-semibold tracking-wider text-primary uppercase mb-2 block">Web Site</span>
-            <h3 class="text-xl font-bold text-white mb-2">Wesmark Dentistry</h3>
-            <p class="text-slate-400 text-sm mb-4 line-clamp-2">Corporate website designed for patient conversion and
-              easy navigation.</p>
-            <div class="flex items-center gap-2 mb-4 flex-wrap mt-auto">
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">Webflow</span>
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">Web</span>
-            </div>
-            <a href="https://www.wesmarkfamilydentistry.com/" target="_blank"
-              class="inline-flex items-center gap-2 text-white font-medium hover:text-primary transition-colors">
-              Visit Site <i class='bx bx-right-arrow-alt text-xl'></i>
-            </a>
-          </div>
-        </div>
-
-        <!-- Project 4 -->
-        <div
-          class="group relative rounded-2xl overflow-hidden card-glass hover-lift border border-slate-700/50 flex flex-col">
-          <div class="aspect-video overflow-hidden">
-            <img src="assets/img/portfolio/scalar.png" alt="Scalar"
-              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-          </div>
-          <div class="p-6 flex-grow flex flex-col">
-            <span class="text-xs font-semibold tracking-wider text-secondary uppercase mb-2 block">Component</span>
-            <h3 class="text-xl font-bold text-white mb-2">Scalar</h3>
-            <p class="text-slate-400 text-sm mb-4 line-clamp-2">Custom product component implementation for the Scalar
-              platform.</p>
-            <div class="flex items-center gap-2 mb-4 flex-wrap mt-auto">
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">Frontend</span>
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">JS</span>
-            </div>
-            <a href="https://scalar.io/product" target="_blank"
-              class="inline-flex items-center gap-2 text-white font-medium hover:text-secondary transition-colors">
-              Visit Site <i class='bx bx-right-arrow-alt text-xl'></i>
-            </a>
-          </div>
-        </div>
-
-        <!-- Project 5 -->
-        <div
-          class="group relative rounded-2xl overflow-hidden card-glass hover-lift border border-slate-700/50 flex flex-col">
-          <div class="aspect-video overflow-hidden">
-            <img src="assets/img/portfolio/sucuri.png" alt="Sucuri"
-              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-          </div>
-          <div class="p-6 flex-grow flex flex-col">
-            <span class="text-xs font-semibold tracking-wider text-emerald-400 uppercase mb-2 block">Blog</span>
-            <h3 class="text-xl font-bold text-white mb-2">Sucuri</h3>
-            <p class="text-slate-400 text-sm mb-4 line-clamp-2">High-traffic cybersecurity blog focusing on performance
-              and reliability.</p>
-            <div class="flex items-center gap-2 mb-4 flex-wrap mt-auto">
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">WordPress</span>
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">Blog</span>
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">Security</span>
-            </div>
-            <a href="https://blog.sucuri.net/" target="_blank"
-              class="inline-flex items-center gap-2 text-white font-medium hover:text-emerald-400 transition-colors">
-              Visit Site <i class='bx bx-right-arrow-alt text-xl'></i>
-            </a>
-          </div>
-        </div>
-
-        <!-- Project 6 -->
-        <div
-          class="group relative rounded-2xl overflow-hidden card-glass hover-lift border border-slate-700/50 flex flex-col">
-          <div class="aspect-video overflow-hidden">
-            <img src="assets/img/portfolio/hopeofamerica.png" alt="Hope of America"
-              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-          </div>
-          <div class="p-6 flex-grow flex flex-col">
-            <span class="text-xs font-semibold tracking-wider text-primary uppercase mb-2 block">Website</span>
-            <h3 class="text-xl font-bold text-white mb-2">Hope of America</h3>
-            <p class="text-slate-400 text-sm mb-4 line-clamp-2">Organizational website to handle events and community
-              outreach.</p>
-            <div class="flex items-center gap-2 mb-4 flex-wrap mt-auto">
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">WordPress</span>
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">Organization</span>
-            </div>
-            <a href="https://hopeofamerica.org/" target="_blank"
-              class="inline-flex items-center gap-2 text-white font-medium hover:text-primary transition-colors">
-              Visit Site <i class='bx bx-right-arrow-alt text-xl'></i>
-            </a>
-          </div>
-        </div>
-
-        <!-- Project 7 -->
-        <div
-          class="group relative rounded-2xl overflow-hidden card-glass hover-lift border border-slate-700/50 flex flex-col">
-          <div class="aspect-video overflow-hidden">
-            <img src="assets/img/portfolio/davila.png" alt="Davila Floors and Tiles"
-              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-          </div>
-          <div class="p-6 flex-grow flex flex-col">
-            <span class="text-xs font-semibold tracking-wider text-primary uppercase mb-2 block">Website</span>
-            <h3 class="text-xl font-bold text-white mb-2">Davila Floors</h3>
-            <p class="text-slate-400 text-sm mb-4 line-clamp-2">Commercial website for a flooring and tiles business.
-            </p>
-            <div class="flex items-center gap-2 mb-4 flex-wrap mt-auto">
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">WordPress</span>
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">Business</span>
-            </div>
-            <a href="https://davilafloors.com/" target="_blank"
-              class="inline-flex items-center gap-2 text-white font-medium hover:text-primary transition-colors">
-              Visit Site <i class='bx bx-right-arrow-alt text-xl'></i>
-            </a>
-          </div>
-        </div>
-
-        <!-- Project 8 -->
-        <div
-          class="group relative rounded-2xl overflow-hidden card-glass hover-lift border border-slate-700/50 flex flex-col">
-          <div class="aspect-video overflow-hidden">
-            <img src="assets/img/portfolio/tiniciti.png" alt="Tiniciti"
-              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-          </div>
-          <div class="p-6 flex-grow flex flex-col">
-            <span class="text-xs font-semibold tracking-wider text-primary uppercase mb-2 block">Website</span>
-            <h3 class="text-xl font-bold text-white mb-2">Tiniciti</h3>
-            <p class="text-slate-400 text-sm mb-4 line-clamp-2">Modern and playful website design for Tiniciti
-              preschools.</p>
-            <div class="flex items-center gap-2 mb-4 flex-wrap mt-auto">
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">WordPress</span>
-              <span class="px-2 py-1 bg-slate-800 rounded-md text-xs text-slate-300">Education</span>
-            </div>
-            <a href="https://www.tiniciti.com/#/" target="_blank"
-              class="inline-flex items-center gap-2 text-white font-medium hover:text-primary transition-colors">
-              Visit Site <i class='bx bx-right-arrow-alt text-xl'></i>
-            </a>
-          </div>
-        </div>
-
-        <!-- More examples CTA -->
-        <a href="#contact"
-          class="group relative rounded-2xl overflow-hidden card-glass hover-lift border border-primary/40 flex flex-col items-center justify-center text-center p-8 min-h-[280px]">
-          <i class='bx bx-envelope text-5xl text-primary/80 mb-4'></i>
-          <h3 class="text-xl font-bold text-white mb-3">Want more?</h3>
-          <p class="text-slate-400 text-sm mb-4 max-w-[220px]">Contact me and I can send you even more examples.</p>
-          <span class="inline-flex items-center gap-2 text-primary font-medium group-hover:text-white transition-colors">
-            Get in touch <i class='bx bx-right-arrow-alt text-xl'></i>
-          </span>
+      <div class="work-grid">
+        <a href="https://bydelsalvador.com/" target="_blank" rel="noopener noreferrer" class="work-item" data-reveal>
+          <div class="frame"><div class="frame__bar" aria-hidden="true"><span></span><span></span><span></span></div><div class="frame__media bg-surface-2 p-6 grid place-items-center"><img src="assets/img/portfolio/byd.png" alt="BYD El Salvador" class="!object-contain !scale-100" loading="lazy"></div></div>
+          <h3>BYD El Salvador</h3><p class="text-sm text-muted mt-1">WordPress from scratch using Elementor.</p>
         </a>
-
+        <a href="https://somosiberoamerica.org/" target="_blank" rel="noopener noreferrer" class="work-item" data-reveal data-delay="0.05">
+          <div class="frame"><div class="frame__bar" aria-hidden="true"><span></span><span></span><span></span></div><div class="frame__media bg-white p-6 grid place-items-center"><img src="assets/img/portfolio/somos.png" alt="Somos Iberoamérica" class="!object-contain !scale-100" loading="lazy"></div></div>
+          <h3>Somos Iberoamérica</h3><p class="text-sm text-muted mt-1">Pure PHP code to editable Gutenberg.</p>
+        </a>
+        <a href="https://www.mandmstudios.com/" target="_blank" rel="noopener noreferrer" class="work-item" data-reveal data-delay="0.1">
+          <div class="frame"><div class="frame__bar" aria-hidden="true"><span></span><span></span><span></span></div><div class="frame__media"><img src="assets/img/portfolio/mm.png" alt="M&M Studios" loading="lazy"></div></div>
+          <h3>M&amp;M Studios</h3><p class="text-sm text-muted mt-1">Webflow site for a creative studio.</p>
+        </a>
+        <a href="https://www.parkcentraldentaltx.com/" target="_blank" rel="noopener noreferrer" class="work-item" data-reveal>
+          <div class="frame"><div class="frame__bar" aria-hidden="true"><span></span><span></span><span></span></div><div class="frame__media"><img src="assets/img/portfolio/central.webp" alt="Park Central Dental" loading="lazy"></div></div>
+          <h3>Park Central Dental</h3><p class="text-sm text-muted mt-1">Webflow CMS with SEO focus.</p>
+        </a>
+        <a href="https://www.wesmarkfamilydentistry.com/" target="_blank" rel="noopener noreferrer" class="work-item" data-reveal data-delay="0.05">
+          <div class="frame"><div class="frame__bar" aria-hidden="true"><span></span><span></span><span></span></div><div class="frame__media"><img src="assets/img/portfolio/wesmark.png" alt="Wesmark Family Dentistry" loading="lazy"></div></div>
+          <h3>Wesmark Dentistry</h3><p class="text-sm text-muted mt-1">Webflow site designed for patient conversion.</p>
+        </a>
+        <a href="https://scalar.io/product" target="_blank" rel="noopener noreferrer" class="work-item" data-reveal data-delay="0.1">
+          <div class="frame"><div class="frame__bar" aria-hidden="true"><span></span><span></span><span></span></div><div class="frame__media"><img src="assets/img/portfolio/scalar.png" alt="Scalar" loading="lazy"></div></div>
+          <h3>Scalar</h3><p class="text-sm text-muted mt-1">Custom product component implementation.</p>
+        </a>
+        <a href="https://blog.sucuri.net/" target="_blank" rel="noopener noreferrer" class="work-item" data-reveal>
+          <div class="frame"><div class="frame__bar" aria-hidden="true"><span></span><span></span><span></span></div><div class="frame__media"><img src="assets/img/portfolio/sucuri.png" alt="Sucuri" loading="lazy"></div></div>
+          <h3>Sucuri</h3><p class="text-sm text-muted mt-1">High-traffic cybersecurity blog on WordPress.</p>
+        </a>
+        <a href="https://hopeofamerica.org/" target="_blank" rel="noopener noreferrer" class="work-item" data-reveal data-delay="0.05">
+          <div class="frame"><div class="frame__bar" aria-hidden="true"><span></span><span></span><span></span></div><div class="frame__media"><img src="assets/img/portfolio/hopeofamerica.png" alt="Hope of America" loading="lazy"></div></div>
+          <h3>Hope of America</h3><p class="text-sm text-muted mt-1">Organizational site for events and outreach.</p>
+        </a>
+        <a href="https://davilafloors.com/" target="_blank" rel="noopener noreferrer" class="work-item" data-reveal data-delay="0.1">
+          <div class="frame"><div class="frame__bar" aria-hidden="true"><span></span><span></span><span></span></div><div class="frame__media"><img src="assets/img/portfolio/davila.png" alt="Davila Floors and Tiles" loading="lazy"></div></div>
+          <h3>Davila Floors</h3><p class="text-sm text-muted mt-1">Commercial site for a flooring business.</p>
+        </a>
+        <a href="https://www.tiniciti.com/#/" target="_blank" rel="noopener noreferrer" class="work-item" data-reveal>
+          <div class="frame"><div class="frame__bar" aria-hidden="true"><span></span><span></span><span></span></div><div class="frame__media"><img src="assets/img/portfolio/tiniciti.png" alt="Tiniciti" loading="lazy"></div></div>
+          <h3>Tiniciti</h3><p class="text-sm text-muted mt-1">Playful WordPress site for preschools.</p>
+        </a>
+        <div class="work-item" data-reveal data-delay="0.05">
+          <div class="frame"><div class="frame__bar" aria-hidden="true"><span></span><span></span><span></span></div><div class="frame__media bg-surface-2 p-6 grid place-items-center"><img src="assets/img/portfolio/nicasource.png" alt="Nicasource" class="!object-contain !scale-100" loading="lazy"></div></div>
+          <h3>Nicasource</h3><p class="text-sm text-muted mt-1">React, Vue, and WordPress for international clients (2022–2024).</p>
+        </div>
+        <a href="https://github.com/Omazon/resume" target="_blank" rel="noopener noreferrer" class="work-item" data-reveal data-delay="0.1">
+          <div class="frame frame--flat"><div class="frame__bar" aria-hidden="true"><span></span><span></span><span></span></div><div class="frame__media"><p class="display-md text-center">AI-ready<br>resume site</p></div></div>
+          <h3>This site</h3><p class="text-sm text-muted mt-1">JSON-LD, resume.json, llms.txt, print-ready PDF. View source.</p>
+        </a>
       </div>
     </div>
   </section>
-  <section id="contact" class="py-24 bg-slate-900 border-t border-slate-800/50">
-    <div class="container mx-auto px-6">
-      <div class="text-center mb-16 max-w-3xl mx-auto">
-        <h2 class="reveal text-3xl md:text-4xl font-bold text-white mb-4">Contact Me</h2>
-        <p class="reveal text-slate-400" style="transition-delay: 100ms;">Have an offer, a project, or an idea to discuss? Reach me by phone or email — I respond quickly.</p>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section hairline min-h-[90svh] flex items-center" aria-labelledby="contact-heading">
+    <div class="max-w-[1400px] mx-auto px-6 md:px-10 w-full">
+      <p class="label mb-8" data-reveal>Have an offer, a project, or an idea? I respond quickly.</p>
+      <h2 id="contact-heading" class="display-xl mb-12" data-lines>Let's talk.</h2>
+      <div class="grid gap-6 md:gap-10" data-reveal>
+        <a href="tel:+50583992586" class="contact-link">+505 83992586</a>
+        <a href="mailto:omarboza@gmail.com" class="contact-link">omarboza@gmail.com</a>
       </div>
-
-      <div class="reveal max-w-3xl mx-auto space-y-8" style="transition-delay: 200ms;">
-
-        <!-- Featured Call Action -->
-        <div
-          class="card-glass p-8 rounded-2xl border border-primary/30 relative overflow-hidden group hover-lift text-center sm:text-left">
-          <div
-            class="absolute inset-0 bg-gradient-to-r from-primary/10 to-secondary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-          </div>
-          <div class="relative z-10 flex flex-col sm:flex-row items-center justify-center gap-6">
-            <div
-              class="w-20 h-20 rounded-full bg-gradient-primary flex items-center justify-center shrink-0 shadow-[0_0_20px_rgba(59,130,246,0.5)]">
-              <i class='bx bx-phone-call text-4xl text-white'></i>
-            </div>
-            <div>
-              <h4 class="text-white font-bold text-2xl mb-2">Let's Talk!</h4>
-              <p class="text-slate-400 mb-4">The fastest way to reach me is by phone.</p>
-              <a href="tel:+50583992586"
-                class="inline-block text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary tracking-wide hover:opacity-80 transition-opacity">
-                +505 83992586
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-          <div class="card-glass p-6 rounded-xl flex items-center gap-4 justify-center sm:justify-start">
-            <div class="w-12 h-12 rounded-full bg-slate-800 flex items-center justify-center shrink-0">
-              <i class='bx bx-envelope text-xl text-slate-300'></i>
-            </div>
-            <div class="text-center sm:text-left">
-              <h4 class="text-white font-bold mb-1 text-sm">Email</h4>
-              <a href="mailto:omarboza@gmail.com"
-                class="text-slate-400 text-sm hover:text-primary transition-colors break-all">omarboza@gmail.com</a>
-            </div>
-          </div>
-
-          <div class="card-glass p-6 rounded-xl flex items-center gap-4 justify-center sm:justify-start">
-            <div class="w-12 h-12 rounded-full bg-slate-800 flex items-center justify-center shrink-0">
-              <i class='bx bx-map text-xl text-slate-300'></i>
-            </div>
-            <div class="text-center sm:text-left">
-              <h4 class="text-white font-bold mb-1 text-sm">Location</h4>
-              <p class="text-slate-400 text-sm">Managua, Nicaragua</p>
-            </div>
-          </div>
-        </div>
-
+      <div class="mt-14 flex flex-wrap gap-4" data-reveal data-delay="0.1">
+        <a href="assets/Omar-Boza-Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-solid"><i class='bx bxs-file-pdf'></i> Resume — Webflow / WordPress</a>
+        <a href="assets/Omar-Boza-Resume-Frontend.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline"><i class='bx bxs-file-pdf'></i> Resume — Full-Stack / React</a>
       </div>
     </div>
   </section>
 
   </main>
 
-  <!-- Footer -->
-  <footer class="bg-[#0a101d] py-8 border-t border-slate-800 no-print">
-    <div class="container mx-auto px-6 text-center">
-      <div class="flex justify-center space-x-4 mb-4">
-        <a href="https://github.com/Omazon" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile"
-          class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-400 hover:bg-slate-700 hover:text-white transition-colors">
-          <i class='bx bxl-github text-xl'></i>
-        </a>
-        <a href="https://www.linkedin.com/in/omar-boza/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile"
-          class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-400 hover:bg-primary hover:text-white transition-colors">
-          <i class='bx bxl-linkedin text-xl'></i>
-        </a>
-        <a href="https://www.instagram.com/ing.omarboza/" target="_blank" rel="noopener noreferrer" aria-label="Instagram profile"
-          class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-400 hover:bg-pink-500 hover:text-white transition-colors">
-          <i class='bx bxl-instagram text-xl'></i>
-        </a>
+  <footer class="hairline py-8 no-print">
+    <div class="max-w-[1400px] mx-auto px-6 md:px-10 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted">
+      <p>&copy; 2026 <span class="text-ink">Omar Boza</span> · Managua, Nicaragua</p>
+      <div class="flex items-center gap-6">
+        <a href="https://github.com/Omazon" target="_blank" rel="noopener noreferrer" class="hover:text-ink transition-colors">GitHub</a>
+        <a href="https://www.linkedin.com/in/omar-boza/" target="_blank" rel="noopener noreferrer" class="hover:text-ink transition-colors">LinkedIn</a>
+        <a href="https://www.instagram.com/ing.omarboza/" target="_blank" rel="noopener noreferrer" class="hover:text-ink transition-colors">Instagram</a>
+        <a href="resume.json" class="hover:text-ink transition-colors">resume.json</a>
+        <a href="llms.txt" class="hover:text-ink transition-colors">llms.txt</a>
       </div>
-      <p class="text-slate-500 text-sm">
-        &copy; Copyright 2026 <strong class="text-white">Omar Boza</strong>. All Rights Reserved.
-        · <a href="resume.json" class="hover:text-primary transition-colors">resume.json</a>
-        · <a href="llms.txt" class="hover:text-primary transition-colors">llms.txt</a>
-      </p>
     </div>
   </footer>
 
-  <!-- Scripts -->
-  <script>
-    // Mobile Menu Toggle
-    const mobileBtn = document.getElementById('mobile-menu-btn');
-    const mobileMenu = document.getElementById('mobile-menu');
-    const mobileLinks = document.querySelectorAll('.mobile-link');
-
-    const toggleMenu = () => {
-      const isOpen = !mobileMenu.classList.contains('max-h-0');
-      mobileMenu.classList.toggle('max-h-0');
-      mobileMenu.classList.toggle('opacity-0');
-      mobileMenu.classList.toggle('pointer-events-none');
-      mobileMenu.classList.toggle('max-h-[400px]');
-      mobileMenu.classList.toggle('opacity-100');
-      mobileMenu.classList.toggle('pointer-events-auto');
-      mobileBtn.setAttribute('aria-expanded', isOpen ? 'false' : 'true');
-    };
-
-    mobileBtn.addEventListener('click', toggleMenu);
-
-    mobileLinks.forEach(link => {
-      link.addEventListener('click', () => {
-        if (!mobileMenu.classList.contains('max-h-0')) {
-          toggleMenu();
-        }
-      });
-    });
-
-    // Simple Navbar Scroll Script
-    window.addEventListener('scroll', () => {
-      const nav = document.getElementById('navbar');
-      if (window.scrollY > 50) {
-        nav.classList.add('shadow-lg');
-        nav.style.background = 'rgba(15, 23, 42, 0.95)';
-      } else {
-        nav.classList.remove('shadow-lg');
-        nav.style.background = 'rgba(15, 23, 42, 0.8)';
-      }
-    });
-
-    // Scroll Reveal Animation
-    const revealOptions = {
-      threshold: 0.1,
-      rootMargin: "0px 0px -50px 0px"
-    };
-
-    const revealOnScroll = new IntersectionObserver(function(entries, observer) {
-      entries.forEach(entry => {
-        if (!entry.isIntersecting) return;
-        entry.target.classList.add('active');
-        observer.unobserve(entry.target);
-      });
-    }, revealOptions);
-
-    document.querySelectorAll('.reveal').forEach(reveal => {
-      revealOnScroll.observe(reveal);
-    });
-  </script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="assets/js/hero-scene.js" defer></script>
+  <script src="assets/js/site.js" defer></script>
 </body>
 
 </html>
