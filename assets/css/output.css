@@ -668,7 +668,7 @@ body {
     display: block;
     position: fixed;
     inset: 0 auto auto 0;
-    z-index: 100;
+    z-index: 200;
     pointer-events: none;
     opacity: 0;
     transition: opacity 0.2s ease;
@@ -1257,7 +1257,15 @@ body {
 }
 .work-item {
   display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  text-align: left;
+  font: inherit;
   color: inherit;
+  cursor: pointer;
   transform-origin: 50% 100%;
 }
 .work-item .frame__media img {
@@ -1272,6 +1280,218 @@ body {
   font-size: 1.0625rem;
   font-weight: 500;
   margin-top: 1rem;
+}
+.work-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 120;
+  display: block;
+}
+.work-modal[hidden] {
+  display: none;
+}
+.work-modal__veil {
+  position: absolute;
+  inset: 0;
+  background: var(--color-dark);
+  pointer-events: none;
+}
+.work-modal__shell {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  background: var(--color-dark);
+  outline: none;
+  overflow: hidden;
+}
+.work-modal__chrome {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.1rem clamp(1rem, 3vw, 2rem);
+  pointer-events: none;
+  background: linear-gradient( to bottom, color-mix(in srgb, #0d0d10 88%, transparent), transparent );
+  @supports (color: color-mix(in lab, red, red)) {
+    background: linear-gradient( to bottom, color-mix(in srgb, var(--color-dark) 88%, transparent), transparent );
+  }
+}
+.work-modal__chrome > * {
+  pointer-events: auto;
+}
+.work-modal__count {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  color: var(--color-ink);
+  margin: 0;
+}
+.work-modal__count-sep {
+  color: var(--color-dim);
+}
+.work-modal__hint {
+  margin: 0;
+  color: var(--color-muted);
+}
+.work-modal__close {
+  display: grid;
+  place-items: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  border: 1px solid color-mix(in srgb, #f4f3ef 20%, transparent);
+  @supports (color: color-mix(in lab, red, red)) {
+    border: 1px solid color-mix(in srgb, var(--color-ink) 20%, transparent);
+  }
+  border-radius: 999px;
+  background: color-mix(in srgb, #13131a 70%, transparent);
+  @supports (color: color-mix(in lab, red, red)) {
+    background: color-mix(in srgb, var(--color-surface) 70%, transparent);
+  }
+  color: var(--color-ink);
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: border-color 0.3s ease, background 0.3s ease, color 0.3s ease;
+}
+.work-modal__close:hover {
+  border-color: var(--color-ink);
+  background: var(--color-ink);
+  color: var(--color-dark);
+}
+.work-modal__track {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  outline: none;
+}
+.work-modal__slide {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  align-items: center;
+  padding: clamp(5rem, 12vh, 7rem) clamp(1.25rem, 4vw, 3.5rem) clamp(2.5rem, 6vh, 4rem);
+  box-sizing: border-box;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  will-change: transform, opacity, clip-path;
+}
+.work-modal__slide.is-active {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  z-index: 1;
+}
+.work-modal__layout {
+  display: grid;
+  gap: clamp(1.75rem, 4vw, 3rem);
+  grid-template-columns: 1fr;
+  align-items: center;
+  width: min(1280px, 100%);
+  margin-inline: auto;
+}
+@media (min-width: 900px) {
+  .work-modal__layout {
+    grid-template-columns: 1.25fr 1fr;
+    gap: clamp(2.5rem, 5vw, 4.5rem);
+  }
+}
+.work-modal__media .frame {
+  margin: 0;
+  max-height: min(62vh, 560px);
+}
+.work-modal__media .frame__media {
+  max-height: min(54vh, 480px);
+}
+.work-modal__media .frame__media.is-contain {
+  display: grid;
+  place-items: center;
+  padding: 1.5rem;
+  background: var(--color-surface-2);
+}
+.work-modal__media .frame__media.is-contain img {
+  object-fit: contain;
+  transform: none;
+  max-height: 100%;
+}
+.work-modal__media .frame__media img {
+  transform: none;
+}
+.work-modal__body {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.work-modal__body .display-md {
+  color: var(--color-ink);
+  font-size: clamp(2rem, 4.5vw, 3.5rem);
+}
+.work-modal__blurb {
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  max-width: 42ch;
+}
+.work-modal__details {
+  display: grid;
+  gap: 1.25rem;
+  margin-top: 0.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--color-line);
+}
+.work-modal__block {
+  display: grid;
+  gap: 0.65rem;
+}
+.work-modal__overview {
+  font-size: 0.9375rem;
+  line-height: 1.65;
+  max-width: 46ch;
+  margin: 0;
+}
+.work-modal__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+}
+.work-modal__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.65rem;
+}
+.work-modal__list li {
+  position: relative;
+  padding-left: 1rem;
+  color: var(--color-muted);
+  font-size: 0.9375rem;
+  line-height: 1.55;
+  max-width: 46ch;
+}
+.work-modal__list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 0.35rem;
+  height: 0.35rem;
+  border-radius: 50%;
+  background: var(--color-primary);
+}
+.work-modal__body .btn {
+  margin-top: 0.75rem;
+  align-self: flex-start;
+}
+body.is-modal-open {
+  overflow: hidden;
 }
 .contact-link {
   display: block;
