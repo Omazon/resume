@@ -1,6 +1,7 @@
-# Omar Boza - Webflow & WordPress Developer | React & Next.js Full-Stack
+# Omar Boza - Senior Web Developer & Tech Lead | Webflow, WordPress, React & Next.js
 
-> Webflow & WordPress Developer | also React, Next.js, TypeScript, Tailwind, PostgreSQL | PHP, JavaScript, CSS | AI Automation
+> Senior Web Developer | Tech Lead | Webflow, WordPress, React, Next.js | PHP, JavaScript, CSS | AI Automation
+> The developer teams escalate to for feasibility calls, WordPress root-cause, and hard delivery.
 
 ## Contact
 
@@ -13,7 +14,18 @@
 
 ## Summary
 
-Webflow and WordPress developer with strong PHP, CSS, and JavaScript who ships faster with agentic AI (Cursor, Claude Code, n8n, MCP) for US clients. Pioneered AI workflows that cut landing-page edits from days to hours and performance optimization from 90 to 20 minutes (GTmetrix Grade F to A). Built an open-source Client-First Agent Skill for Webflow. Fluent in English (EF SET C2) and Spanish; remote-ready.
+Senior web developer and Tech Lead teams escalate to for feasibility calls, WordPress root-cause, and hard delivery — with strong PHP, CSS, and JavaScript on Webflow and WordPress, plus React and Next.js for full-stack products. Made the call that seat-level booking could ship inside WordPress; recovered a year-delayed web + mobile product by resyncing drifted stacks and shipping in 3 months; was the WordPress and front-end reference at Your Digital Resource. Ships faster with agentic AI (Cursor, Claude Code, n8n, MCP) for US clients. Fluent in English (EF SET C2) and Spanish; remote-ready.
+
+## Judgment Calls
+
+### Seat-level booking inside WordPress — Nicasource
+Team split on whether a client seat-reservation system needed a separate app. Made the call that WordPress could carry seats, availability, and bookings via custom post types and meta. Shipped on one codebase instead of two systems to sync forever.
+
+### Year-late web + mobile rescue — AIM Services
+Hired onto a product a year past deadline. Web and mobile had drifted onto duplicated, out-of-sync logic. Put both sides back on one source of truth, cleared the backlog, and shipped to production in 3 months.
+
+### Multi-layer cache escalation — Your Digital Resource
+Developers shipped changes that never appeared because a cache layer still served the old copy. Became the person this got escalated to; diagnosed across the chain and optimized the layers so it stopped recurring. Standing reference for WordPress and front-end; onboarded new developers and coached the team through Webflow and CSS stuck points.
 
 ## Skills
 
@@ -48,16 +60,17 @@ English (EF SET C2), Spanish (native)
 
 ### Web Developer — Your Digital Resource (Florida, US)
 Jan 2024 – Aug 2026
+- Was the team's reference for WordPress and front-end: unusual WordPress behavior, multi-layer cache issues, and Webflow/CSS blockers got escalated to me; onboarded new developers
+- Diagnosed and fixed multi-layer cache issues that made correct deployments look like failed changes
 - Pioneered AI-assisted Webflow/WordPress workflows across dozens of landing pages, cutting repetitive editing work from days to a couple of hours
-- Built AI-driven performance optimization that moved client sites from GTmetrix Grade F to A and reduced the optimization process from 90 to 20 minutes
+- Diagnosed client-site performance issues and built AI-driven optimization that moved sites from GTmetrix Grade F to A (90 to 20 minutes)
 - Created an open-source Client-First Agent Skill so AI tools can generate Webflow components automatically instead of by hand
-- Led design, development, and delivery of client communication materials across web and digital channels
 
 ### Software Engineer — Nicasource (Florida, US)
 2022 – 2024
+- Made the feasibility call that a client seat-reservation system could ship inside WordPress via custom post types and meta
 - Owned web development delivery using React, Vue, and WordPress for international clients
 - Frontend architecture, reusable component design, and performance optimization across concurrent projects
-- Upheld code quality and best practices across multiple concurrent international projects
 
 ### SEO Specialist — Top Floor Marketing (Managua, Nicaragua)
 2020 – 2022
@@ -66,13 +79,13 @@ Jan 2024 – Aug 2026
 
 ### Project Manager & Tech Lead — AIM Services (Managua, Nicaragua)
 2019 – 2020
-- Recovered a year-delayed web + mobile application and shipped it to production in 3 months
+- Recovered a year-delayed web + mobile application where web and mobile had drifted onto duplicated, out-of-sync logic; shipped to production in 3 months
 - Owned architecture and delivery for company projects, including a dual web/mobile application built with Ionic
 
 ### Web Developer — Target Ogilvy (Managua, Nicaragua)
 2017 – 2019
 - Introduced Laravel into projects previously built in plain PHP, expanding features deliverable to clients
-- Developed real-time PHP systems for special events and live campaigns
+- Developed real-time PHP systems for special events and live campaigns, where failures were visible to audiences in the moment
 
 ## Certifications
 
@@ -87,6 +100,9 @@ Jan 2024 – Aug 2026
 ## Notable Projects
 
 - AIDA — Production dental clinic SaaS (patients, odontograms, appointments, records, payments). HIPAA-conscious RBAC. Next.js, TypeScript, Insforge, PostgreSQL; Vercel + Proxmox
+- Seat-level booking in WordPress (Nicasource) — Feasibility call; shipped inside WordPress on one codebase
+- Year-late web + mobile rescue (AIM Services) — Tech Lead; production in 3 months
+- Multi-layer cache escalation (Your Digital Resource) — Standing WordPress/front-end reference
 - Client-First Skill for AI Agents — https://github.com/Omazon/First-Client-Webflow
 - AI Workflow Automations — n8n + Webflow + GPT pipelines (internal case study)
 - AI-Ready Resume Site — https://omazon.github.io/resume/ · https://github.com/Omazon/resume

@@ -2,11 +2,11 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Omar Boza",
-    "label": "Frontend / Full-Stack Developer | React, Next.js, TypeScript, Tailwind, PostgreSQL",
+    "label": "Senior Frontend / Full-Stack Developer | Tech Lead | React, Next.js, TypeScript, Tailwind, PostgreSQL",
     "email": "omarboza@gmail.com",
     "phone": "+505 83992586",
     "url": "https://omazon.github.io/resume/",
-    "summary": "Frontend-focused full-stack developer with professional experience shipping production web apps in modern JavaScript/TypeScript. Strong hands-on React, Next.js, TypeScript, and Tailwind CSS; solid PostgreSQL/SQL and REST APIs; deploys and maintains apps on Vercel. Built AIDA, a production dental clinic SaaS requested by a practicing dentist—patients, odontograms, appointments, records, and payments—with role-based access so clinical data is limited to authorized physicians. Ships faster with responsible AI-assisted development (Cursor, Claude Code). Fluent in English (EF SET C2) and Spanish. Based in Managua, Nicaragua; remote-ready.",
+    "summary": "Senior frontend-focused full-stack developer and Tech Lead teams escalate to for feasibility calls, root-cause debugging, and hard delivery. Strong hands-on React, Next.js, TypeScript, and Tailwind CSS; solid PostgreSQL/SQL and REST APIs; deploys on Vercel. Built AIDA, a production dental clinic SaaS. Made the call that seat-level booking could ship inside WordPress; recovered a year-delayed web + mobile product in 3 months; was the WordPress and front-end reference at Your Digital Resource. Ships faster with responsible AI-assisted development (Cursor, Claude Code). Fluent in English (EF SET C2) and Spanish. Based in Managua, Nicaragua; remote-ready.",
     "location": {
       "city": "Managua",
       "countryCode": "NI",
@@ -32,9 +32,10 @@
       "location": "Florida, US",
       "startDate": "2024-01",
       "endDate": "2026-08",
-      "summary": "Production web delivery, performance optimization, and AI-assisted development workflows for US clients.",
+      "summary": "Team escalation point for WordPress and front-end; production web delivery, performance optimization, and AI-assisted development workflows for US clients.",
       "highlights": [
-        "Shipped and maintained production client websites with modern HTML/CSS/JavaScript, focusing on performance, maintainability, and fast iteration.",
+        "Was the team's reference for WordPress and front-end: unusual WordPress behavior, multi-layer cache issues that hid shipped changes, and Webflow/CSS blockers got escalated to me; onboarded new developers and coached the team through technical stuck points.",
+        "Diagnosed and fixed multi-layer cache issues that made correct deployments look like failed changes, then optimized the layers so the problem stopped recurring.",
         "Built AI-assisted workflows (Cursor, Claude Code, n8n) that cut repetitive UI/content edits from days to hours and performance optimization from 90 to 20 minutes (GTmetrix Grade F to A).",
         "Debugged and optimized Core Web Vitals and page-load issues across multiple concurrent client projects in a fast-moving remote team.",
         "Used Playwright from the command line, with AI-assisted workflows, to run and iterate automated UI checks."
@@ -46,11 +47,11 @@
       "location": "Florida, US",
       "startDate": "2022",
       "endDate": "2024",
-      "summary": "Full-stack web development for international clients using React, Vue, and modern JavaScript.",
+      "summary": "Full-stack web development for international clients using React, Vue, and modern JavaScript; feasibility calls on complex requirements.",
       "highlights": [
+        "Made the feasibility call that a client seat-reservation system could ship inside WordPress — modeling seats, availability, and bookings with custom post types and meta — instead of a separate application the team would have to sync forever.",
         "Owned delivery of client web applications using React and Vue, including reusable UI components and responsive layouts.",
-        "Contributed to frontend architecture, component design, and application performance across concurrent international projects.",
-        "Collaborated via Git-based workflows; upheld code quality, debugging, and maintainability standards with distributed teams."
+        "Contributed to frontend architecture, component design, and application performance across concurrent international projects."
       ]
     },
     {
@@ -71,7 +72,7 @@
       "startDate": "2019",
       "endDate": "2020",
       "highlights": [
-        "As Tech Lead, recovered a year-delayed web + mobile application and shipped it to production in 3 months.",
+        "As Tech Lead, recovered a year-delayed web + mobile application: web and mobile had drifted onto duplicated, out-of-sync logic; put both sides back on one source of truth, cleared the backlog, and shipped to production in 3 months.",
         "Owned architecture and delivery for a dual web/mobile application built with Ionic and modern JavaScript."
       ]
     },
@@ -83,7 +84,7 @@
       "endDate": "2019",
       "highlights": [
         "Introduced Laravel into plain-PHP projects, expanding maintainable backend/API capabilities for agency clients.",
-        "Developed real-time web systems for live events and campaigns."
+        "Developed real-time web systems for live events and campaigns, where failures were visible to audiences in the moment."
       ]
     }
   ],
@@ -168,6 +169,18 @@
       "keywords": ["HealthTech", "SaaS", "Next.js", "PostgreSQL", "HIPAA-conscious", "Full-stack"]
     },
     {
+      "name": "Seat-level booking in WordPress (Nicasource)",
+      "description": "Feasibility call: team split on whether a client seat-reservation system needed a separate app. Made the call that WordPress could carry seats, availability, and bookings via custom post types and meta; shipped on one codebase.",
+      "highlights": ["WordPress", "Feasibility", "Data modeling"],
+      "keywords": ["WordPress", "Feasibility"]
+    },
+    {
+      "name": "Year-late web + mobile rescue (AIM Services)",
+      "description": "As Tech Lead, recovered a product a year past deadline where web and mobile had drifted onto duplicated, out-of-sync logic; shipped to production in 3 months.",
+      "highlights": ["Tech Lead", "Rescue", "Web + Mobile"],
+      "keywords": ["Tech Lead", "Rescue"]
+    },
+    {
       "name": "Scalar",
       "description": "Custom frontend product component implementation for the Scalar platform.",
       "url": "https://scalar.io/product",
@@ -183,7 +196,7 @@
   ],
   "meta": {
     "canonical": "https://omazon.github.io/resume/",
-    "lastUpdated": "2026-09-09",
+    "lastUpdated": "2026-09-12",
     "variant": "frontend",
     "languages": ["English", "Spanish"],
     "freelance": true

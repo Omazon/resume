@@ -2,11 +2,11 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Omar Boza",
-    "label": "Webflow & WordPress Developer | PHP, JavaScript, CSS | AI Automation",
+    "label": "Senior Web Developer | Tech Lead | Webflow, WordPress, React, Next.js | PHP, JavaScript, CSS | AI Automation",
     "email": "omarboza@gmail.com",
     "phone": "+505 83992586",
     "url": "https://omazon.github.io/resume/",
-    "summary": "Webflow and WordPress developer with strong PHP, CSS, and JavaScript who ships faster with agentic AI (Cursor, Claude Code, n8n, MCP) for US clients. Pioneered AI workflows that cut landing-page edits from days to hours and performance optimization from 90 to 20 minutes (GTmetrix Grade F to A). Built an open-source Client-First Agent Skill for Webflow. Fluent in English (EF SET C2) and Spanish. Based in Managua, Nicaragua.",
+    "summary": "Senior web developer and Tech Lead teams escalate to for feasibility calls, WordPress root-cause, and hard delivery — with strong PHP, CSS, and JavaScript on Webflow and WordPress, plus React and Next.js for full-stack products. Made the call that seat-level booking could ship inside WordPress; recovered a year-delayed web + mobile product by resyncing drifted stacks and shipping in 3 months; was the WordPress and front-end reference at Your Digital Resource. Ships faster with agentic AI (Cursor, Claude Code, n8n, MCP) for US clients. Fluent in English (EF SET C2) and Spanish. Based in Managua, Nicaragua.",
     "location": {
       "city": "Managua",
       "countryCode": "NI",
@@ -37,12 +37,13 @@
       "location": "Florida, US",
       "startDate": "2024-01",
       "endDate": "2026-08",
-      "summary": "AI-powered Webflow/WordPress delivery, performance optimization, and Client-First automation for client communication projects.",
+      "summary": "Team escalation point for WordPress and front-end; AI-powered Webflow/WordPress delivery and performance optimization for client communication projects.",
       "highlights": [
+        "Was the team's reference for WordPress and front-end: unusual WordPress behavior, multi-layer cache issues that hid shipped changes, and Webflow/CSS blockers got escalated to me; onboarded new developers and coached the team through technical stuck points.",
+        "Diagnosed and fixed multi-layer cache issues that made correct deployments look like failed changes, then optimized the layers so the problem stopped recurring.",
         "Pioneered AI-assisted Webflow/WordPress workflows across dozens of landing pages, cutting repetitive editing work from days to a couple of hours.",
-        "Built AI-driven performance optimization that moved client sites from GTmetrix Grade F to A and reduced the optimization process from 90 to 20 minutes.",
-        "Created an open-source Client-First Agent Skill that encodes Finsweet Client-First conventions so AI tools can generate Webflow components automatically instead of by hand.",
-        "Led design, development, and delivery of client communication materials across web and digital channels."
+        "Diagnosed client-site performance issues and built AI-driven optimization that moved sites from GTmetrix Grade F to A, cutting the process from 90 to 20 minutes.",
+        "Created an open-source Client-First Agent Skill that encodes Finsweet Client-First conventions so AI tools can generate Webflow components automatically instead of by hand."
       ]
     },
     {
@@ -51,11 +52,11 @@
       "location": "Florida, US",
       "startDate": "2022",
       "endDate": "2024",
-      "summary": "Full-stack web development for international clients using modern JavaScript frameworks.",
+      "summary": "Full-stack web development for international clients using modern JavaScript frameworks; feasibility calls on complex WordPress requirements.",
       "highlights": [
+        "Made the feasibility call that a client seat-reservation system could ship inside WordPress — modeling seats, availability, and bookings with custom post types and meta — instead of a separate application the team would have to sync forever.",
         "Owned web development delivery using React, Vue, and WordPress for international client requirements.",
-        "Contributed to frontend architecture, reusable component design, and performance optimization across concurrent projects.",
-        "Upheld code quality and best practices across multiple concurrent international projects."
+        "Contributed to frontend architecture, reusable component design, and performance optimization across concurrent projects."
       ]
     },
     {
@@ -76,7 +77,7 @@
       "startDate": "2019",
       "endDate": "2020",
       "highlights": [
-        "As Project Manager and Tech Lead, recovered a year-delayed web + mobile application and shipped it to production in 3 months.",
+        "As Project Manager and Tech Lead, recovered a year-delayed web + mobile application: web and mobile had drifted onto duplicated, out-of-sync logic; put both sides back on one source of truth, cleared the backlog, and shipped to production in 3 months.",
         "Owned architecture and delivery for company projects, including a dual web/mobile application built with Ionic."
       ]
     },
@@ -88,7 +89,7 @@
       "endDate": "2019",
       "highlights": [
         "Introduced Laravel into projects previously built in plain PHP, expanding the feature set the agency could deliver to clients.",
-        "Developed real-time PHP systems for special events and live campaigns."
+        "Developed real-time PHP systems for special events and live campaigns, where failures were visible to audiences in the moment."
       ]
     }
   ],
@@ -172,6 +173,24 @@
       "keywords": ["SaaS", "Healthcare", "HIPAA", "Full-stack", "Next.js"]
     },
     {
+      "name": "Seat-level booking in WordPress (Nicasource)",
+      "description": "Feasibility call: team split on whether a client seat-reservation system needed a separate app. Made the call that WordPress could carry seats, availability, and bookings via custom post types and meta; shipped on one codebase instead of two systems to sync forever.",
+      "highlights": ["WordPress", "Custom Post Types", "Feasibility", "Data modeling"],
+      "keywords": ["WordPress", "Feasibility", "Booking"]
+    },
+    {
+      "name": "Year-late web + mobile rescue (AIM Services)",
+      "description": "As Tech Lead, recovered a product a year past deadline: web and mobile had drifted onto duplicated, out-of-sync logic. Put both sides back on one source of truth, cleared the backlog, and shipped to production in 3 months.",
+      "highlights": ["Tech Lead", "Rescue", "Web + Mobile", "Ionic"],
+      "keywords": ["Tech Lead", "Rescue", "Delivery"]
+    },
+    {
+      "name": "Multi-layer cache escalation (Your Digital Resource)",
+      "description": "Standing escalation for WordPress: developers shipped changes that never appeared because a cache layer still served the old copy. Diagnosed across the chain, fixed the layers, and became the team's WordPress and front-end reference.",
+      "highlights": ["WordPress", "Cache", "Root-cause", "Mentoring"],
+      "keywords": ["WordPress", "Cache", "Escalation"]
+    },
+    {
       "name": "Client-First Skill for AI Agents",
       "description": "Created an open-source Agent Skill that encodes Finsweet Client-First Webflow conventions for AI coding tools (Cursor, Claude Code, Windsurf).",
       "url": "https://github.com/Omazon/First-Client-Webflow",
@@ -243,7 +262,7 @@
   ],
   "meta": {
     "canonical": "https://omazon.github.io/resume/",
-    "lastUpdated": "2026-09-07",
+    "lastUpdated": "2026-09-12",
     "languages": ["English", "Spanish"],
     "freelance": true
   }
