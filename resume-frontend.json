@@ -154,6 +154,7 @@
     {
       "name": "AIDA",
       "description": "Production HealthTech SaaS for dental clinics, requested by a practicing dentist. Built end-to-end: patients, odontograms, appointments, clinical records, and payments. Next.js, React, TypeScript, Tailwind CSS, PostgreSQL/SQL; REST APIs; deployed on Vercel with a self-managed Insforge (PostgreSQL) backend. Implemented role-based access control so clinical data is visible only to authorized physicians; designed around least-privilege and healthcare data privacy principles (HIPAA-conscious practices—not a formal certification claim).",
+      "url": "https://omazon.github.io/resume/assets/Omar-Dental-Family-Case-Study.pdf",
       "highlights": [
         "Next.js",
         "React",

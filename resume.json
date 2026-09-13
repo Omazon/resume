@@ -169,6 +169,7 @@
     {
       "name": "AIDA",
       "description": "Production SaaS for dental clinics built end-to-end: patients, odontograms, appointments, records, and payments. Designed with HIPAA-conscious practices — role-based access so clinical data is restricted to authorized users. Next.js, TypeScript, Tailwind, Insforge, PostgreSQL/SQL; hosted on Vercel and a self-managed Proxmox server.",
+      "url": "https://omazon.github.io/resume/assets/Omar-Dental-Family-Case-Study.pdf",
       "highlights": ["Next.js", "TypeScript", "Tailwind CSS", "Insforge", "PostgreSQL", "HIPAA-conscious access control", "Vercel", "Proxmox"],
       "keywords": ["SaaS", "Healthcare", "HIPAA", "Full-stack", "Next.js"]
     },

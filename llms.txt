@@ -99,7 +99,7 @@ Jan 2024 – Aug 2026
 
 ## Notable Projects
 
-- AIDA — Production dental clinic SaaS (patients, odontograms, appointments, records, payments). HIPAA-conscious RBAC. Next.js, TypeScript, Insforge, PostgreSQL; Vercel + Proxmox
+- AIDA — Production dental clinic SaaS (patients, odontograms, appointments, records, payments). HIPAA-conscious RBAC. Next.js, TypeScript, Insforge, PostgreSQL; Vercel + Proxmox · Case study: https://omazon.github.io/resume/assets/Omar-Dental-Family-Case-Study.pdf
 - Seat-level booking in WordPress (Nicasource) — Feasibility call; shipped inside WordPress on one codebase
 - Year-late web + mobile rescue (AIM Services) — Tech Lead; production in 3 months
 - Multi-layer cache escalation (Your Digital Resource) — Standing WordPress/front-end reference

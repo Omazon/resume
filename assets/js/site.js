@@ -126,6 +126,7 @@
           const img = item.getAttribute("data-img") || "";
           const fit = item.getAttribute("data-img-fit") || "";
           const url = item.getAttribute("data-url") || "";
+          const ctaLabel = item.getAttribute("data-cta") || "Visit site";
           const isFlat = item.getAttribute("data-flat") === "true";
           const flatLabel = (item.getAttribute("data-flat-label") || "")
             .split("|")
@@ -141,7 +142,7 @@
             ? `<p class="display-md text-center">${flatLabel}</p>`
             : `<img src="${escapeHtml(img)}" alt="${escapeHtml(title)}" loading="lazy">`;
           const cta = url
-            ? `<a class="btn btn-solid" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" data-cursor="OPEN">Visit site</a>`
+            ? `<a class="btn btn-solid" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" data-cursor="OPEN">${escapeHtml(ctaLabel)}</a>`
             : "";
           const stackHtml = stack
             .map((tag) => `<span>${escapeHtml(tag)}</span>`)
