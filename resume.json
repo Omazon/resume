@@ -122,17 +122,17 @@
     {
       "name": "AI & Automation",
       "level": "Advanced",
-      "keywords": ["Cursor", "Claude Code", "Opencode", "MCP", "n8n", "Prompt Engineering", "Prompt Debugging", "Custom AI Harnesses", "Agentic Coding Workflows", "AI Agents", "GPT Integrations", "RAG"]
+      "keywords": ["AI-Assisted Development", "Cursor", "Claude Code", "Opencode", "MCP", "n8n", "Prompt Engineering", "Prompt Debugging", "Custom AI Harnesses", "Agentic Coding Workflows", "AI Agents", "GPT Integrations", "RAG"]
     },
     {
       "name": "CMS",
       "level": "Advanced",
-      "keywords": ["Webflow", "WordPress", "Client-First", "Elementor", "DIVI", "Bricks", "Gutenberg"]
+      "keywords": ["Webflow", "WordPress", "WordPress Architecture", "Client-First", "Elementor", "DIVI", "Bricks", "Gutenberg"]
     },
     {
       "name": "PHP & Backend",
       "level": "Advanced",
-      "keywords": ["PHP", "Laravel", "WordPress theming/plugins", "Node.js", "Express", "NestJS", "REST APIs", "SQL", "PostgreSQL", "MongoDB", "Supabase", "Insforge"]
+      "keywords": ["PHP", "Laravel", "Custom Theme And Plugin Development", "WordPress theming/plugins", "Git", "Node.js", "Express", "NestJS", "REST APIs", "SQL", "PostgreSQL", "MongoDB", "Supabase", "Insforge"]
     },
     {
       "name": "CSS & JavaScript",

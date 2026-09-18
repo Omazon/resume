@@ -1,0 +1,211 @@
+- generic [active] [ref=f1e1]:
+  - banner [ref=f1e2]:
+    - generic [ref=f1e3]:
+      - link [ref=f1e6] [cursor=pointer]:
+        - /url: /
+        - img "encuentra trabajos empleos vacantes y oportunidades laborales" [ref=f1e7]
+      - navigation [ref=f1e8]:
+        - list [ref=f1e9]:
+          - listitem [ref=f1e10]:
+            - generic [ref=f1e11]:
+              - img "Profile foto" [ref=f1e13]
+              - generic [ref=f1e14]:
+                - link "Hola, Omar Antonio Boza Bonilla" [ref=f1e15] [cursor=pointer]:
+                  - /url: /myprofile
+                - link "Cerrar Sesión" [ref=f1e16] [cursor=pointer]:
+                  - /url: /logout
+  - generic [ref=f1e17]:
+    - text:  
+    - generic [ref=f1e18]:
+      - generic [ref=f1e24]:
+        - link "Paso 2 de 4" [ref=f1e25] [cursor=pointer]:
+          - /url: /myprofile/edit-cv/step1/8727214
+        - heading "Tu Trayectoria" [level=1] [ref=f1e28]
+        - paragraph [ref=f1e29]: Suma tu experiencia laboral y tu educación académica relevante al cargo que estás buscando.
+      - generic [ref=f1e30]:
+        - generic [ref=f1e31]:
+          - heading "Experiencia Laboral" [level=2] [ref=f1e32]
+          - generic [ref=f1e33]:
+            - generic [ref=f1e34]: Años de Experiencia
+            - combobox [ref=f1e37]:
+              - option "Seleccione..."
+              - option "Sin experiencia"
+              - option "Menos de un año"
+              - option "De uno a tres años"
+              - option "De tres a cinco años"
+              - option "De cinco a diez años" [selected]
+              - option "De diez a quince años"
+              - option "Más de quince años"
+          - button "Agregar Experiencia" [ref=f1e38] [cursor=pointer]
+        - generic [ref=f1e39]:
+          - heading "Educación" [level=2] [ref=f1e40]
+          - generic [ref=f1e41]:
+            - generic [ref=f1e42]: "Educación Secundaria Nivel Avanzado:"
+            - generic [ref=f1e43]:
+              - generic "Educación Completa" [ref=f1e44] [cursor=pointer]: Completa
+              - generic "Educación Incompleta" [ref=f1e45] [cursor=pointer]: Incompleta
+            - heading "Educación Superior" [level=3] [ref=f1e47]
+            - button "Agregar Educación" [ref=f1e49] [cursor=pointer]
+            - heading "Otros Estudios" [level=3] [ref=f1e51]
+            - button "Agregar Curso" [ref=f1e53] [cursor=pointer]
+        - button "Continuar" [ref=f1e55] [cursor=pointer]
+    - generic [ref=f1e217]:
+      - generic [ref=f1e218]:
+        - generic [ref=f1e219] [cursor=pointer]
+        - heading "Nueva Experiencia Laboral Trabajo" [level=2] [ref=f1e220]: Nueva Experiencia LaboralTrabajo
+      - generic [ref=f1e221]:
+        - heading "Salario" [level=3] [ref=f1e223]
+        - generic [ref=f1e224]:
+          - generic [ref=f1e225]:
+            - generic [ref=f1e226]: Rango Salarial
+            - combobox [ref=f1e229]:
+              - option "Seleccione" [selected]
+              - option "Menos de $200"
+              - option "$201 - $300"
+              - option "$301-$600"
+              - option "$601-$900"
+              - option "$901-$1200"
+              - option "$1201-$1500"
+              - option "$1501-$1800"
+              - option "$1801-$2100"
+              - option "$2101-$2400"
+              - option "$2401-$2700"
+              - option "$2701-$3000"
+              - option "$3001-$3300"
+              - option "$3301-$3600"
+              - option "$3601-$3900"
+              - option "$3901-$4200"
+              - option "$4201-$4500"
+              - option "$4501-$4800"
+              - option "$4801-$5100"
+              - option "$5101-$5400"
+              - option "$5401-$5700"
+              - option "$5701-$6000"
+              - option "Más de $6000"
+          - generic [ref=f1e230]:
+            - generic [ref=f1e231]:
+              - text: Salario Específico
+              - generic [ref=f1e232]: Todos los montos deben ir en Dólares Americanos
+            - spinbutton "$" [ref=f1e235]
+        - generic [ref=f1e237]:
+          - generic [ref=f1e238]: ¿Deseas mostrar esta información en tu CV?
+          - generic [ref=f1e239]:
+            - generic "No" [ref=f1e240] [cursor=pointer]
+            - generic "Si" [ref=f1e241] [cursor=pointer]
+        - heading "Beneficios" [level=3] [ref=f1e243]
+        - generic [ref=f1e246]:
+          - generic [ref=f1e247]: ¿Qué beneficios recibes o recibiste en esta experiencia?
+          - generic [ref=f1e248]:
+            - generic [ref=f1e249] [cursor=pointer]: Bonos
+            - generic [ref=f1e250] [cursor=pointer]: Comisiones
+            - generic [ref=f1e251] [cursor=pointer]: Cuota de alimentación
+            - generic [ref=f1e252] [cursor=pointer]: Cuota de Combustible
+            - generic [ref=f1e253] [cursor=pointer]: Otros
+            - generic [ref=f1e254] [cursor=pointer]: Pago de celular
+            - generic [ref=f1e255] [cursor=pointer]: Pago de estudios
+            - generic [ref=f1e256] [cursor=pointer]: Seguro de Vehículo
+            - generic [ref=f1e257] [cursor=pointer]: Seguro de vida
+            - generic [ref=f1e258] [cursor=pointer]: Seguro médico hospitalario y/o dental
+            - generic [ref=f1e259] [cursor=pointer]: Vehículo de la empresa
+        - generic [ref=f1e261]:
+          - generic [ref=f1e262]: Otro Beneficio
+          - textbox "Especifique otro beneficio..." [ref=f1e265]
+      - button "Guardar" [ref=f1e269] [cursor=pointer]
+  - contentinfo [ref=f1e56]:
+    - generic [ref=f1e57]:
+      - img "encuentra trabajos empleos vacantes y oportunidades laborales" [ref=f1e59]
+      - generic [ref=f1e60]:
+        - generic [ref=f1e61]:
+          - paragraph [ref=f1e62]: ACERCA DE TECOLOCO
+          - list [ref=f1e63]:
+            - listitem [ref=f1e64]:
+              - link "Quiénes Somos" [ref=f1e65] [cursor=pointer]:
+                - /url: /frmQSomos.aspx
+            - listitem [ref=f1e66]:
+              - link "Búsqueda de Empleos" [ref=f1e67] [cursor=pointer]:
+                - /url: /empleos
+            - listitem [ref=f1e68]:
+              - link "Mapa del Sitio" [ref=f1e69] [cursor=pointer]:
+                - /url: /SiteMaps.aspx
+            - listitem [ref=f1e70]:
+              - link "Contáctanos" [ref=f1e71] [cursor=pointer]:
+                - /url: /contacto.aspx
+            - listitem [ref=f1e72]:
+              - link "Índice Salarial" [ref=f1e73] [cursor=pointer]:
+                - /url: https://indicesalarial.tecoloco.com/
+          - generic [ref=f1e74]:
+            - paragraph [ref=f1e75]: COMPAÑÍAS HERMANAS
+            - generic [ref=f1e76]:
+              - link [ref=f1e77] [cursor=pointer]:
+                - /url: https://www.tecolocoejecutivo.com/
+                - img "Tecoloco Ejecutivo" [ref=f1e78]
+              - link [ref=f1e79] [cursor=pointer]:
+                - /url: https://www.estascontratado.com/
+                - img "EstasContratado" [ref=f1e80]
+              - link [ref=f1e81] [cursor=pointer]:
+                - /url: https://www.caribbeanjobs.com/
+                - img "Caribbean Jobs" [ref=f1e82]
+        - generic [ref=f1e83]:
+          - paragraph [ref=f1e84]: Nuestras Políticas
+          - list [ref=f1e85]:
+            - listitem [ref=f1e86]:
+              - link "Términos y Condiciones" [ref=f1e87] [cursor=pointer]:
+                - /url: /politica
+            - listitem [ref=f1e88]:
+              - link "Derechos" [ref=f1e89] [cursor=pointer]:
+                - /url: /derechos
+            - listitem [ref=f1e90]:
+              - link "Políticas de Privacidad" [ref=f1e91] [cursor=pointer]:
+                - /url: /politica
+        - generic [ref=f1e92]:
+          - paragraph [ref=f1e93]: Candidatos
+          - list [ref=f1e94]:
+            - listitem [ref=f1e95]:
+              - link "Accede como Candidato" [ref=f1e96] [cursor=pointer]:
+                - /url: /login.aspx?cookieCheck=true
+            - listitem [ref=f1e97]:
+              - link "Sugerencias" [ref=f1e98] [cursor=pointer]:
+                - /url: mailto:info@tecoloco.com
+        - generic [ref=f1e100]:
+          - paragraph [ref=f1e101]: Reclutadores
+          - list [ref=f1e102]:
+            - listitem [ref=f1e103]:
+              - link "Regístrese como compañía" [ref=f1e104] [cursor=pointer]:
+                - /url: https://empresas.tecoloco.com.ni/empresas/registro_empresa1.aspx?step=1
+            - listitem [ref=f1e105]:
+              - link "Acceda como compañía" [ref=f1e106] [cursor=pointer]:
+                - /url: https://empresas.tecoloco.com.ni/loginEmpresas.aspx
+            - listitem [ref=f1e107]:
+              - link "Contrate con nosotros" [ref=f1e108] [cursor=pointer]:
+                - /url: /contrate-con-nosotros
+            - listitem [ref=f1e109]:
+              - link "Tips" [ref=f1e110] [cursor=pointer]:
+                - /url: /tips-empresas
+            - listitem [ref=f1e111]:
+              - link "Preguntas frecuentes" [ref=f1e112] [cursor=pointer]:
+                - /url: /preguntas-empresas
+            - listitem [ref=f1e113]:
+              - link "Contrate internacionalmente" [ref=f1e114] [cursor=pointer]:
+                - /url: /thenetwork.aspx
+        - generic [ref=f1e115]:
+          - link "" [ref=f1e116] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/tecoloco-com/
+          - link "" [ref=f1e118] [cursor=pointer]:
+            - /url: https://www.instagram.com/tecoloco.com_regional/
+          - link "" [ref=f1e120] [cursor=pointer]:
+            - /url: https://www.facebook.com/EmpleoNicaragua/
+          - link "" [ref=f1e122] [cursor=pointer]:
+            - /url: https://twitter.com/EmpleoNicaragua
+          - link "" [ref=f1e124] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCauyw2k5lOOnyllZzpQ-a6g
+    - generic [ref=f1e127]:
+      - generic [ref=f1e128]: ©2026 Tecoloco.com | Todos los derechos reservados
+      - generic [ref=f1e129]:
+        - paragraph [ref=f1e130]: Descarga la aplicación
+        - generic [ref=f1e131]:
+          - link [ref=f1e132] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.stepstone.tecoloco&hl=es
+            - img "Google Play" [ref=f1e133]
+          - link [ref=f1e134] [cursor=pointer]:
+            - /url: https://itunes.apple.com/us/app/tecoloco.com-bolsa-trabajo/id1134960846
+            - img "App Store" [ref=f1e135]

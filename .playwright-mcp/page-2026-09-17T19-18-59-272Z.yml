@@ -1,0 +1,146 @@
+- generic [ref=f64e1]:
+  - region "Quick Accessibility Options":
+    - button "Skip to main content" [ref=f64e92] [cursor=pointer]
+    - button "Enable accessibility for low vision" [ref=f64e106] [cursor=pointer]
+    - button "Open the accessibility menu" [ref=f64e123] [cursor=pointer]
+  - generic "Accessibility Menu"
+  - generic [ref=f64e2]:
+    - generic [ref=f64e4]:
+      - button "button" [ref=f64e750] [cursor=pointer]:
+        - link "Open this option" [ref=f64e751]:
+          - /url: /
+      - button "Exit" [ref=f64e11] [cursor=pointer]
+    - generic [ref=f64e136]:
+      - generic [ref=f64e138]:
+        - heading "Review your new profile" [level=2] [ref=f64e295]
+        - paragraph [ref=f64e140]: Add missing details to complete your profile. You can update it at any time.
+      - generic [ref=f64e142]:
+        - generic [ref=f64e145]:
+          - generic [ref=f64e149] [cursor=pointer]:
+            - img "omar_boza" [ref=f64e154]
+            - generic [ref=f64e752]: File field
+          - generic [ref=f64e155]:
+            - generic [ref=f64e156]:
+              - generic [ref=f64e297] [cursor=pointer]:
+                - textbox "Omar B." [ref=f64e753]:
+                  - /placeholder: Add display name
+                - paragraph [ref=f64e302]: "@omar_boza"
+              - textbox "Add title" [ref=f64e172] [cursor=pointer]
+            - generic [ref=f64e175]:
+              - paragraph [ref=f64e180]: Nicaragua
+              - generic [ref=f64e181]:
+                - button "Add languages" [ref=f64e183] [cursor=pointer]:
+                  - generic "Add languages" [ref=f64e754]:
+                    - paragraph [ref=f64e188]: Add languages
+                - generic [ref=f64e189] [cursor=pointer]
+        - generic [ref=f64e307] [cursor=pointer]:
+          - heading "About" [level=4] [ref=f64e308]
+          - paragraph [ref=f64e309]: Senior Web Developer and Tech Lead with extensive experience building high-performance websites and web applications for U.S. and international clients. I specialize in WordPress, Webflow, React, Next.js, PHP, JavaScript, and CSS, with a strong focus on performance, technical problem-solving, and reliable delivery. I also build AI-assisted workflows and automations that help teams move faster. Fluent in English and Spanish, based in Nicaragua, and available for remote projects.
+        - generic [ref=f64e324]:
+          - heading "Skills and expertise" [level=4] [ref=f64e327]
+          - button "Add new" [ref=f64e412] [cursor=pointer]:
+            - paragraph [ref=f64e415]: Add new
+          - generic [ref=f64e417] [cursor=pointer]:
+            - generic [ref=f64e418]:
+              - paragraph [ref=f64e419]: React
+              - paragraph [ref=f64e420]: Pro
+            - button "More Options" [ref=f64e422]:
+              - button "More Options" [ref=f64e423]
+        - generic [ref=f64e426]:
+          - generic [ref=f64e428]:
+            - heading "Work experience" [level=4] [ref=f64e429]
+            - paragraph [ref=f64e430]: (Optional)
+          - generic [ref=f64e432]:
+            - generic [ref=f64e433]:
+              - paragraph [ref=f64e437]: Add new
+              - button "Cancel" [ref=f64e438] [cursor=pointer]
+            - generic [ref=f64e441]:
+              - textbox "Title" [ref=f64e444]: Web Developer
+              - generic "Select" [ref=f64e446] [cursor=pointer]:
+                - generic [ref=f64e447]:
+                  - paragraph [ref=f64e448]: Employment type (Optional)
+                  - button "Toggle" [ref=f64e449]
+              - generic [ref=f64e475]:
+                - generic [ref=f64e476]:
+                  - combobox [expanded] [ref=f64e478]:
+                    - textbox [active] [ref=f64e480]:
+                      - /placeholder: Company name
+                      - text: Agency
+                    - button "Toggle" [ref=f64e482] [cursor=pointer]
+                  - dialog [ref=f64e731]:
+                    - list [ref=f64e736]:
+                      - generic [ref=f64e778]:
+                        - listitem [ref=f64e779]:
+                          - generic [ref=f64e780] [cursor=pointer]: Agency
+                        - listitem [ref=f64e785]:
+                          - generic [ref=f64e786] [cursor=pointer]: Agency
+                        - listitem [ref=f64e791]:
+                          - generic [ref=f64e792] [cursor=pointer]: Agency
+                        - listitem [ref=f64e797]:
+                          - generic [ref=f64e798] [cursor=pointer]: Agency
+                        - listitem [ref=f64e803]:
+                          - generic [ref=f64e804] [cursor=pointer]: Agency Elite Training
+                        - listitem [ref=f64e808]:
+                          - generic [ref=f64e809] [cursor=pointer]: Agency FIFTY3
+                        - listitem [ref=f64e813]:
+                          - generic [ref=f64e814] [cursor=pointer]: Agency Habitat
+                        - listitem [ref=f64e818]:
+                          - generic [ref=f64e819] [cursor=pointer]: Agency Inside
+                        - listitem [ref=f64e823]:
+                          - generic [ref=f64e824] [cursor=pointer]: Agency Media
+                        - listitem [ref=f64e828]:
+                          - generic [ref=f64e829] [cursor=pointer]: Agency VA Nicaragua
+                        - listitem [ref=f64e833]:
+                          - generic [ref=f64e834] [cursor=pointer]: AgencyBox
+                        - listitem [ref=f64e838]:
+                          - generic [ref=f64e839] [cursor=pointer]: AgencyClients
+                - paragraph [ref=f64e771]: Please select a company from the list
+              - generic [ref=f64e486] [cursor=pointer]:
+                - checkbox "I currently work here"
+                - text: I currently work here
+              - generic [ref=f64e490]:
+                - button "Start date" [ref=f64e757] [cursor=pointer]:
+                  - textbox "Start date" [ref=f64e495]
+                - button [ref=f64e766] [cursor=pointer]:
+                  - textbox "End date" [ref=f64e769]
+              - generic [ref=f64e501]:
+                - textbox "Add your job history and achievements to give clients insight into your expertise." [ref=f64e503]: At Your Digital Resource, I was the Web Developer and technical escalation point for WordPress and front-end delivery. I built AI-assisted Webflow and WordPress workflows, improved site performance, and supported production projects for U.S. clients.
+                - generic [ref=f64e504]: 250/2000 characters
+              - combobox [ref=f64e507]:
+                - textbox [ref=f64e509]:
+                  - /placeholder: Skills (Optional)
+                - button "Toggle" [ref=f64e511] [cursor=pointer]
+              - generic [ref=f64e518] [cursor=pointer]:
+                - generic [ref=f64e758]: Digital Marketing
+                - textbox "Text field" [ref=f64e759]
+            - generic [ref=f64e524]:
+              - button "Cancel" [ref=f64e525] [cursor=pointer]
+              - button "Add" [disabled]
+        - generic [ref=f64e234]:
+          - generic [ref=f64e237]:
+            - generic [ref=f64e238]:
+              - generic [ref=f64e239]:
+                - heading "Education" [level=4] [ref=f64e240]
+                - paragraph [ref=f64e241]: (Optional)
+              - paragraph [ref=f64e242]: Back up your skills by adding any educational degrees or programs.
+            - button "Add education" [ref=f64e243] [cursor=pointer]:
+              - paragraph [ref=f64e246]: Add education
+          - generic [ref=f64e249]:
+            - generic [ref=f64e250]:
+              - generic [ref=f64e251]:
+                - heading "Certifications" [level=4] [ref=f64e252]
+                - paragraph [ref=f64e253]: (Optional)
+              - paragraph [ref=f64e254]: Showcase your mastery with certifications earned in your field.
+            - button "Add certifications" [ref=f64e255] [cursor=pointer]:
+              - paragraph [ref=f64e258]: Add certifications
+    - generic [ref=f64e84]:
+      - progressbar [ref=f64e85]
+      - generic [ref=f64e88]:
+        - button "Back" [ref=f64e260] [cursor=pointer]
+        - button "Continue" [ref=f64e265] [cursor=pointer]
+  - iframe [ref=f64e135]:
+    - generic:
+      - generic:
+        - main:
+          - button "Open Forethought Solve widget" [ref=f75e3] [cursor=pointer]:
+            - generic [ref=f75e4]: The Forethought Solve widget is a virtual assistant. You have the ability to select relevant choices or enter text in the provided fields with information related to your needs. The assistant will provide information to help fulfill your requirements.

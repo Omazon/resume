@@ -1,0 +1,1000 @@
+- generic [active] [ref=f1e1]:
+  - banner [ref=f1e2]:
+    - generic [ref=f1e3]:
+      - link [ref=f1e6] [cursor=pointer]:
+        - /url: /
+        - img "encuentra trabajos empleos vacantes y oportunidades laborales" [ref=f1e7]
+      - navigation [ref=f1e8]:
+        - list [ref=f1e9]:
+          - listitem [ref=f1e10]:
+            - generic [ref=f1e11]:
+              - img "Profile foto" [ref=f1e13]
+              - generic [ref=f1e14]:
+                - link "Hola, Omar Antonio Boza Bonilla" [ref=f1e15] [cursor=pointer]:
+                  - /url: /myprofile
+                - link "Cerrar Sesión" [ref=f1e16] [cursor=pointer]:
+                  - /url: /logout
+  - generic [ref=f1e17]:
+    - text:  
+    - generic [ref=f1e18]:
+      - generic [ref=f1e24]:
+        - link "Paso 2 de 4" [ref=f1e25] [cursor=pointer]:
+          - /url: /myprofile/edit-cv/step1/8727214
+        - heading "Tu Trayectoria" [level=1] [ref=f1e28]
+        - paragraph [ref=f1e29]: Suma tu experiencia laboral y tu educación académica relevante al cargo que estás buscando.
+      - generic [ref=f1e30]:
+        - generic [ref=f1e31]:
+          - heading "Experiencia Laboral" [level=2] [ref=f1e32]
+          - generic [ref=f1e33]:
+            - generic [ref=f1e34]: Años de Experiencia
+            - combobox [ref=f1e37]:
+              - option "Seleccione..."
+              - option "Sin experiencia"
+              - option "Menos de un año"
+              - option "De uno a tres años"
+              - option "De tres a cinco años"
+              - option "De cinco a diez años" [selected]
+              - option "De diez a quince años"
+              - option "Más de quince años"
+          - button "Agregar Experiencia" [ref=f1e38] [cursor=pointer]
+        - generic [ref=f1e39]:
+          - heading "Educación" [level=2] [ref=f1e40]
+          - generic [ref=f1e41]:
+            - generic [ref=f1e42]: "Educación Secundaria Nivel Avanzado:"
+            - generic [ref=f1e43]:
+              - generic "Educación Completa" [ref=f1e44] [cursor=pointer]: Completa
+              - generic "Educación Incompleta" [ref=f1e45] [cursor=pointer]: Incompleta
+            - heading "Educación Superior" [level=3] [ref=f1e47]
+            - button "Agregar Educación" [ref=f1e49] [cursor=pointer]
+            - heading "Otros Estudios" [level=3] [ref=f1e51]
+            - button "Agregar Curso" [ref=f1e53] [cursor=pointer]
+        - button "Continuar" [ref=f1e55] [cursor=pointer]
+    - generic [ref=f1e140]:
+      - generic [ref=f1e141]:
+        - generic [ref=f1e142] [cursor=pointer]
+        - heading "Nueva Experiencia Laboral" [level=2] [ref=f1e143]
+      - generic [ref=f1e144]:
+        - heading "Posición de Trabajo" [level=3] [ref=f1e146]
+        - generic [ref=f1e147]:
+          - generic [ref=f1e148]:
+            - generic [ref=f1e149]: Nombre del Puesto
+            - textbox "Ej. Diseñadora, arquitecto..." [ref=f1e152]: Desarrollador Web
+          - generic [ref=f1e153]:
+            - generic [ref=f1e154]: Empresa
+            - textbox "Ej. Nombre de la empresa..." [ref=f1e157]: Your Digital Resource
+        - generic [ref=f1e158]:
+          - generic [ref=f1e159]:
+            - generic [ref=f1e160]: País
+            - combobox [ref=f1e163]:
+              - option "Seleccione"
+              - option "Alemania"
+              - option "Argentina"
+              - option "Australia"
+              - option "Austria"
+              - option "Bélgica"
+              - option "Belice"
+              - option "Bolivia"
+              - option "Brasil"
+              - option "Canadá"
+              - option "Chile"
+              - option "China"
+              - option "Colombia"
+              - option "Corea del Sur"
+              - option "Costa Rica"
+              - option "Croacia"
+              - option "Cuba"
+              - option "Dinamarca"
+              - option "Ecuador"
+              - option "El Salvador"
+              - option "Eslovenia"
+              - option "España"
+              - option "Estados Unidos" [selected]
+              - option "Filipinas"
+              - option "Finlandia"
+              - option "Francia"
+              - option "Grecia"
+              - option "Guatemala"
+              - option "Haití"
+              - option "Honduras"
+              - option "Hong Kong"
+              - option "Hungría"
+              - option "India"
+              - option "Irlanda"
+              - option "Israel"
+              - option "Italia"
+              - option "Jamaica"
+              - option "Japón"
+              - option "México"
+              - option "Nicaragua"
+              - option "Noruega"
+              - option "Nueva Zelanda"
+              - option "Holanda"
+              - option "Panamá"
+              - option "Paraguay"
+              - option "Perú"
+              - option "Polonia"
+              - option "Portugal"
+              - option "Puerto Rico"
+              - option "Reino Unido"
+              - option "República Checa"
+              - option "República Dominicana"
+              - option "Rusia"
+              - option "Sudáfrica"
+              - option "Suecia"
+              - option "Suiza"
+              - option "Uruguay"
+              - option "Venezuela"
+              - option "Yugoslavia"
+              - option "Trinidad y Tobago"
+              - option "Bermudas"
+              - option "Bahamas"
+              - option "Barbados"
+              - option "Curacao/Aruba"
+              - option "Jordania"
+              - option "Taiwán"
+          - generic [ref=f1e164]:
+            - generic [ref=f1e165]: Industria
+            - combobox [ref=f1e168]:
+              - option "Seleccione"
+              - option "Aeronaves | Astilleros"
+              - option "Agencia de Reclutamiento"
+              - option "Agrícola | Ganadera"
+              - option "Agroindustria"
+              - option "Agua | Obras Sanitarias"
+              - option "Arquitectura | Diseño | Decoración"
+              - option "Automotriz"
+              - option "Bancos | Financieras"
+              - option "Bienes Raices"
+              - option "Bufete de Abogados"
+              - option "Call Center"
+              - option "Carpintería | Muebles"
+              - option "Científica"
+              - option "Combustibles (Gas | Petróleo)"
+              - option "Comercial"
+              - option "Comercio Mayorista (Intermediac. | Dist.)"
+              - option "Comercio Minorista"
+              - option "Confecciones"
+              - option "Construcción"
+              - option "Consultoría | Asesoría"
+              - option "Consumo Masivo (Bebidas | Alimentos)"
+              - option "Defensa"
+              - option "Educación | Capacitación"
+              - option "Electricidad (Distribución | Generación)"
+              - option "Entretenimiento"
+              - option "Estudios Jurídicos"
+              - option "Exportación | Importación"
+              - option "Farmacéutica"
+              - option "Forestal | Papel | Celulosa"
+              - option "Gobierno"
+              - option "Hotelería | Turismo | Restaurantes"
+              - option "Imprenta | Editoriales"
+              - option "Industrial"
+              - option "Ingeniería"
+              - option "Inmobiliaria | Propiedades"
+              - option "Internet"
+              - option "Inversiones (Soc. | Cías. Holding)"
+              - option "Logística | Distribución"
+              - option "Manufacturas Varias"
+              - option "Maquila"
+              - option "Materiales de Construcción"
+              - option "Medicina | Salud"
+              - option "Medios de Comunicación"
+              - option "Metalmecánica"
+              - option "Minería"
+              - option "Naviera"
+              - option "Operaciones Portuarias"
+              - option "Organizaciones sin Fines de Lucro"
+              - option "Pesquera | Cultivos Marinos"
+              - option "Petrolera"
+              - option "Publicidad | Marketing | RRPP"
+              - option "Química"
+              - option "Seguros | Previsión"
+              - option "Servicios"
+              - option "Servicios Financieros Varios"
+              - option "Servicios Varios"
+              - option "Siderurgia"
+              - option "Tecnologías de Información" [selected]
+              - option "Telecomunicaciones"
+              - option "Textil"
+              - option "Transporte"
+        - generic [ref=f1e169]:
+          - generic [ref=f1e170]:
+            - generic [ref=f1e171]: Puesto Desempeñado
+            - combobox [ref=f1e174]:
+              - option "Seleccione..."
+              - option "Abogado"
+              - option "Actor"
+              - option "Administrador"
+              - option "Administrador de Base de Datos"
+              - option "Administrador de Redes"
+              - option "Administrativo de Ventas | Soporte de Ventas"
+              - option "Agente Aduanero | Tramitador Aduanal"
+              - option "Agente de Calidad"
+              - option "Agente de Servicio"
+              - option "Agente de Soporte"
+              - option "Agente de Ventas"
+              - option "Agrónomo"
+              - option "Albañil"
+              - option "Ama de Llaves"
+              - option "Analista | Programador"
+              - option "Analista BI"
+              - option "Analista de Activos digitales"
+              - option "Analista de Activos Fijos"
+              - option "Analista de base de datos"
+              - option "Analista de compras"
+              - option "Analista de Control de Calidad"
+              - option "Analista de Control de Flotas"
+              - option "Analista de Crédito"
+              - option "Analista de Fiscal | Impuestos"
+              - option "Analista de Inteligencia de Negocios"
+              - option "Analista de Mercadeo | Investigación de Mercados"
+              - option "Analista de Organización y Métodos"
+              - option "Analista de Reclamos de Seguros"
+              - option "Analista de Recursos Humanos"
+              - option "Analista de Riesgo"
+              - option "Analista de Seguridad Informática"
+              - option "Analista de Seguros"
+              - option "Analista de Sistemas"
+              - option "Analista en Buenas Prácticas de Manufactura"
+              - option "Analista en Desarrollo e Innovación"
+              - option "Analista en Salud y Seguridad Ocupacional"
+              - option "Analista Financiero"
+              - option "Apoyo Escénico (Sonido-Vestuario-Maquillaje)"
+              - option "Arquitecto"
+              - option "Arquitecto de Software"
+              - option "Aseador de Equipo"
+              - option "Asesor de Crédito"
+              - option "Asesor Legal"
+              - option "Asesor Tributario"
+              - option "Asistente a la Presidencia | Gerencia General"
+              - option "Asistente Administrativo"
+              - option "Asistente Contable"
+              - option "Asistente de Activos Fijos"
+              - option "Asistente de Auditoría Externa"
+              - option "Asistente de Auditoría Fiscal"
+              - option "Asistente de Auditoría Interna"
+              - option "Asistente de Calidad Total"
+              - option "Asistente de Cocina"
+              - option "Asistente de Compras"
+              - option "Asistente de Comunicaciones | Relaciones Públicas"
+              - option "Asistente de Contralor"
+              - option "Asistente de Control de Calidad"
+              - option "Asistente de Costos"
+              - option "Asistente de Crédito y Cobro"
+              - option "Asistente de Cumplimiento | Auxiliar de Cumplimiento"
+              - option "Asistente de Exportaciones | Importaciones"
+              - option "Asistente de Gerencia"
+              - option "Asistente de Ingeniería"
+              - option "Asistente de Inventarios"
+              - option "Asistente de Laboratorio"
+              - option "Asistente de Laboratorio Clínico"
+              - option "Asistente de Mantenimiento"
+              - option "Asistente de Mercadeo"
+              - option "Asistente de Oficina"
+              - option "Asistente de Operaciones"
+              - option "Asistente de Operaciones Financieras"
+              - option "Asistente de Planificación de la Producción"
+              - option "Asistente de Planillas"
+              - option "Asistente de Producción"
+              - option "Asistente de Publicidad"
+              - option "Asistente de Recursos Humanos"
+              - option "Asistente de Seguros"
+              - option "Asistente de Sistemas"
+              - option "Asistente de Ventas"
+              - option "Asistente Dental"
+              - option "Asistente Financiero"
+              - option "Asistente o Encargad@ de Tesorería"
+              - option "Asistente Técnico/Proyecto"
+              - option "Auditor de Calidad"
+              - option "Auditor de Calidad"
+              - option "Auditor de Procesos y Producción"
+              - option "Auditor de Sistemas"
+              - option "Auditor Externo"
+              - option "Auditor Interno"
+              - option "Auxiliar Contable"
+              - option "Auxiliar de Archivo"
+              - option "Auxiliar de Bodega"
+              - option "Auxiliar de Carga y Descarga"
+              - option "Auxiliar de Créditos"
+              - option "Auxiliar de Cuentas por Pagar/Cobrar"
+              - option "Auxiliar de Ingeniería"
+              - option "Auxiliar de Tiempo"
+              - option "Auxiliar de Vuelo | Aeromoza | Azafata"
+              - option "Auxiliar General de Servicio"
+              - option "Bailarín"
+              - option "Barista"
+              - option "Bartender"
+              - option "Bibliotecario"
+              - option "Biólogo"
+              - option "Bocetista"
+              - option "Bodeguero"
+              - option "Botones"
+              - option "Business Partner"
+              - option "Cajer@"
+              - option "Cajer@ Bancario"
+              - option "Camarógrafo"
+              - option "Carpintero"
+              - option "Catedrático"
+              - option "Chef"
+              - option "Chofer | Piloto"
+              - option "Cobrador"
+              - option "Cocinero"
+              - option "Community Manager"
+              - option "Comprador"
+              - option "Conserje"
+              - option "Consultor"
+              - option "Contador de Costos"
+              - option "Contador General"
+              - option "Contralor"
+              - option "Coordinador de Auditoría"
+              - option "Coordinador de Calidad"
+              - option "Coordinador de Compras"
+              - option "Coordinador de Contabilidad"
+              - option "Coordinador de Costos"
+              - option "Coordinador de Embarques"
+              - option "Coordinador de Eventos"
+              - option "Coordinador de impuestos"
+              - option "Coordinador de inteligencia de Negocios"
+              - option "Coordinador de Mantenimiento"
+              - option "Coordinador de Operaciones"
+              - option "Coordinador de Recursos Humanos"
+              - option "Coordinador de Redes Sociales"
+              - option "Coordinador de Relaciones Laborales"
+              - option "Coordinador de Riesgo"
+              - option "Coordinador de RSE"
+              - option "Coordinador Ecommerce"
+              - option "Coordinador|Supervisor de Logistica"
+              - option "Copywriter"
+              - option "Corredor de Bolsa"
+              - option "Corredor de Propiedades"
+              - option "Corredor de Seguros"
+              - option "Cosmetólog@"
+              - option "Creador de Contenido Digital"
+              - option "Data Engineer"
+              - option "Decorador | Diseñador de Interiores"
+              - option "Dependiente de Farmacia"
+              - option "Despachador"
+              - option "Devops"
+              - option "Dibujante"
+              - option "Dibujante por Computadora"
+              - option "Digitador"
+              - option "Digitalizador"
+              - option "Director Comercial"
+              - option "Director Creativo"
+              - option "Director de Finanzas y Administración"
+              - option "Director de Informática | Sistemas"
+              - option "Director de Mercadeo"
+              - option "Director de Operaciones"
+              - option "Director de Producción"
+              - option "Director de Recursos Humanos"
+              - option "Diseñador de Vestuario | Textil | Modas"
+              - option "Diseñador Gráfico"
+              - option "Diseñador Industrial"
+              - option "Diseñador Web"
+              - option "Display"
+              - option "Ebanista"
+              - option "Edecán"
+              - option "Editor"
+              - option "Ejecutiv@ Corporativo"
+              - option "Ejecutiv@ de Afiliación | Tarjeta de Crédito"
+              - option "Ejecutiv@ de Call Center"
+              - option "Ejecutiv@ de Cuenta"
+              - option "Ejecutiv@ de Cuentas de Agencia de Publicidad"
+              - option "Ejecutiv@ de Servicio al Cliente"
+              - option "Ejecutiv@ de Telemarketing"
+              - option "Ejecutiv@ de Ventas"
+              - option "Ejecutiv@ de Ventas Industriales"
+              - option "Ejecutiv@ de Ventas Técnicas"
+              - option "Ejecutiv@ Mype"
+              - option "Ejecutiv@ Pyme"
+              - option "Electricista"
+              - option "Electromecánico"
+              - option "Encargad@ de Compensaciones"
+              - option "Encargad@ de Desarrollo Organizacional"
+              - option "Encargad@ de Licitaciones"
+              - option "Encargad@ de Planillas"
+              - option "Encargad@ de Reclutamiento"
+              - option "Encargado de Estadísticas"
+              - option "Encuestador"
+              - option "Enfermer@ Profesional | Auxiliar de Paramédico"
+              - option "Entrenador"
+              - option "Especialista en Ecommerce"
+              - option "Especialista SEM"
+              - option "Especialista SEO"
+              - option "Estibador"
+              - option "Facturador"
+              - option "Farmacéutico"
+              - option "Fisioterapeuta"
+              - option "Fotógrafo"
+              - option "Generalista de Recursos Humanos"
+              - option "Gerente Administrativo"
+              - option "Gerente de Agencia | Sucursal"
+              - option "Gerente de Área"
+              - option "Gerente de Auditoría Interna"
+              - option "Gerente de Banca Electrónica"
+              - option "Gerente de Bodega"
+              - option "Gerente de Calidad"
+              - option "Gerente de Calidad Total"
+              - option "Gerente de Call Center"
+              - option "Gerente de Capacitación"
+              - option "Gerente de Compensaciones|Beneficios"
+              - option "Gerente de Compras"
+              - option "Gerente de Comunicaciones | Relaciones Públicas"
+              - option "Gerente de Conmutación"
+              - option "Gerente de Contabilidad"
+              - option "Gerente de Control de Calidad"
+              - option "Gerente de Crédito"
+              - option "Gerente de Créditos | Cobros"
+              - option "Gerente de Cuentas Claves"
+              - option "Gerente de Cuentas Pyme"
+              - option "Gerente de Cumplimiento"
+              - option "Gerente de Desarrollo Organizacional"
+              - option "Gerente de Finanzas"
+              - option "Gerente de Finanzas y Administración"
+              - option "Gerente de Flotas"
+              - option "Gerente de Imagen Corporativa"
+              - option "Gerente de Informática | Sistemas"
+              - option "Gerente de Ingeniería"
+              - option "Gerente de Interconexión"
+              - option "Gerente de Internet"
+              - option "Gerente de Inversiones"
+              - option "Gerente de Mantenimiento"
+              - option "Gerente de Marca | Producto"
+              - option "Gerente de Mercadeo"
+              - option "Gerente de Mercadeo Internacional | Exportaciones"
+              - option "Gerente de Mercadeo y Ventas"
+              - option "Gerente de Obras Civiles"
+              - option "Gerente de Operaciones"
+              - option "Gerente de Operaciones Bursátiles"
+              - option "Gerente de Operaciones de Call Center"
+              - option "Gerente de Operaciones Financieras"
+              - option "Gerente de Operaciones y Logística"
+              - option "Gerente de País"
+              - option "Gerente de Planeación Estratégica"
+              - option "Gerente de Planificación"
+              - option "Gerente de Presupuestos"
+              - option "Gerente de Producción | Planta"
+              - option "Gerente de Publicidad y Promoción"
+              - option "Gerente de Recursos Humanos"
+              - option "Gerente de Redes"
+              - option "Gerente de Repuestos"
+              - option "Gerente de Restaurante"
+              - option "Gerente de Riesgo"
+              - option "Gerente de RSE"
+              - option "Gerente de Seguridad Industrial"
+              - option "Gerente de Seguros"
+              - option "Gerente de Servicio al Cliente"
+              - option "Gerente de Servicios"
+              - option "Gerente de Sucursal"
+              - option "Gerente de Talleres"
+              - option "Gerente de Tarjeta de Crédito"
+              - option "Gerente de Telecomunicaciones"
+              - option "Gerente de Telefonía Celular"
+              - option "Gerente de Tesorería"
+              - option "Gerente de Trade Marketing"
+              - option "Gerente de Transmisión"
+              - option "Gerente de Ventas"
+              - option "Gerente de Ventas Técnicas"
+              - option "Gerente Departamento Internacional"
+              - option "Gerente General | Director Ejecutivo"
+              - option "Gerente Legal"
+              - option "Gerente Técnico | Proyecto"
+              - option "Gerente|Líder de Mejora Continua"
+              - option "Gestor de Cobros"
+              - option "Gestor de Riesgo"
+              - option "Guía Turístico"
+              - option "Hostess | Anfitrión"
+              - option "Impulsador de Ventas"
+              - option "Ingeniero Biomédico"
+              - option "Ingeniero Civil"
+              - option "Ingeniero de automatización"
+              - option "Ingeniero de Mejora Continua"
+              - option "Ingeniero de Planta y Proceso"
+              - option "Ingeniero Eléctrico"
+              - option "Ingeniero en Sistemas"
+              - option "Ingeniero Industrial"
+              - option "Ingeniero Mecánico"
+              - option "Ingeniero Químico"
+              - option "Ingeniero|Residente de Obra"
+              - option "Investigador Privado"
+              - option "Jardinero"
+              - option "Jefe Administrativo"
+              - option "Jefe de Activos digitales"
+              - option "Jefe de Activos Fijos"
+              - option "Jefe de Agencia | Sucursal"
+              - option "Jefe de Alimentos y Bebidas"
+              - option "Jefe de Archivo"
+              - option "Jefe de Área"
+              - option "Jefe de Arquitectura de Software | Jefe de Arquitectura IT"
+              - option "Jefe de Auditoría de Sistemas"
+              - option "Jefe de Auditoría Externa"
+              - option "Jefe de Auditoría Fiscal"
+              - option "Jefe de Auditoría Interna"
+              - option "Jefe de Bodega"
+              - option "Jefe de Cabina"
+              - option "Jefe de Caja"
+              - option "Jefe de Calderas"
+              - option "Jefe de cobros"
+              - option "Jefe de Cocina"
+              - option "Jefe de Compras"
+              - option "Jefe de Comunicaciones"
+              - option "Jefe de Contabilidad"
+              - option "Jefe de Control de Calidad"
+              - option "Jefe de Costos"
+              - option "Jefe de Crédito y Cobro"
+              - option "Jefe de Cuentas por Pagar/Cobrar"
+              - option "Jefe de Cumplimiento"
+              - option "Jefe de Daños y Siniestros"
+              - option "Jefe de Depósitos"
+              - option "Jefe de Desarrollo de Software | Jefe de Programación"
+              - option "Jefe de Facturación"
+              - option "Jefe de Farmacia"
+              - option "Jefe de Fideicomisos"
+              - option "Jefe de Finanzas"
+              - option "Jefe de Flota"
+              - option "Jefe de Fraude de Tarjetas de Crédito"
+              - option "Jefe de Impulsadoras | Display"
+              - option "Jefe de Informática | Sistemas"
+              - option "Jefe de Ingeniería de Procesos"
+              - option "Jefe de Inteligencia de Negocios"
+              - option "Jefe de Inventario"
+              - option "Jefe de Investigación de Mercados"
+              - option "Jefe de Laboratorio"
+              - option "Jefe de Laboratorio Clínico"
+              - option "Jefe de Mantenimiento | Industrial"
+              - option "Jefe de Marca | Producto"
+              - option "Jefe de Mercadeo"
+              - option "Jefe de Meser@s"
+              - option "Jefe de Pintura Automotriz"
+              - option "Jefe de Planificación"
+              - option "Jefe de Planificación de la Producción"
+              - option "Jefe de Prensa"
+              - option "Jefe de Presupuestos"
+              - option "Jefe de Procesos o Sección"
+              - option "Jefe de Producción"
+              - option "Jefe de Publicidad"
+              - option "Jefe de Reclutamiento y Selección"
+              - option "Jefe de Recursos Humanos"
+              - option "Jefe de Restaurante"
+              - option "Jefe de Riesgo"
+              - option "Jefe de Seguridad"
+              - option "Jefe de Seguridad Informática"
+              - option "Jefe de Seguros"
+              - option "Jefe de Servicio al Cliente"
+              - option "Jefe de Servicios Generales"
+              - option "Jefe de Soporte Técnico"
+              - option "Jefe de Sucursal | Agencia"
+              - option "Jefe de Taller Mecánico Eléctrico"
+              - option "Jefe de Tarjeta de Crédito"
+              - option "Jefe de Telemarketing"
+              - option "Jefe de Tesorería"
+              - option "Jefe de Ventas"
+              - option "Jefe o Encargad@ Creativo"
+              - option "Jefe o Encargad@ de Artes"
+              - option "Jefe o Encargad@ de Call Center"
+              - option "Jefe o Encargad@ de Capacitación"
+              - option "Jefe o Encargad@ de Despacho y | o Recepción"
+              - option "Jefe o Encargad@ de Exportaciones | Importaciones"
+              - option "Jefe o Encargad@ de O y M"
+              - option "Jefe o Encargad@ de Operaciones y Logística"
+              - option "Jefe o Encargad@ de Planta Externa"
+              - option "Jefe o Encargad@ de Proyectos"
+              - option "Jefe o Encargad@ de Seguridad Industrial"
+              - option "Jefe o Encargad@ de Transporte | Tráfico"
+              - option "Jefe o Encargad@ Legal"
+              - option "Jefe o Encargad@ Técnico | Proyecto"
+              - option "Jefe|Encargado de Inocuidad"
+              - option "Líder de Equipo"
+              - option "Líder|Supervisor de Call Center"
+              - option "Locutor"
+              - option "Maestr@"
+              - option "Manipulador de Alimentos"
+              - option "Marino"
+              - option "Masajista"
+              - option "Mecánico"
+              - option "Mecánico Automotriz"
+              - option "Mecánico Dental"
+              - option "Mecatrónico"
+              - option "Médico"
+              - option "Mensajero"
+              - option "Mercaderista | Merchandiser"
+              - option "Meser@"
+              - option "Microbiólogo"
+              - option "Modelador BIM"
+              - option "Modelista | Sastre"
+              - option "Modelo"
+              - option "Montacarguista"
+              - option "Músico"
+              - option "Negociador de Divisas"
+              - option "Niñera"
+              - option "Nutricionista"
+              - option "Odontólogo"
+              - option "Oficial de Cumplimiento"
+              - option "Oficial de Daños | Siniestros"
+              - option "Oficial de Seguridad"
+              - option "Oficial de Seguridad Industrial"
+              - option "Oftalmólogo"
+              - option "Operador de Equipo Pesado"
+              - option "Operador de Sistemas"
+              - option "Operador Maquinaria Pesada"
+              - option "Operador|Técnico de CCTV"
+              - option "Operario de Producción"
+              - option "Optometrista"
+              - option "Otros empleos"
+              - option "Otros Puestos Bancarios"
+              - option "Panader@"
+              - option "Pastelero | Repostero"
+              - option "Patronista"
+              - option "Pediatra"
+              - option "Peluquero"
+              - option "Periodista"
+              - option "Perito Valuador"
+              - option "Personal de Tráfico Aéreo"
+              - option "Piloto Aéreo"
+              - option "Pintor"
+              - option "Pintor Automotriz"
+              - option "Planeador de Materiales"
+              - option "Planificador de Nave"
+              - option "Plomero"
+              - option "Poligrafista"
+              - option "Presentador"
+              - option "Presidente"
+              - option "Prevendedor"
+              - option "Procurador Judicial | Tramitador Jurídico"
+              - option "Productor"
+              - option "Profesor Parvularia | Educación Inicial"
+              - option "Programador" [selected]
+              - option "Promotor(a) de Ventas"
+              - option "Propagandista"
+              - option "Radiólogo"
+              - option "Recepcionista"
+              - option "Recepcionista Bilingüe"
+              - option "Reclutador"
+              - option "Redactor"
+              - option "Regente"
+              - option "Repartidor"
+              - option "Reportero"
+              - option "Salvavidas"
+              - option "Secretaria de Área | Departamento"
+              - option "Secretaria de Gcia. General | Presidencia"
+              - option "Secretaria Ejecutiva"
+              - option "Secretaria Ejecutiva Bilingüe"
+              - option "Sicólogo"
+              - option "Soldador"
+              - option "Soporte Técnico"
+              - option "Sub Gerente de Restaurante"
+              - option "Sub Gerente de Tienda | Sucursal"
+              - option "Sub Gerente General"
+              - option "Superintendente"
+              - option "Supervisor de bodega"
+              - option "Supervisor de Calidad"
+              - option "Supervisor de cobros"
+              - option "Supervisor de Mantenimiento"
+              - option "Supervisor de operaciones"
+              - option "Supervisor de Operaciones Financieras"
+              - option "Supervisor de Producción"
+              - option "Supervisor de Promociones"
+              - option "Supervisor de Proyectos de construccion"
+              - option "Supervisor de Rutas"
+              - option "Supervisor de seguridad"
+              - option "Supervisor de Taller automotriz"
+              - option "Supervisor de Ventas"
+              - option "Técnico Biomédico"
+              - option "Técnico Chapistero"
+              - option "Técnico de automatización"
+              - option "Técnico de Calderas"
+              - option "Técnico de Internet"
+              - option "Técnico de Lubricación | Predictivo"
+              - option "Técnico de Planta Externa"
+              - option "Técnico de Tornos"
+              - option "Técnico en Aire acondicionado"
+              - option "Técnico en Electrónica"
+              - option "Técnico en Fibra Óptica"
+              - option "Tecnico en Internet| Cable"
+              - option "Técnico en Laboratorio Clínico"
+              - option "Técnico en Planta Eléctrica"
+              - option "Técnico en Redes"
+              - option "Técnico en Refrigeración"
+              - option "Técnico en Telecomunicaciones"
+              - option "Técnico Especializado"
+              - option "Tecnólogo en Alimentos"
+              - option "Terapeuta"
+              - option "Tesorero"
+              - option "Topógrafo"
+              - option "Trabajador Social"
+              - option "Trade Marketing"
+              - option "Traductor | Intérprete"
+              - option "Trainee"
+              - option "UI | UX"
+              - option "Vacacionista"
+              - option "Valet Parking"
+              - option "Vendedor"
+              - option "Vendedor de Mostrador | Interno"
+              - option "Vendedor Rutero"
+              - option "Veterinario"
+              - option "Visitador Médico"
+              - option "Visualizador"
+              - option "Web Master"
+          - generic [ref=f1e175]:
+            - generic [ref=f1e176]: Categoría
+            - combobox [disabled] [ref=f1e179]:
+              - option "Seleccione"
+              - option "Administración"
+              - option "Almacenamiento"
+              - option "Apoyo de Oficina"
+              - option "Banca | Servicios Financieros"
+              - option "Call Center"
+              - option "Compras"
+              - option "Construcción"
+              - option "Finanzas | Contabilidad | Auditoría"
+              - option "Informática | Internet" [selected]
+              - option "Mantenimiento"
+              - option "Mercadeo | Ventas"
+              - option "Operaciones | Logística"
+              - option "Producción | Ingeniería | Calidad"
+              - option "Publicidad | Comunicaciones | Servicios"
+              - option "Puestos Profesionales"
+              - option "Recursos Humanos"
+              - option "Restaurantes"
+              - option "Salud"
+              - option "Seguros"
+              - option "Telecomunicaciones"
+              - option "Varios"
+        - generic [ref=f1e181]:
+          - generic [ref=f1e182]: Descripción de funciones o logros
+          - textbox "Describe tus funciones principales y responsabilidades" [ref=f1e184]: "Referente del equipo en WordPress y front-end: resolví comportamientos atípicos de WordPress, problemas de caché multicapa que ocultaban cambios publicados, y bloqueos en Webflow/CSS; capacitó a nuevos desarrolladores. Diagnostiqué y optimicé capas de caché para que los despliegues se reflejaran correctamente. Impulsé flujos con IA para Webflow/WordPress en decenas de landing pages, reduciendo trabajo repetitivo de días a unas pocas horas. Diagnostiqué rendimiento de sitios de clientes y construí optimización asistida por IA (GTmetrix de F a A, de 90 a 20 minutos). Creé un Agent Skill open-source de Client-First para generar componentes Webflow con IA."
+      - generic [ref=f1e185]:
+        - heading "Duración" [level=3] [ref=f1e187]
+        - generic [ref=f1e188]:
+          - generic [ref=f1e189]:
+            - generic [ref=f1e190]: Desde
+            - generic [ref=f1e191]:
+              - generic [ref=f1e192]:
+                - generic [ref=f1e193]: MM
+                - combobox [ref=f1e194]:
+                  - option "MM"
+                  - option "Enero" [selected]
+                  - option "Febrero"
+                  - option "Marzo"
+                  - option "Abril"
+                  - option "Mayo"
+                  - option "Junio"
+                  - option "Julio"
+                  - option "Agosto"
+                  - option "Septiembre"
+                  - option "Octubre"
+                  - option "Noviembre"
+                  - option "Diciembre"
+              - generic [ref=f1e195]:
+                - generic [ref=f1e196]: AA
+                - combobox [ref=f1e197]:
+                  - option "AA"
+                  - option "2026"
+                  - option "2025"
+                  - option "2024" [selected]
+                  - option "2023"
+                  - option "2022"
+                  - option "2021"
+                  - option "2020"
+                  - option "2019"
+                  - option "2018"
+                  - option "2017"
+                  - option "2016"
+                  - option "2015"
+                  - option "2014"
+                  - option "2013"
+                  - option "2012"
+                  - option "2011"
+                  - option "2010"
+                  - option "2009"
+                  - option "2008"
+                  - option "2007"
+                  - option "2006"
+                  - option "2005"
+                  - option "2004"
+                  - option "2003"
+                  - option "2002"
+                  - option "2001"
+                  - option "2000"
+                  - option "1999"
+                  - option "1998"
+                  - option "1997"
+                  - option "1996"
+                  - option "1995"
+                  - option "1994"
+                  - option "1993"
+                  - option "1992"
+                  - option "1991"
+                  - option "1990"
+                  - option "1989"
+                  - option "1988"
+                  - option "1987"
+                  - option "1986"
+                  - option "1985"
+                  - option "1984"
+                  - option "1983"
+                  - option "1982"
+                  - option "1981"
+                  - option "1980"
+                  - option "1979"
+                  - option "1978"
+                  - option "1977"
+                  - option "1976"
+          - generic [ref=f1e198]:
+            - generic [ref=f1e199]: Hasta
+            - generic [ref=f1e200]:
+              - generic [ref=f1e201]:
+                - generic [ref=f1e202]: MM
+                - combobox [ref=f1e203]:
+                  - option "MM"
+                  - option "Enero"
+                  - option "Febrero"
+                  - option "Marzo"
+                  - option "Abril"
+                  - option "Mayo"
+                  - option "Junio"
+                  - option "Julio"
+                  - option "Agosto" [selected]
+                  - option "Septiembre"
+                  - option "Octubre"
+                  - option "Noviembre"
+                  - option "Diciembre"
+              - generic [ref=f1e204]:
+                - generic [ref=f1e205]: AA
+                - combobox [ref=f1e206]:
+                  - option "AA"
+                  - option "2026" [selected]
+                  - option "2025"
+                  - option "2024"
+                  - option "2023"
+                  - option "2022"
+                  - option "2021"
+                  - option "2020"
+                  - option "2019"
+                  - option "2018"
+                  - option "2017"
+                  - option "2016"
+                  - option "2015"
+                  - option "2014"
+                  - option "2013"
+                  - option "2012"
+                  - option "2011"
+                  - option "2010"
+                  - option "2009"
+                  - option "2008"
+                  - option "2007"
+                  - option "2006"
+                  - option "2005"
+                  - option "2004"
+                  - option "2003"
+                  - option "2002"
+                  - option "2001"
+                  - option "2000"
+                  - option "1999"
+                  - option "1998"
+                  - option "1997"
+                  - option "1996"
+                  - option "1995"
+                  - option "1994"
+                  - option "1993"
+                  - option "1992"
+                  - option "1991"
+                  - option "1990"
+                  - option "1989"
+                  - option "1988"
+                  - option "1987"
+                  - option "1986"
+                  - option "1985"
+                  - option "1984"
+                  - option "1983"
+                  - option "1982"
+                  - option "1981"
+                  - option "1980"
+                  - option "1979"
+                  - option "1978"
+                  - option "1977"
+                  - option "1976"
+        - generic [ref=f1e208]:
+          - generic [ref=f1e209]: ¿Actualmente trabajas aca?
+          - generic [ref=f1e210]:
+            - generic "Si" [ref=f1e211] [cursor=pointer]
+            - generic "No" [ref=f1e212] [cursor=pointer]
+      - button "Siguiente" [ref=f1e216] [cursor=pointer]
+  - contentinfo [ref=f1e56]:
+    - generic [ref=f1e57]:
+      - img "encuentra trabajos empleos vacantes y oportunidades laborales" [ref=f1e59]
+      - generic [ref=f1e60]:
+        - generic [ref=f1e61]:
+          - paragraph [ref=f1e62]: ACERCA DE TECOLOCO
+          - list [ref=f1e63]:
+            - listitem [ref=f1e64]:
+              - link "Quiénes Somos" [ref=f1e65] [cursor=pointer]:
+                - /url: /frmQSomos.aspx
+            - listitem [ref=f1e66]:
+              - link "Búsqueda de Empleos" [ref=f1e67] [cursor=pointer]:
+                - /url: /empleos
+            - listitem [ref=f1e68]:
+              - link "Mapa del Sitio" [ref=f1e69] [cursor=pointer]:
+                - /url: /SiteMaps.aspx
+            - listitem [ref=f1e70]:
+              - link "Contáctanos" [ref=f1e71] [cursor=pointer]:
+                - /url: /contacto.aspx
+            - listitem [ref=f1e72]:
+              - link "Índice Salarial" [ref=f1e73] [cursor=pointer]:
+                - /url: https://indicesalarial.tecoloco.com/
+          - generic [ref=f1e74]:
+            - paragraph [ref=f1e75]: COMPAÑÍAS HERMANAS
+            - generic [ref=f1e76]:
+              - link [ref=f1e77] [cursor=pointer]:
+                - /url: https://www.tecolocoejecutivo.com/
+                - img "Tecoloco Ejecutivo" [ref=f1e78]
+              - link [ref=f1e79] [cursor=pointer]:
+                - /url: https://www.estascontratado.com/
+                - img "EstasContratado" [ref=f1e80]
+              - link [ref=f1e81] [cursor=pointer]:
+                - /url: https://www.caribbeanjobs.com/
+                - img "Caribbean Jobs" [ref=f1e82]
+        - generic [ref=f1e83]:
+          - paragraph [ref=f1e84]: Nuestras Políticas
+          - list [ref=f1e85]:
+            - listitem [ref=f1e86]:
+              - link "Términos y Condiciones" [ref=f1e87] [cursor=pointer]:
+                - /url: /politica
+            - listitem [ref=f1e88]:
+              - link "Derechos" [ref=f1e89] [cursor=pointer]:
+                - /url: /derechos
+            - listitem [ref=f1e90]:
+              - link "Políticas de Privacidad" [ref=f1e91] [cursor=pointer]:
+                - /url: /politica
+        - generic [ref=f1e92]:
+          - paragraph [ref=f1e93]: Candidatos
+          - list [ref=f1e94]:
+            - listitem [ref=f1e95]:
+              - link "Accede como Candidato" [ref=f1e96] [cursor=pointer]:
+                - /url: /login.aspx?cookieCheck=true
+            - listitem [ref=f1e97]:
+              - link "Sugerencias" [ref=f1e98] [cursor=pointer]:
+                - /url: mailto:info@tecoloco.com
+        - generic [ref=f1e100]:
+          - paragraph [ref=f1e101]: Reclutadores
+          - list [ref=f1e102]:
+            - listitem [ref=f1e103]:
+              - link "Regístrese como compañía" [ref=f1e104] [cursor=pointer]:
+                - /url: https://empresas.tecoloco.com.ni/empresas/registro_empresa1.aspx?step=1
+            - listitem [ref=f1e105]:
+              - link "Acceda como compañía" [ref=f1e106] [cursor=pointer]:
+                - /url: https://empresas.tecoloco.com.ni/loginEmpresas.aspx
+            - listitem [ref=f1e107]:
+              - link "Contrate con nosotros" [ref=f1e108] [cursor=pointer]:
+                - /url: /contrate-con-nosotros
+            - listitem [ref=f1e109]:
+              - link "Tips" [ref=f1e110] [cursor=pointer]:
+                - /url: /tips-empresas
+            - listitem [ref=f1e111]:
+              - link "Preguntas frecuentes" [ref=f1e112] [cursor=pointer]:
+                - /url: /preguntas-empresas
+            - listitem [ref=f1e113]:
+              - link "Contrate internacionalmente" [ref=f1e114] [cursor=pointer]:
+                - /url: /thenetwork.aspx
+        - generic [ref=f1e115]:
+          - link "" [ref=f1e116] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/tecoloco-com/
+          - link "" [ref=f1e118] [cursor=pointer]:
+            - /url: https://www.instagram.com/tecoloco.com_regional/
+          - link "" [ref=f1e120] [cursor=pointer]:
+            - /url: https://www.facebook.com/EmpleoNicaragua/
+          - link "" [ref=f1e122] [cursor=pointer]:
+            - /url: https://twitter.com/EmpleoNicaragua
+          - link "" [ref=f1e124] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCauyw2k5lOOnyllZzpQ-a6g
+    - generic [ref=f1e127]:
+      - generic [ref=f1e128]: ©2026 Tecoloco.com | Todos los derechos reservados
+      - generic [ref=f1e129]:
+        - paragraph [ref=f1e130]: Descarga la aplicación
+        - generic [ref=f1e131]:
+          - link [ref=f1e132] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.stepstone.tecoloco&hl=es
+            - img "Google Play" [ref=f1e133]
+          - link [ref=f1e134] [cursor=pointer]:
+            - /url: https://itunes.apple.com/us/app/tecoloco.com-bolsa-trabajo/id1134960846
+            - img "App Store" [ref=f1e135]

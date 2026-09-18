@@ -1,0 +1,433 @@
+- generic [ref=f26e2]:
+  - generic [ref=f26e4]:
+    - banner [ref=f26e6]:
+      - generic [ref=f26e8]:
+        - link [ref=f26e9] [cursor=pointer]:
+          - /url: /?source=top_nav
+        - generic [ref=f26e17]:
+          - searchbox "What service are you looking for today?" [ref=f26e19]
+          - button [ref=f26e20] [cursor=pointer]
+        - navigation [ref=f26e24]:
+          - list [ref=f26e25]:
+            - listitem [ref=f26e26]:
+              - button "Upgrade to Pro" [ref=f26e27] [cursor=pointer]
+            - listitem [ref=f26e28]:
+              - button [ref=f26e34] [cursor=pointer]
+            - listitem [ref=f26e38]:
+              - button [ref=f26e44] [cursor=pointer]
+            - listitem [ref=f26e48]:
+              - link [ref=f26e49] [cursor=pointer]:
+                - /url: /lists/my_lists?source=header_navigation
+            - listitem [ref=f26e55]:
+              - generic [ref=f26e56]: Orders
+            - listitem [ref=f26e60]:
+              - button [ref=f26e63] [cursor=pointer]:
+                - figure "O" [ref=f26e65]:
+                  - img "Omar Boza" [ref=f26e67]
+    - navigation [ref=f26e73]:
+      - list [ref=f26e74]:
+        - listitem [ref=f26e75]:
+          - link "Trending 🔥" [ref=f26e76] [cursor=pointer]:
+            - /url: /categories/trending
+        - listitem [ref=f26e77]:
+          - link "Graphics & Design" [ref=f26e78] [cursor=pointer]:
+            - /url: /categories/graphics-design?source=category_tree
+        - listitem [ref=f26e79]:
+          - link "Programming & Tech" [ref=f26e80] [cursor=pointer]:
+            - /url: /categories/programming-tech?source=category_tree
+        - listitem [ref=f26e81]:
+          - link "Digital Marketing" [ref=f26e82] [cursor=pointer]:
+            - /url: /categories/online-marketing?source=category_tree
+        - listitem [ref=f26e83]:
+          - link "Video & Animation" [ref=f26e84] [cursor=pointer]:
+            - /url: /categories/video-animation?source=category_tree
+        - listitem [ref=f26e85]:
+          - link "Writing & Translation" [ref=f26e86] [cursor=pointer]:
+            - /url: /categories/writing-translation?source=category_tree
+        - listitem [ref=f26e87]:
+          - link "Music & Audio" [ref=f26e88] [cursor=pointer]:
+            - /url: /categories/music-audio?source=category_tree
+        - listitem [ref=f26e89]:
+          - link "Business" [ref=f26e90] [cursor=pointer]:
+            - /url: /categories/business?source=category_tree
+        - listitem [ref=f26e91]:
+          - link "Finance" [ref=f26e92] [cursor=pointer]:
+            - /url: /categories/finance?source=category_tree
+        - listitem [ref=f26e93]:
+          - link "AI Services" [ref=f26e94] [cursor=pointer]:
+            - /url: /categories/ai-services
+        - listitem [ref=f26e95]:
+          - link "Personal Growth" [ref=f26e96] [cursor=pointer]:
+            - /url: /categories/lifestyle?source=category_tree
+        - listitem [ref=f26e97]:
+          - link "Consulting" [ref=f26e98] [cursor=pointer]:
+            - /url: /categories/consulting-services
+        - listitem [ref=f26e99]:
+          - link "Data" [ref=f26e100] [cursor=pointer]:
+            - /url: /categories/data?source=category_tree
+        - listitem [ref=f26e101]:
+          - link "Photography" [ref=f26e102] [cursor=pointer]:
+            - /url: /categories/photography?source=category_tree
+  - generic [ref=f26e110]:
+    - generic [ref=f26e111]:
+      - generic [ref=f26e113]:
+        - generic [ref=f26e114]: Become a Fiverr freelancer
+        - heading [level=1] [ref=f26e115]:
+          - generic [ref=f26e116]:
+            - paragraph [ref=f26e117]: Grow a global business from
+            - paragraph [ref=f26e118]: your talent and expertise
+        - button [ref=f26e120] [cursor=pointer]:
+          - paragraph [ref=f26e121]: Create your profile
+        - generic [ref=f26e122]: Work with leading companies
+      - generic [ref=f26e123]:
+        - img "Logo" [ref=f26e125]
+        - img "Logo" [ref=f26e127]
+        - img "Logo" [ref=f26e129]
+        - img "Logo" [ref=f26e131]
+        - img "Logo" [ref=f26e133]
+    - heading [level=1] [ref=f26e136]:
+      - generic [ref=f26e137]:
+        - paragraph [ref=f26e138]: A smarter way to work,
+        - paragraph [ref=f26e139]: grow, and earn
+    - button [ref=f26e159] [cursor=pointer]:
+      - paragraph [ref=f26e160]: Get started
+    - generic [ref=f26e161]:
+      - heading [level=1] [ref=f26e164]:
+        - generic [ref=f26e165]:
+          - paragraph [ref=f26e166]: Opportunities for every expert.
+          - paragraph [ref=f26e167]: Find yours.
+      - generic [ref=f26e168]:
+        - generic [ref=f26e170]:
+          - tablist [ref=f26e171]:
+            - tab "Programming & Tech" [selected] [ref=f26e172] [cursor=pointer]
+            - tab "AI Services" [ref=f26e173] [cursor=pointer]
+            - tab "Graphic & Design" [ref=f26e174] [cursor=pointer]
+            - tab "Digital Marketing" [ref=f26e175] [cursor=pointer]
+            - tab "Writing & Translation" [ref=f26e176] [cursor=pointer]
+            - tab "Video & Animation" [ref=f26e177] [cursor=pointer]
+            - tab "Consulting" [ref=f26e178] [cursor=pointer]
+            - tab "Music & Audio" [ref=f26e179] [cursor=pointer]
+            - tab "Business" [ref=f26e180] [cursor=pointer]
+            - tab "Finance" [ref=f26e181] [cursor=pointer]
+            - tab "Personal Growth" [ref=f26e182] [cursor=pointer]
+            - tab "Data" [ref=f26e183] [cursor=pointer]
+            - tab "Photography" [ref=f26e184] [cursor=pointer]
+          - tabpanel "Programming & Tech" [ref=f26e187]:
+            - generic [ref=f26e190]:
+              - generic [ref=f26e196]:
+                - paragraph [ref=f26e199]: Build a mobile app
+                - generic [ref=f26e200]:
+                  - generic [ref=f26e201]: Project based
+                  - generic [ref=f26e204]: $150–$240/hour
+                  - generic [ref=f26e207]: 15–25 hours/week
+                - paragraph [ref=f26e211]: Build a mobile application from planning and development through testing and launch.
+              - generic [ref=f26e217]:
+                - paragraph [ref=f26e220]: Develop AI applications
+                - generic [ref=f26e221]:
+                  - generic [ref=f26e222]: Project based
+                  - generic [ref=f26e225]: $160–$260/hour
+                  - generic [ref=f26e228]: 15–25 hours/week
+                - paragraph [ref=f26e232]: In search of a developer who can turn AI use cases into production-ready applications.
+              - generic [ref=f26e238]:
+                - paragraph [ref=f26e241]: Build a WordPress website
+                - generic [ref=f26e242]:
+                  - generic [ref=f26e243]: Project based
+                  - generic [ref=f26e246]: $160–$20/hour
+                  - generic [ref=f26e249]: 12–18 hours/week
+                - paragraph [ref=f26e253]: Design and build a custom WordPress website with clean structure and performance in mind.
+              - generic [ref=f26e259]:
+                - paragraph [ref=f26e262]: Integrate APIs
+                - generic [ref=f26e263]:
+                  - generic [ref=f26e264]: Project based
+                  - generic [ref=f26e267]: $130–$210/hour
+                  - generic [ref=f26e270]: 12–18 hours/week
+                - paragraph [ref=f26e274]: In search of a developer who can build reliable API integrations and automations.
+              - generic [ref=f26e280]:
+                - paragraph [ref=f26e283]: Develop an online store
+                - generic [ref=f26e284]:
+                  - generic [ref=f26e285]: Project based
+                  - generic [ref=f26e288]: $140–$220/hour
+                  - generic [ref=f26e291]: 15–20 hours/week
+                - paragraph [ref=f26e295]: Looking for a developer who can build a scalable eCommerce store for our brand.
+              - generic [ref=f26e301]:
+                - paragraph [ref=f26e304]: Create a web app
+                - generic [ref=f26e305]:
+                  - generic [ref=f26e306]: Project based
+                  - generic [ref=f26e309]: $160–$260/hour
+                  - generic [ref=f26e312]: 15–25 hours/week
+                - paragraph [ref=f26e316]: In search of a developer who can build a custom web application from planning to launch.
+        - button [ref=f26e318] [cursor=pointer]:
+          - paragraph [ref=f26e319]: Discover more
+    - generic [ref=f26e321]:
+      - heading "See how top freelance talent grows on Fiverr" [level=2] [ref=f26e323]
+      - generic [ref=f26e327]:
+        - generic [ref=f26e329]:
+          - generic [ref=f26e331]:
+            - link [ref=f26e333] [cursor=pointer]:
+              - /url: /freelancers/writeralways16?
+            - generic [ref=f26e334]:
+              - paragraph [ref=f26e337]: Gabrielle
+              - paragraph [ref=f26e338]: Book Publishing
+              - heading "Over the last 4 years, I worked remotely around the world while mentoring authors, editing books, and helping clients humanize AI content. Fiverr has been my partner not only in turning creativity and strategy into a worldwide brand, but also in scaling up in areas I didn’t think about before." [level=3] [ref=f26e339]
+              - heading "Vetted Pro" [level=3] [ref=f26e342]
+              - heading "Clients from 50+ countries" [level=3] [ref=f26e345]
+              - heading "Rated 4.8★ by 821 clients" [level=3] [ref=f26e348]
+          - generic [ref=f26e350]:
+            - link [ref=f26e352] [cursor=pointer]:
+              - /url: /freelancers/writeralways16?
+            - generic [ref=f26e353]:
+              - paragraph [ref=f26e354]: Will
+              - paragraph [ref=f26e355]: Finance
+              - heading "I joined Fiverr as a client while running my startup. Curious about the freelancer experience, I opened my first Gig. That small experiment grew into a steady stream of clients, enabling me to build a successful consulting business helping founders grow and scale worldwide." [level=3] [ref=f26e356]
+              - heading "Vetted Pro" [level=3] [ref=f26e359]
+              - heading "Over 2.8k orders" [level=3] [ref=f26e362]
+              - heading "Rated 5★ by 1.9k" [level=3] [ref=f26e365]
+          - generic [ref=f26e367]:
+            - link [ref=f26e369] [cursor=pointer]:
+              - /url: /freelancers/writeralways16?
+            - generic [ref=f26e370]:
+              - paragraph [ref=f26e371]: Mijal
+              - paragraph [ref=f26e372]: Graphic & Design
+              - heading "After 17 years at a top studio, I joined Fiverr to work on my own terms. I’ve led projects from Argentina to India, built a global client base, and found balance as a mom and team leader. Fiverr gave me the reach — and freedom — to make it happen." [level=3] [ref=f26e373]
+              - heading "Vetted Pro" [level=3] [ref=f26e376]
+              - heading "17+ years of experience" [level=3] [ref=f26e379]
+              - heading "Rated 4.8★ by 848 clients" [level=3] [ref=f26e382]
+          - generic [ref=f26e384]:
+            - link [ref=f26e386] [cursor=pointer]:
+              - /url: /freelancers/writeralways16?
+            - generic [ref=f26e387]:
+              - paragraph [ref=f26e388]: Mark
+              - paragraph [ref=f26e389]: AI Services
+              - heading "I started on Fiverr as a prompt engineer while working in data security. As demand grew, I earned my AI certification and turned my side hustle into a full agency. Now we help clients across industries bring AI into their businesses." [level=3] [ref=f26e390]
+              - heading "Vetted Pro" [level=3] [ref=f26e393]
+              - heading "8-employee agency" [level=3] [ref=f26e396]
+              - heading "Rated 5★ by 105 clients" [level=3] [ref=f26e399]
+        - button "left" [ref=f26e401] [cursor=pointer]
+        - button "right" [ref=f26e405] [cursor=pointer]
+    - generic [ref=f26e409]:
+      - heading [level=1] [ref=f26e410]:
+        - paragraph [ref=f26e412]: We grow better together
+      - generic [ref=f26e414]:
+        - link [ref=f26e417] [cursor=pointer]:
+          - /url: https://community.fiverr.com/home/clubs
+        - link [ref=f26e420] [cursor=pointer]:
+          - /url: https://community.fiverr.com/home/collections/millionaire-milestones-2026-01-13
+        - link [ref=f26e423] [cursor=pointer]:
+          - /url: https://community.fiverr.com/home/events
+        - link [ref=f26e426] [cursor=pointer]:
+          - /url: https://community.fiverr.com/home/people
+    - generic [ref=f26e429]:
+      - heading "Let’s show the world what you’ve got to offer" [level=1] [ref=f26e432]
+      - button [ref=f26e434] [cursor=pointer]:
+        - paragraph [ref=f26e435]: Get started
+  - generic [ref=f26e438]:
+    - generic [ref=f26e441]:
+      - paragraph [ref=f26e442]: Find freelance talent — your way
+      - generic [ref=f26e443]:
+        - generic [ref=f26e444]:
+          - generic [ref=f26e449]:
+            - paragraph [ref=f26e450]: Post a project brief
+            - paragraph [ref=f26e451]: Generate a brief with AI to receive a curated shortlist of freelancer offers.
+          - button [ref=f26e453] [cursor=pointer]:
+            - paragraph [ref=f26e454]: Post a brief
+        - generic [ref=f26e455]:
+          - generic [ref=f26e458]:
+            - paragraph [ref=f26e459]: Let us find your freelancer
+            - paragraph [ref=f26e460]: Save the endless search — we’ll source, interview, and vet freelancers for you.
+          - generic [ref=f26e461]:
+            - paragraph [ref=f26e463]: Only US$199
+            - button [ref=f26e464] [cursor=pointer]:
+              - paragraph [ref=f26e465]: Get started
+        - generic [ref=f26e466]:
+          - generic [ref=f26e469]:
+            - paragraph [ref=f26e470]: Get a team built for you
+            - paragraph [ref=f26e471]: Big project? No problem. We’ll build a freelance team and fully execute your project.
+          - generic [ref=f26e472]:
+            - paragraph [ref=f26e473]: Custom pricing
+            - button [ref=f26e474] [cursor=pointer]:
+              - paragraph [ref=f26e475]: Book free consultation
+    - contentinfo [ref=f26e476]:
+      - generic [ref=f26e477]:
+        - generic [ref=f26e478]:
+          - generic [ref=f26e479]:
+            - paragraph [ref=f26e480]: Categories
+            - list [ref=f26e481]:
+              - listitem [ref=f26e482]:
+                - link "Graphics & Design" [ref=f26e483] [cursor=pointer]:
+                  - /url: /categories/graphics-design
+              - listitem [ref=f26e484]:
+                - link "Digital Marketing" [ref=f26e485] [cursor=pointer]:
+                  - /url: /categories/online-marketing
+              - listitem [ref=f26e486]:
+                - link "Writing & Translation" [ref=f26e487] [cursor=pointer]:
+                  - /url: /categories/writing-translation
+              - listitem [ref=f26e488]:
+                - link "Video & Animation" [ref=f26e489] [cursor=pointer]:
+                  - /url: /categories/video-animation
+              - listitem [ref=f26e490]:
+                - link "Music & Audio" [ref=f26e491] [cursor=pointer]:
+                  - /url: /categories/music-audio
+              - listitem [ref=f26e492]:
+                - link "Programming & Tech" [ref=f26e493] [cursor=pointer]:
+                  - /url: /categories/programming-tech
+              - listitem [ref=f26e494]:
+                - link "AI Services" [ref=f26e495] [cursor=pointer]:
+                  - /url: /categories/ai-services
+              - listitem [ref=f26e496]:
+                - link "Consulting" [ref=f26e497] [cursor=pointer]:
+                  - /url: /categories/consulting-services
+              - listitem [ref=f26e498]:
+                - link "Data" [ref=f26e499] [cursor=pointer]:
+                  - /url: /categories/data
+              - listitem [ref=f26e500]:
+                - link "Business" [ref=f26e501] [cursor=pointer]:
+                  - /url: /categories/business
+              - listitem [ref=f26e502]:
+                - link "Personal Growth & Hobbies" [ref=f26e503] [cursor=pointer]:
+                  - /url: /categories/lifestyle
+              - listitem [ref=f26e504]:
+                - link "Photography" [ref=f26e505] [cursor=pointer]:
+                  - /url: /categories/photography
+              - listitem [ref=f26e506]:
+                - link "Finance" [ref=f26e507] [cursor=pointer]:
+                  - /url: /categories/finance
+              - listitem [ref=f26e508]:
+                - link "End-to-End Projects" [ref=f26e509] [cursor=pointer]:
+                  - /url: /categories/end-to-end-projects
+              - listitem [ref=f26e510]:
+                - link "Service Catalog" [ref=f26e511] [cursor=pointer]:
+                  - /url: /categories
+          - generic [ref=f26e512]:
+            - paragraph [ref=f26e513]: For Clients
+            - list [ref=f26e514]:
+              - listitem [ref=f26e515]:
+                - link "How Fiverr Works" [ref=f26e516] [cursor=pointer]:
+                  - /url: /cp/how-fiverr-works?show_join=true&source=footer
+              - listitem [ref=f26e517]:
+                - link "Customer Success Stories" [ref=f26e518] [cursor=pointer]:
+                  - /url: /cp/success-spotlights?source=footer
+              - listitem [ref=f26e519]:
+                - link "Quality Guide" [ref=f26e520] [cursor=pointer]:
+                  - /url: https://help.fiverr.com/hc/en-us/articles/25616781230481-Fiverr-s-guide-to-quality-and-trust
+              - listitem [ref=f26e521]:
+                - link "Fiverr Guides" [ref=f26e522] [cursor=pointer]:
+                  - /url: /resources/guides?source=footer
+              - listitem [ref=f26e523]:
+                - link "Fiverr Answers" [ref=f26e524] [cursor=pointer]:
+                  - /url: https://answers.fiverr.com/
+          - generic [ref=f26e525]:
+            - paragraph [ref=f26e526]: For Freelancers
+            - list [ref=f26e527]:
+              - listitem [ref=f26e528]:
+                - link "Become a Fiverr Freelancer" [ref=f26e529] [cursor=pointer]:
+                  - /url: /start_selling?source=footer
+              - listitem [ref=f26e530]:
+                - link "Become an Agency" [ref=f26e531] [cursor=pointer]:
+                  - /url: /cp/apply-fiverr-agencies?source=footer
+              - listitem [ref=f26e532]:
+                - link "Community Hub" [ref=f26e533] [cursor=pointer]:
+                  - /url: https://community.fiverr.com/home
+              - listitem [ref=f26e534]:
+                - link "Forum" [ref=f26e535] [cursor=pointer]:
+                  - /url: https://community.fiverr.com/home/forum
+              - listitem [ref=f26e536]:
+                - link "Events" [ref=f26e537] [cursor=pointer]:
+                  - /url: https://community.fiverr.com/home/events
+          - generic [ref=f26e538]:
+            - paragraph [ref=f26e539]: Business Solutions
+            - list [ref=f26e540]:
+              - listitem [ref=f26e541]:
+                - link "Fiverr Pro" [ref=f26e542] [cursor=pointer]:
+                  - /url: https://pro.fiverr.com?source=footer
+              - listitem [ref=f26e543]:
+                - link "Project Management Service" [ref=f26e544] [cursor=pointer]:
+                  - /url: https://pro.fiverr.com/cp/project-management?source=footer
+              - listitem [ref=f26e545]:
+                - link "Expert Sourcing Service" [ref=f26e546] [cursor=pointer]:
+                  - /url: https://pro.fiverr.com/pro-solutions/expert-sourcing-services?source=footer
+              - listitem [ref=f26e547]:
+                - link "AutoDS - Dropshipping Tool" [ref=f26e548] [cursor=pointer]:
+                  - /url: https://www.autods.com/?source=footer
+              - listitem [ref=f26e549]:
+                - link "Digis - Software Development" [ref=f26e550] [cursor=pointer]:
+                  - /url: https://digiscorp.com/?source=footer
+              - listitem [ref=f26e551]:
+                - link "AI store builder" [ref=f26e552] [cursor=pointer]:
+                  - /url: /ai-store-builder/shopify?source=footer
+              - listitem [ref=f26e553]:
+                - link "Fiverr Logo Maker" [ref=f26e554] [cursor=pointer]:
+                  - /url: /logo-maker?source=footer
+              - listitem [ref=f26e555]:
+                - link "Contact Sales" [ref=f26e556] [cursor=pointer]:
+                  - /url: /fbs-contact-us?source=footer
+          - generic [ref=f26e557]:
+            - paragraph [ref=f26e558]: Company
+            - list [ref=f26e559]:
+              - listitem [ref=f26e560]:
+                - link "About Fiverr" [ref=f26e561] [cursor=pointer]:
+                  - /url: /about-us?source=footer
+              - listitem [ref=f26e562]:
+                - link "Help Center" [ref=f26e563] [cursor=pointer]:
+                  - /url: https://help.fiverr.com/hc/en-us
+              - listitem [ref=f26e564]:
+                - link "Trust & Safety" [ref=f26e565] [cursor=pointer]:
+                  - /url: https://help.fiverr.com/hc/en-us/sections/37332641985809-Trust-Safety
+              - listitem [ref=f26e566]:
+                - link "Social Impact" [ref=f26e567] [cursor=pointer]:
+                  - /url: /social-impact?source=footer
+              - listitem [ref=f26e568]:
+                - link "Careers" [ref=f26e569] [cursor=pointer]:
+                  - /url: /jobs?source=footer
+              - listitem [ref=f26e570]:
+                - link "Terms of Service" [ref=f26e571] [cursor=pointer]:
+                  - /url: /legal-portal?source=footer
+              - listitem [ref=f26e572]:
+                - link "Privacy Policy" [ref=f26e573] [cursor=pointer]:
+                  - /url: /legal-portal/privacy/privacy-policy?source=footer
+              - listitem [ref=f26e574]:
+                - link "Do not sell or share my personal information" [ref=f26e575] [cursor=pointer]:
+                  - /url: https://www.fiverr.com/legal-portal/privacy/do-not-sell-my-personal-information
+              - listitem [ref=f26e576]:
+                - link "Partnerships" [ref=f26e577] [cursor=pointer]:
+                  - /url: /partnerships?source=footer
+              - listitem [ref=f26e578]:
+                - link "Creator Network" [ref=f26e579] [cursor=pointer]:
+                  - /url: /partnerships/creators
+              - listitem [ref=f26e580]:
+                - link "Affiliates" [ref=f26e581] [cursor=pointer]:
+                  - /url: /partnerships/affiliates
+              - listitem [ref=f26e582]:
+                - link "Invite a Friend" [ref=f26e583] [cursor=pointer]:
+                  - /url: /referral_program?source=footer
+              - listitem [ref=f26e584]:
+                - link "Press & News" [ref=f26e585] [cursor=pointer]:
+                  - /url: /news/press-releases?source=footer
+              - listitem [ref=f26e586]:
+                - link "Investor Relations" [ref=f26e587] [cursor=pointer]:
+                  - /url: https://investors.fiverr.com
+        - generic [ref=f26e588]:
+          - paragraph [ref=f26e594]: © Fiverr International Ltd. 2026
+          - generic [ref=f26e595]:
+            - list [ref=f26e596]:
+              - listitem [ref=f26e597]:
+                - link "Fiverr on TikTok" [ref=f26e598] [cursor=pointer]:
+                  - /url: https://www.tiktok.com/@fiverr
+              - listitem [ref=f26e601]:
+                - link "Fiverr on Instagram" [ref=f26e602] [cursor=pointer]:
+                  - /url: https://www.instagram.com/fiverr/
+              - listitem [ref=f26e605]:
+                - link "Fiverr on LinkedIn" [ref=f26e606] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/fiverr-com
+              - listitem [ref=f26e609]:
+                - link "Fiverr on Facebook" [ref=f26e610] [cursor=pointer]:
+                  - /url: https://www.facebook.com/Fiverr/
+              - listitem [ref=f26e613]:
+                - link "Fiverr on Pinterest" [ref=f26e614] [cursor=pointer]:
+                  - /url: https://www.pinterest.com/fiverr/
+              - listitem [ref=f26e617]:
+                - link "Fiverr on Twitter" [ref=f26e618] [cursor=pointer]:
+                  - /url: https://twitter.com/fiverr
+            - generic [ref=f26e622]:
+              - button "English" [ref=f26e624] [cursor=pointer]
+              - button "$ USD" [ref=f26e628] [cursor=pointer]
+              - button "Open accessibility menu" [ref=f26e629] [cursor=pointer]

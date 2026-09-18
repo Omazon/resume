@@ -30,13 +30,13 @@ Developers shipped changes that never appeared because a cache layer still serve
 ## Skills
 
 ### AI & Automation
-Cursor, Claude Code, Opencode, MCP, n8n, Prompt Engineering, Prompt Debugging, Custom AI Harnesses, Agentic Coding Workflows, AI Agents, GPT Integrations, RAG
+AI-Assisted Development, Cursor, Claude Code, Opencode, MCP, n8n, Prompt Engineering, Prompt Debugging, Custom AI Harnesses, Agentic Coding Workflows, AI Agents, GPT Integrations, RAG
 
 ### CMS
-Webflow, WordPress, Client-First, Elementor, DIVI, Bricks, Gutenberg
+Webflow, WordPress, WordPress Architecture, Client-First, Elementor, DIVI, Bricks, Gutenberg
 
 ### PHP & Backend
-PHP, Laravel, WordPress theming/plugins, Node.js, Express, NestJS, REST APIs, SQL, PostgreSQL, MongoDB, Supabase, Insforge
+PHP, Laravel, Custom Theme And Plugin Development, WordPress theming/plugins, Git, Node.js, Express, NestJS, REST APIs, SQL, PostgreSQL, MongoDB, Supabase, Insforge
 
 ### CSS & JavaScript
 CSS, JavaScript, Responsive Design, Tailwind CSS, Bootstrap CSS, TypeScript, React, Vue, Next.js, HTML

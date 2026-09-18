@@ -1,0 +1,53 @@
+- generic [ref=f64e2]:
+  - generic [ref=f64e4]:
+    - button [ref=f64e5] [cursor=pointer]:
+      - link [ref=f64e6]:
+        - /url: /
+    - button "Exit" [ref=f64e11] [cursor=pointer]
+  - generic [ref=f64e15]:
+    - generic [ref=f64e16]:
+      - generic [ref=f64e17]:
+        - heading "Grow your brand." [level=2] [ref=f64e18]
+        - heading "Work with clients worldwide." [level=2] [ref=f64e19]
+      - paragraph [ref=f64e20]: Start by creating a profile that makes you stand out.
+    - generic [ref=f64e21]:
+      - article [ref=f64e23]:
+        - button "Upload your experience (8 min) Recommended Toggle" [ref=f64e24] [cursor=pointer]:
+          - generic [ref=f64e26]:
+            - generic [ref=f64e27]:
+              - paragraph [ref=f64e28]: Upload your experience
+              - generic [ref=f64e29]: (8 min)
+            - paragraph [ref=f64e32]: Recommended
+          - button "Toggle" [ref=f64e34]
+        - generic [ref=f64e38]:
+          - generic [ref=f64e40]:
+            - paragraph [ref=f64e41]: Add experience from LinkedIn
+            - generic [ref=f64e42]:
+              - generic [ref=f64e43]:
+                - paragraph [ref=f64e45]: "1"
+                - paragraph [ref=f64e46]:
+                  - text: Go to your profile on
+                  - link "LinkedIn" [ref=f64e47] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/in/me/
+              - generic [ref=f64e48]:
+                - paragraph [ref=f64e50]: "2"
+                - paragraph [ref=f64e51]: Click on Resources
+              - generic [ref=f64e52]:
+                - paragraph [ref=f64e54]: "3"
+                - paragraph [ref=f64e55]: Click on Save to PDF
+          - generic [ref=f64e58]:
+            - generic [ref=f64e60] [cursor=pointer]:
+              - button "Choose File" [ref=f64e61]
+              - generic [ref=f64e63]:
+                - paragraph [ref=f64e64]: Drag and drop file or
+                - button "Select file" [ref=f64e65]
+            - alert [ref=f64e68]:
+              - paragraph [ref=f64e71]: No LinkedIn? Upload your CV instead.
+      - button "Fill out profile manually (15 min)" [ref=f64e73] [cursor=pointer]:
+        - generic [ref=f64e75]:
+          - paragraph [ref=f64e76]: Fill out profile manually
+          - generic [ref=f64e77]: (15 min)
+  - generic [ref=f64e84]:
+    - progressbar [ref=f64e85]
+    - generic [ref=f64e91]:
+      - button "Continue" [disabled]

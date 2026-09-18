@@ -1,0 +1,207 @@
+- generic [ref=f8e1]:
+  - banner [ref=f8e2]:
+    - generic [ref=f8e3]:
+      - link [ref=f8e6] [cursor=pointer]:
+        - /url: /
+        - img "encuentra trabajos empleos vacantes y oportunidades laborales" [ref=f8e7]
+      - navigation [ref=f8e8]:
+        - list [ref=f8e9]:
+          - listitem [ref=f8e10]:
+            - generic [ref=f8e11]:
+              - img "Profile foto" [ref=f8e13]
+              - generic [ref=f8e14]:
+                - link "Hola, Omar Antonio Boza Bonilla" [ref=f8e15] [cursor=pointer]:
+                  - /url: /myprofile
+                - link "Cerrar Sesión" [ref=f8e16] [cursor=pointer]:
+                  - /url: /logout
+  - generic [ref=f8e17]:
+    - text:  
+    - generic [ref=f8e18]:
+      - generic [ref=f8e24]:
+        - link "Paso 2 de 4" [ref=f8e25] [cursor=pointer]:
+          - /url: /myprofile/edit-cv/step1/8727214
+        - heading "Tu Trayectoria" [level=1] [ref=f8e28]
+        - paragraph [ref=f8e29]: Suma tu experiencia laboral y tu educación académica relevante al cargo que estás buscando.
+      - generic [ref=f8e30]:
+        - generic [ref=f8e31]:
+          - heading "Experiencia Laboral" [level=2] [ref=f8e32]
+          - generic [ref=f8e33]:
+            - generic [ref=f8e34]: Años de Experiencia
+            - combobox [ref=f8e37]:
+              - option "Seleccione..."
+              - option "Sin experiencia"
+              - option "Menos de un año"
+              - option "De uno a tres años"
+              - option "De tres a cinco años"
+              - option "De cinco a diez años" [selected]
+              - option "De diez a quince años"
+              - option "Más de quince años"
+          - generic [ref=f8e38]:
+            - generic [ref=f8e40]:
+              - generic [ref=f8e41]:
+                - generic [ref=f8e42]: Desarrollador Web
+                - generic [ref=f8e43]: Your Digital Resource
+                - generic [ref=f8e44]: enero 2024 - agosto 2026
+              - generic [ref=f8e46]:
+                - button "Editar" [ref=f8e47] [cursor=pointer]
+                - button "Eliminar" [ref=f8e50] [cursor=pointer]
+            - generic [ref=f8e53]:
+              - generic [ref=f8e54]:
+                - generic [ref=f8e55]: Ingeniero de Software
+                - generic [ref=f8e56]: Nicasource
+                - generic [ref=f8e57]: enero 2022 - diciembre 2023
+              - generic [ref=f8e59]:
+                - button "Editar" [ref=f8e60] [cursor=pointer]
+                - button "Eliminar" [ref=f8e63] [cursor=pointer]
+            - generic [ref=f8e66]:
+              - generic [ref=f8e67]:
+                - generic [ref=f8e68]: Especialista SEO / Desarrollador Web
+                - generic [ref=f8e69]: Top Floor Marketing
+                - generic [ref=f8e70]: enero 2020 - diciembre 2021
+              - generic [ref=f8e72]:
+                - button "Editar" [ref=f8e73] [cursor=pointer]
+                - button "Eliminar" [ref=f8e76] [cursor=pointer]
+            - generic [ref=f8e79]:
+              - generic [ref=f8e80]:
+                - generic [ref=f8e81]: Project Manager y Tech Lead
+                - generic [ref=f8e82]: AIM Services
+                - generic [ref=f8e83]: enero 2019 - diciembre 2019
+              - generic [ref=f8e85]:
+                - button "Editar" [ref=f8e86] [cursor=pointer]
+                - button "Eliminar" [ref=f8e89] [cursor=pointer]
+            - generic [ref=f8e92]:
+              - generic [ref=f8e93]:
+                - generic [ref=f8e94]: Desarrollador Web
+                - generic [ref=f8e95]: Target Ogilvy
+                - generic [ref=f8e96]: enero 2017 - diciembre 2018
+              - generic [ref=f8e98]:
+                - button "Editar" [ref=f8e99] [cursor=pointer]
+                - button "Eliminar" [ref=f8e102] [cursor=pointer]
+          - button "Agregar Experiencia" [disabled] [ref=f8e104]
+          - paragraph [ref=f8e105]: Has alcanzado el límite de 5 experiencias laborales.
+        - generic [ref=f8e106]:
+          - heading "Educación" [level=2] [ref=f8e107]
+          - generic [ref=f8e108]:
+            - generic [ref=f8e109]: "Educación Secundaria Nivel Avanzado:"
+            - generic [ref=f8e110]:
+              - generic "Educación Completa" [ref=f8e111] [cursor=pointer]: Completa
+              - generic "Educación Incompleta" [ref=f8e112] [cursor=pointer]: Incompleta
+            - heading "Educación Superior" [level=3] [ref=f8e114]
+            - generic [ref=f8e117]:
+              - generic [ref=f8e118]:
+                - generic [ref=f8e119]: Ingeniería en Computación
+                - generic [ref=f8e120]: Universidad Americana
+                - generic [ref=f8e121]: "Año de finalización: 2015"
+              - generic [ref=f8e123]:
+                - button "Editar" [ref=f8e124] [cursor=pointer]
+                - button "Eliminar" [ref=f8e127] [cursor=pointer]
+            - button "Agregar Educación" [ref=f8e130] [cursor=pointer]
+            - heading "Otros Estudios" [level=3] [ref=f8e132]
+            - generic [ref=f8e135]:
+              - generic [ref=f8e136]:
+                - generic [ref=f8e137]: Certificado EF SET Inglés — C2 Proficient
+                - generic [ref=f8e138]: EF SET
+                - generic [ref=f8e139]: "Año de finalización: 2026"
+              - generic [ref=f8e141]:
+                - button "Editar" [ref=f8e142] [cursor=pointer]
+                - button "Eliminar" [ref=f8e145] [cursor=pointer]
+            - button "Agregar Curso" [ref=f8e148] [cursor=pointer]
+        - button "Continuar" [ref=f8e150] [cursor=pointer]
+  - contentinfo [ref=f8e151]:
+    - generic [ref=f8e152]:
+      - img "encuentra trabajos empleos vacantes y oportunidades laborales" [ref=f8e154]
+      - generic [ref=f8e155]:
+        - generic [ref=f8e156]:
+          - paragraph [ref=f8e157]: ACERCA DE TECOLOCO
+          - list [ref=f8e158]:
+            - listitem [ref=f8e159]:
+              - link "Quiénes Somos" [ref=f8e160] [cursor=pointer]:
+                - /url: /frmQSomos.aspx
+            - listitem [ref=f8e161]:
+              - link "Búsqueda de Empleos" [ref=f8e162] [cursor=pointer]:
+                - /url: /empleos
+            - listitem [ref=f8e163]:
+              - link "Mapa del Sitio" [ref=f8e164] [cursor=pointer]:
+                - /url: /SiteMaps.aspx
+            - listitem [ref=f8e165]:
+              - link "Contáctanos" [ref=f8e166] [cursor=pointer]:
+                - /url: /contacto.aspx
+            - listitem [ref=f8e167]:
+              - link "Índice Salarial" [ref=f8e168] [cursor=pointer]:
+                - /url: https://indicesalarial.tecoloco.com/
+          - generic [ref=f8e169]:
+            - paragraph [ref=f8e170]: COMPAÑÍAS HERMANAS
+            - generic [ref=f8e171]:
+              - link [ref=f8e172] [cursor=pointer]:
+                - /url: https://www.tecolocoejecutivo.com/
+                - img "Tecoloco Ejecutivo" [ref=f8e173]
+              - link [ref=f8e174] [cursor=pointer]:
+                - /url: https://www.estascontratado.com/
+                - img "EstasContratado" [ref=f8e175]
+              - link [ref=f8e176] [cursor=pointer]:
+                - /url: https://www.caribbeanjobs.com/
+                - img "Caribbean Jobs" [ref=f8e177]
+        - generic [ref=f8e178]:
+          - paragraph [ref=f8e179]: Nuestras Políticas
+          - list [ref=f8e180]:
+            - listitem [ref=f8e181]:
+              - link "Términos y Condiciones" [ref=f8e182] [cursor=pointer]:
+                - /url: /politica
+            - listitem [ref=f8e183]:
+              - link "Derechos" [ref=f8e184] [cursor=pointer]:
+                - /url: /derechos
+            - listitem [ref=f8e185]:
+              - link "Políticas de Privacidad" [ref=f8e186] [cursor=pointer]:
+                - /url: /politica
+        - generic [ref=f8e187]:
+          - paragraph [ref=f8e188]: Candidatos
+          - list [ref=f8e189]:
+            - listitem [ref=f8e190]:
+              - link "Accede como Candidato" [ref=f8e191] [cursor=pointer]:
+                - /url: /login.aspx?cookieCheck=true
+            - listitem [ref=f8e192]:
+              - link "Sugerencias" [ref=f8e193] [cursor=pointer]:
+                - /url: mailto:info@tecoloco.com
+        - generic [ref=f8e195]:
+          - paragraph [ref=f8e196]: Reclutadores
+          - list [ref=f8e197]:
+            - listitem [ref=f8e198]:
+              - link "Regístrese como compañía" [ref=f8e199] [cursor=pointer]:
+                - /url: https://empresas.tecoloco.com.ni/empresas/registro_empresa1.aspx?step=1
+            - listitem [ref=f8e200]:
+              - link "Acceda como compañía" [ref=f8e201] [cursor=pointer]:
+                - /url: https://empresas.tecoloco.com.ni/loginEmpresas.aspx
+            - listitem [ref=f8e202]:
+              - link "Contrate con nosotros" [ref=f8e203] [cursor=pointer]:
+                - /url: /contrate-con-nosotros
+            - listitem [ref=f8e204]:
+              - link "Tips" [ref=f8e205] [cursor=pointer]:
+                - /url: /tips-empresas
+            - listitem [ref=f8e206]:
+              - link "Preguntas frecuentes" [ref=f8e207] [cursor=pointer]:
+                - /url: /preguntas-empresas
+            - listitem [ref=f8e208]:
+              - link "Contrate internacionalmente" [ref=f8e209] [cursor=pointer]:
+                - /url: /thenetwork.aspx
+        - generic [ref=f8e210]:
+          - link "" [ref=f8e211] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/tecoloco-com/
+          - link "" [ref=f8e213] [cursor=pointer]:
+            - /url: https://www.instagram.com/tecoloco.com_regional/
+          - link "" [ref=f8e215] [cursor=pointer]:
+            - /url: https://www.facebook.com/EmpleoNicaragua/
+          - link "" [ref=f8e217] [cursor=pointer]:
+            - /url: https://twitter.com/EmpleoNicaragua
+          - link "" [ref=f8e219] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCauyw2k5lOOnyllZzpQ-a6g
+    - generic [ref=f8e222]:
+      - generic [ref=f8e223]: ©2026 Tecoloco.com | Todos los derechos reservados
+      - generic [ref=f8e224]:
+        - paragraph [ref=f8e225]: Descarga la aplicación
+        - generic [ref=f8e226]:
+          - link [ref=f8e227] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.stepstone.tecoloco&hl=es
+            - img "Google Play" [ref=f8e228]
+          - link [ref=f8e229] [cursor=pointer]:
+            - /url: https://itunes.apple.com/us/app/tecoloco.com-bolsa-trabajo/id1134960846
+            - img "App Store" [ref=f8e230]

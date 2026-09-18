@@ -1,0 +1,45 @@
+- main [ref=e2]:
+  - link "Inicio CompuTrabajo" [ref=e4] [cursor=pointer]:
+    - /url: https://ni.computrabajo.com
+    - img "CompuTrabajo" [ref=e5]
+  - generic:
+    - generic [ref=e7]:
+      - heading "Tu próximo trabajo está aquí" [level=1] [ref=e8]
+      - paragraph [ref=e9]: Ingresa y postúlate a miles de empleos
+      - generic [ref=e10]:
+        - link "Continúa con Google" [ref=e11] [cursor=pointer]:
+          - /url: /Account/ExternalLoginV2?provider=Google&returnUrl=%252Fconnect%252Fauthorize%252Fcallback%253Fclient_id%253Dredarbor.computrabajo.ac.web.client%2526response_type%253Dcode%2526scope%253Dopenid%252520redarbor.computrabajo.ac.web.access%252520portal_15%252520app_32%2526code_challenge%253D3VGpvWKjfovITToj5ZuVm-C4e46AsIXPoHuuzNXYEP0%2526code_challenge_method%253DS256%2526state%253DOpenIdConnect.AuthenticationProperties%25253DYcBd8QszWk_5VJH71f-RQeL4YuBqtWfDi33kgsm5_aXqMbU9SPQ28KhGRgRT-L6lI037WgqvnnWCYjuSNwALS-BdvZtQZdVslxSPhwokQT5lRJfVbKiucpLXDCnSxLPARh-aoRSOgKLbqlGShPSOMsUoRyl8K6pznYa7CVo-cGseZnJltGIFNnGP7OBKWd9VNbgRVndFP49rckKuNCd_A1LYEefNqaPpSsClR45oUBRALJnMdDtoQ13b6RsMZxBCOsI9lljBBNKX2zX6HSLeB453ecZSYXmZY9liwFZ-IysLlnE3MXycv_VRDnahY-YfL2ayJVF1PYwPjx96hM9oaKmoKmkOKR48gJJeHeqURznX4hCi%2526response_mode%253Dform_post%2526nonce%253D639250252217337412.NTJiOTM5NTctODM5OS00YmQ2LWI2ZjMtMDIwNzAyYjM5NjVmMDcyZGI0ZjUtZTRjNy00ZDA5LWI0ZjAtMDlmNmM1MWNmM2Qz%2526redirect_uri%253Dhttps%25253A%25252F%25252Fcandidato.ni.computrabajo.com%2526prompt%253Dlogin%2526x-client-SKU%253DID_NET472%2526x-client-ver%253D8.0.1.0%2526suppressed_prompt%253Dlogin&info=1
+        - paragraph [ref=e12]:
+          - generic [ref=e13]: o
+        - generic [ref=e14]:
+          - generic [ref=e15]:
+            - generic [ref=e16]: Continúa con tu correo
+            - textbox "Continúa con tu correo" [active] [ref=e17]
+            - text:       
+          - text: 
+          - button "Continuar" [ref=e18] [cursor=pointer]
+          - generic [ref=e19]:
+            - text: ¿Necesitas contratar?
+            - link "Ingresa como empresa" [ref=e20] [cursor=pointer]:
+              - /url: https://empresa.ni.computrabajo.com/Register2?origen=candidato
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - generic [ref=e23]:
+          - generic [ref=e24]: 
+          - generic [ref=e25]: 
+        - paragraph [ref=e28]: Hola de nuevo,
+      - generic [ref=e29]:
+        - generic [ref=e30]:
+          - generic [ref=e31]: Introduce tu contraseña
+          - textbox [ref=e32]
+          - button "Mostrar contraseña" [ref=e33] [cursor=pointer]
+        - generic [ref=e34]: ¿No recuerdas tu contraseña?
+        - generic [ref=e35] [cursor=pointer]: Iniciar sesión
+  - generic [ref=e36]:
+    - text:  
+    - generic [ref=e37]:
+      - textbox [disabled] [ref=e39]
+      - generic [ref=e40] [cursor=pointer]: Restablecer contraseña
+      - link "Volver a intentar el acceso" [ref=e41] [cursor=pointer]:
+        - /url: "#"
+  - generic [ref=e42]: Dummy

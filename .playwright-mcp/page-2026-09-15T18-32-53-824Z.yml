@@ -1,0 +1,406 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link [ref=e4] [cursor=pointer]:
+        - /url: https://ni.computrabajo.com
+        - img "Computrabajo Nicaragua" [ref=e5]
+      - generic:
+        - text: 
+        - generic [ref=e6] [cursor=pointer]:
+          - generic [ref=e7]:
+            - generic [ref=e9]:
+              - generic [ref=e10]: 
+              - searchbox "Cargo o categoría" [ref=e11]
+              - text: 
+            - generic [ref=e13]:
+              - generic [ref=e14]: 
+              - searchbox "Lugar" [ref=e15]
+              - text: 
+          - button " Buscar empleos" [ref=e16]:
+            - generic [ref=e17]: 
+            - generic: Buscar empleos
+      - generic [ref=e18]:
+        - generic [ref=e19] [cursor=pointer]:
+          - generic [ref=e20]: "6"
+          - text: Notificaciones
+        - generic [ref=e21] [cursor=pointer]:
+          - generic [ref=e22]: Omar Antonio Boza Bonilla
+          - img "Foto" [ref=e24]
+        - text:              
+      - generic:   
+      - text:          
+  - list [ref=e27]:
+    - listitem [ref=e28]:
+      - generic "Mi área" [ref=e29] [cursor=pointer]:
+        - generic [ref=e30]: 
+        - text: Mi área
+    - listitem [ref=e31]:
+      - generic "Mi currículum" [ref=e32] [cursor=pointer]:
+        - generic [ref=e33]: 
+        - text: Mi currículum
+    - listitem [ref=e34]:
+      - generic [ref=e35] [cursor=pointer]:
+        - generic [ref=e36]: 
+        - text: Mis postulaciones
+    - listitem [ref=e37]:
+      - generic [ref=e38] [cursor=pointer]:
+        - generic [ref=e39]: 
+        - text: Mis alertas
+    - listitem [ref=e40]:
+      - generic "Test y evaluaciones" [ref=e41] [cursor=pointer]:
+        - generic [ref=e42]: 
+        - text: Test y evaluaciones
+    - listitem [ref=e43]:
+      - generic [ref=e44] [cursor=pointer]:
+        - generic [ref=e45]: 
+        - text: Mis favoritos
+  - generic [ref=e46]:
+    - generic [ref=e47]:
+      - text: 
+      - heading "Mi currículum" [level=1] [ref=e48]
+    - article [ref=e49]:
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - generic [ref=e52] [cursor=pointer]: 
+          - generic [ref=e53]:
+            - img "Omar Antonio Boza Bonilla" [ref=e55] [cursor=pointer]
+            - generic [ref=e56] [cursor=pointer]: 
+          - generic [ref=e57]:
+            - generic [ref=e58]:
+              - paragraph [ref=e59]: Omar Antonio Boza Bonilla
+              - paragraph [ref=e60]: Managua
+            - list:
+              - listitem [ref=e61]:
+                - generic [ref=e62]: 
+                - generic [ref=e63]: omarboza@gmail.com
+              - listitem [ref=e64]:
+                - generic [ref=e65]: 
+                - generic [ref=e66]: +505-83992586
+          - text: 
+        - generic [ref=e67]:
+          - generic [ref=e68]:
+            - paragraph [ref=e69]: Senior Web Developer | Tech Lead | WordPress, Webflow, React
+            - generic [ref=e70] [cursor=pointer]: 
+          - paragraph [ref=e71]: Senior Web Developer 10+ and Technical Lead delivering high-performance websites and web apps for U.S. and international clients. Expertise in WordPress, Webflow, PHP, JavaScript, CSS, React, and Next.js. Strong track record solving complex technical challenges, improving performance, and leading projects end-to-end. Experienced in AI-assisted development and workflow automation. Fluent in English (EF SET C2) and Spanish; available for remote work.
+        - generic [ref=e72]:
+          - paragraph [ref=e73]: Mis experiencias profesionales
+          - list [ref=e74]:
+            - listitem:
+              - generic [ref=e75]:
+                - generic [ref=e76]:
+                  - paragraph [ref=e77]: Web Developer
+                  - paragraph [ref=e78]: Your Digital Resource
+                  - paragraph [ref=e79]:
+                    - generic [ref=e80]: Team reference for WordPress and front-end; escalated for unusual WP behavior, multi-layer cache issues, and Webflow/CSS blockers; onboarded developer...
+                    - text: ver más
+                  - paragraph [ref=e81]: Enero 2024 - Agosto 2026
+                - generic [ref=e82] [cursor=pointer]: 
+            - listitem:
+              - generic [ref=e84]:
+                - generic [ref=e85]:
+                  - paragraph [ref=e86]: Software Engineer
+                  - paragraph [ref=e87]: Nicasource
+                  - paragraph [ref=e88]:
+                    - generic [ref=e89]: Made the feasibility call that a client seat-reservation system could ship inside WordPress — modeling seats, availability, and bookings with custom p...
+                    - text: ver más
+                  - paragraph [ref=e90]: Enero 2022 - Enero 2024
+                - generic [ref=e91] [cursor=pointer]: 
+            - listitem:
+              - generic [ref=e93]:
+                - generic [ref=e94]:
+                  - paragraph [ref=e95]: SEO Specialist
+                  - paragraph [ref=e96]: Top Floor Marketing
+                  - paragraph [ref=e97]:
+                    - generic [ref=e98]: Built content automation combined with bot workflows, increasing lead volume across client portfolio sites by 30%. Built custom WordPress sites and op...
+                    - text: ver más
+                  - paragraph [ref=e99]: Enero 2020 - Enero 2022
+                - generic [ref=e100] [cursor=pointer]: 
+            - listitem:
+              - generic [ref=e102]:
+                - generic [ref=e103]:
+                  - paragraph [ref=e104]: Project Manager and Tech Lead
+                  - paragraph [ref=e105]: AIM Services
+                  - paragraph [ref=e106]:
+                    - generic [ref=e107]: "As Project Manager and Tech Lead, recovered a year-delayed web + mobile application: web and mobile had drifted onto duplicated, out-of-sync logic; pu..."
+                    - text: ver más
+                  - paragraph [ref=e108]: Enero 2019 - Enero 2020
+                - generic [ref=e109] [cursor=pointer]: 
+            - listitem:
+              - generic [ref=e111]:
+                - generic [ref=e112]:
+                  - paragraph [ref=e113]: Web Developer
+                  - paragraph [ref=e114]: Target Ogilvy
+                  - paragraph [ref=e115]:
+                    - generic [ref=e116]: Introduced Laravel into projects previously built in plain PHP, expanding the feature set the agency could deliver to clients. Developed real-time PHP...
+                    - text: ver más
+                  - paragraph [ref=e117]: Enero 2017 - Enero 2019
+                - generic [ref=e118] [cursor=pointer]: 
+            - listitem:
+              - generic [ref=e120]: Añadir nueva experiencia
+        - generic [ref=e122]:
+          - paragraph [ref=e123]: Mis estudios
+          - list [ref=e124]:
+            - listitem:
+              - generic [ref=e125]:
+                - generic [ref=e126]:
+                  - paragraph [ref=e127]: Universidad
+                  - paragraph [ref=e128]: Universidad Nacional de Ingeniería
+                  - paragraph [ref=e129]: Febrero 2010 - Febrero 2015
+                - generic [ref=e130] [cursor=pointer]: 
+            - listitem:
+              - generic [ref=e132]:
+                - generic [ref=e133]:
+                  - paragraph [ref=e134]: Educación Técnico/Profesional
+                  - paragraph [ref=e135]: Centro Occidente de Computación, El Viejo (COCEV)
+                  - paragraph [ref=e136]: Enero 2008 - Enero 2009
+                - generic [ref=e137] [cursor=pointer]: 
+            - listitem:
+              - generic [ref=e139]:
+                - generic [ref=e140]:
+                  - paragraph [ref=e141]: Educación Técnico/Profesional
+                  - paragraph [ref=e142]: Colegio Mercantil de Occidente
+                  - paragraph [ref=e143]: Enero 2003 - Enero 2009
+                - generic [ref=e144] [cursor=pointer]: 
+            - listitem:
+              - generic [ref=e146]:
+                - generic [ref=e147]:
+                  - paragraph [ref=e148]: Educación Básica Secundaria
+                  - paragraph [ref=e149]: Rosibel Martínez Huelva
+                  - paragraph [ref=e150]: Enero 1996 - Enero 2002
+                - generic [ref=e151] [cursor=pointer]: 
+            - listitem:
+              - generic [ref=e153]: Añadir más estudios
+        - generic [ref=e155]:
+          - paragraph [ref=e156]: Idiomas
+          - generic [ref=e157]:
+            - generic [ref=e158]:
+              - text: Español - Nativo
+              - generic [ref=e159] [cursor=pointer]: 
+            - generic [ref=e160]:
+              - text: Inglés - Avanzado
+              - generic [ref=e161] [cursor=pointer]: 
+            - text: Añadir
+          - generic [ref=e162]:
+            - generic [ref=e163]:
+              - text: Test de idioma
+              - generic [ref=e164]: 
+              - generic [ref=e165]: Nuevo
+            - list
+            - generic [ref=e166]:
+              - generic [ref=e167]:
+                - generic [ref=e168]: Inglés
+                - list:
+                  - listitem: Inglés
+                  - listitem: Francés
+                  - listitem: Español
+              - link "Realizar test" [ref=e169] [cursor=pointer]:
+                - /url: /candidate/quiz/viewtest?fcv=true&idr=1CAFD19627280A4F
+          - paragraph [ref=e170]: Conocimientos y habilidades
+          - generic [ref=e171] [cursor=pointer]: Añadir
+          - generic [ref=e172]:
+            - paragraph [ref=e173]: Conocimientos técnicos
+            - generic [ref=e174]:
+              - text: Wordpress
+              - generic [ref=e175] [cursor=pointer]: 
+            - generic [ref=e176]:
+              - text: Reactjs
+              - generic [ref=e177] [cursor=pointer]: 
+            - generic [ref=e178]:
+              - text: Javascript
+              - generic [ref=e179] [cursor=pointer]: 
+            - generic [ref=e180]:
+              - text: Typescript
+              - generic [ref=e181] [cursor=pointer]: 
+            - generic [ref=e182]:
+              - text: Laravel
+              - generic [ref=e183] [cursor=pointer]: 
+            - generic [ref=e184]:
+              - text: Html css
+              - generic [ref=e185] [cursor=pointer]: 
+            - generic [ref=e186]:
+              - text: Seo
+              - generic [ref=e187] [cursor=pointer]: 
+            - generic [ref=e188]:
+              - text: Node.js
+              - generic [ref=e189] [cursor=pointer]: 
+            - generic [ref=e190]:
+              - text: Postgresql
+              - generic [ref=e191] [cursor=pointer]: 
+          - generic [ref=e192]:
+            - paragraph [ref=e193]: Otros
+            - generic [ref=e194]:
+              - text: webflow
+              - generic [ref=e195] [cursor=pointer]: 
+            - generic [ref=e196]:
+              - text: next.js
+              - generic [ref=e197] [cursor=pointer]: 
+            - generic [ref=e198]:
+              - text: tailwind css
+              - generic [ref=e199] [cursor=pointer]: 
+        - generic [ref=e200]:
+          - generic [ref=e201]:
+            - paragraph [ref=e202]: Desplazamiento y movilidad
+            - generic [ref=e203] [cursor=pointer]: 
+          - list [ref=e205]:
+            - listitem [ref=e206]:
+              - generic [ref=e207]: Disponibilidad para viajar
+            - listitem [ref=e208]:
+              - generic [ref=e209]: No tengo disponibilidad para cambiar de residencia
+            - listitem [ref=e210]:
+              - generic [ref=e211]: Licencia de conducir automóviles / carros
+            - listitem [ref=e212]:
+              - generic [ref=e213]: Vehículo propio
+        - generic [ref=e214]:
+          - paragraph [ref=e215]: Documentos adjuntos
+          - list [ref=e216]:
+            - listitem [ref=e217]:
+              - generic [ref=e218]: Omar-Boza-Resume.pdf
+              - link "" [ref=e220] [cursor=pointer]:
+                - /url: /candidate/cv/uploadcv
+          - link "Subir o modificar documentos" [ref=e221] [cursor=pointer]:
+            - /url: /candidate/cv/uploadcv
+        - generic [ref=e222]:
+          - paragraph [ref=e223]: Cartas de presentación
+          - generic [ref=e224] [cursor=pointer]: Crear
+        - generic [ref=e225] [cursor=pointer]:
+          - generic [ref=e226]: CV Completado
+          - generic [ref=e227]: 98%
+      - generic [ref=e231]:
+        - generic [ref=e232]:
+          - generic [ref=e233]:
+            - heading "Plantillas de CV" [level=3] [ref=e234]
+            - generic [ref=e235]: Nuevo
+          - paragraph [ref=e237]: Tienes disponibles varias plantillas para poder descargar o imprimir tu currículum de manera cómoda y fácil.
+          - generic [ref=e238] [cursor=pointer]: Diseña tu CV
+        - generic [ref=e240]:
+          - heading "Cartas de presentación" [level=3] [ref=e241]
+          - paragraph [ref=e242]:
+            - text: Crea o edita tus cartas de presentación y adjúntalas a las ofertas en las que te postulas.
+            - strong [ref=e243]: Las empresas valoran muy positivamente
+            - text: aquellas aplicaciones a ofertas que incluyen una carta de presentación.
+          - link "Crear carta" [ref=e244] [cursor=pointer]:
+            - /url: "#cover-letters-container"
+        - generic [ref=e245]:
+          - paragraph [ref=e246]:
+            - generic [ref=e247]: 
+            - generic [ref=e248]: Cómo mejorar mi CV
+          - link "Sube tu CV Inserta tu CV en word o pdf y adjúntalo en tus postulaciones " [ref=e249] [cursor=pointer]:
+            - /url: /candidate/cv/uploadcv
+            - generic [ref=e250]:
+              - paragraph [ref=e251]: Sube tu CV
+              - paragraph [ref=e252]: Inserta tu CV en word o pdf y adjúntalo en tus postulaciones
+            - generic [ref=e253]: 
+          - link "Identifica tu potencial profesional Descubre gratis tus competencias laborales con Talentview 3D " [ref=e255] [cursor=pointer]:
+            - /url: https://candidato.ni.computrabajo.com/candidate/test/list?tlo=0032B402007D9E9C
+            - generic [ref=e256]:
+              - paragraph [ref=e257]: Identifica tu potencial profesional
+              - paragraph [ref=e258]: Descubre gratis tus competencias laborales con Talentview 3D
+            - generic [ref=e259]: 
+      - text:    
+  - text:      
+  - generic [ref=e269]:
+    - generic [ref=e270]:
+      - generic [ref=e271] [cursor=pointer]: 
+      - paragraph [ref=e272]: Sobre tu perfil profesional
+      - paragraph [ref=e273]: Describe cómo eres profesionalmente
+    - generic [ref=e274]:
+      - generic [ref=e275]:
+        - generic [ref=e276]: Título breve del currículum
+        - 'textbox "Ej: Contable" [ref=e277]': Senior Web Developer | Tech Lead | WordPress, Webflow, React
+      - generic [ref=e278]:
+        - generic [ref=e279]: Descripción breve de tu perfil profesional
+        - textbox "Descripción breve de tu perfil profesional" [ref=e280]: Senior Web Developer 10+ and Technical Lead delivering high-performance websites and web apps for U.S. and international clients. Expertise in WordPress, Webflow, PHP, JavaScript, CSS, React, and Next.js. Strong track record solving complex technical challenges, improving performance, and leading projects end-to-end. Experienced in AI-assisted development and workflow automation. Fluent in English (EF SET C2) and Spanish; available for remote work.
+        - generic [ref=e281]: (máximo 500 caracteres)
+      - generic [ref=e282]:
+        - generic [ref=e284]:
+          - text: Área
+          - generic [ref=e285]: Max. 3 áreas
+        - generic [ref=e286]:
+          - generic [ref=e287]:
+            - text: Informática / Telecomunicaciones
+            - generic [ref=e288] [cursor=pointer]: 
+          - generic [ref=e289]:
+            - text: Ingeniería
+            - generic [ref=e290] [cursor=pointer]: 
+        - generic [ref=e291]:
+          - generic [ref=e292]: Selecciona una área
+          - list:
+            - listitem: Administración / Oficina
+            - listitem: Almacén / Logística / Transporte
+            - listitem: Atención a clientes
+            - listitem: CallCenter / Telemercadeo
+            - listitem: Compras / Comercio Exterior
+            - listitem: Construcción y obra
+            - listitem: Contabilidad / Finanzas
+            - listitem: Dirección / Gerencia
+            - listitem: Diseño / Artes gráficas
+            - listitem: Docencia
+            - listitem: Hostelería / Turismo
+            - listitem: Informática / Telecomunicaciones
+            - listitem: Ingeniería
+            - listitem: Investigación y Calidad
+            - listitem: Legal / Asesoría
+            - listitem: Mantenimiento y Reparaciones Técnicas
+            - listitem: Medicina / Salud
+            - listitem: Mercadotecnia / Publicidad / Comunicación
+            - listitem: Otros
+            - listitem: Producción / Operarios / Manufactura
+            - listitem: Recursos Humanos
+            - listitem: Servicios Generales, Aseo y Seguridad
+            - listitem: Ventas
+      - generic [ref=e293]:
+        - generic [ref=e295]:
+          - text: Departamento
+          - generic [ref=e296]: Max. 3 departamentos
+        - generic [ref=e298]:
+          - text: Managua
+          - generic [ref=e299] [cursor=pointer]: 
+        - generic [ref=e300]:
+          - generic [ref=e301]: Seleccione un departamento
+          - list:
+            - listitem: Boaco
+            - listitem: Carazo
+            - listitem: Chinandega
+            - listitem: Chontales
+            - listitem: Estelí
+            - listitem: Granada
+            - listitem: Jinotega
+            - listitem: León
+            - listitem: Madriz
+            - listitem: Managua
+            - listitem: Masaya
+            - listitem: Matagalpa
+            - listitem: Nueva Segovia
+            - listitem: Atlántico Norte
+            - listitem: Atlántico Sur
+            - listitem: Río San Juan
+            - listitem: Rivas
+      - generic [ref=e302]:
+        - generic [ref=e303]: Preferencias de trabajo - situación actual
+        - generic [ref=e304]:
+          - generic [ref=e305]: Estoy buscando trabajo activamente
+          - list:
+            - listitem: No tengo empleo
+            - listitem: Estoy buscando trabajo activamente
+            - listitem: Estoy trabajando actualmente
+            - listitem: No busco trabajo pero estoy dispuesto a escuchar ofertas
+            - listitem: No tengo ningún interés en un nuevo empleo
+      - generic [ref=e306]:
+        - generic [ref=e307]:
+          - text: Salario mínimo
+          - generic [ref=e308]: Opcional
+        - spinbutton "$ (Salario neto mensual)" [ref=e309]: "40000"
+      - generic [ref=e310]:
+        - generic [ref=e311]:
+          - text: Información adicional
+          - generic [ref=e312]: Opcional
+        - paragraph [ref=e313]: Puede copiar y pegar aquí su hoja de vida desde Word, PDF o escribir una hoja de vida indicando la información más relevante.
+        - textbox [ref=e314]
+        - generic [ref=e315]: (máximo 65000 caracteres)
+    - generic [ref=e316]:
+      - button "Guardar" [disabled]
+  - text:                     
+  - contentinfo [ref=e261]:
+    - generic [ref=e264]:
+      - paragraph [ref=e265]: Copyright 2026 DGNET LTD.
+      - text: Contacto de candidato / Ayuda de candidato

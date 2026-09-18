@@ -1,0 +1,22 @@
+- generic [ref=f14e1]:
+  - banner [ref=f14e2]
+  - main [ref=f14e3]:
+    - figure [ref=f14e4]
+    - generic [ref=f14e6]:
+      - heading "Prueba que no eres un robot" [level=1] [ref=f14e7]
+      - article [ref=f14e8]:
+        - paragraph [ref=f14e9]: Completa el trabajo para poder volver a Fiverr.
+        - generic [ref=f14e10]: Loading challenge
+        - generic [ref=f14e14]:
+          - heading "Quick fixes" [level=2] [ref=f14e15]
+          - list [ref=f14e16]:
+            - listitem [ref=f14e17]: Disable any browser extensions that could be interfering with the website. This includes Ad blockers, privacy extensions, or VPNs that may modify web traffic.
+            - listitem [ref=f14e18]: Clear your browser's cache and cookies. Outdated or corrupt cache data can cause issues with how the webpage loads and operates.
+            - listitem [ref=f14e19]: Make sure Javascript is enabled in your browser and update your browser to the latest version.
+        - code [ref=f14e20]: ERRCODE PXCR10002539
+        - generic [ref=f14e21]:
+          - paragraph [ref=f14e22]: "Request details:"
+          - list [ref=f14e23]:
+            - listitem [ref=f14e24]: "ip: 190.143.240.141"
+            - listitem [ref=f14e25]: "traceId: 0cb18ceb6da640fd9aa8efdd0dfd0d01"
+          - paragraph
