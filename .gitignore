@@ -10,6 +10,7 @@ node_modules/
 .claude/
 .cursor/
 .agents/
+.playwright/
 AGENTS.md
 CLAUDE.md
 PRODUCT.md

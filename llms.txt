@@ -14,7 +14,7 @@
 
 ## Summary
 
-Senior Web Developer and Technical Lead with extensive experience delivering high-performance websites and web applications for U.S. and international clients. Expertise in WordPress, Webflow, PHP, JavaScript, CSS, React, and Next.js, with a strong track record of solving complex technical challenges, improving performance, and leading projects from planning through production. Experienced in AI-assisted development and workflow automation. Fluent in English (EF SET C2) and Spanish; based in Managua, Nicaragua and available for remote work.
+Senior Web Developer and Technical Lead with 9+ years of web delivery, including approximately 3 years focused on production Webflow sites (Jan 2024-Aug 2026), for U.S. and international clients. Expertise in WordPress, Webflow, PHP, JavaScript, CSS, React, and Next.js, with a strong track record of solving complex technical challenges, improving performance, and leading projects from planning through production. Experienced in AI-assisted development and workflow automation. Fluent in English (EF SET C2) and Spanish; based in Managua, Nicaragua and available for remote work.
 
 ## Judgment Calls
 
@@ -33,7 +33,7 @@ Developers shipped changes that never appeared because a cache layer still serve
 AI-Assisted Development, Cursor, Claude Code, Opencode, MCP, n8n, Prompt Engineering, Prompt Debugging, Custom AI Harnesses, Agentic Coding Workflows, AI Agents, GPT Integrations, RAG
 
 ### CMS
-Webflow, WordPress, WordPress Architecture, Client-First, Elementor, DIVI, Bricks, Gutenberg
+Webflow, WordPress, WordPress Architecture, Client-First, Elementor, DIVI, Bricks, Gutenberg, Advanced Custom Fields (ACF), WooCommerce, Shopify site administration
 
 ### PHP & Backend
 PHP, Laravel, Custom Theme And Plugin Development, WordPress theming/plugins, Git, Node.js, Express, NestJS, REST APIs, SQL, PostgreSQL, MongoDB, Supabase, Insforge
@@ -65,12 +65,14 @@ Jan 2024 – Aug 2026
 - Pioneered AI-assisted Webflow/WordPress workflows across dozens of landing pages, cutting repetitive editing work from days to a couple of hours
 - Diagnosed client-site performance issues and built AI-driven optimization that moved sites from GTmetrix Grade F to A (90 to 20 minutes)
 - Created an open-source Client-First Agent Skill so AI tools can generate Webflow components automatically instead of by hand
+- Administered existing Shopify client sites, making platform and content edits
 
 ### Software Engineer — Nicasource (Florida, US)
 2022 – 2024
 - Made the feasibility call that a client seat-reservation system could ship inside WordPress via custom post types and meta
 - Owned web development delivery using React, Vue, and WordPress for international clients
 - Frontend architecture, reusable component design, and performance optimization across concurrent projects
+- Built configurable WordPress components for Sucuri using ACF and an options page for client-controlled text, colors, and variants
 
 ### SEO Specialist — Top Floor Marketing (Managua, Nicaragua)
 2020 – 2022
@@ -86,6 +88,7 @@ Jan 2024 – Aug 2026
 2017 – 2019
 - Introduced Laravel into projects previously built in plain PHP, expanding features deliverable to clients
 - Developed real-time PHP systems for special events and live campaigns, where failures were visible to audiences in the moment
+- Implemented and administered WooCommerce sites for agency clients
 
 ## Certifications
 
@@ -112,14 +115,15 @@ Jan 2024 – Aug 2026
 - Park Central Dental — https://www.parkcentraldentaltx.com/
 - Wesmark Dentistry — https://www.wesmarkfamilydentistry.com/
 - Scalar — https://scalar.io/product
-- Sucuri Blog — https://blog.sucuri.net/
+- Sucuri Blog — Built configurable WordPress components with ACF and an options page; primary client contact at Nicasource · https://blog.sucuri.net/
 - Hope of America — https://hopeofamerica.org/
 - Elevare Dental — https://www.elevare-dental.com/
 - Cardinal Park Family Dental — https://cardinalparkfamilydental.com/
 
 ## PDF Resumes
 
-- Webflow / WordPress focus: /assets/Omar-Boza-Resume.pdf
+- Webflow focus: /assets/Omar-Boza-Resume-Webflow.pdf
+- WordPress focus: /assets/Omar-Boza-Resume-WordPress.pdf
 - Full-Stack / React focus: /assets/Omar-Boza-Resume-Frontend.pdf
 
 ## Full Structured Data

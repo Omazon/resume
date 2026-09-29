@@ -15,10 +15,10 @@ const fs = require('fs');
 const ROOT = path.resolve(__dirname, '..');
 const HTML = process.argv[3]
   ? path.resolve(process.argv[3])
-  : path.join(__dirname, 'resume-pdf.html');
+  : path.join(__dirname, 'resume-wordpress.html');
 const PDF = process.argv[2]
   ? path.resolve(process.argv[2])
-  : path.join(ROOT, 'assets', 'Omar-Boza-Resume.pdf');
+  : path.join(ROOT, 'assets', 'Omar-Boza-Resume-WordPress.pdf');
 
 async function main() {
   if (!fs.existsSync(HTML)) {

@@ -325,6 +325,9 @@
   .max-w-\[1400px\] {
     max-width: 1400px;
   }
+  .grow {
+    flex-grow: 1;
+  }
   .\!scale-100 {
     --tw-scale-x: 100% !important;
     --tw-scale-y: 100% !important;

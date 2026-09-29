@@ -8,7 +8,7 @@ const path = require('path');
 
 const ROOT = path.resolve(__dirname, '..');
 const RESUME_JSON = path.join(ROOT, 'resume.json');
-const PDF_HTML = path.join(ROOT, 'scripts', 'resume-pdf.html');
+const PDF_HTML = path.join(ROOT, 'scripts', 'resume-wordpress.html');
 const LLMS = path.join(ROOT, 'llms.txt');
 const INDEX = path.join(ROOT, 'index.html');
 
@@ -97,7 +97,7 @@ function main() {
 
   const surfaces = [
     { name: 'resume.json', text: fs.readFileSync(RESUME_JSON, 'utf8') },
-    { name: 'scripts/resume-pdf.html', text: fs.readFileSync(PDF_HTML, 'utf8') },
+    { name: 'scripts/resume-wordpress.html', text: fs.readFileSync(PDF_HTML, 'utf8') },
     { name: 'llms.txt', text: fs.readFileSync(LLMS, 'utf8') },
     { name: 'index.html', text: fs.readFileSync(INDEX, 'utf8') },
   ];

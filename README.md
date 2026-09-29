@@ -32,6 +32,8 @@ src/input.css           Tailwind source
 assets/css/             Compiled CSS
 assets/js/site.js       Nav, cursor, GSAP masks/parallax, pinned horizontal section, count-ups
 assets/js/hero-scene.js WebGL light-field background (no library)
+scripts/resume-wordpress.html  WordPress-focused PDF template
+scripts/resume-webflow.html    Webflow-focused PDF template
 scripts/build-pdf.js    PDF generator
 ```
 
@@ -46,7 +48,7 @@ Enable Pages in repo settings: **Settings → Pages → Source: GitHub Actions**
 - `/resume.json` — full structured resume
 - `/llms.txt` — plain-text summary for LLMs
 - JSON-LD `Person` + work history in `<head>`
-- Download PDF via hero button or `/assets/Omar-Boza-Resume.pdf`
+- Download the WordPress or Webflow PDF from the portfolio footer, or directly from `/assets/Omar-Boza-Resume-WordPress.pdf` and `/assets/Omar-Boza-Resume-Webflow.pdf`
 
 ## License
 

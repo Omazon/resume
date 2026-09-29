@@ -6,7 +6,7 @@
     "email": "omarboza@gmail.com",
     "phone": "+505 83992586",
     "url": "https://omazon.github.io/resume/",
-    "summary": "Senior Web Developer and Technical Lead with extensive experience delivering high-performance websites and web applications for U.S. and international clients. Expertise in WordPress, Webflow, PHP, JavaScript, CSS, React, and Next.js, with a strong track record of solving complex technical challenges, improving performance, and leading projects from planning through production. Experienced in AI-assisted development and workflow automation. Fluent in English (EF SET C2) and Spanish; based in Managua, Nicaragua and available for remote work.",
+    "summary": "Senior Web Developer and Technical Lead with 9+ years in web delivery, including approximately 3 years focused on production Webflow sites (Jan 2024-Aug 2026). Expertise in WordPress, Webflow, PHP, JavaScript, CSS, React, and Next.js, with a strong track record of solving complex technical challenges, improving performance, and leading projects from planning through production. Experienced in AI-assisted development and workflow automation. Fluent in English (EF SET C2) and Spanish; based in Managua, Nicaragua and available for remote work.",
     "location": {
       "city": "Managua",
       "countryCode": "NI",
@@ -43,7 +43,8 @@
         "Diagnosed and fixed multi-layer cache issues that made correct deployments look like failed changes, then optimized the layers so the problem stopped recurring.",
         "Pioneered AI-assisted Webflow/WordPress workflows across dozens of landing pages, cutting repetitive editing work from days to a couple of hours.",
         "Diagnosed client-site performance issues and built AI-driven optimization that moved sites from GTmetrix Grade F to A, cutting the process from 90 to 20 minutes.",
-        "Created an open-source Client-First Agent Skill that encodes Finsweet Client-First conventions so AI tools can generate Webflow components automatically instead of by hand."
+        "Created an open-source Client-First Agent Skill that encodes Finsweet Client-First conventions so AI tools can generate Webflow components automatically instead of by hand.",
+        "Administered existing Shopify client sites, making platform and content edits."
       ]
     },
     {
@@ -56,7 +57,8 @@
       "highlights": [
         "Made the feasibility call that a client seat-reservation system could ship inside WordPress — modeling seats, availability, and bookings with custom post types and meta — instead of a separate application the team would have to sync forever.",
         "Owned web development delivery using React, Vue, and WordPress for international client requirements.",
-        "Contributed to frontend architecture, reusable component design, and performance optimization across concurrent projects."
+        "Contributed to frontend architecture, reusable component design, and performance optimization across concurrent projects.",
+        "Built configurable WordPress components for Sucuri using Advanced Custom Fields (ACF), including an options page for client-controlled text, colors, and component variants."
       ]
     },
     {
@@ -89,7 +91,8 @@
       "endDate": "2019",
       "highlights": [
         "Introduced Laravel into projects previously built in plain PHP, expanding the feature set the agency could deliver to clients.",
-        "Developed real-time PHP systems for special events and live campaigns, where failures were visible to audiences in the moment."
+        "Developed real-time PHP systems for special events and live campaigns, where failures were visible to audiences in the moment.",
+        "Implemented and administered WooCommerce sites for agency clients."
       ]
     }
   ],
@@ -127,7 +130,7 @@
     {
       "name": "CMS",
       "level": "Advanced",
-      "keywords": ["Webflow", "WordPress", "WordPress Architecture", "Client-First", "Elementor", "DIVI", "Bricks", "Gutenberg"]
+      "keywords": ["Webflow", "WordPress", "WordPress Architecture", "Client-First", "Elementor", "DIVI", "Bricks", "Gutenberg", "Advanced Custom Fields (ACF)", "WooCommerce", "Shopify site administration"]
     },
     {
       "name": "PHP & Backend",
@@ -242,7 +245,7 @@
     },
     {
       "name": "Sucuri Blog",
-      "description": "High-traffic cybersecurity blog with performance and reliability optimization.",
+      "description": "Built configurable WordPress components for Sucuri with Advanced Custom Fields (ACF) and an options page for client-controlled text, colors, and variants; served as primary client contact through Nicasource.",
       "url": "https://blog.sucuri.net/"
     },
     {

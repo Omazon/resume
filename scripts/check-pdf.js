@@ -8,7 +8,7 @@ const path = require('path');
 const { execSync } = require('child_process');
 
 const ROOT = path.resolve(__dirname, '..');
-const PDF = path.join(ROOT, 'assets', 'Omar-Boza-Resume.pdf');
+const PDF = path.join(ROOT, 'assets', 'Omar-Boza-Resume-WordPress.pdf');
 
 const REQUIRED_SNIPPETS = [
   'Omar Boza',
@@ -16,7 +16,16 @@ const REQUIRED_SNIPPETS = [
   'PROFESSIONAL SUMMARY',
   'TECHNICAL SKILLS',
   'PROFESSIONAL EXPERIENCE',
-  'CERTIFICATIONS',
+  'Senior WordPress Developer',
+  'Hope of America',
+  'Somos Iberoamérica',
+  'custom Gutenberg blocks',
+  'packaged as a WordPress plugin',
+  'external WordPress sites',
+  'Elementor and DIVI',
+  'team of 4',
+  'DentistFL',
+  'Cardinal Park Family Dental',
   'EDUCATION',
   'Your Digital Resource',
   'Jan 2024',
@@ -28,13 +37,28 @@ const REQUIRED_SNIPPETS = [
   'CSS',
   'EF SET',
   'C2',
-  'Aug 29, 2026',
   'cert.efset.org/B6TnCM',
   '30%',
   'Nicasource',
   'Top Floor Marketing',
   'AIM Services',
   'Target Ogilvy',
+  'Elementor API',
+  'Configurable WordPress components (Nicasource)',
+  'Advanced Custom Fields (ACF)',
+  'options page',
+  'component variants',
+  'WooCommerce',
+  'Shopify',
+  'multiple concurrent WordPress clients',
+  'WP Engine',
+  'Backups',
+  'third-party CRMs',
+  'as part of the team',
+  'Collaborated day-to-day',
+  'Delegated tasks',
+  'technical recommendations',
+  'project timelines',
 ];
 
 async function extractPdfText(pdfPath) {
