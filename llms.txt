@@ -14,7 +14,7 @@
 
 ## Summary
 
-Senior Web Developer and Technical Lead with 9+ years of web delivery, including approximately 3 years focused on production Webflow sites (Jan 2024-Aug 2026), for U.S. and international clients. Expertise in WordPress, Webflow, PHP, JavaScript, CSS, React, and Next.js, with a strong track record of solving complex technical challenges, improving performance, and leading projects from planning through production. Experienced in AI-assisted development and workflow automation. Fluent in English (EF SET C2) and Spanish; based in Managua, Nicaragua and available for remote work.
+Senior Web Developer and Technical Lead with 9+ years of web delivery, including approximately 3 years focused on production Webflow sites (Jan 2024-Aug 2026), for U.S. and international clients. Expertise in WordPress, Webflow, PHP, JavaScript, CSS, React, and Next.js, with a strong track record of solving complex technical challenges, improving performance, and leading projects from planning through production. Experienced in custom application development, AI-assisted coding, and workflow automation. Fluent in English (EF SET C2) and Spanish; based in Managua, Nicaragua and available for remote work.
 
 ## Judgment Calls
 
@@ -30,19 +30,19 @@ Developers shipped changes that never appeared because a cache layer still serve
 ## Skills
 
 ### AI & Automation
-AI-Assisted Development, Cursor, Claude Code, Opencode, MCP, n8n, Prompt Engineering, Prompt Debugging, Custom AI Harnesses, Agentic Coding Workflows, AI Agents, GPT Integrations, RAG
+AI-Assisted Development, AI-assisted coding, custom MCP server development (personal projects), Cursor, Claude Code, Opencode, MCP, n8n, Prompt Engineering, Prompt Debugging, Custom AI Harnesses, Agentic Coding Workflows, AI Agents, GPT Integrations, RAG
 
 ### CMS
 Webflow, WordPress, WordPress Architecture, Client-First, Elementor, DIVI, Bricks, Gutenberg, Advanced Custom Fields (ACF), WooCommerce, Shopify site administration
 
 ### PHP & Backend
-PHP, Laravel, Custom Theme And Plugin Development, WordPress theming/plugins, Git, Node.js, Express, NestJS, REST APIs, SQL, PostgreSQL, MongoDB, Supabase, Insforge
+PHP, Laravel, custom application development, Custom Theme And Plugin Development, WordPress theming/plugins, Git, Node.js, Express, NestJS, REST APIs, SQL, PostgreSQL, MongoDB, Supabase, Insforge
 
 ### CSS & JavaScript
 CSS, JavaScript, Responsive Design, Tailwind CSS, Bootstrap CSS, TypeScript, React, Vue, Next.js, HTML
 
 ### Cloud & Tools
-Webpack, Vite, Nginx, Apache, Vercel, AWS S3, Proxmox, SEO, DNS Management, Performance Optimization (Core Web Vitals, GTmetrix), Figma
+Webpack, Vite, Nginx, Apache, Vercel, AWS S3, Proxmox, SEO, DNS Management, domain management, server management, Performance Optimization (Core Web Vitals, GTmetrix), Figma
 
 ### Image Editing
 Photoshop, GIMP, Affinity
@@ -60,6 +60,8 @@ English (EF SET C2), Spanish (native)
 
 ### Web Developer — Your Digital Resource (Florida, US)
 Jan 2024 – Aug 2026
+- Used multiple Model Context Protocol (MCP) servers with AI tools to troubleshoot technical issues and support development workflows
+- Delivered client projects from initial setup through production, including domain, DNS, and server management
 - Was the team's reference for WordPress and front-end: unusual WordPress behavior, multi-layer cache issues, and Webflow/CSS blockers got escalated to me; onboarded new developers
 - Diagnosed and fixed multi-layer cache issues that made correct deployments look like failed changes
 - Pioneered AI-assisted Webflow/WordPress workflows across dozens of landing pages, cutting repetitive editing work from days to a couple of hours
@@ -102,6 +104,7 @@ Jan 2024 – Aug 2026
 
 ## Notable Projects
 
+- Custom MCP Servers (Personal Projects) — Built MCP servers from scratch to connect AI tools with application functionality
 - AIDA — Production dental clinic SaaS (patients, odontograms, appointments, records, payments). HIPAA-conscious RBAC. Next.js, TypeScript, Insforge, PostgreSQL; Vercel + Proxmox · Case study: https://omazon.github.io/resume/assets/Omar-Dental-Family-Case-Study.pdf
 - Seat-level booking in WordPress (Nicasource) — Feasibility call; shipped inside WordPress on one codebase
 - Year-late web + mobile rescue (AIM Services) — Tech Lead; production in 3 months

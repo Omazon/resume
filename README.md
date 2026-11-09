@@ -18,6 +18,7 @@ npm install
 npm run watch:css   # dev — rebuild CSS on change
 npm run build       # production CSS build
 npm run build:pdf   # generate PDF (requires puppeteer)
+npm run build:pdf:ai-automation # generate the AI Automation Developer CV
 ```
 
 ## Project structure
@@ -34,6 +35,7 @@ assets/js/site.js       Nav, cursor, GSAP masks/parallax, pinned horizontal sect
 assets/js/hero-scene.js WebGL light-field background (no library)
 scripts/resume-wordpress.html  WordPress-focused PDF template
 scripts/resume-webflow.html    Webflow-focused PDF template
+scripts/resume-ai-automation.html AI Automation Developer PDF template
 scripts/build-pdf.js    PDF generator
 ```
 
@@ -48,7 +50,7 @@ Enable Pages in repo settings: **Settings → Pages → Source: GitHub Actions**
 - `/resume.json` — full structured resume
 - `/llms.txt` — plain-text summary for LLMs
 - JSON-LD `Person` + work history in `<head>`
-- Download the WordPress or Webflow PDF from the portfolio footer, or directly from `/assets/Omar-Boza-Resume-WordPress.pdf` and `/assets/Omar-Boza-Resume-Webflow.pdf`
+- Download the WordPress, Webflow, Frontend, or AI Automation PDF from the portfolio footer.
 
 ## License
 

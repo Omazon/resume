@@ -11,6 +11,10 @@ node_modules/
 .cursor/
 .agents/
 .playwright/
+.playwright-mcp/
+tmp/
+output/
+postulaciones.csv
 AGENTS.md
 CLAUDE.md
 PRODUCT.md

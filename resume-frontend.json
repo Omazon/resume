@@ -6,7 +6,7 @@
     "email": "omarboza@gmail.com",
     "phone": "+505 83992586",
     "url": "https://omazon.github.io/resume/",
-    "summary": "Senior Frontend and Full-Stack Developer with technical leadership experience building scalable, production-ready web applications. Strong expertise in React, Next.js, TypeScript, Tailwind CSS, REST APIs, PostgreSQL, and Vercel, with a proven ability to lead delivery, improve application performance, and solve complex technical challenges. Experienced in AI-assisted development and modern engineering workflows. Fluent in English (EF SET C2) and Spanish; based in Managua, Nicaragua and available for remote work.",
+    "summary": "Senior Frontend and Full-Stack Developer with technical leadership experience building scalable, production-ready web applications. Strong expertise in React, Next.js, TypeScript, Tailwind CSS, REST APIs, PostgreSQL, and Vercel, with a proven ability to lead delivery, improve application performance, and solve complex technical challenges. Experienced in custom application development, AI-assisted coding, and modern engineering workflows. Fluent in English (EF SET C2) and Spanish; based in Managua, Nicaragua and available for remote work.",
     "location": {
       "city": "Managua",
       "countryCode": "NI",
@@ -34,6 +34,8 @@
       "endDate": "2026-08",
       "summary": "Team escalation point for WordPress and front-end; production web delivery, performance optimization, and AI-assisted development workflows for US clients.",
       "highlights": [
+        "Used multiple Model Context Protocol (MCP) servers with AI tools to troubleshoot technical issues and support development workflows.",
+        "Delivered client projects from initial setup through production, including domain, DNS, and server management.",
         "Was the team's reference for WordPress and front-end: unusual WordPress behavior, multi-layer cache issues that hid shipped changes, and Webflow/CSS blockers got escalated to me; onboarded new developers and coached the team through technical stuck points.",
         "Diagnosed and fixed multi-layer cache issues that made correct deployments look like failed changes, then optimized the layers so the problem stopped recurring.",
         "Built AI-assisted workflows (Cursor, Claude Code, n8n) that cut repetitive UI/content edits from days to hours and performance optimization from 90 to 20 minutes (GTmetrix Grade F to A).",
@@ -122,12 +124,12 @@
     {
       "name": "Backend & Data",
       "level": "Advanced",
-      "keywords": ["PostgreSQL", "SQL", "Schema design", "REST APIs", "Node.js", "Express", "NestJS", "Insforge", "Supabase", "MongoDB", "Serverless API routes"]
+      "keywords": ["PostgreSQL", "SQL", "Schema design", "REST APIs", "Node.js", "Express", "NestJS", "Insforge", "Supabase", "MongoDB", "Serverless API routes", "Custom application development"]
     },
     {
       "name": "Cloud, Git & Ops",
       "level": "Intermediate",
-      "keywords": ["Vercel", "Git", "GitHub", "CI/CD familiarity", "Playwright", "Proxmox", "Nginx", "AWS S3", "Application optimization", "Core Web Vitals"]
+      "keywords": ["Vercel", "Git", "GitHub", "CI/CD familiarity", "Playwright", "Proxmox", "Nginx", "AWS S3", "Application optimization", "Core Web Vitals", "Domain management", "DNS management", "Server management"]
     },
     {
       "name": "Security & Privacy",
@@ -137,7 +139,7 @@
     {
       "name": "AI-assisted development",
       "level": "Advanced",
-      "keywords": ["Cursor", "Claude Code", "GitHub Copilot familiarity", "MCP", "n8n", "Playwright CLI testing with AI", "Responsible use with sensitive data"]
+      "keywords": ["Cursor", "Claude Code", "GitHub Copilot familiarity", "AI-assisted coding", "MCP", "Custom MCP server development (personal projects)", "n8n", "Playwright CLI testing with AI", "Responsible use with sensitive data"]
     },
     {
       "name": "Also experienced",
@@ -151,6 +153,11 @@
     }
   ],
   "projects": [
+    {
+      "name": "Custom MCP Servers (Personal Projects)",
+      "description": "Built custom Model Context Protocol (MCP) servers from scratch for personal projects to connect AI tools with application functionality.",
+      "keywords": ["MCP", "AI", "Personal Projects", "Custom application development"]
+    },
     {
       "name": "AIDA",
       "description": "Production HealthTech SaaS for dental clinics, requested by a practicing dentist. Built end-to-end: patients, odontograms, appointments, clinical records, and payments. Next.js, React, TypeScript, Tailwind CSS, PostgreSQL/SQL; REST APIs; deployed on Vercel with a self-managed Insforge (PostgreSQL) backend. Implemented role-based access control so clinical data is visible only to authorized physicians; designed around least-privilege and healthcare data privacy principles (HIPAA-conscious practices—not a formal certification claim).",
@@ -197,7 +204,7 @@
   ],
   "meta": {
     "canonical": "https://omazon.github.io/resume/",
-    "lastUpdated": "2026-09-12",
+    "lastUpdated": "2026-10-09",
     "variant": "frontend",
     "languages": ["English", "Spanish"],
     "freelance": true

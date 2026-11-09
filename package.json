@@ -10,6 +10,7 @@
     "build:pdf": "node scripts/build-pdf.js",
     "build:pdf:webflow": "node scripts/build-pdf.js assets/Omar-Boza-Resume-Webflow.pdf scripts/resume-webflow.html",
     "build:pdf:frontend": "node scripts/build-pdf.js assets/Omar-Boza-Resume-Frontend.pdf scripts/resume-pdf-frontend.html",
+    "build:pdf:ai-automation": "node scripts/build-pdf.js assets/Omar-Boza-Resume-AI-Automation.pdf scripts/resume-ai-automation.html",
     "validate": "node scripts/validate-resume.js",
     "check:pdf": "node scripts/check-pdf.js",
     "check:pdf:webflow": "node scripts/check-pdf-webflow.js",
