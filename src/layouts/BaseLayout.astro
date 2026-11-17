@@ -1,0 +1,139 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = 'Omar Boza - Senior Web Developer & Tech Lead | Webflow, WordPress, React, Next.js | AI Automation',
+  description = "Omar Boza — the developer teams escalate to for feasibility calls, WordPress mysteries, and hard delivery. Webflow, WordPress, PHP, JavaScript, React, Next.js. Ships with agentic AI for US clients. EF SET C2 English.",
+} = Astro.props;
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'ProfilePage',
+      dateModified: '2026-09-12',
+      mainEntity: { '@id': 'https://omazon.github.io/resume/#person' },
+    },
+    {
+      '@type': 'Person',
+      '@id': 'https://omazon.github.io/resume/#person',
+      name: 'Omar Boza',
+      jobTitle: 'Senior Web Developer | Tech Lead | Webflow, WordPress, React, Next.js',
+      description:
+        'The developer teams escalate to for feasibility calls, WordPress root-cause, and hard delivery. Also builds full-stack products with React, Next.js, TypeScript, Tailwind CSS, and PostgreSQL. Ships faster with agentic AI for US clients. EF SET C2 English.',
+      email: 'omarboza@gmail.com',
+      telephone: '+50583992586',
+      url: 'https://omazon.github.io/resume/',
+      image: 'https://omazon.github.io/resume/assets/img/about.png',
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: 'Managua',
+        addressCountry: 'NI',
+      },
+      sameAs: [
+        'https://www.linkedin.com/in/omar-boza/',
+        'https://github.com/Omazon',
+        'https://www.instagram.com/ing.omarboza/',
+      ],
+      knowsAbout: [
+        'Webflow', 'WordPress', 'Custom Theme And Plugin Development', 'WordPress Architecture', 'Git', 'AI-Assisted Development', 'PHP', 'Laravel', 'CSS', 'JavaScript',
+        'Client-First', 'AI Automation', 'n8n', 'MCP', 'Cursor', 'Claude Code',
+        'React', 'Vue', 'Next.js', 'TypeScript', 'Tailwind CSS', 'PostgreSQL', 'Node.js', 'HTML',
+        'REST APIs', 'Vercel', 'Playwright',
+        'Elementor', 'Bricks', 'Gutenberg', 'Advanced Custom Fields', 'WooCommerce', 'Shopify site administration', 'SEO', 'Core Web Vitals', 'GTmetrix', 'RAG', 'HIPAA',
+      ],
+      knowsLanguage: [
+        { '@type': 'Language', name: 'English', alternateName: 'en' },
+        { '@type': 'Language', name: 'Spanish', alternateName: 'es' },
+      ],
+      hasCredential: {
+        '@type': 'EducationalOccupationalCredential',
+        name: 'EF SET English Certificate',
+        credentialCategory: 'certificate',
+        competencyRequired: 'C2 Proficient',
+        dateCreated: '2026-08-29',
+        url: 'https://cert.efset.org/B6TnCM',
+      },
+      alumniOf: {
+        '@type': 'CollegeOrUniversity',
+        name: 'National Engineering University',
+      },
+    },
+    {
+      '@type': 'OrganizationRole',
+      roleName: 'Web Developer',
+      startDate: '2024-01',
+      endDate: '2026-08',
+      worksFor: { '@type': 'Organization', name: 'Your Digital Resource' },
+    },
+    {
+      '@type': 'OrganizationRole',
+      roleName: 'Software Engineer',
+      startDate: '2022',
+      endDate: '2024',
+      worksFor: { '@type': 'Organization', name: 'Nicasource' },
+    },
+  ],
+};
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Google Tag Manager -->
+  <script is:inline>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-NJNTWPZM');</script>
+  <!-- End Google Tag Manager -->
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <meta name="keywords" content="Webflow developer, WordPress developer, Advanced Custom Fields, ACF, WooCommerce, Shopify administration, Custom Theme And Plugin Development, WordPress Architecture, Git, AI-Assisted Development, React developer, Next.js, TypeScript, Tailwind CSS, PostgreSQL, full-stack developer, PHP, JavaScript, CSS, AI automation, Client-First, Laravel, n8n, MCP, Cursor, Claude Code, Tech Lead, Nicaragua" />
+  <link rel="canonical" href="https://omazon.github.io/resume/" />
+  <link rel="alternate" type="application/json" href="resume.json" title="Structured Resume" />
+
+  <meta property="og:title" content="Omar Boza - Senior Web Developer & Tech Lead | The developer they escalate to" />
+  <meta property="og:description" content="Feasibility calls, WordPress root-cause, hard delivery. Webflow, WordPress, React, Next.js, PHP, JavaScript, CSS | AI Automation. EF SET C2." />
+  <meta property="og:image" content="https://omazon.github.io/resume/assets/img/about.png" />
+  <meta property="og:url" content="https://omazon.github.io/resume/" />
+  <meta property="og:type" content="profile" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Omar Boza - Senior Web Developer & Tech Lead | The developer they escalate to" />
+  <meta name="twitter:description" content="Feasibility calls, WordPress root-cause, hard delivery. Webflow, WordPress, React, Next.js | AI Automation. EF SET C2." />
+  <meta name="twitter:image" content="https://omazon.github.io/resume/assets/img/about.png" />
+
+  <link href="assets/img/favicon.png" rel="icon" />
+
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700&family=Onest:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body class="antialiased">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NJNTWPZM"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <slot />
+
+  <script is:inline src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script is:inline src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script is:inline src="assets/js/hero-scene.js" defer></script>
+  <script is:inline src="assets/js/site.js" defer></script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+---
+import { escalations } from '../data/portfolio';
+---
+<section id="escalations" class="section hairline" aria-labelledby="escalations-heading">
+  <div class="max-w-[1400px] mx-auto px-6 md:px-10">
+    <div class="flex items-end justify-between gap-6 mb-16">
+      <h2 id="escalations-heading" class="display-lg" data-lines>When the team<br>ran out of answers</h2>
+      <p class="label hidden md:block">Feasibility · rescue · standing escalation</p>
+    </div>
+
+    {escalations.map((item) => (
+      <article class="escalation" data-reveal data-delay={item.delay}>
+        <div>
+          <p class="label mb-4">{item.label}</p>
+          <h3 class="display-md">{item.title}</h3>
+        </div>
+        <dl class="escalation__dl">
+          <div>
+            <dt>The situation</dt>
+            <dd>{item.situation}</dd>
+          </div>
+          <div>
+            <dt>What everyone assumed</dt>
+            <dd>{item.assumed}</dd>
+          </div>
+          <div>
+            <dt>The hard part</dt>
+            <dd>{item.hardPart}</dd>
+          </div>
+          <div>
+            <dt>Outcome</dt>
+            <dd class="is-outcome">{item.outcome}</dd>
+          </div>
+        </dl>
+      </article>
+    ))}
+
+    <div class="escalation-role" data-reveal data-delay="0.15">
+      <h3>The standing role</h3>
+      <p class="text-muted leading-relaxed">At Your Digital Resource I was the team's reference for WordPress and front-end. Unusual behavior got escalated to me. I onboarded new developers and coached the team through Webflow and CSS problems they were stuck on.</p>
+    </div>
+  </div>
+</section>

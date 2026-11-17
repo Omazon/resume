@@ -1,0 +1,54 @@
+---
+import { moreWorkItems } from '../data/portfolio';
+---
+<section id="more-work" class="section hairline" aria-labelledby="more-heading">
+  <div class="max-w-[1400px] mx-auto px-6 md:px-10">
+    <div class="flex items-end justify-between gap-6 mb-14">
+      <h2 id="more-heading" class="display-lg" data-lines>More work</h2>
+      <p class="label hidden md:block max-w-[40ch] text-right">Some projects I've worked on; it's impossible to mention them all, but I highlight the most significant ones.</p>
+    </div>
+
+    <div class="work-grid">
+      {moreWorkItems.map((item) => (
+        <button
+          type="button"
+          class="work-item"
+          data-reveal
+          data-delay={item.delay}
+          data-cursor="VIEW"
+          data-title={item.title}
+          data-blurb={item.blurb}
+          data-overview={item.overview}
+          data-stack={item.stack}
+          data-highlights={item.highlights}
+          data-img={item.img}
+          data-img-fit={item.imgFit}
+          data-url={item.url}
+          data-cta={item.cta}
+          data-flat={item.flat ? 'true' : undefined}
+          data-flat-label={item.flatLabel}
+        >
+          <div class={item.flat ? 'frame frame--flat' : 'frame'}>
+            <div class="frame__bar" aria-hidden="true"><span></span><span></span><span></span></div>
+            <div class={item.mediaClass ? `frame__media ${item.mediaClass}` : 'frame__media'}>
+              {item.flat ? (
+                <p class="display-md text-center">AI-ready<br />resume site</p>
+              ) : (
+                <img src={item.img} alt="" class={item.imgClass} loading="lazy" />
+              )}
+            </div>
+          </div>
+          <h3>{item.title}</h3>
+          {item.pill ? (
+            <p class="work-item__description text-sm text-muted mt-1">
+              <span class="work-item__pill">{item.pill}</span>
+              <span>{item.shortDesc}</span>
+            </p>
+          ) : (
+            <p class="text-sm text-muted mt-1">{item.shortDesc}</p>
+          )}
+        </button>
+      ))}
+    </div>
+  </div>
+</section>

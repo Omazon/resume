@@ -8,7 +8,7 @@ const path = require('path');
 const { execSync } = require('child_process');
 
 const ROOT = path.resolve(__dirname, '..');
-const PDF = path.join(ROOT, 'assets', 'Omar-Boza-Resume-WordPress.pdf');
+const PDF = path.join(ROOT, 'public', 'assets', 'Omar-Boza-Resume-WordPress.pdf');
 
 const REQUIRED_SNIPPETS = [
   'Omar Boza',

@@ -1,0 +1,20 @@
+---
+const row1 = ['Webflow', 'WordPress', 'React', 'Next.js', 'TypeScript', 'PostgreSQL', 'AI Automation'];
+const row2 = ['PHP', 'Laravel', 'CSS', 'JavaScript', 'Tailwind', 'Client-First', 'n8n', 'MCP'];
+---
+<div class="marquee-wrap py-6 hairline no-print" aria-hidden="true">
+  <div class="marquee">
+    <div class="marquee__track">
+      {[...row1, ...row1].map((item) => (
+        <span class="marquee__item">{item}</span>
+      ))}
+    </div>
+  </div>
+  <div class="marquee marquee--reverse marquee--outline mt-2">
+    <div class="marquee__track">
+      {[...row2, ...row2].map((item) => (
+        <span class="marquee__item">{item}</span>
+      ))}
+    </div>
+  </div>
+</div>

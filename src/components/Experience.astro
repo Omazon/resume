@@ -1,0 +1,55 @@
+---
+import { experiences } from '../data/portfolio';
+---
+<section id="experience" class="section hairline" aria-labelledby="experience-heading">
+  <div class="max-w-[1400px] mx-auto px-6 md:px-10">
+    <h2 id="experience-heading" class="display-lg mb-16" data-lines>Experience</h2>
+
+    <div class="xp-group">
+      {experiences.map((xp) => (
+        <article class="xp-row">
+          <time datetime={xp.datetime}>{xp.period}</time>
+          <div>
+            <h3>{xp.role} <span class="text-muted font-normal">· {xp.company}</span></h3>
+            <ul>
+              {xp.bullets.map((bullet) => (
+                <li>{bullet}</li>
+              ))}
+            </ul>
+          </div>
+        </article>
+      ))}
+    </div>
+
+    <h2 class="display-md mt-24 mb-10" data-lines>Education &amp; certifications</h2>
+    <div class="xp-group">
+      <article class="xp-row">
+        <time datetime="2026-08-29">Aug 2026</time>
+        <div>
+          <h3>EF SET English Certificate <span class="text-muted font-normal">· C2 Proficient</span></h3>
+          <ul>
+            <li>Certified C2 Proficient English for professional remote collaboration with US and international clients. <a href="https://cert.efset.org/B6TnCM" target="_blank" rel="noopener noreferrer" class="text-primary">View credential</a></li>
+          </ul>
+        </div>
+      </article>
+      <article class="xp-row">
+        <time datetime="2015">2015 – now</time>
+        <div>
+          <h3>Self-learning <span class="text-muted font-normal">· Udemy, Platzi, continuous professional development</span></h3>
+          <ul>
+            <li>Continuous learning across web development, AI automation, and modern frameworks. These platforms remain the cornerstone of staying current in a fast-moving industry.</li>
+          </ul>
+        </div>
+      </article>
+      <article class="xp-row">
+        <time datetime="2010/2015">2010 – 2015</time>
+        <div>
+          <h3>Computer Engineering <span class="text-muted font-normal">· National Engineering University</span></h3>
+          <ul>
+            <li>Foundational training in mathematics, programming, and engineering principles that paved the way for a self-directed career in software development.</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>

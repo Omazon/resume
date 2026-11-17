@@ -1,0 +1,41 @@
+---
+import { approachPanels } from '../data/portfolio';
+---
+<section id="approach" class="approach section hairline" aria-labelledby="approach-heading">
+  <div class="max-w-[1400px] mx-auto px-6 md:px-10">
+    <div class="flex items-end justify-between gap-6 mb-12">
+      <h2 id="approach-heading" class="display-lg" data-lines>How I work</h2>
+      <p class="label hidden md:block">Scroll →</p>
+    </div>
+
+    <ul class="sr-only" aria-label="Complete skills list">
+      <li>AI &amp; Automation: AI-Assisted Development, AI-assisted coding, custom MCP server development (personal projects), Cursor, Claude Code, Opencode, MCP, n8n, Prompt Engineering, Prompt Debugging, Custom AI Harnesses, Agentic Coding Workflows, AI Agents, GPT Integrations, RAG</li>
+      <li>CMS: Webflow, WordPress, WordPress Architecture, Client-First, Elementor, DIVI, Bricks, Gutenberg, Advanced Custom Fields (ACF), WooCommerce, Shopify site administration</li>
+      <li>PHP &amp; Backend: PHP, Laravel, custom application development, Custom Theme And Plugin Development, WordPress theming/plugins, Git, Node.js, Express, NestJS, REST APIs, SQL, PostgreSQL, MongoDB, Supabase, Insforge</li>
+      <li>CSS &amp; JavaScript: CSS, JavaScript, Responsive Design, Tailwind CSS, Bootstrap CSS, TypeScript, React, Vue, Next.js, HTML</li>
+      <li>Cloud &amp; Tools: Webpack, Vite, Nginx, Apache, Vercel, AWS S3, Proxmox, Playwright, SEO, DNS Management, domain management, server management, Performance Optimization, Core Web Vitals, GTmetrix, Figma</li>
+      <li>Image Editing: Photoshop, GIMP, Affinity</li>
+      <li>Video Editing: CapCut</li>
+      <li>Leadership: Tech Lead, Project Management, Mentoring, Teaching</li>
+      <li>Languages: English (EF SET C2), Spanish (native)</li>
+      <li>Certifications: EF SET English Certificate — C2 Proficient</li>
+    </ul>
+
+    <div class="approach__track" aria-hidden="false">
+      {approachPanels.map((panel) => (
+        <article class="approach__panel">
+          <span class="approach__num" aria-hidden="true">{panel.num}</span>
+          <h3 class="display-md">{panel.title}</h3>
+          <p class="text-muted text-sm leading-relaxed">{panel.description}</p>
+          <ul class="approach__list">
+            {panel.items.map((item) => (
+              <li>{item}</li>
+            ))}
+          </ul>
+        </article>
+      ))}
+    </div>
+
+    <div class="approach__progress mt-10 hidden lg:block" aria-hidden="true"><span></span></div>
+  </div>
+</section>

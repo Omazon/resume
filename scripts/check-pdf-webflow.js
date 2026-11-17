@@ -4,7 +4,7 @@ const path = require('path');
 const { execSync } = require('child_process');
 
 const ROOT = path.resolve(__dirname, '..');
-const PDF = path.join(ROOT, 'assets', 'Omar-Boza-Resume-Webflow.pdf');
+const PDF = path.join(ROOT, 'public', 'assets', 'Omar-Boza-Resume-Webflow.pdf');
 
 const REQUIRED_SNIPPETS = [
   'Omar Boza',

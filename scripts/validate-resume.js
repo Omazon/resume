@@ -7,10 +7,10 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.resolve(__dirname, '..');
-const RESUME_JSON = path.join(ROOT, 'resume.json');
+const RESUME_JSON = path.join(ROOT, 'public', 'resume.json');
 const PDF_HTML = path.join(ROOT, 'scripts', 'resume-wordpress.html');
-const LLMS = path.join(ROOT, 'llms.txt');
-const INDEX = path.join(ROOT, 'index.html');
+const LLMS = path.join(ROOT, 'public', 'llms.txt');
+const INDEX = path.join(ROOT, 'dist', 'index.html');
 
 const REQUIRED_KEYWORDS = ['Webflow', 'WordPress', 'PHP', 'JavaScript', 'CSS', 'AI', 'C2', '30%'];
 const errors = [];

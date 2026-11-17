@@ -1,5 +1,7 @@
-# Dependencies
+# Dependencies & build
 node_modules/
+dist/
+.astro/
 
 # Development docs (keep README for the repo)
 *.md

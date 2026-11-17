@@ -18,7 +18,7 @@ const HTML = process.argv[3]
   : path.join(__dirname, 'resume-wordpress.html');
 const PDF = process.argv[2]
   ? path.resolve(process.argv[2])
-  : path.join(ROOT, 'assets', 'Omar-Boza-Resume-WordPress.pdf');
+  : path.join(ROOT, 'public', 'assets', 'Omar-Boza-Resume-WordPress.pdf');
 
 async function main() {
   if (!fs.existsSync(HTML)) {
